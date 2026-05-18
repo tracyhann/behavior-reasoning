@@ -1,0 +1,161 @@
+# Behavior Reasoning Video Agents
+
+This repo is the base for a lean agentic video-reasoning workflow. It turns raw video into timestamped visual evidence, then turns that evidence into clean chronological behavior chains.
+
+The current sample output is:
+
+```text
+outputs/oCkUyjaZuNI/
+  raw/segments.json
+  characters/characters.json
+  detections/detections.json
+  chains/canonical_events.json
+  chains/behavior_chains.json
+  chains/qa_qc_report.json
+```
+
+## Pipeline Stages
+
+Stage 1, feature extraction:
+
+```text
+video -> sampled segments -> character roster -> scenes/objects/character detections
+```
+
+Implementation:
+
+```text
+feature-extraction/
+  video_features/
+  tests/
+  README.md
+```
+
+Stage 2, reasoning:
+
+```text
+characters.json + detections.json -> canonical events -> behavior chains -> QA/QC report
+```
+
+Implementation:
+
+```text
+reasoning/
+  scripts/build_behavior_chains.py
+  tests/test_build_behavior_chains.py
+```
+
+## Run Feature Extraction
+
+The tested runtime is the local Docker image:
+
+```text
+behavior-qwen25-vl:cu128
+```
+
+Run Qwen2.5-VL-7B on the sample video:
+
+```bash
+docker run --rm --gpus all --ipc=host --shm-size=16g \
+  -v /home/ttt/Desktop/autism:/workspace \
+  -v /home/ttt/.cache/huggingface:/hf-cache \
+  -w /workspace/behavior-reasoning/feature-extraction \
+  -e HF_HOME=/hf-cache \
+  -e TRANSFORMERS_CACHE=/hf-cache/transformers \
+  -e PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True \
+  behavior-qwen25-vl:cu128 \
+  bash -lc 'python -m pip install --no-cache-dir ultralytics lap >/tmp/ultralytics-install.log && \
+    python -m video_features.run \
+      --input /workspace/dataset-ours/oCkUyjaZuNI/oCkUyjaZuNI.mp4 \
+      --output /workspace/behavior-reasoning/outputs \
+      --segment-sec 10 \
+      --stride-sec 6 \
+      --dtype bfloat16 \
+      --max-new-tokens 320 \
+      --expected-subjects 3'
+```
+
+Use `--no-vlm` or `--dry-run` only for debugging. Production outputs should use a VLM roster so YOLO track fragments do not become fake characters.
+
+## Run Behavior Reasoning
+
+Generate canonical events, behavior chains, and five QA/QC passes:
+
+```bash
+docker run --rm --gpus all --ipc=host --shm-size=16g \
+  -v /home/ttt/Desktop/autism:/workspace \
+  -v /home/ttt/.cache/huggingface:/hf-cache \
+  -w /workspace/behavior-reasoning/reasoning \
+  -e HF_HOME=/hf-cache \
+  -e TRANSFORMERS_CACHE=/hf-cache/transformers \
+  -e PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True \
+  behavior-qwen25-vl:cu128 \
+  python scripts/build_behavior_chains.py \
+    --characters /workspace/behavior-reasoning/outputs/oCkUyjaZuNI/characters/characters.json \
+    --detections /workspace/behavior-reasoning/outputs/oCkUyjaZuNI/detections/detections.json \
+    --out /workspace/behavior-reasoning/outputs/oCkUyjaZuNI/chains/behavior_chains.json \
+    --canonical-events-out /workspace/behavior-reasoning/outputs/oCkUyjaZuNI/chains/canonical_events.json \
+    --qa-report-out /workspace/behavior-reasoning/outputs/oCkUyjaZuNI/chains/qa_qc_report.json \
+    --qa-iterations 5 \
+    --reasoner-model Qwen/Qwen2.5-VL-7B-Instruct \
+    --reasoner-dtype bfloat16 \
+    --reasoner-max-new-tokens 256
+```
+
+The reasoning script has a deterministic backbone. Qwen is used only to refine short chain summaries and interaction labels from already-normalized evidence. If the model pass is disabled with `--no-reasoner`, the script still writes valid deterministic chain summaries.
+
+## Using Another Local Model
+
+For a Qwen-compatible local model, pass the local path or Hugging Face model id:
+
+```bash
+# feature extraction VLM
+python -m video_features.run ... --model-id /models/my-qwen-vl --dtype bfloat16
+
+# reasoning text model
+python scripts/build_behavior_chains.py ... --reasoner-model /models/my-qwen-vl --reasoner-dtype bfloat16
+```
+
+For a non-Qwen VLM agent, keep the same contracts:
+
+- Feature extraction adapter: implement `describe_roster(frame_paths, expected_subjects)` and `describe_segment(frame_paths, segment)`.
+- Roster output must normalize through `video_features.vlm.normalize_roster_payload`.
+- Segment output must normalize through `video_features.vlm.normalize_vlm_payload`.
+- Reasoning adapter: return JSON with `interaction_pattern` and `summary` for the prompt in `QwenTextReasoner`.
+- Summaries must use observable evidence only. Do not infer diagnosis, motive, emotion, personality, or real identity.
+
+The rest of the pipeline should not change when swapping models. Model-specific code belongs at the adapter boundary.
+
+## QA/QC
+
+Reasoning QA writes `chains/qa_qc_report.json`. Each run checks five iterations for:
+
+- chronological canonical events and chain events
+- source detection traceability
+- non-empty observable summaries
+- valid chain event ids
+- unusable unresolved events listed in `orphan_event_ids`
+
+For the current sample, Qwen2.5-VL-7B writes 66 canonical events, 6 behavior chains, and a five-pass QA/QC report.
+
+## Tests
+
+Feature extraction:
+
+```bash
+docker run --rm -e PYTHONDONTWRITEBYTECODE=1 \
+  -v /home/ttt/Desktop/autism:/workspace \
+  -w /workspace/behavior-reasoning/feature-extraction \
+  behavior-qwen25-vl:cu128 \
+  python -W error::ResourceWarning -m unittest discover -s tests
+```
+
+Reasoning:
+
+```bash
+docker run --rm -e PYTHONDONTWRITEBYTECODE=1 \
+  -v /home/ttt/Desktop/autism:/workspace \
+  -w /workspace/behavior-reasoning/reasoning \
+  behavior-qwen25-vl:cu128 \
+  python -m unittest tests/test_build_behavior_chains.py
+```
