@@ -1,0 +1,50 @@
+{
+  "video_id": "-JUtzfuiV08",
+  "characters": {
+    "person-01": {
+      "id": "person-01",
+      "gender": "unknown",
+      "age_range": "unknown",
+      "height": "unknown",
+      "clothing": "visible clothing unclear",
+      "appearance": "visible recurring person; details unclear",
+      "first_seen": 0.0,
+      "last_seen": 28.0,
+      "track_ids": [],
+      "example_segments": [
+        "seg_001",
+        "seg_004"
+      ],
+      "example_crop_paths": [],
+      "match_confidence": "low"
+    },
+    "person-02": {
+      "id": "person-02",
+      "gender": "unknown",
+      "age_range": "unknown",
+      "height": "unknown",
+      "clothing": "visible clothing unclear",
+      "appearance": "visible recurring person; details unclear",
+      "first_seen": 0.0,
+      "last_seen": 0.0,
+      "track_ids": [],
+      "example_segments": [],
+      "example_crop_paths": [],
+      "match_confidence": "low"
+    },
+    "person-03": {
+      "id": "person-03",
+      "gender": "unknown",
+      "age_range": "unknown",
+      "height": "unknown",
+      "clothing": "visible clothing unclear",
+      "appearance": "visible recurring person; details unclear",
+      "first_seen": 0.0,
+      "last_seen": 0.0,
+      "track_ids": [],
+      "example_segments": [],
+      "example_crop_paths": [],
+      "match_confidence": "low"
+    }
+  }
+}

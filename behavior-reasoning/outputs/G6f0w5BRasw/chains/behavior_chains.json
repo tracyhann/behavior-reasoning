@@ -1,0 +1,821 @@
+{
+  "schema_version": "0.1",
+  "source_files": {
+    "characters": "/DATA/zihao/projects/Project-Ava/behavior-reasoning/behavior-reasoning/outputs/G6f0w5BRasw/characters/characters.json",
+    "detections": "/DATA/zihao/projects/Project-Ava/behavior-reasoning/behavior-reasoning/outputs/G6f0w5BRasw/detections/detections.json"
+  },
+  "parameters": {
+    "max_merge_gap_sec": 2.0,
+    "max_chain_gap_sec": 10.0,
+    "max_response_window_sec": 8.0,
+    "min_dedupe_score": 0.72
+  },
+  "chains": [
+    {
+      "chain_id": "chain_0001",
+      "start_sec": 36.0,
+      "end_sec": 46.0,
+      "participant_ids": [
+        "person-02"
+      ],
+      "object_ids": [
+        "clothes",
+        "plants"
+      ],
+      "event_ids": [
+        "evt_0052"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0052",
+          "time_span": [
+            36.0,
+            46.0
+          ],
+          "event_type": "gesture",
+          "actor_ids": [
+            "person-02"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "gesturing with hands, looking down then up"
+        }
+      ],
+      "interaction_pattern": "single_observation",
+      "summary": "Person-02 gestures with hands, looking down then up from 36.0s to 46.0s.",
+      "confidence": 0.9,
+      "source_detection_ids": [
+        "det_characters_0097",
+        "det_scenes_0007",
+        "det_objects_0041"
+      ],
+      "source_segment_ids": [
+        "seg_007"
+      ],
+      "reasoner_model": "Qwen/Qwen2.5-VL-72B-Instruct"
+    },
+    {
+      "chain_id": "chain_0002",
+      "start_sec": 36.0,
+      "end_sec": 58.0,
+      "participant_ids": [
+        "person-01",
+        "person-02"
+      ],
+      "object_ids": [
+        "clothes",
+        "plants",
+        "building",
+        "trees",
+        "buildings"
+      ],
+      "event_ids": [
+        "evt_0053",
+        "evt_0057"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0053",
+          "time_span": [
+            36.0,
+            46.0
+          ],
+          "event_type": "gaze_head_orientation",
+          "actor_ids": [
+            "person-01"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "partially visible, facing away"
+        },
+        {
+          "event_id": "evt_0057",
+          "time_span": [
+            42.0,
+            58.0
+          ],
+          "event_type": "gaze_head_orientation",
+          "actor_ids": [
+            "person-01",
+            "person-02"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "standing and facing another individual"
+        }
+      ],
+      "interaction_pattern": "motion_sequence",
+      "summary": "Person-01 transitions from being partially visible and facing away to standing and facing person-02.",
+      "confidence": 0.9,
+      "source_detection_ids": [
+        "det_characters_0098",
+        "det_characters_0103",
+        "det_characters_0104",
+        "det_characters_0109",
+        "det_characters_0110",
+        "det_scenes_0007",
+        "det_objects_0041",
+        "det_scenes_0008",
+        "det_objects_0042",
+        "det_scenes_0009",
+        "det_objects_0043"
+      ],
+      "source_segment_ids": [
+        "seg_007",
+        "seg_008",
+        "seg_009"
+      ],
+      "reasoner_model": "Qwen/Qwen2.5-VL-72B-Instruct"
+    },
+    {
+      "chain_id": "chain_0003",
+      "start_sec": 78.0,
+      "end_sec": 88.0,
+      "participant_ids": [
+        "person-01",
+        "person-02"
+      ],
+      "object_ids": [
+        "building",
+        "plants"
+      ],
+      "event_ids": [
+        "evt_0072"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0072",
+          "time_span": [
+            78.0,
+            88.0
+          ],
+          "event_type": "observed_behavior",
+          "actor_ids": [
+            "person-01",
+            "person-02"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "engaged in martial arts practice"
+        }
+      ],
+      "interaction_pattern": "single_observation",
+      "summary": "Person-01 and person-02 engaged in martial arts practice from 78.0s to 88.0s.",
+      "confidence": 0.9,
+      "source_detection_ids": [
+        "det_characters_0128",
+        "det_characters_0129",
+        "det_scenes_0014",
+        "det_objects_0048"
+      ],
+      "source_segment_ids": [
+        "seg_014"
+      ],
+      "reasoner_model": "Qwen/Qwen2.5-VL-72B-Instruct"
+    },
+    {
+      "chain_id": "chain_0004",
+      "start_sec": 108.0,
+      "end_sec": 136.0,
+      "participant_ids": [
+        "person-01",
+        "person-02"
+      ],
+      "object_ids": [
+        "traditional_building",
+        "plants",
+        "brick_wall",
+        "greenery"
+      ],
+      "event_ids": [
+        "evt_0086",
+        "evt_0098"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0086",
+          "time_span": [
+            108.0,
+            124.0
+          ],
+          "event_type": "observed_behavior",
+          "actor_ids": [
+            "person-01",
+            "person-02"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "engaging in martial arts practice"
+        },
+        {
+          "event_id": "evt_0098",
+          "time_span": [
+            126.0,
+            136.0
+          ],
+          "event_type": "gesture",
+          "actor_ids": [
+            "person-01"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "gesturing with hands near chest"
+        }
+      ],
+      "interaction_pattern": "behavior_sequence",
+      "summary": "Person-01 and person-02 engage in martial arts practice followed by person-01 gesturing with hands near chest.",
+      "confidence": 0.9,
+      "source_detection_ids": [
+        "det_characters_0150",
+        "det_characters_0151",
+        "det_characters_0156",
+        "det_characters_0157",
+        "det_characters_0166",
+        "det_scenes_0019",
+        "det_objects_0053",
+        "det_scenes_0020",
+        "det_objects_0054",
+        "det_scenes_0022",
+        "det_objects_0056"
+      ],
+      "source_segment_ids": [
+        "seg_019",
+        "seg_020",
+        "seg_022"
+      ],
+      "reasoner_model": "Qwen/Qwen2.5-VL-72B-Instruct"
+    },
+    {
+      "chain_id": "chain_0005",
+      "start_sec": 126.0,
+      "end_sec": 148.0,
+      "participant_ids": [
+        "person-02"
+      ],
+      "object_ids": [
+        "brick_wall",
+        "greenery",
+        "trees",
+        "plants"
+      ],
+      "event_ids": [
+        "evt_0099",
+        "evt_0105"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0099",
+          "time_span": [
+            126.0,
+            136.0
+          ],
+          "event_type": "gesture",
+          "actor_ids": [
+            "person-02"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "making hand gestures"
+        },
+        {
+          "event_id": "evt_0105",
+          "time_span": [
+            138.0,
+            148.0
+          ],
+          "event_type": "gesture",
+          "actor_ids": [
+            "person-02"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "practicing hand movements"
+        }
+      ],
+      "interaction_pattern": "behavior_sequence",
+      "summary": "Person-02 is seen making hand gestures followed by practicing hand movements.",
+      "confidence": 0.9,
+      "source_detection_ids": [
+        "det_characters_0167",
+        "det_characters_0176",
+        "det_scenes_0022",
+        "det_objects_0056",
+        "det_scenes_0024",
+        "det_objects_0058"
+      ],
+      "source_segment_ids": [
+        "seg_022",
+        "seg_024"
+      ],
+      "reasoner_model": "Qwen/Qwen2.5-VL-72B-Instruct"
+    },
+    {
+      "chain_id": "chain_0006",
+      "start_sec": 138.0,
+      "end_sec": 148.0,
+      "participant_ids": [],
+      "object_ids": [
+        "trees",
+        "plants"
+      ],
+      "event_ids": [
+        "evt_0106"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0106",
+          "time_span": [
+            138.0,
+            148.0
+          ],
+          "event_type": "observed_behavior",
+          "actor_ids": [],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "interacting with person-02"
+        }
+      ],
+      "interaction_pattern": "single_observation",
+      "summary": "From 138.0s to 148.0s, an interaction with person-02 is observed.",
+      "confidence": 0.6,
+      "source_detection_ids": [
+        "det_characters_0177",
+        "det_scenes_0024",
+        "det_objects_0058"
+      ],
+      "source_segment_ids": [
+        "seg_024"
+      ],
+      "reasoner_model": "Qwen/Qwen2.5-VL-72B-Instruct"
+    },
+    {
+      "chain_id": "chain_0007",
+      "start_sec": 162.0,
+      "end_sec": 172.0,
+      "participant_ids": [
+        "person-01"
+      ],
+      "object_ids": [
+        "outdoor_environment"
+      ],
+      "event_ids": [
+        "evt_0121"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0121",
+          "time_span": [
+            162.0,
+            172.0
+          ],
+          "event_type": "vocalization_or_mouth_movement",
+          "actor_ids": [
+            "person-01"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "appears to be mouth open or listening"
+        }
+      ],
+      "interaction_pattern": "single_observation",
+      "summary": "From 162.0s to 172.0s, person-01 appears to be mouth open or listening.",
+      "confidence": 0.9,
+      "source_detection_ids": [
+        "det_characters_0193",
+        "det_scenes_0028",
+        "det_objects_0062"
+      ],
+      "source_segment_ids": [
+        "seg_028"
+      ],
+      "reasoner_model": "Qwen/Qwen2.5-VL-72B-Instruct"
+    },
+    {
+      "chain_id": "chain_0008",
+      "start_sec": 162.0,
+      "end_sec": 172.0,
+      "participant_ids": [
+        "person-02"
+      ],
+      "object_ids": [
+        "outdoor_environment"
+      ],
+      "event_ids": [
+        "evt_0122"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0122",
+          "time_span": [
+            162.0,
+            172.0
+          ],
+          "event_type": "observed_behavior",
+          "actor_ids": [
+            "person-02"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "appears to be engaged in interaction"
+        }
+      ],
+      "interaction_pattern": "single_observation",
+      "summary": "From 162.0s to 172.0s, person-02 appears to be engaged in interaction.",
+      "confidence": 0.9,
+      "source_detection_ids": [
+        "det_characters_0194",
+        "det_scenes_0028",
+        "det_objects_0062"
+      ],
+      "source_segment_ids": [
+        "seg_028"
+      ],
+      "reasoner_model": "Qwen/Qwen2.5-VL-72B-Instruct"
+    },
+    {
+      "chain_id": "chain_0009",
+      "start_sec": 168.0,
+      "end_sec": 178.0,
+      "participant_ids": [
+        "person-01"
+      ],
+      "object_ids": [
+        "sunlight"
+      ],
+      "event_ids": [
+        "evt_0125"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0125",
+          "time_span": [
+            168.0,
+            178.0
+          ],
+          "event_type": "observed_behavior",
+          "actor_ids": [
+            "person-01"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "engaged in visible interaction"
+        }
+      ],
+      "interaction_pattern": "single_observation",
+      "summary": "From 168.0s to 178.0s, person-01 engaged in visible interaction.",
+      "confidence": 0.9,
+      "source_detection_ids": [
+        "det_characters_0199",
+        "det_scenes_0029",
+        "det_objects_0063"
+      ],
+      "source_segment_ids": [
+        "seg_029"
+      ],
+      "reasoner_model": "Qwen/Qwen2.5-VL-72B-Instruct"
+    },
+    {
+      "chain_id": "chain_0010",
+      "start_sec": 168.0,
+      "end_sec": 178.0,
+      "participant_ids": [
+        "person-02"
+      ],
+      "object_ids": [
+        "sunlight"
+      ],
+      "event_ids": [
+        "evt_0126"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0126",
+          "time_span": [
+            168.0,
+            178.0
+          ],
+          "event_type": "gaze_head_orientation",
+          "actor_ids": [
+            "person-02"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "facing the adult"
+        }
+      ],
+      "interaction_pattern": "single_observation",
+      "summary": "From 168.0s to 178.0s, person-02 is facing the adult.",
+      "confidence": 0.9,
+      "source_detection_ids": [
+        "det_characters_0200",
+        "det_scenes_0029",
+        "det_objects_0063"
+      ],
+      "source_segment_ids": [
+        "seg_029"
+      ],
+      "reasoner_model": "Qwen/Qwen2.5-VL-72B-Instruct"
+    },
+    {
+      "chain_id": "chain_0011",
+      "start_sec": 174.0,
+      "end_sec": 184.0,
+      "participant_ids": [
+        "person-01"
+      ],
+      "object_ids": [
+        "movie_clip_interface"
+      ],
+      "event_ids": [
+        "evt_0130"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0130",
+          "time_span": [
+            174.0,
+            184.0
+          ],
+          "event_type": "observed_behavior",
+          "actor_ids": [
+            "person-01"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "engaging with the child"
+        }
+      ],
+      "interaction_pattern": "single_observation",
+      "summary": "From 174.0s to 184.0s, person-01 is engaging with the child.",
+      "confidence": 0.9,
+      "source_detection_ids": [
+        "det_characters_0205",
+        "det_scenes_0030",
+        "det_objects_0064"
+      ],
+      "source_segment_ids": [
+        "seg_030"
+      ],
+      "reasoner_model": "Qwen/Qwen2.5-VL-72B-Instruct"
+    },
+    {
+      "chain_id": "chain_0012",
+      "start_sec": 174.0,
+      "end_sec": 190.0,
+      "participant_ids": [
+        "person-02"
+      ],
+      "object_ids": [
+        "movie_clip_interface",
+        "movie_poster",
+        "image_grid"
+      ],
+      "event_ids": [
+        "evt_0131",
+        "evt_0136"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0131",
+          "time_span": [
+            174.0,
+            184.0
+          ],
+          "event_type": "observed_behavior",
+          "actor_ids": [
+            "person-02"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "interacting with the person"
+        },
+        {
+          "event_id": "evt_0136",
+          "time_span": [
+            180.0,
+            190.0
+          ],
+          "event_type": "observed_behavior",
+          "actor_ids": [
+            "person-02"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "appears in various poses"
+        }
+      ],
+      "interaction_pattern": "behavior_sequence",
+      "summary": "Person-02 interacts with someone and then appears in various poses.",
+      "confidence": 0.9,
+      "source_detection_ids": [
+        "det_characters_0206",
+        "det_characters_0211",
+        "det_scenes_0030",
+        "det_objects_0064",
+        "det_scenes_0031",
+        "det_objects_0065"
+      ],
+      "source_segment_ids": [
+        "seg_030",
+        "seg_031"
+      ],
+      "reasoner_model": "Qwen/Qwen2.5-VL-72B-Instruct"
+    },
+    {
+      "chain_id": "chain_0013",
+      "start_sec": 180.0,
+      "end_sec": 206.915,
+      "participant_ids": [],
+      "object_ids": [
+        "movie_poster",
+        "image_grid",
+        "movie_clip_thumbnails",
+        "mobile_phone",
+        "text_labels",
+        "text_elements"
+      ],
+      "event_ids": [
+        "evt_0137",
+        "evt_0141",
+        "evt_0145",
+        "evt_0147"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0137",
+          "time_span": [
+            180.0,
+            190.0
+          ],
+          "event_type": "observed_behavior",
+          "actor_ids": [],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "not discernible"
+        },
+        {
+          "event_id": "evt_0141",
+          "time_span": [
+            186.0,
+            196.0
+          ],
+          "event_type": "observed_behavior",
+          "actor_ids": [],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "appears in a movie scene"
+        },
+        {
+          "event_id": "evt_0145",
+          "time_span": [
+            192.0,
+            202.0
+          ],
+          "event_type": "observed_behavior",
+          "actor_ids": [],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "not applicable in this context"
+        },
+        {
+          "event_id": "evt_0147",
+          "time_span": [
+            198.0,
+            206.915
+          ],
+          "event_type": "observed_behavior",
+          "actor_ids": [],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "appears in a thumbnail under the 'Child' category"
+        }
+      ],
+      "interaction_pattern": "single_observation",
+      "summary": "A sequence of events includes an indiscernible action, appearing in a movie scene, a non-applicable context, and finally appearing in a child category thumbnail.",
+      "confidence": 0.75,
+      "source_detection_ids": [
+        "det_characters_0212",
+        "det_characters_0217",
+        "det_characters_0222",
+        "det_characters_0227",
+        "det_scenes_0031",
+        "det_objects_0065",
+        "det_scenes_0032",
+        "det_objects_0066",
+        "det_scenes_0033",
+        "det_objects_0067",
+        "det_scenes_0034",
+        "det_objects_0068"
+      ],
+      "source_segment_ids": [
+        "seg_031",
+        "seg_032",
+        "seg_033",
+        "seg_034"
+      ],
+      "reasoner_model": "Qwen/Qwen2.5-VL-72B-Instruct"
+    }
+  ],
+  "orphan_event_ids": [
+    "evt_0031",
+    "evt_0033",
+    "evt_0034",
+    "evt_0032",
+    "evt_0037",
+    "evt_0035",
+    "evt_0036",
+    "evt_0038",
+    "evt_0039",
+    "evt_0040",
+    "evt_0042",
+    "evt_0043",
+    "evt_0041",
+    "evt_0045",
+    "evt_0046",
+    "evt_0044",
+    "evt_0048",
+    "evt_0047",
+    "evt_0049",
+    "evt_0050",
+    "evt_0051",
+    "evt_0054",
+    "evt_0055",
+    "evt_0056",
+    "evt_0058",
+    "evt_0061",
+    "evt_0059",
+    "evt_0060",
+    "evt_0063",
+    "evt_0062",
+    "evt_0064",
+    "evt_0065",
+    "evt_0066",
+    "evt_0067",
+    "evt_0068",
+    "evt_0069",
+    "evt_0070",
+    "evt_0071",
+    "evt_0073",
+    "evt_0074",
+    "evt_0075",
+    "evt_0078",
+    "evt_0077",
+    "evt_0076",
+    "evt_0079",
+    "evt_0080",
+    "evt_0083",
+    "evt_0081",
+    "evt_0082",
+    "evt_0084",
+    "evt_0085",
+    "evt_0087",
+    "evt_0088",
+    "evt_0089",
+    "evt_0090",
+    "evt_0091",
+    "evt_0092",
+    "evt_0093",
+    "evt_0096",
+    "evt_0097",
+    "evt_0094",
+    "evt_0095",
+    "evt_0100",
+    "evt_0101",
+    "evt_0103",
+    "evt_0104",
+    "evt_0102",
+    "evt_0107",
+    "evt_0108",
+    "evt_0109",
+    "evt_0110",
+    "evt_0111",
+    "evt_0112",
+    "evt_0113",
+    "evt_0114",
+    "evt_0115",
+    "evt_0116",
+    "evt_0117",
+    "evt_0118",
+    "evt_0120",
+    "evt_0119",
+    "evt_0123",
+    "evt_0124",
+    "evt_0127",
+    "evt_0128",
+    "evt_0129",
+    "evt_0132",
+    "evt_0133",
+    "evt_0134",
+    "evt_0135",
+    "evt_0138",
+    "evt_0140",
+    "evt_0139",
+    "evt_0142",
+    "evt_0143",
+    "evt_0144",
+    "evt_0146"
+  ],
+  "warnings": [
+    "97 track-only events have no resolved character id; see orphan_event_ids."
+  ]
+}

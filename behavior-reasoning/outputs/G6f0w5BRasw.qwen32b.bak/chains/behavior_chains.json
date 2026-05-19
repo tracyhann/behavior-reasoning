@@ -1,0 +1,199 @@
+{
+  "schema_version": "0.1",
+  "source_files": {
+    "characters": "/DATA/zihao/projects/Project-Ava/behavior-reasoning/behavior-reasoning/outputs/G6f0w5BRasw/characters/characters.json",
+    "detections": "/DATA/zihao/projects/Project-Ava/behavior-reasoning/behavior-reasoning/outputs/G6f0w5BRasw/detections/detections.json"
+  },
+  "parameters": {
+    "max_merge_gap_sec": 2.0,
+    "max_chain_gap_sec": 10.0,
+    "max_response_window_sec": 8.0,
+    "min_dedupe_score": 0.72
+  },
+  "chains": [
+    {
+      "chain_id": "chain_0001",
+      "start_sec": 138.0,
+      "end_sec": 148.0,
+      "participant_ids": [
+        "person-02"
+      ],
+      "object_ids": [
+        "greenery",
+        "building"
+      ],
+      "event_ids": [
+        "evt_0074"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0074",
+          "time_span": [
+            138.0,
+            148.0
+          ],
+          "event_type": "gesture",
+          "actor_ids": [
+            "person-02"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "practicing martial arts moves, clapping hands and extending arms"
+        }
+      ],
+      "interaction_pattern": "single_observation",
+      "summary": "Person-02 is practicing martial arts moves, clapping hands and extending arms.",
+      "confidence": 0.9,
+      "source_detection_ids": [
+        "det_characters_0162",
+        "det_scenes_0024",
+        "det_objects_0058"
+      ],
+      "source_segment_ids": [
+        "seg_024"
+      ],
+      "reasoner_model": "Qwen/Qwen2.5-VL-32B-Instruct"
+    },
+    {
+      "chain_id": "chain_0002",
+      "start_sec": 192.0,
+      "end_sec": 202.0,
+      "participant_ids": [],
+      "object_ids": [
+        "red_uniform",
+        "sandy_beach"
+      ],
+      "event_ids": [
+        "evt_0104"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0104",
+          "time_span": [
+            192.0,
+            202.0
+          ],
+          "event_type": "posture",
+          "actor_ids": [],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "standing still"
+        }
+      ],
+      "interaction_pattern": "single_observation",
+      "summary": "A person is standing still on a sandy beach.",
+      "confidence": 0.6,
+      "source_detection_ids": [
+        "det_characters_0198",
+        "det_scenes_0033",
+        "det_objects_0067"
+      ],
+      "source_segment_ids": [
+        "seg_033"
+      ],
+      "reasoner_model": "Qwen/Qwen2.5-VL-32B-Instruct"
+    }
+  ],
+  "orphan_event_ids": [
+    "evt_0007",
+    "evt_0009",
+    "evt_0010",
+    "evt_0008",
+    "evt_0013",
+    "evt_0011",
+    "evt_0012",
+    "evt_0014",
+    "evt_0015",
+    "evt_0016",
+    "evt_0018",
+    "evt_0019",
+    "evt_0017",
+    "evt_0021",
+    "evt_0022",
+    "evt_0020",
+    "evt_0024",
+    "evt_0023",
+    "evt_0025",
+    "evt_0026",
+    "evt_0027",
+    "evt_0028",
+    "evt_0029",
+    "evt_0030",
+    "evt_0031",
+    "evt_0034",
+    "evt_0032",
+    "evt_0033",
+    "evt_0036",
+    "evt_0035",
+    "evt_0037",
+    "evt_0038",
+    "evt_0039",
+    "evt_0040",
+    "evt_0041",
+    "evt_0042",
+    "evt_0043",
+    "evt_0044",
+    "evt_0045",
+    "evt_0046",
+    "evt_0047",
+    "evt_0050",
+    "evt_0049",
+    "evt_0048",
+    "evt_0051",
+    "evt_0052",
+    "evt_0055",
+    "evt_0053",
+    "evt_0054",
+    "evt_0056",
+    "evt_0057",
+    "evt_0058",
+    "evt_0059",
+    "evt_0060",
+    "evt_0061",
+    "evt_0062",
+    "evt_0063",
+    "evt_0064",
+    "evt_0067",
+    "evt_0068",
+    "evt_0065",
+    "evt_0066",
+    "evt_0069",
+    "evt_0070",
+    "evt_0072",
+    "evt_0073",
+    "evt_0071",
+    "evt_0075",
+    "evt_0076",
+    "evt_0077",
+    "evt_0078",
+    "evt_0079",
+    "evt_0080",
+    "evt_0081",
+    "evt_0082",
+    "evt_0083",
+    "evt_0084",
+    "evt_0085",
+    "evt_0086",
+    "evt_0088",
+    "evt_0087",
+    "evt_0089",
+    "evt_0090",
+    "evt_0091",
+    "evt_0092",
+    "evt_0093",
+    "evt_0094",
+    "evt_0095",
+    "evt_0096",
+    "evt_0097",
+    "evt_0098",
+    "evt_0100",
+    "evt_0099",
+    "evt_0101",
+    "evt_0102",
+    "evt_0103",
+    "evt_0105"
+  ],
+  "warnings": [
+    "97 track-only events have no resolved character id; see orphan_event_ids."
+  ]
+}

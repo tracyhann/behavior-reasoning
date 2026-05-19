@@ -1,0 +1,88 @@
+{
+  "video_id": "G6f0w5BRasw",
+  "characters": {
+    "person-01": {
+      "id": "person-01",
+      "gender": "male",
+      "age_range": "adult",
+      "height": "unknown",
+      "clothing": "white shirt, blue jeans",
+      "appearance": "short dark hair, mustache",
+      "first_seen": 0.0,
+      "last_seen": 184.0,
+      "track_ids": [],
+      "example_segments": [
+        "seg_001",
+        "seg_002",
+        "seg_003",
+        "seg_004",
+        "seg_005",
+        "seg_006",
+        "seg_008",
+        "seg_009",
+        "seg_010",
+        "seg_011",
+        "seg_012",
+        "seg_013",
+        "seg_014",
+        "seg_015",
+        "seg_016",
+        "seg_017",
+        "seg_019",
+        "seg_020",
+        "seg_022",
+        "seg_023",
+        "seg_024",
+        "seg_025",
+        "seg_026",
+        "seg_027",
+        "seg_028",
+        "seg_029",
+        "seg_030"
+      ],
+      "example_crop_paths": [],
+      "match_confidence": "high"
+    },
+    "person-02": {
+      "id": "person-02",
+      "gender": "female",
+      "age_range": "child",
+      "height": "unknown",
+      "clothing": "white tank top, blue pants",
+      "appearance": "dark hair",
+      "first_seen": 30.0,
+      "last_seen": 172.0,
+      "track_ids": [],
+      "example_segments": [
+        "seg_006",
+        "seg_010",
+        "seg_011",
+        "seg_012",
+        "seg_013",
+        "seg_014",
+        "seg_019",
+        "seg_020",
+        "seg_027",
+        "seg_028"
+      ],
+      "example_crop_paths": [],
+      "match_confidence": "high"
+    },
+    "person-03": {
+      "id": "person-03",
+      "gender": "unknown",
+      "age_range": "unknown",
+      "height": "unknown",
+      "clothing": "visible clothing unclear",
+      "appearance": "visible recurring person; details unclear",
+      "first_seen": 132.0,
+      "last_seen": 142.0,
+      "track_ids": [],
+      "example_segments": [
+        "seg_023"
+      ],
+      "example_crop_paths": [],
+      "match_confidence": "low"
+    }
+  }
+}

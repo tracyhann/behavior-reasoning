@@ -1,0 +1,6895 @@
+[
+  {
+    "event_id": "evt_0001",
+    "start_sec": 0.0,
+    "end_sec": 10.0,
+    "event_type": "scene_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "scene"
+    ],
+    "description": "An outdoor setting with two individuals in a courtyard surrounded by plants, wooden furniture, and traditional architecture",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_scenes_0001"
+    ],
+    "source_segment_ids": [
+      "seg_001"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "scenes"
+    ]
+  },
+  {
+    "event_id": "evt_0034",
+    "start_sec": 0.0,
+    "end_sec": 10.0,
+    "event_type": "object_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [
+      "plants",
+      "furniture",
+      "architecture"
+    ],
+    "modalities": [
+      "object"
+    ],
+    "description": "Visible objects: plants: various potted plants; furniture: wooden chairs and tables; architecture: traditional building elements",
+    "confidence": 0.8,
+    "source_detection_ids": [
+      "det_objects_0035"
+    ],
+    "source_segment_ids": [
+      "seg_001"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "objects"
+    ]
+  },
+  {
+    "event_id": "evt_0067",
+    "start_sec": 0.0,
+    "end_sec": 10.0,
+    "event_type": "pose_motion",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks show no clear limb movement",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0069"
+    ],
+    "source_segment_ids": [
+      "seg_001"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-1"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0069",
+    "start_sec": 0.0,
+    "end_sec": 10.0,
+    "event_type": "pose_motion",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks show no clear limb movement",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0071"
+    ],
+    "source_segment_ids": [
+      "seg_001"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-3"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0070",
+    "start_sec": 0.0,
+    "end_sec": 10.0,
+    "event_type": "pose_motion",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks show no clear limb movement",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0072"
+    ],
+    "source_segment_ids": [
+      "seg_001"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-2"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0068",
+    "start_sec": 0.0,
+    "end_sec": 16.0,
+    "event_type": "pose_motion",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks show no clear limb movement",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0070",
+      "det_characters_0075"
+    ],
+    "source_segment_ids": [
+      "seg_001",
+      "seg_002"
+    ],
+    "merge_notes": {
+      "merged_count": 2,
+      "conflicts": [],
+      "dropped_interpretive_claims": [],
+      "description_count": 1
+    },
+    "track_ids": [
+      "track-6"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0072",
+    "start_sec": 0.0,
+    "end_sec": 16.0,
+    "event_type": "gesture",
+    "actor_ids": [
+      "person-02"
+    ],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "vlm"
+    ],
+    "description": "standing and gesturing with hands",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_characters_0074",
+      "det_characters_0080"
+    ],
+    "source_segment_ids": [
+      "seg_001",
+      "seg_002"
+    ],
+    "merge_notes": {
+      "merged_count": 2,
+      "conflicts": [],
+      "dropped_interpretive_claims": [],
+      "description_count": 1
+    },
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0071",
+    "start_sec": 0.0,
+    "end_sec": 22.0,
+    "event_type": "object_action",
+    "actor_ids": [
+      "person-01"
+    ],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "vlm"
+    ],
+    "description": "sitting on steps, holding a cup",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_characters_0073",
+      "det_characters_0079",
+      "det_characters_0086"
+    ],
+    "source_segment_ids": [
+      "seg_001",
+      "seg_002",
+      "seg_003"
+    ],
+    "merge_notes": {
+      "merged_count": 3,
+      "conflicts": [],
+      "dropped_interpretive_claims": [],
+      "description_count": 2
+    },
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0002",
+    "start_sec": 6.0,
+    "end_sec": 16.0,
+    "event_type": "scene_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "scene"
+    ],
+    "description": "A person sits on steps in front of a large wooden door, holding a cup. Another person with long braided hair stands facing him",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_scenes_0002"
+    ],
+    "source_segment_ids": [
+      "seg_002"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "scenes"
+    ]
+  },
+  {
+    "event_id": "evt_0035",
+    "start_sec": 6.0,
+    "end_sec": 16.0,
+    "event_type": "object_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [
+      "cup",
+      "door"
+    ],
+    "modalities": [
+      "object"
+    ],
+    "description": "Visible objects: cup: white cup held by the sitting person; door: large wooden door behind the sitting person",
+    "confidence": 0.875,
+    "source_detection_ids": [
+      "det_objects_0036"
+    ],
+    "source_segment_ids": [
+      "seg_002"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "objects"
+    ]
+  },
+  {
+    "event_id": "evt_0075",
+    "start_sec": 6.0,
+    "end_sec": 16.0,
+    "event_type": "gesture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks suggest movement in left_arm, right_arm, left_leg, right_leg",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0078"
+    ],
+    "source_segment_ids": [
+      "seg_002"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-2"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0073",
+    "start_sec": 6.0,
+    "end_sec": 22.0,
+    "event_type": "gesture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks suggest movement in left_arm, right_arm",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0076",
+      "det_characters_0082"
+    ],
+    "source_segment_ids": [
+      "seg_002",
+      "seg_003"
+    ],
+    "merge_notes": {
+      "merged_count": 2,
+      "conflicts": [],
+      "dropped_interpretive_claims": [],
+      "description_count": 1
+    },
+    "track_ids": [
+      "track-10"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0074",
+    "start_sec": 6.0,
+    "end_sec": 22.0,
+    "event_type": "pose_motion",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks show no clear limb movement",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0077",
+      "det_characters_0083"
+    ],
+    "source_segment_ids": [
+      "seg_002",
+      "seg_003"
+    ],
+    "merge_notes": {
+      "merged_count": 2,
+      "conflicts": [],
+      "dropped_interpretive_claims": [],
+      "description_count": 1
+    },
+    "track_ids": [
+      "track-15"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0003",
+    "start_sec": 12.0,
+    "end_sec": 22.0,
+    "event_type": "scene_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "scene"
+    ],
+    "description": "A child holding a black jacket stands in front of an ornate door with plants nearby. An adult sits on steps near the same door, holding a cup",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_scenes_0003"
+    ],
+    "source_segment_ids": [
+      "seg_003"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "scenes"
+    ]
+  },
+  {
+    "event_id": "evt_0036",
+    "start_sec": 12.0,
+    "end_sec": 22.0,
+    "event_type": "object_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [
+      "door",
+      "cup",
+      "plants"
+    ],
+    "modalities": [
+      "object"
+    ],
+    "description": "Visible objects: door: ornate wooden door; cup: white cup held by sitting person; plants: green plants near the door",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_objects_0037"
+    ],
+    "source_segment_ids": [
+      "seg_003"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "objects"
+    ]
+  },
+  {
+    "event_id": "evt_0076",
+    "start_sec": 12.0,
+    "end_sec": 22.0,
+    "event_type": "gesture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks suggest movement in left_arm, right_arm, left_leg",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0081"
+    ],
+    "source_segment_ids": [
+      "seg_003"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-21"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0077",
+    "start_sec": 12.0,
+    "end_sec": 22.0,
+    "event_type": "gesture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks suggest movement in left_arm, right_arm, left_leg",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0084"
+    ],
+    "source_segment_ids": [
+      "seg_003"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-16"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0078",
+    "start_sec": 12.0,
+    "end_sec": 22.0,
+    "event_type": "object_action",
+    "actor_ids": [
+      "person-02"
+    ],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "vlm"
+    ],
+    "description": "standing, holding a black jacket",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_characters_0085"
+    ],
+    "source_segment_ids": [
+      "seg_003"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0004",
+    "start_sec": 18.0,
+    "end_sec": 28.0,
+    "event_type": "scene_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "scene"
+    ],
+    "description": "A person with long braided hair stands in front of an ornate doorway, holding a black object. Another person with short dark hair and a mustache is seen standing near a weathered door. A third person's legs are partially visible in the foreground",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_scenes_0004"
+    ],
+    "source_segment_ids": [
+      "seg_004"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "scenes"
+    ]
+  },
+  {
+    "event_id": "evt_0037",
+    "start_sec": 18.0,
+    "end_sec": 28.0,
+    "event_type": "object_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [
+      "door",
+      "black_object"
+    ],
+    "modalities": [
+      "object"
+    ],
+    "description": "Visible objects: door: ornate and weathered; black object: held by person with braids",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_objects_0038"
+    ],
+    "source_segment_ids": [
+      "seg_004"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "objects"
+    ]
+  },
+  {
+    "event_id": "evt_0079",
+    "start_sec": 18.0,
+    "end_sec": 28.0,
+    "event_type": "gesture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks suggest movement in left_arm, left_leg",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0087"
+    ],
+    "source_segment_ids": [
+      "seg_004"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-21"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0081",
+    "start_sec": 18.0,
+    "end_sec": 28.0,
+    "event_type": "gesture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks suggest movement in left_arm, left_leg",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0089"
+    ],
+    "source_segment_ids": [
+      "seg_004"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-16"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0082",
+    "start_sec": 18.0,
+    "end_sec": 28.0,
+    "event_type": "gesture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks suggest movement in left_arm",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0090"
+    ],
+    "source_segment_ids": [
+      "seg_004"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-24"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0083",
+    "start_sec": 18.0,
+    "end_sec": 28.0,
+    "event_type": "object_action",
+    "actor_ids": [
+      "person-02"
+    ],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "vlm"
+    ],
+    "description": "standing, holding object",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_characters_0091"
+    ],
+    "source_segment_ids": [
+      "seg_004"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0084",
+    "start_sec": 18.0,
+    "end_sec": 28.0,
+    "event_type": "posture",
+    "actor_ids": [
+      "person-01"
+    ],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "vlm"
+    ],
+    "description": "standing",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_characters_0092"
+    ],
+    "source_segment_ids": [
+      "seg_004"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0085",
+    "start_sec": 18.0,
+    "end_sec": 28.0,
+    "event_type": "observed_behavior",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "vlm"
+    ],
+    "description": "partially visible",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0093"
+    ],
+    "source_segment_ids": [
+      "seg_004"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0080",
+    "start_sec": 18.0,
+    "end_sec": 34.0,
+    "event_type": "pose_motion",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks show no clear limb movement",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0088",
+      "det_characters_0096"
+    ],
+    "source_segment_ids": [
+      "seg_004",
+      "seg_005"
+    ],
+    "merge_notes": {
+      "merged_count": 2,
+      "conflicts": [],
+      "dropped_interpretive_claims": [],
+      "description_count": 1
+    },
+    "track_ids": [
+      "track-23"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0005",
+    "start_sec": 24.0,
+    "end_sec": 34.0,
+    "event_type": "scene_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "scene"
+    ],
+    "description": "A person in a white shirt stands in front of a weathered door. A person with long braids adjusts their clothing near the doorway. The two individuals appear to interact",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_scenes_0005"
+    ],
+    "source_segment_ids": [
+      "seg_005"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "scenes"
+    ]
+  },
+  {
+    "event_id": "evt_0038",
+    "start_sec": 24.0,
+    "end_sec": 34.0,
+    "event_type": "object_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [
+      "door",
+      "brick_wall"
+    ],
+    "modalities": [
+      "object"
+    ],
+    "description": "Visible objects: door: weathered wooden doors; brick wall: brick wall behind the door",
+    "confidence": 0.925,
+    "source_detection_ids": [
+      "det_objects_0039"
+    ],
+    "source_segment_ids": [
+      "seg_005"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "objects"
+    ]
+  },
+  {
+    "event_id": "evt_0087",
+    "start_sec": 24.0,
+    "end_sec": 34.0,
+    "event_type": "gesture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks suggest movement in right_arm, left_leg, right_leg",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0095"
+    ],
+    "source_segment_ids": [
+      "seg_005"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-21"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0088",
+    "start_sec": 24.0,
+    "end_sec": 34.0,
+    "event_type": "gesture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks suggest movement in right_arm",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0097"
+    ],
+    "source_segment_ids": [
+      "seg_005"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-28"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0089",
+    "start_sec": 24.0,
+    "end_sec": 34.0,
+    "event_type": "posture",
+    "actor_ids": [
+      "person-01"
+    ],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "vlm"
+    ],
+    "description": "standing still",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_characters_0098"
+    ],
+    "source_segment_ids": [
+      "seg_005"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0090",
+    "start_sec": 24.0,
+    "end_sec": 34.0,
+    "event_type": "observed_behavior",
+    "actor_ids": [
+      "person-02"
+    ],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "vlm"
+    ],
+    "description": "adjusting clothing",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_characters_0099"
+    ],
+    "source_segment_ids": [
+      "seg_005"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0086",
+    "start_sec": 24.0,
+    "end_sec": 40.0,
+    "event_type": "gesture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks suggest movement in right_arm",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0094",
+      "det_characters_0100"
+    ],
+    "source_segment_ids": [
+      "seg_005",
+      "seg_006"
+    ],
+    "merge_notes": {
+      "merged_count": 2,
+      "conflicts": [],
+      "dropped_interpretive_claims": [],
+      "description_count": 1
+    },
+    "track_ids": [
+      "track-29"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0006",
+    "start_sec": 30.0,
+    "end_sec": 40.0,
+    "event_type": "scene_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "scene"
+    ],
+    "description": "Two individuals are standing in an outdoor courtyard with traditional architecture. One individual is facing the other, who has their back turned. The setting includes plants, a wooden chair, and a hanging shirt",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_scenes_0006"
+    ],
+    "source_segment_ids": [
+      "seg_006"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "scenes"
+    ]
+  },
+  {
+    "event_id": "evt_0039",
+    "start_sec": 30.0,
+    "end_sec": 40.0,
+    "event_type": "object_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [
+      "plants",
+      "wooden_chair",
+      "hanging_shirt"
+    ],
+    "modalities": [
+      "object"
+    ],
+    "description": "Visible objects: plants: various potted plants; wooden chair: simple wooden chair; hanging shirt: white shirt hanging on a line",
+    "confidence": 0.7,
+    "source_detection_ids": [
+      "det_objects_0040"
+    ],
+    "source_segment_ids": [
+      "seg_006"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "objects"
+    ]
+  },
+  {
+    "event_id": "evt_0091",
+    "start_sec": 30.0,
+    "end_sec": 40.0,
+    "event_type": "gesture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks suggest movement in left_arm",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0101"
+    ],
+    "source_segment_ids": [
+      "seg_006"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-28"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0092",
+    "start_sec": 30.0,
+    "end_sec": 40.0,
+    "event_type": "pose_motion",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks show no clear limb movement",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0102"
+    ],
+    "source_segment_ids": [
+      "seg_006"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-39"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0094",
+    "start_sec": 30.0,
+    "end_sec": 40.0,
+    "event_type": "gaze_head_orientation",
+    "actor_ids": [
+      "person-01"
+    ],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "vlm"
+    ],
+    "description": "standing and facing another individual",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_characters_0104"
+    ],
+    "source_segment_ids": [
+      "seg_006"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0095",
+    "start_sec": 30.0,
+    "end_sec": 40.0,
+    "event_type": "gaze_head_orientation",
+    "actor_ids": [
+      "person-02"
+    ],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "vlm"
+    ],
+    "description": "standing with back turned towards the other individual",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_characters_0105"
+    ],
+    "source_segment_ids": [
+      "seg_006"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0093",
+    "start_sec": 30.0,
+    "end_sec": 52.0,
+    "event_type": "gesture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks suggest movement in left_arm, right_arm",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0103",
+      "det_characters_0108",
+      "det_characters_0114"
+    ],
+    "source_segment_ids": [
+      "seg_006",
+      "seg_007",
+      "seg_008"
+    ],
+    "merge_notes": {
+      "merged_count": 3,
+      "conflicts": [],
+      "dropped_interpretive_claims": [],
+      "description_count": 1
+    },
+    "track_ids": [
+      "track-34"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0007",
+    "start_sec": 36.0,
+    "end_sec": 46.0,
+    "event_type": "scene_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "scene"
+    ],
+    "description": "An outdoor setting with greenery and hanging clothes in the background. A child interacts with an adult wearing a white shirt",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_scenes_0007"
+    ],
+    "source_segment_ids": [
+      "seg_007"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "scenes"
+    ]
+  },
+  {
+    "event_id": "evt_0040",
+    "start_sec": 36.0,
+    "end_sec": 46.0,
+    "event_type": "object_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [
+      "clothes",
+      "plants"
+    ],
+    "modalities": [
+      "object"
+    ],
+    "description": "Visible objects: clothes: hanging on a line; plants: various sizes and shapes",
+    "confidence": 0.875,
+    "source_detection_ids": [
+      "det_objects_0041"
+    ],
+    "source_segment_ids": [
+      "seg_007"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "objects"
+    ]
+  },
+  {
+    "event_id": "evt_0096",
+    "start_sec": 36.0,
+    "end_sec": 46.0,
+    "event_type": "pose_motion",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks show no clear limb movement",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0106"
+    ],
+    "source_segment_ids": [
+      "seg_007"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-28"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0097",
+    "start_sec": 36.0,
+    "end_sec": 46.0,
+    "event_type": "gesture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks suggest movement in left_arm",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0107"
+    ],
+    "source_segment_ids": [
+      "seg_007"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-39"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0098",
+    "start_sec": 36.0,
+    "end_sec": 46.0,
+    "event_type": "pose_motion",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks show no clear limb movement",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0109"
+    ],
+    "source_segment_ids": [
+      "seg_007"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-40"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0099",
+    "start_sec": 36.0,
+    "end_sec": 46.0,
+    "event_type": "gesture",
+    "actor_ids": [
+      "person-02"
+    ],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "vlm"
+    ],
+    "description": "gesturing with hands, looking down then up",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_characters_0110"
+    ],
+    "source_segment_ids": [
+      "seg_007"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0100",
+    "start_sec": 36.0,
+    "end_sec": 46.0,
+    "event_type": "gaze_head_orientation",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "vlm"
+    ],
+    "description": "standing still, facing away from camera",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_characters_0111"
+    ],
+    "source_segment_ids": [
+      "seg_007"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0008",
+    "start_sec": 42.0,
+    "end_sec": 52.0,
+    "event_type": "scene_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "scene"
+    ],
+    "description": "Two individuals are standing outdoors in a sunny environment with greenery and buildings in the background. They appear to be near another visible person",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_scenes_0008"
+    ],
+    "source_segment_ids": [
+      "seg_008"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "scenes"
+    ]
+  },
+  {
+    "event_id": "evt_0041",
+    "start_sec": 42.0,
+    "end_sec": 52.0,
+    "event_type": "object_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [
+      "trees",
+      "buildings"
+    ],
+    "modalities": [
+      "object"
+    ],
+    "description": "Visible objects: trees: tall trees with green leaves; buildings: brick structure with windows",
+    "confidence": 0.75,
+    "source_detection_ids": [
+      "det_objects_0042"
+    ],
+    "source_segment_ids": [
+      "seg_008"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "objects"
+    ]
+  },
+  {
+    "event_id": "evt_0101",
+    "start_sec": 42.0,
+    "end_sec": 52.0,
+    "event_type": "gesture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks suggest movement in right_arm",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0112"
+    ],
+    "source_segment_ids": [
+      "seg_008"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-53"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0102",
+    "start_sec": 42.0,
+    "end_sec": 52.0,
+    "event_type": "gesture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks suggest movement in right_arm",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0113"
+    ],
+    "source_segment_ids": [
+      "seg_008"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-39"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0103",
+    "start_sec": 42.0,
+    "end_sec": 52.0,
+    "event_type": "pose_motion",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks show no clear limb movement",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0115"
+    ],
+    "source_segment_ids": [
+      "seg_008"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-43"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0104",
+    "start_sec": 42.0,
+    "end_sec": 52.0,
+    "event_type": "gaze_head_orientation",
+    "actor_ids": [
+      "person-01",
+      "person-02"
+    ],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "vlm"
+    ],
+    "description": "standing, facing another individual",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_characters_0116",
+      "det_characters_0117"
+    ],
+    "source_segment_ids": [
+      "seg_008"
+    ],
+    "merge_notes": {
+      "merged_count": 2,
+      "conflicts": [],
+      "dropped_interpretive_claims": [],
+      "description_count": 1
+    },
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0105",
+    "start_sec": 48.0,
+    "end_sec": 58.0,
+    "event_type": "pose_motion",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks show no clear limb movement",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0118"
+    ],
+    "source_segment_ids": [
+      "seg_009"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-34"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0108",
+    "start_sec": 48.0,
+    "end_sec": 58.0,
+    "event_type": "pose_motion",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks show no clear limb movement",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0121"
+    ],
+    "source_segment_ids": [
+      "seg_009"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-39"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0106",
+    "start_sec": 48.0,
+    "end_sec": 64.0,
+    "event_type": "pose_motion",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks show no clear limb movement",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0119",
+      "det_characters_0122"
+    ],
+    "source_segment_ids": [
+      "seg_009",
+      "seg_010"
+    ],
+    "merge_notes": {
+      "merged_count": 2,
+      "conflicts": [],
+      "dropped_interpretive_claims": [],
+      "description_count": 1
+    },
+    "track_ids": [
+      "track-53"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0107",
+    "start_sec": 48.0,
+    "end_sec": 64.0,
+    "event_type": "gesture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks suggest movement in left_arm, right_arm",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0120",
+      "det_characters_0123"
+    ],
+    "source_segment_ids": [
+      "seg_009",
+      "seg_010"
+    ],
+    "merge_notes": {
+      "merged_count": 2,
+      "conflicts": [],
+      "dropped_interpretive_claims": [],
+      "description_count": 1
+    },
+    "track_ids": [
+      "track-54"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0009",
+    "start_sec": 54.0,
+    "end_sec": 64.0,
+    "event_type": "scene_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "scene"
+    ],
+    "description": "An outdoor setting with greenery in the background. Two individuals are engaged in a physical interaction involving their arms",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_scenes_0010"
+    ],
+    "source_segment_ids": [
+      "seg_010"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "scenes"
+    ]
+  },
+  {
+    "event_id": "evt_0042",
+    "start_sec": 54.0,
+    "end_sec": 64.0,
+    "event_type": "object_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [
+      "green_plants",
+      "brick_wall"
+    ],
+    "modalities": [
+      "object"
+    ],
+    "description": "Visible objects: green plants: plants in the background; brick wall: partially visible brick wall",
+    "confidence": 0.75,
+    "source_detection_ids": [
+      "det_objects_0044"
+    ],
+    "source_segment_ids": [
+      "seg_010"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "objects"
+    ]
+  },
+  {
+    "event_id": "evt_0110",
+    "start_sec": 54.0,
+    "end_sec": 64.0,
+    "event_type": "pose_motion",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks show no clear limb movement",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0125"
+    ],
+    "source_segment_ids": [
+      "seg_010"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-58"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0111",
+    "start_sec": 54.0,
+    "end_sec": 64.0,
+    "event_type": "gesture",
+    "actor_ids": [
+      "person-01",
+      "person-02"
+    ],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "vlm"
+    ],
+    "description": "engaged in arm movement with another individual",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_characters_0126",
+      "det_characters_0127"
+    ],
+    "source_segment_ids": [
+      "seg_010"
+    ],
+    "merge_notes": {
+      "merged_count": 2,
+      "conflicts": [],
+      "dropped_interpretive_claims": [],
+      "description_count": 1
+    },
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0109",
+    "start_sec": 54.0,
+    "end_sec": 70.0,
+    "event_type": "gesture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks suggest movement in left_arm, right_arm",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0124",
+      "det_characters_0129"
+    ],
+    "source_segment_ids": [
+      "seg_010",
+      "seg_011"
+    ],
+    "merge_notes": {
+      "merged_count": 2,
+      "conflicts": [],
+      "dropped_interpretive_claims": [],
+      "description_count": 1
+    },
+    "track_ids": [
+      "track-56"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0010",
+    "start_sec": 60.0,
+    "end_sec": 70.0,
+    "event_type": "scene_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "scene"
+    ],
+    "description": "Two individuals are engaged in a physical interaction involving arm movements and hand grips",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_scenes_0011"
+    ],
+    "source_segment_ids": [
+      "seg_011"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "scenes"
+    ]
+  },
+  {
+    "event_id": "evt_0043",
+    "start_sec": 60.0,
+    "end_sec": 70.0,
+    "event_type": "object_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [
+      "brick_wall",
+      "metal_object"
+    ],
+    "modalities": [
+      "object"
+    ],
+    "description": "Visible objects: brick wall: a textured wall made of bricks; metal object: a circular metal item attached to the wall",
+    "confidence": 0.775,
+    "source_detection_ids": [
+      "det_objects_0045"
+    ],
+    "source_segment_ids": [
+      "seg_011"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "objects"
+    ]
+  },
+  {
+    "event_id": "evt_0114",
+    "start_sec": 60.0,
+    "end_sec": 70.0,
+    "event_type": "gesture",
+    "actor_ids": [
+      "person-01",
+      "person-02"
+    ],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "vlm"
+    ],
+    "description": "engaging in a physical interaction using arms and hands",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_characters_0131",
+      "det_characters_0132"
+    ],
+    "source_segment_ids": [
+      "seg_011"
+    ],
+    "merge_notes": {
+      "merged_count": 2,
+      "conflicts": [],
+      "dropped_interpretive_claims": [],
+      "description_count": 1
+    },
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0112",
+    "start_sec": 60.0,
+    "end_sec": 76.0,
+    "event_type": "gesture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks suggest movement in left_arm",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0128",
+      "det_characters_0133"
+    ],
+    "source_segment_ids": [
+      "seg_011",
+      "seg_012"
+    ],
+    "merge_notes": {
+      "merged_count": 2,
+      "conflicts": [],
+      "dropped_interpretive_claims": [],
+      "description_count": 1
+    },
+    "track_ids": [
+      "track-54"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0113",
+    "start_sec": 60.0,
+    "end_sec": 76.0,
+    "event_type": "gesture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks suggest movement in left_arm, right_arm",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0130",
+      "det_characters_0136"
+    ],
+    "source_segment_ids": [
+      "seg_011",
+      "seg_012"
+    ],
+    "merge_notes": {
+      "merged_count": 2,
+      "conflicts": [],
+      "dropped_interpretive_claims": [],
+      "description_count": 1
+    },
+    "track_ids": [
+      "track-64"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0011",
+    "start_sec": 66.0,
+    "end_sec": 76.0,
+    "event_type": "scene_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "scene"
+    ],
+    "description": "Two individuals are engaged in a physical interaction outdoors, possibly practicing martial arts techniques. The setting appears to be a courtyard with brick walls and greenery in the background",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_scenes_0012"
+    ],
+    "source_segment_ids": [
+      "seg_012"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "scenes"
+    ]
+  },
+  {
+    "event_id": "evt_0044",
+    "start_sec": 66.0,
+    "end_sec": 76.0,
+    "event_type": "object_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [
+      "brick_wall",
+      "greenery"
+    ],
+    "modalities": [
+      "object"
+    ],
+    "description": "Visible objects: brick wall: A section of a brick wall forms part of the background.; greenery: Trees and plants are visible behind the individuals",
+    "confidence": 0.825,
+    "source_detection_ids": [
+      "det_objects_0046"
+    ],
+    "source_segment_ids": [
+      "seg_012"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "objects"
+    ]
+  },
+  {
+    "event_id": "evt_0115",
+    "start_sec": 66.0,
+    "end_sec": 76.0,
+    "event_type": "gesture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks suggest movement in left_arm, right_arm, left_leg",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0134"
+    ],
+    "source_segment_ids": [
+      "seg_012"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-56"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0117",
+    "start_sec": 66.0,
+    "end_sec": 76.0,
+    "event_type": "object_action",
+    "actor_ids": [
+      "person-01",
+      "person-02"
+    ],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "vlm"
+    ],
+    "description": "engaged in a physical interaction, holding the other person's hand and arm",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_characters_0137",
+      "det_characters_0138"
+    ],
+    "source_segment_ids": [
+      "seg_012"
+    ],
+    "merge_notes": {
+      "merged_count": 2,
+      "conflicts": [],
+      "dropped_interpretive_claims": [],
+      "description_count": 1
+    },
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0116",
+    "start_sec": 66.0,
+    "end_sec": 94.0,
+    "event_type": "gesture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks suggest movement in left_arm, right_arm, left_leg, right_leg",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0135",
+      "det_characters_0141",
+      "det_characters_0146",
+      "det_characters_0151"
+    ],
+    "source_segment_ids": [
+      "seg_012",
+      "seg_013",
+      "seg_014",
+      "seg_015"
+    ],
+    "merge_notes": {
+      "merged_count": 4,
+      "conflicts": [],
+      "dropped_interpretive_claims": [],
+      "description_count": 2
+    },
+    "track_ids": [
+      "track-73"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0012",
+    "start_sec": 72.0,
+    "end_sec": 82.0,
+    "event_type": "scene_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "scene"
+    ],
+    "description": "Two individuals are engaged in a physical interaction involving hand-to-hand combat techniques in an outdoor setting with brick walls and greenery",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_scenes_0013"
+    ],
+    "source_segment_ids": [
+      "seg_013"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "scenes"
+    ]
+  },
+  {
+    "event_id": "evt_0045",
+    "start_sec": 72.0,
+    "end_sec": 82.0,
+    "event_type": "object_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [
+      "brick_wall",
+      "greenery"
+    ],
+    "modalities": [
+      "object"
+    ],
+    "description": "Visible objects: brick wall: a weathered brick wall in the background; greenery: plants and vines growing on the wall",
+    "confidence": 0.825,
+    "source_detection_ids": [
+      "det_objects_0047"
+    ],
+    "source_segment_ids": [
+      "seg_013"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "objects"
+    ]
+  },
+  {
+    "event_id": "evt_0118",
+    "start_sec": 72.0,
+    "end_sec": 82.0,
+    "event_type": "gesture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks suggest movement in right_arm",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0139"
+    ],
+    "source_segment_ids": [
+      "seg_013"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-78"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0119",
+    "start_sec": 72.0,
+    "end_sec": 82.0,
+    "event_type": "gesture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks suggest movement in left_arm, right_arm",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0140"
+    ],
+    "source_segment_ids": [
+      "seg_013"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-56"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0120",
+    "start_sec": 72.0,
+    "end_sec": 82.0,
+    "event_type": "pose_motion",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks show no clear limb movement",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0142"
+    ],
+    "source_segment_ids": [
+      "seg_013"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-54"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0121",
+    "start_sec": 72.0,
+    "end_sec": 82.0,
+    "event_type": "gesture",
+    "actor_ids": [
+      "person-01"
+    ],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "vlm"
+    ],
+    "description": "engaged in hand-to-hand combat, demonstrating defensive and offensive moves",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_characters_0143"
+    ],
+    "source_segment_ids": [
+      "seg_013"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0122",
+    "start_sec": 72.0,
+    "end_sec": 82.0,
+    "event_type": "gesture",
+    "actor_ids": [
+      "person-02"
+    ],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "vlm"
+    ],
+    "description": "participating in hand-to-hand combat, mirroring the movements of the other individual",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_characters_0144"
+    ],
+    "source_segment_ids": [
+      "seg_013"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0013",
+    "start_sec": 78.0,
+    "end_sec": 88.0,
+    "event_type": "scene_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "scene"
+    ],
+    "description": "Two individuals practicing martial arts in an outdoor courtyard setting",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_scenes_0014"
+    ],
+    "source_segment_ids": [
+      "seg_014"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "scenes"
+    ]
+  },
+  {
+    "event_id": "evt_0046",
+    "start_sec": 78.0,
+    "end_sec": 88.0,
+    "event_type": "object_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [
+      "building",
+      "furniture"
+    ],
+    "modalities": [
+      "object"
+    ],
+    "description": "Visible objects: building: brick structure with windows; furniture: chairs and tables in the background",
+    "confidence": 0.875,
+    "source_detection_ids": [
+      "det_objects_0048"
+    ],
+    "source_segment_ids": [
+      "seg_014"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "objects"
+    ]
+  },
+  {
+    "event_id": "evt_0123",
+    "start_sec": 78.0,
+    "end_sec": 88.0,
+    "event_type": "gesture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks suggest movement in right_arm, right_leg",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0145"
+    ],
+    "source_segment_ids": [
+      "seg_014"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-78"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0124",
+    "start_sec": 78.0,
+    "end_sec": 88.0,
+    "event_type": "observed_behavior",
+    "actor_ids": [
+      "person-01"
+    ],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "vlm"
+    ],
+    "description": "engaging in martial arts practice with another individual",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_characters_0147"
+    ],
+    "source_segment_ids": [
+      "seg_014"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0125",
+    "start_sec": 78.0,
+    "end_sec": 88.0,
+    "event_type": "observed_behavior",
+    "actor_ids": [
+      "person-02"
+    ],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "vlm"
+    ],
+    "description": "practicing martial arts with an adult",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_characters_0148"
+    ],
+    "source_segment_ids": [
+      "seg_014"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0014",
+    "start_sec": 84.0,
+    "end_sec": 94.0,
+    "event_type": "scene_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "scene"
+    ],
+    "description": "Two individuals are engaged in a physical interaction outdoors, possibly practicing martial arts. The setting includes wooden structures, plants, and a traditional building in the background",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_scenes_0015"
+    ],
+    "source_segment_ids": [
+      "seg_015"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "scenes"
+    ]
+  },
+  {
+    "event_id": "evt_0047",
+    "start_sec": 84.0,
+    "end_sec": 94.0,
+    "event_type": "object_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [
+      "wooden_structure",
+      "traditional_building"
+    ],
+    "modalities": [
+      "object"
+    ],
+    "description": "Visible objects: wooden structure: a bamboo-like framework; traditional building: a red door with intricate designs",
+    "confidence": 0.825,
+    "source_detection_ids": [
+      "det_objects_0049"
+    ],
+    "source_segment_ids": [
+      "seg_015"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "objects"
+    ]
+  },
+  {
+    "event_id": "evt_0126",
+    "start_sec": 84.0,
+    "end_sec": 94.0,
+    "event_type": "gesture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks suggest movement in left_arm, right_leg",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0149"
+    ],
+    "source_segment_ids": [
+      "seg_015"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-78"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0127",
+    "start_sec": 84.0,
+    "end_sec": 94.0,
+    "event_type": "gesture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks suggest movement in left_arm, right_arm",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0150"
+    ],
+    "source_segment_ids": [
+      "seg_015"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-108"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0129",
+    "start_sec": 84.0,
+    "end_sec": 94.0,
+    "event_type": "observed_behavior",
+    "actor_ids": [
+      "person-01"
+    ],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "vlm"
+    ],
+    "description": "engaged in physical interaction, demonstrating movements",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_characters_0153"
+    ],
+    "source_segment_ids": [
+      "seg_015"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0130",
+    "start_sec": 84.0,
+    "end_sec": 94.0,
+    "event_type": "observed_behavior",
+    "actor_ids": [
+      "person-02"
+    ],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "vlm"
+    ],
+    "description": "participating in physical interaction, mimicking movements",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_characters_0154"
+    ],
+    "source_segment_ids": [
+      "seg_015"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0128",
+    "start_sec": 84.0,
+    "end_sec": 100.0,
+    "event_type": "gesture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks suggest movement in left_arm",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0152",
+      "det_characters_0158"
+    ],
+    "source_segment_ids": [
+      "seg_015",
+      "seg_016"
+    ],
+    "merge_notes": {
+      "merged_count": 2,
+      "conflicts": [],
+      "dropped_interpretive_claims": [],
+      "description_count": 1
+    },
+    "track_ids": [
+      "track-97"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0015",
+    "start_sec": 90.0,
+    "end_sec": 100.0,
+    "event_type": "scene_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "scene"
+    ],
+    "description": "Two individuals are engaged in a physical activity outdoors in a courtyard setting with plants, steps, and buildings in the background",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_scenes_0016"
+    ],
+    "source_segment_ids": [
+      "seg_016"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "scenes"
+    ]
+  },
+  {
+    "event_id": "evt_0048",
+    "start_sec": 90.0,
+    "end_sec": 100.0,
+    "event_type": "object_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [
+      "plants",
+      "steps",
+      "buildings"
+    ],
+    "modalities": [
+      "object"
+    ],
+    "description": "Visible objects: plants: various potted plants; steps: a set of stone steps; buildings: structures with windows and doors",
+    "confidence": 0.7,
+    "source_detection_ids": [
+      "det_objects_0050"
+    ],
+    "source_segment_ids": [
+      "seg_016"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "objects"
+    ]
+  },
+  {
+    "event_id": "evt_0133",
+    "start_sec": 90.0,
+    "end_sec": 100.0,
+    "event_type": "gesture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks suggest movement in left_arm, right_arm, left_leg, right_leg",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0157"
+    ],
+    "source_segment_ids": [
+      "seg_016"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-108"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0134",
+    "start_sec": 90.0,
+    "end_sec": 100.0,
+    "event_type": "observed_behavior",
+    "actor_ids": [
+      "person-01",
+      "person-02"
+    ],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "vlm"
+    ],
+    "description": "engaged in physical activity, possibly training or sparring",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_characters_0159",
+      "det_characters_0160"
+    ],
+    "source_segment_ids": [
+      "seg_016"
+    ],
+    "merge_notes": {
+      "merged_count": 2,
+      "conflicts": [],
+      "dropped_interpretive_claims": [],
+      "description_count": 1
+    },
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0132",
+    "start_sec": 90.0,
+    "end_sec": 106.0,
+    "event_type": "gesture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks suggest movement in left_arm, right_arm, left_leg, right_leg",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0156",
+      "det_characters_0162"
+    ],
+    "source_segment_ids": [
+      "seg_016",
+      "seg_017"
+    ],
+    "merge_notes": {
+      "merged_count": 2,
+      "conflicts": [],
+      "dropped_interpretive_claims": [],
+      "description_count": 2
+    },
+    "track_ids": [
+      "track-109"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0131",
+    "start_sec": 90.0,
+    "end_sec": 112.0,
+    "event_type": "gesture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks suggest movement in left_arm, right_arm, left_leg, right_leg",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0155",
+      "det_characters_0161",
+      "det_characters_0168"
+    ],
+    "source_segment_ids": [
+      "seg_016",
+      "seg_017",
+      "seg_018"
+    ],
+    "merge_notes": {
+      "merged_count": 3,
+      "conflicts": [],
+      "dropped_interpretive_claims": [],
+      "description_count": 1
+    },
+    "track_ids": [
+      "track-113"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0016",
+    "start_sec": 96.0,
+    "end_sec": 106.0,
+    "event_type": "scene_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "scene"
+    ],
+    "description": "A courtyard setting with greenery, clothes hanging on a line, and traditional furniture. Two individuals appear to be engaged in a physical interaction involving movement and possibly martial arts",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_scenes_0017"
+    ],
+    "source_segment_ids": [
+      "seg_017"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "scenes"
+    ]
+  },
+  {
+    "event_id": "evt_0049",
+    "start_sec": 96.0,
+    "end_sec": 106.0,
+    "event_type": "object_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [
+      "clothesline",
+      "furniture"
+    ],
+    "modalities": [
+      "object"
+    ],
+    "description": "Visible objects: clothesline: clothes hanging on a line; furniture: traditional chairs and tables",
+    "confidence": 0.85,
+    "source_detection_ids": [
+      "det_objects_0051"
+    ],
+    "source_segment_ids": [
+      "seg_017"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "objects"
+    ]
+  },
+  {
+    "event_id": "evt_0135",
+    "start_sec": 96.0,
+    "end_sec": 106.0,
+    "event_type": "gesture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks suggest movement in left_arm, right_arm, left_leg, right_leg",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0163"
+    ],
+    "source_segment_ids": [
+      "seg_017"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-127"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0136",
+    "start_sec": 96.0,
+    "end_sec": 106.0,
+    "event_type": "gesture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks suggest movement in left_arm, right_arm",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0164"
+    ],
+    "source_segment_ids": [
+      "seg_017"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-119"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0137",
+    "start_sec": 96.0,
+    "end_sec": 106.0,
+    "event_type": "observed_behavior",
+    "actor_ids": [
+      "person-01"
+    ],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "vlm"
+    ],
+    "description": "engaged in physical activity, possibly kicking",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_characters_0165"
+    ],
+    "source_segment_ids": [
+      "seg_017"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0138",
+    "start_sec": 96.0,
+    "end_sec": 106.0,
+    "event_type": "observed_behavior",
+    "actor_ids": [
+      "person-02"
+    ],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "vlm"
+    ],
+    "description": "engaged in physical activity, possibly dodging or blocking",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_characters_0166"
+    ],
+    "source_segment_ids": [
+      "seg_017"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0017",
+    "start_sec": 102.0,
+    "end_sec": 112.0,
+    "event_type": "scene_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "scene"
+    ],
+    "description": "A person with long braided hair in a white tank top is outdoors in a garden-like setting with plants and some household items. Another person with short dark hair wearing a white shirt and jeans joins the first person, and they hold hands",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_scenes_0018"
+    ],
+    "source_segment_ids": [
+      "seg_018"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "scenes"
+    ]
+  },
+  {
+    "event_id": "evt_0050",
+    "start_sec": 102.0,
+    "end_sec": 112.0,
+    "event_type": "object_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [
+      "plants",
+      "household_items"
+    ],
+    "modalities": [
+      "object"
+    ],
+    "description": "Visible objects: plants: various potted plants; household items: miscellaneous items like a fan and a chair",
+    "confidence": 0.75,
+    "source_detection_ids": [
+      "det_objects_0052"
+    ],
+    "source_segment_ids": [
+      "seg_018"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "objects"
+    ]
+  },
+  {
+    "event_id": "evt_0141",
+    "start_sec": 102.0,
+    "end_sec": 112.0,
+    "event_type": "gesture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks suggest movement in left_arm, right_arm",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0170"
+    ],
+    "source_segment_ids": [
+      "seg_018"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-136"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0142",
+    "start_sec": 102.0,
+    "end_sec": 112.0,
+    "event_type": "object_action",
+    "actor_ids": [
+      "person-02"
+    ],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "vlm"
+    ],
+    "description": "standing and holding hands with another person",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_characters_0171"
+    ],
+    "source_segment_ids": [
+      "seg_018"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0143",
+    "start_sec": 102.0,
+    "end_sec": 112.0,
+    "event_type": "object_action",
+    "actor_ids": [
+      "person-01"
+    ],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "vlm"
+    ],
+    "description": "joining the child and holding hands",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_characters_0172"
+    ],
+    "source_segment_ids": [
+      "seg_018"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0139",
+    "start_sec": 102.0,
+    "end_sec": 118.0,
+    "event_type": "gesture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks suggest movement in right_arm",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0167",
+      "det_characters_0173"
+    ],
+    "source_segment_ids": [
+      "seg_018",
+      "seg_019"
+    ],
+    "merge_notes": {
+      "merged_count": 2,
+      "conflicts": [],
+      "dropped_interpretive_claims": [],
+      "description_count": 1
+    },
+    "track_ids": [
+      "track-138"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0140",
+    "start_sec": 102.0,
+    "end_sec": 118.0,
+    "event_type": "pose_motion",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks show no clear limb movement",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0169",
+      "det_characters_0176"
+    ],
+    "source_segment_ids": [
+      "seg_018",
+      "seg_019"
+    ],
+    "merge_notes": {
+      "merged_count": 2,
+      "conflicts": [],
+      "dropped_interpretive_claims": [],
+      "description_count": 1
+    },
+    "track_ids": [
+      "track-134"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0018",
+    "start_sec": 108.0,
+    "end_sec": 118.0,
+    "event_type": "scene_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "scene"
+    ],
+    "description": "Two individuals are practicing martial arts in an outdoor setting with traditional architecture and greenery",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_scenes_0019"
+    ],
+    "source_segment_ids": [
+      "seg_019"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "scenes"
+    ]
+  },
+  {
+    "event_id": "evt_0051",
+    "start_sec": 108.0,
+    "end_sec": 118.0,
+    "event_type": "object_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [
+      "traditional_building",
+      "plants"
+    ],
+    "modalities": [
+      "object"
+    ],
+    "description": "Visible objects: traditional building: brick structure with wooden doors; plants: green foliage around the area",
+    "confidence": 0.875,
+    "source_detection_ids": [
+      "det_objects_0053"
+    ],
+    "source_segment_ids": [
+      "seg_019"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "objects"
+    ]
+  },
+  {
+    "event_id": "evt_0144",
+    "start_sec": 108.0,
+    "end_sec": 118.0,
+    "event_type": "gesture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks suggest movement in left_arm",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0174"
+    ],
+    "source_segment_ids": [
+      "seg_019"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-136"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0147",
+    "start_sec": 108.0,
+    "end_sec": 118.0,
+    "event_type": "observed_behavior",
+    "actor_ids": [
+      "person-02"
+    ],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "vlm"
+    ],
+    "description": "practicing martial arts moves",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_characters_0178"
+    ],
+    "source_segment_ids": [
+      "seg_019"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0145",
+    "start_sec": 108.0,
+    "end_sec": 124.0,
+    "event_type": "gesture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks suggest movement in left_arm",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0175",
+      "det_characters_0179"
+    ],
+    "source_segment_ids": [
+      "seg_019",
+      "seg_020"
+    ],
+    "merge_notes": {
+      "merged_count": 2,
+      "conflicts": [],
+      "dropped_interpretive_claims": [],
+      "description_count": 1
+    },
+    "track_ids": [
+      "track-152"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0146",
+    "start_sec": 108.0,
+    "end_sec": 124.0,
+    "event_type": "observed_behavior",
+    "actor_ids": [
+      "person-01",
+      "person-02"
+    ],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "vlm"
+    ],
+    "description": "engaging in martial arts practice",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_characters_0177",
+      "det_characters_0183",
+      "det_characters_0184"
+    ],
+    "source_segment_ids": [
+      "seg_019",
+      "seg_020"
+    ],
+    "merge_notes": {
+      "merged_count": 3,
+      "conflicts": [],
+      "dropped_interpretive_claims": [],
+      "description_count": 1
+    },
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0019",
+    "start_sec": 114.0,
+    "end_sec": 124.0,
+    "event_type": "scene_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "scene"
+    ],
+    "description": "Two individuals are practicing martial arts in an outdoor setting with traditional architecture and greenery",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_scenes_0020"
+    ],
+    "source_segment_ids": [
+      "seg_020"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "scenes"
+    ]
+  },
+  {
+    "event_id": "evt_0052",
+    "start_sec": 114.0,
+    "end_sec": 124.0,
+    "event_type": "object_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [
+      "traditional_building",
+      "plants"
+    ],
+    "modalities": [
+      "object"
+    ],
+    "description": "Visible objects: traditional building: building with wooden doors and windows; plants: green plants near the building",
+    "confidence": 0.875,
+    "source_detection_ids": [
+      "det_objects_0054"
+    ],
+    "source_segment_ids": [
+      "seg_020"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "objects"
+    ]
+  },
+  {
+    "event_id": "evt_0148",
+    "start_sec": 114.0,
+    "end_sec": 124.0,
+    "event_type": "gesture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks suggest movement in left_arm, right_arm, left_leg",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0180"
+    ],
+    "source_segment_ids": [
+      "seg_020"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-138"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0149",
+    "start_sec": 114.0,
+    "end_sec": 124.0,
+    "event_type": "gesture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks suggest movement in left_arm, right_arm",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0181"
+    ],
+    "source_segment_ids": [
+      "seg_020"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-136"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0150",
+    "start_sec": 114.0,
+    "end_sec": 124.0,
+    "event_type": "gesture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks suggest movement in left_arm, right_arm, right_leg",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0182"
+    ],
+    "source_segment_ids": [
+      "seg_020"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-154"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0020",
+    "start_sec": 120.0,
+    "end_sec": 130.0,
+    "event_type": "scene_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "scene"
+    ],
+    "description": "Two individuals appear to be engaged in a physical interaction outdoors, possibly practicing martial arts. The setting includes traditional architecture with wooden furniture and plants",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_scenes_0021"
+    ],
+    "source_segment_ids": [
+      "seg_021"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "scenes"
+    ]
+  },
+  {
+    "event_id": "evt_0053",
+    "start_sec": 120.0,
+    "end_sec": 130.0,
+    "event_type": "object_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [
+      "plants",
+      "furniture"
+    ],
+    "modalities": [
+      "object"
+    ],
+    "description": "Visible objects: plants: green leafy plants; furniture: wooden chairs",
+    "confidence": 0.825,
+    "source_detection_ids": [
+      "det_objects_0055"
+    ],
+    "source_segment_ids": [
+      "seg_021"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "objects"
+    ]
+  },
+  {
+    "event_id": "evt_0151",
+    "start_sec": 120.0,
+    "end_sec": 130.0,
+    "event_type": "gesture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks suggest movement in left_arm, right_arm",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0185"
+    ],
+    "source_segment_ids": [
+      "seg_021"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-138"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0152",
+    "start_sec": 120.0,
+    "end_sec": 130.0,
+    "event_type": "gesture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks suggest movement in left_arm, right_arm",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0186"
+    ],
+    "source_segment_ids": [
+      "seg_021"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-152"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0153",
+    "start_sec": 120.0,
+    "end_sec": 130.0,
+    "event_type": "pose_motion",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks show no clear limb movement",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0187"
+    ],
+    "source_segment_ids": [
+      "seg_021"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-186"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0154",
+    "start_sec": 120.0,
+    "end_sec": 130.0,
+    "event_type": "gesture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks suggest movement in left_arm, right_arm",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0188"
+    ],
+    "source_segment_ids": [
+      "seg_021"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-168"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0155",
+    "start_sec": 120.0,
+    "end_sec": 130.0,
+    "event_type": "gesture",
+    "actor_ids": [
+      "person-01"
+    ],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "vlm"
+    ],
+    "description": "gesturing with hands, possibly teaching or demonstrating",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_characters_0189"
+    ],
+    "source_segment_ids": [
+      "seg_021"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0156",
+    "start_sec": 120.0,
+    "end_sec": 130.0,
+    "event_type": "gesture",
+    "actor_ids": [
+      "person-02"
+    ],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "vlm"
+    ],
+    "description": "mimicking hand gestures, possibly learning",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_characters_0190"
+    ],
+    "source_segment_ids": [
+      "seg_021"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0021",
+    "start_sec": 126.0,
+    "end_sec": 136.0,
+    "event_type": "scene_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "scene"
+    ],
+    "description": "Two individuals are engaged in an interaction outdoors near a brick wall and greenery",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_scenes_0022"
+    ],
+    "source_segment_ids": [
+      "seg_022"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "scenes"
+    ]
+  },
+  {
+    "event_id": "evt_0054",
+    "start_sec": 126.0,
+    "end_sec": 136.0,
+    "event_type": "object_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [
+      "brick_wall",
+      "greenery"
+    ],
+    "modalities": [
+      "object"
+    ],
+    "description": "Visible objects: brick wall: a weathered brick wall with some greenery around; greenery: plants and trees in the background",
+    "confidence": 0.825,
+    "source_detection_ids": [
+      "det_objects_0056"
+    ],
+    "source_segment_ids": [
+      "seg_022"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "objects"
+    ]
+  },
+  {
+    "event_id": "evt_0159",
+    "start_sec": 126.0,
+    "end_sec": 136.0,
+    "event_type": "gesture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks suggest movement in left_arm, right_arm",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0193"
+    ],
+    "source_segment_ids": [
+      "seg_022"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-194"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0160",
+    "start_sec": 126.0,
+    "end_sec": 136.0,
+    "event_type": "gesture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks suggest movement in left_arm",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0194"
+    ],
+    "source_segment_ids": [
+      "seg_022"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-152"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0161",
+    "start_sec": 126.0,
+    "end_sec": 136.0,
+    "event_type": "gesture",
+    "actor_ids": [
+      "person-01"
+    ],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "vlm"
+    ],
+    "description": "gesturing with hands near chest",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_characters_0195"
+    ],
+    "source_segment_ids": [
+      "seg_022"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0162",
+    "start_sec": 126.0,
+    "end_sec": 136.0,
+    "event_type": "gesture",
+    "actor_ids": [
+      "person-02"
+    ],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "vlm"
+    ],
+    "description": "raising hand towards face",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_characters_0196"
+    ],
+    "source_segment_ids": [
+      "seg_022"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0157",
+    "start_sec": 126.0,
+    "end_sec": 142.0,
+    "event_type": "gesture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks suggest movement in left_arm",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0191",
+      "det_characters_0199"
+    ],
+    "source_segment_ids": [
+      "seg_022",
+      "seg_023"
+    ],
+    "merge_notes": {
+      "merged_count": 2,
+      "conflicts": [],
+      "dropped_interpretive_claims": [],
+      "description_count": 1
+    },
+    "track_ids": [
+      "track-190"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0158",
+    "start_sec": 126.0,
+    "end_sec": 142.0,
+    "event_type": "gesture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks suggest movement in left_arm, right_arm",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0192",
+      "det_characters_0200"
+    ],
+    "source_segment_ids": [
+      "seg_022",
+      "seg_023"
+    ],
+    "merge_notes": {
+      "merged_count": 2,
+      "conflicts": [],
+      "dropped_interpretive_claims": [],
+      "description_count": 1
+    },
+    "track_ids": [
+      "track-189"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0022",
+    "start_sec": 132.0,
+    "end_sec": 142.0,
+    "event_type": "scene_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "scene"
+    ],
+    "description": "A person in a white shirt interacts with another person who has braided hair. The second person performs a physical action involving their hands",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_scenes_0023"
+    ],
+    "source_segment_ids": [
+      "seg_023"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "scenes"
+    ]
+  },
+  {
+    "event_id": "evt_0055",
+    "start_sec": 132.0,
+    "end_sec": 142.0,
+    "event_type": "object_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [
+      "white_shirt",
+      "braided_hair"
+    ],
+    "modalities": [
+      "object"
+    ],
+    "description": "Visible objects: white shirt: person wearing a white shirt; braided hair: person with braided hair",
+    "confidence": 0.95,
+    "source_detection_ids": [
+      "det_objects_0057"
+    ],
+    "source_segment_ids": [
+      "seg_023"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "objects"
+    ]
+  },
+  {
+    "event_id": "evt_0163",
+    "start_sec": 132.0,
+    "end_sec": 142.0,
+    "event_type": "gesture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks suggest movement in left_arm, right_arm",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0197"
+    ],
+    "source_segment_ids": [
+      "seg_023"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-208"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0165",
+    "start_sec": 132.0,
+    "end_sec": 142.0,
+    "event_type": "observed_behavior",
+    "actor_ids": [
+      "person-01"
+    ],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "vlm"
+    ],
+    "description": "interacting with another person",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_characters_0201"
+    ],
+    "source_segment_ids": [
+      "seg_023"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0166",
+    "start_sec": 132.0,
+    "end_sec": 142.0,
+    "event_type": "gesture",
+    "actor_ids": [
+      "person-02"
+    ],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "vlm"
+    ],
+    "description": "performing a physical action with hands",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_characters_0202"
+    ],
+    "source_segment_ids": [
+      "seg_023"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0164",
+    "start_sec": 132.0,
+    "end_sec": 148.0,
+    "event_type": "gesture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks suggest movement in left_arm, right_arm, left_leg, right_leg",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0198",
+      "det_characters_0204"
+    ],
+    "source_segment_ids": [
+      "seg_023",
+      "seg_024"
+    ],
+    "merge_notes": {
+      "merged_count": 2,
+      "conflicts": [],
+      "dropped_interpretive_claims": [],
+      "description_count": 1
+    },
+    "track_ids": [
+      "track-199"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0023",
+    "start_sec": 138.0,
+    "end_sec": 148.0,
+    "event_type": "scene_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "scene"
+    ],
+    "description": "A person with braided hair is practicing hand movements in an outdoor setting with greenery",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_scenes_0024"
+    ],
+    "source_segment_ids": [
+      "seg_024"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "scenes"
+    ]
+  },
+  {
+    "event_id": "evt_0056",
+    "start_sec": 138.0,
+    "end_sec": 148.0,
+    "event_type": "object_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [
+      "trees",
+      "plants"
+    ],
+    "modalities": [
+      "object"
+    ],
+    "description": "Visible objects: trees: green trees in the background; plants: various plants around the area",
+    "confidence": 0.825,
+    "source_detection_ids": [
+      "det_objects_0058"
+    ],
+    "source_segment_ids": [
+      "seg_024"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "objects"
+    ]
+  },
+  {
+    "event_id": "evt_0168",
+    "start_sec": 138.0,
+    "end_sec": 148.0,
+    "event_type": "gesture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks suggest movement in left_arm",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0205"
+    ],
+    "source_segment_ids": [
+      "seg_024"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-208"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0169",
+    "start_sec": 138.0,
+    "end_sec": 148.0,
+    "event_type": "gesture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks suggest movement in left_arm, right_arm",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0206"
+    ],
+    "source_segment_ids": [
+      "seg_024"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-228"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0170",
+    "start_sec": 138.0,
+    "end_sec": 148.0,
+    "event_type": "gesture",
+    "actor_ids": [
+      "person-02"
+    ],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "vlm"
+    ],
+    "description": "practicing hand movements",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_characters_0207"
+    ],
+    "source_segment_ids": [
+      "seg_024"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0171",
+    "start_sec": 138.0,
+    "end_sec": 148.0,
+    "event_type": "observed_behavior",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "vlm"
+    ],
+    "description": "interacting with person-02",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0208"
+    ],
+    "source_segment_ids": [
+      "seg_024"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0167",
+    "start_sec": 138.0,
+    "end_sec": 154.0,
+    "event_type": "gesture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks suggest movement in left_arm, right_arm, left_leg, right_leg",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0203",
+      "det_characters_0209"
+    ],
+    "source_segment_ids": [
+      "seg_024",
+      "seg_025"
+    ],
+    "merge_notes": {
+      "merged_count": 2,
+      "conflicts": [],
+      "dropped_interpretive_claims": [],
+      "description_count": 1
+    },
+    "track_ids": [
+      "track-225"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0024",
+    "start_sec": 144.0,
+    "end_sec": 154.0,
+    "event_type": "scene_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "scene"
+    ],
+    "description": "Two individuals are practicing martial arts in an outdoor setting with plants and traditional architecture",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_scenes_0025"
+    ],
+    "source_segment_ids": [
+      "seg_025"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "scenes"
+    ]
+  },
+  {
+    "event_id": "evt_0057",
+    "start_sec": 144.0,
+    "end_sec": 154.0,
+    "event_type": "object_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [
+      "plants",
+      "architecture"
+    ],
+    "modalities": [
+      "object"
+    ],
+    "description": "Visible objects: plants: various potted plants; architecture: traditional building structure",
+    "confidence": 0.75,
+    "source_detection_ids": [
+      "det_objects_0059"
+    ],
+    "source_segment_ids": [
+      "seg_025"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "objects"
+    ]
+  },
+  {
+    "event_id": "evt_0172",
+    "start_sec": 144.0,
+    "end_sec": 154.0,
+    "event_type": "pose_motion",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks show no clear limb movement",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0210"
+    ],
+    "source_segment_ids": [
+      "seg_025"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-227"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0173",
+    "start_sec": 144.0,
+    "end_sec": 154.0,
+    "event_type": "gesture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks suggest movement in left_arm, right_arm, right_leg",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0211"
+    ],
+    "source_segment_ids": [
+      "seg_025"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-208"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0174",
+    "start_sec": 144.0,
+    "end_sec": 154.0,
+    "event_type": "gesture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks suggest movement in left_arm, right_arm, left_leg, right_leg",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0212"
+    ],
+    "source_segment_ids": [
+      "seg_025"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-228"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0175",
+    "start_sec": 144.0,
+    "end_sec": 154.0,
+    "event_type": "observed_behavior",
+    "actor_ids": [
+      "person-01",
+      "person-02"
+    ],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "vlm"
+    ],
+    "description": "practicing martial arts moves",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_characters_0213",
+      "det_characters_0214"
+    ],
+    "source_segment_ids": [
+      "seg_025"
+    ],
+    "merge_notes": {
+      "merged_count": 2,
+      "conflicts": [],
+      "dropped_interpretive_claims": [],
+      "description_count": 1
+    },
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0025",
+    "start_sec": 150.0,
+    "end_sec": 160.0,
+    "event_type": "scene_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "scene"
+    ],
+    "description": "A person and a girl are engaged in a physical interaction outdoors, surrounded by plants and a house. The lighting changes to a bright, hazy effect as they continue their interaction",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_scenes_0026"
+    ],
+    "source_segment_ids": [
+      "seg_026"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "scenes"
+    ]
+  },
+  {
+    "event_id": "evt_0058",
+    "start_sec": 150.0,
+    "end_sec": 160.0,
+    "event_type": "object_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [
+      "plants",
+      "house"
+    ],
+    "modalities": [
+      "object"
+    ],
+    "description": "Visible objects: plants: various potted plants around the area; house: a house with steps leading up to it",
+    "confidence": 0.75,
+    "source_detection_ids": [
+      "det_objects_0060"
+    ],
+    "source_segment_ids": [
+      "seg_026"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "objects"
+    ]
+  },
+  {
+    "event_id": "evt_0176",
+    "start_sec": 150.0,
+    "end_sec": 160.0,
+    "event_type": "gesture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks suggest movement in right_arm",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0215"
+    ],
+    "source_segment_ids": [
+      "seg_026"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-228"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0177",
+    "start_sec": 150.0,
+    "end_sec": 160.0,
+    "event_type": "pose_motion",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks show no clear limb movement",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0216"
+    ],
+    "source_segment_ids": [
+      "seg_026"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-242"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0178",
+    "start_sec": 150.0,
+    "end_sec": 160.0,
+    "event_type": "gesture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks suggest movement in left_arm, right_arm",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0217"
+    ],
+    "source_segment_ids": [
+      "seg_026"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-235"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0179",
+    "start_sec": 150.0,
+    "end_sec": 160.0,
+    "event_type": "gesture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks suggest movement in left_arm",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0218"
+    ],
+    "source_segment_ids": [
+      "seg_026"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-247"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0180",
+    "start_sec": 150.0,
+    "end_sec": 160.0,
+    "event_type": "observed_behavior",
+    "actor_ids": [
+      "person-01",
+      "person-02"
+    ],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "vlm"
+    ],
+    "description": "engaged in physical interaction with another person",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_characters_0219",
+      "det_characters_0220"
+    ],
+    "source_segment_ids": [
+      "seg_026"
+    ],
+    "merge_notes": {
+      "merged_count": 2,
+      "conflicts": [],
+      "dropped_interpretive_claims": [],
+      "description_count": 1
+    },
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0026",
+    "start_sec": 156.0,
+    "end_sec": 166.0,
+    "event_type": "scene_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "scene"
+    ],
+    "description": "An outdoor setting with two individuals in close proximity. One individual appears to be mouth open while the other listens attentively",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_scenes_0027"
+    ],
+    "source_segment_ids": [
+      "seg_027"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "scenes"
+    ]
+  },
+  {
+    "event_id": "evt_0059",
+    "start_sec": 156.0,
+    "end_sec": 166.0,
+    "event_type": "object_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [
+      "outdoor_environment"
+    ],
+    "modalities": [
+      "object"
+    ],
+    "description": "Visible objects: outdoor environment: background with greenery and structures",
+    "confidence": 0.8,
+    "source_detection_ids": [
+      "det_objects_0061"
+    ],
+    "source_segment_ids": [
+      "seg_027"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "objects"
+    ]
+  },
+  {
+    "event_id": "evt_0181",
+    "start_sec": 156.0,
+    "end_sec": 166.0,
+    "event_type": "gesture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks suggest movement in left_arm, right_arm",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0221"
+    ],
+    "source_segment_ids": [
+      "seg_027"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-242"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0182",
+    "start_sec": 156.0,
+    "end_sec": 166.0,
+    "event_type": "gesture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks suggest movement in right_arm",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0222"
+    ],
+    "source_segment_ids": [
+      "seg_027"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-256"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0183",
+    "start_sec": 156.0,
+    "end_sec": 166.0,
+    "event_type": "gesture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks suggest movement in left_arm, right_arm",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0223"
+    ],
+    "source_segment_ids": [
+      "seg_027"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-259"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0184",
+    "start_sec": 156.0,
+    "end_sec": 166.0,
+    "event_type": "pose_motion",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks show no clear limb movement",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0224"
+    ],
+    "source_segment_ids": [
+      "seg_027"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-253"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0186",
+    "start_sec": 156.0,
+    "end_sec": 166.0,
+    "event_type": "observed_behavior",
+    "actor_ids": [
+      "person-02"
+    ],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "vlm"
+    ],
+    "description": "listening attentively",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_characters_0226"
+    ],
+    "source_segment_ids": [
+      "seg_027"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0185",
+    "start_sec": 156.0,
+    "end_sec": 172.0,
+    "event_type": "vocalization_or_mouth_movement",
+    "actor_ids": [
+      "person-01"
+    ],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "vlm"
+    ],
+    "description": "appears to be mouth open",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_characters_0225",
+      "det_characters_0230"
+    ],
+    "source_segment_ids": [
+      "seg_027",
+      "seg_028"
+    ],
+    "merge_notes": {
+      "merged_count": 2,
+      "conflicts": [],
+      "dropped_interpretive_claims": [],
+      "description_count": 1
+    },
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0027",
+    "start_sec": 162.0,
+    "end_sec": 172.0,
+    "event_type": "scene_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "scene"
+    ],
+    "description": "Two individuals are in an outdoor setting with greenery and structures in the background. One individual appears to be mouth open to the other",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_scenes_0028"
+    ],
+    "source_segment_ids": [
+      "seg_028"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "scenes"
+    ]
+  },
+  {
+    "event_id": "evt_0060",
+    "start_sec": 162.0,
+    "end_sec": 172.0,
+    "event_type": "object_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [
+      "greenery",
+      "structures"
+    ],
+    "modalities": [
+      "object"
+    ],
+    "description": "Visible objects: greenery: plants and trees in the background; structures: buildings or walls partially visible",
+    "confidence": 0.825,
+    "source_detection_ids": [
+      "det_objects_0062"
+    ],
+    "source_segment_ids": [
+      "seg_028"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "objects"
+    ]
+  },
+  {
+    "event_id": "evt_0187",
+    "start_sec": 162.0,
+    "end_sec": 172.0,
+    "event_type": "pose_motion",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks show no clear limb movement",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0227"
+    ],
+    "source_segment_ids": [
+      "seg_028"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-259"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0190",
+    "start_sec": 162.0,
+    "end_sec": 172.0,
+    "event_type": "observed_behavior",
+    "actor_ids": [
+      "person-02"
+    ],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "vlm"
+    ],
+    "description": "appears to be listening",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_characters_0231"
+    ],
+    "source_segment_ids": [
+      "seg_028"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0189",
+    "start_sec": 162.0,
+    "end_sec": 178.0,
+    "event_type": "pose_motion",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks show no clear limb movement",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0229",
+      "det_characters_0233"
+    ],
+    "source_segment_ids": [
+      "seg_028",
+      "seg_029"
+    ],
+    "merge_notes": {
+      "merged_count": 2,
+      "conflicts": [],
+      "dropped_interpretive_claims": [],
+      "description_count": 1
+    },
+    "track_ids": [
+      "track-284"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0188",
+    "start_sec": 162.0,
+    "end_sec": 184.0,
+    "event_type": "pose_motion",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks show no clear limb movement",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0228",
+      "det_characters_0232",
+      "det_characters_0240"
+    ],
+    "source_segment_ids": [
+      "seg_028",
+      "seg_029",
+      "seg_030"
+    ],
+    "merge_notes": {
+      "merged_count": 3,
+      "conflicts": [],
+      "dropped_interpretive_claims": [],
+      "description_count": 1
+    },
+    "track_ids": [
+      "track-242"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0028",
+    "start_sec": 168.0,
+    "end_sec": 178.0,
+    "event_type": "scene_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "scene"
+    ],
+    "description": "A close-up interaction between two individuals in an outdoor setting with sunlight and lens flare effects",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_scenes_0029"
+    ],
+    "source_segment_ids": [
+      "seg_029"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "scenes"
+    ]
+  },
+  {
+    "event_id": "evt_0061",
+    "start_sec": 168.0,
+    "end_sec": 178.0,
+    "event_type": "object_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [
+      "sunlight"
+    ],
+    "modalities": [
+      "object"
+    ],
+    "description": "Visible objects: sunlight: bright light source creating lens flares",
+    "confidence": 0.95,
+    "source_detection_ids": [
+      "det_objects_0063"
+    ],
+    "source_segment_ids": [
+      "seg_029"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "objects"
+    ]
+  },
+  {
+    "event_id": "evt_0191",
+    "start_sec": 168.0,
+    "end_sec": 178.0,
+    "event_type": "pose_motion",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks show no clear limb movement",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0234"
+    ],
+    "source_segment_ids": [
+      "seg_029"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-300"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0192",
+    "start_sec": 168.0,
+    "end_sec": 178.0,
+    "event_type": "gesture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks suggest movement in left_arm, right_arm",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0235"
+    ],
+    "source_segment_ids": [
+      "seg_029"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-289"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0193",
+    "start_sec": 168.0,
+    "end_sec": 178.0,
+    "event_type": "observed_behavior",
+    "actor_ids": [
+      "person-01"
+    ],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "vlm"
+    ],
+    "description": "engaged in visible interaction or interaction",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_characters_0236"
+    ],
+    "source_segment_ids": [
+      "seg_029"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0194",
+    "start_sec": 168.0,
+    "end_sec": 178.0,
+    "event_type": "gaze_head_orientation",
+    "actor_ids": [
+      "person-02"
+    ],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "vlm"
+    ],
+    "description": "facing the other individual",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_characters_0237"
+    ],
+    "source_segment_ids": [
+      "seg_029"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0029",
+    "start_sec": 174.0,
+    "end_sec": 184.0,
+    "event_type": "scene_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "scene"
+    ],
+    "description": "A person and a child are in close proximity, possibly interacting. The background is blurred, suggesting an outdoor setting. There are promotional elements for 'The Karate Kid' movie clips",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_scenes_0030"
+    ],
+    "source_segment_ids": [
+      "seg_030"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "scenes"
+    ]
+  },
+  {
+    "event_id": "evt_0062",
+    "start_sec": 174.0,
+    "end_sec": 184.0,
+    "event_type": "object_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [
+      "movie_poster",
+      "text_overlay"
+    ],
+    "modalities": [
+      "object"
+    ],
+    "description": "Visible objects: movie poster: a red movie poster for 'The Karate Kid'; text overlay: promotional text overlays for Fandango Movieclips",
+    "confidence": 0.925,
+    "source_detection_ids": [
+      "det_objects_0064"
+    ],
+    "source_segment_ids": [
+      "seg_030"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "objects"
+    ]
+  },
+  {
+    "event_id": "evt_0195",
+    "start_sec": 174.0,
+    "end_sec": 184.0,
+    "event_type": "pose_motion",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks show no clear limb movement",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0238"
+    ],
+    "source_segment_ids": [
+      "seg_030"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-303"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0196",
+    "start_sec": 174.0,
+    "end_sec": 184.0,
+    "event_type": "gesture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks suggest movement in right_arm",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0239"
+    ],
+    "source_segment_ids": [
+      "seg_030"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-312"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0197",
+    "start_sec": 174.0,
+    "end_sec": 184.0,
+    "event_type": "pose_motion",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks show no clear limb movement",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0241"
+    ],
+    "source_segment_ids": [
+      "seg_030"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-314"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0198",
+    "start_sec": 174.0,
+    "end_sec": 184.0,
+    "event_type": "vocalization_or_mouth_movement",
+    "actor_ids": [
+      "person-01"
+    ],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "vlm"
+    ],
+    "description": "appears to be mouth open or interacting with the child",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_characters_0242"
+    ],
+    "source_segment_ids": [
+      "seg_030"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0199",
+    "start_sec": 174.0,
+    "end_sec": 184.0,
+    "event_type": "observed_behavior",
+    "actor_ids": [
+      "person-02"
+    ],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "vlm"
+    ],
+    "description": "appears to be listening or interacting with the person",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_characters_0243"
+    ],
+    "source_segment_ids": [
+      "seg_030"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0030",
+    "start_sec": 180.0,
+    "end_sec": 190.0,
+    "event_type": "scene_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "scene"
+    ],
+    "description": "A promotional screen for Fandango Movieclips featuring movie clips and trailers",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_scenes_0031"
+    ],
+    "source_segment_ids": [
+      "seg_031"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "scenes"
+    ]
+  },
+  {
+    "event_id": "evt_0063",
+    "start_sec": 180.0,
+    "end_sec": 190.0,
+    "event_type": "object_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [
+      "movie_poster",
+      "thumbnails"
+    ],
+    "modalities": [
+      "object"
+    ],
+    "description": "Visible objects: movie poster: a red-themed movie poster; thumbnails: thumbnails showing scenes from movies",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_objects_0065"
+    ],
+    "source_segment_ids": [
+      "seg_031"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "objects"
+    ]
+  },
+  {
+    "event_id": "evt_0200",
+    "start_sec": 180.0,
+    "end_sec": 190.0,
+    "event_type": "gesture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks suggest movement in left_arm, left_leg, right_leg",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0244"
+    ],
+    "source_segment_ids": [
+      "seg_031"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-303"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0201",
+    "start_sec": 180.0,
+    "end_sec": 190.0,
+    "event_type": "gesture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks suggest movement in left_arm, right_arm, left_leg, right_leg",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0245"
+    ],
+    "source_segment_ids": [
+      "seg_031"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-314"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0202",
+    "start_sec": 180.0,
+    "end_sec": 190.0,
+    "event_type": "pose_motion",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks show no clear limb movement",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0246"
+    ],
+    "source_segment_ids": [
+      "seg_031"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-322"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0204",
+    "start_sec": 180.0,
+    "end_sec": 190.0,
+    "event_type": "observed_behavior",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "vlm"
+    ],
+    "description": "not applicable in still images",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_characters_0248"
+    ],
+    "source_segment_ids": [
+      "seg_031"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0203",
+    "start_sec": 180.0,
+    "end_sec": 196.0,
+    "event_type": "pose_motion",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks show no clear limb movement",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0247",
+      "det_characters_0251"
+    ],
+    "source_segment_ids": [
+      "seg_031",
+      "seg_032"
+    ],
+    "merge_notes": {
+      "merged_count": 2,
+      "conflicts": [],
+      "dropped_interpretive_claims": [],
+      "description_count": 1
+    },
+    "track_ids": [
+      "track-404"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0031",
+    "start_sec": 186.0,
+    "end_sec": 196.0,
+    "event_type": "scene_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "scene"
+    ],
+    "description": "A screenshot of the Fandango Movieclips interface showing options like 'Watch More Hot New Trailers', 'Watch More Movieclips', and 'Download the App'",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_scenes_0032"
+    ],
+    "source_segment_ids": [
+      "seg_032"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "scenes"
+    ]
+  },
+  {
+    "event_id": "evt_0064",
+    "start_sec": 186.0,
+    "end_sec": 196.0,
+    "event_type": "object_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [
+      "movie_clips_interface",
+      "mobile_phone"
+    ],
+    "modalities": [
+      "object"
+    ],
+    "description": "Visible objects: movie clips interface: interface displaying movie trailers and clips; mobile phone: phone screen showing an app interface",
+    "confidence": 0.925,
+    "source_detection_ids": [
+      "det_objects_0066"
+    ],
+    "source_segment_ids": [
+      "seg_032"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "objects"
+    ]
+  },
+  {
+    "event_id": "evt_0205",
+    "start_sec": 186.0,
+    "end_sec": 196.0,
+    "event_type": "pose_motion",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks show no clear limb movement",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0249"
+    ],
+    "source_segment_ids": [
+      "seg_032"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-503"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0207",
+    "start_sec": 186.0,
+    "end_sec": 196.0,
+    "event_type": "pose_motion",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks show no clear limb movement",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0252"
+    ],
+    "source_segment_ids": [
+      "seg_032"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-505"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0206",
+    "start_sec": 186.0,
+    "end_sec": 202.0,
+    "event_type": "gesture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks suggest movement in left_arm, right_arm",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0250",
+      "det_characters_0254"
+    ],
+    "source_segment_ids": [
+      "seg_032",
+      "seg_033"
+    ],
+    "merge_notes": {
+      "merged_count": 2,
+      "conflicts": [],
+      "dropped_interpretive_claims": [],
+      "description_count": 1
+    },
+    "track_ids": [
+      "track-460"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0032",
+    "start_sec": 192.0,
+    "end_sec": 202.0,
+    "event_type": "scene_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "scene"
+    ],
+    "description": "A graphic interface displaying movie clips with categories such as actors, director, theme, character type, and action. The layout includes images, text labels, and a call-to-action button",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_scenes_0033"
+    ],
+    "source_segment_ids": [
+      "seg_033"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "scenes"
+    ]
+  },
+  {
+    "event_id": "evt_0065",
+    "start_sec": 192.0,
+    "end_sec": 202.0,
+    "event_type": "object_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [
+      "movie_clip_thumbnails",
+      "text_labels"
+    ],
+    "modalities": [
+      "object"
+    ],
+    "description": "Visible objects: movie clip thumbnails: thumbnails showing scenes and people related to movies.; text labels: labels identifying categories like actor, director, theme, etc",
+    "confidence": 0.925,
+    "source_detection_ids": [
+      "det_objects_0067"
+    ],
+    "source_segment_ids": [
+      "seg_033"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "objects"
+    ]
+  },
+  {
+    "event_id": "evt_0211",
+    "start_sec": 192.0,
+    "end_sec": 202.0,
+    "event_type": "observed_behavior",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "vlm"
+    ],
+    "description": "not applicable in this context",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_characters_0257"
+    ],
+    "source_segment_ids": [
+      "seg_033"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0208",
+    "start_sec": 192.0,
+    "end_sec": 206.915,
+    "event_type": "pose_motion",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks show no clear limb movement",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0253",
+      "det_characters_0258"
+    ],
+    "source_segment_ids": [
+      "seg_033",
+      "seg_034"
+    ],
+    "merge_notes": {
+      "merged_count": 2,
+      "conflicts": [],
+      "dropped_interpretive_claims": [],
+      "description_count": 1
+    },
+    "track_ids": [
+      "track-521"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0209",
+    "start_sec": 192.0,
+    "end_sec": 206.915,
+    "event_type": "gesture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks suggest movement in left_arm",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0255",
+      "det_characters_0259"
+    ],
+    "source_segment_ids": [
+      "seg_033",
+      "seg_034"
+    ],
+    "merge_notes": {
+      "merged_count": 2,
+      "conflicts": [],
+      "dropped_interpretive_claims": [],
+      "description_count": 1
+    },
+    "track_ids": [
+      "track-503"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0210",
+    "start_sec": 192.0,
+    "end_sec": 206.915,
+    "event_type": "pose_motion",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks show no clear limb movement",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0256",
+      "det_characters_0260"
+    ],
+    "source_segment_ids": [
+      "seg_033",
+      "seg_034"
+    ],
+    "merge_notes": {
+      "merged_count": 2,
+      "conflicts": [],
+      "dropped_interpretive_claims": [],
+      "description_count": 1
+    },
+    "track_ids": [
+      "track-525"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0033",
+    "start_sec": 198.0,
+    "end_sec": 206.915,
+    "event_type": "scene_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "scene"
+    ],
+    "description": "A graphic interface displaying movie clips with categories such as 'Discipline', 'Child', and 'Fight'",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_scenes_0034"
+    ],
+    "source_segment_ids": [
+      "seg_034"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "scenes"
+    ]
+  },
+  {
+    "event_id": "evt_0066",
+    "start_sec": 198.0,
+    "end_sec": 206.915,
+    "event_type": "object_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [
+      "movie_clip_thumbnails",
+      "text_elements"
+    ],
+    "modalities": [
+      "object"
+    ],
+    "description": "Visible objects: movie clip thumbnails: thumbnails showing scenes related to discipline, child, and fight.; text elements: text indicating theme, character type, action, and instructions to subscribe and watch more clips",
+    "confidence": 0.95,
+    "source_detection_ids": [
+      "det_objects_0068"
+    ],
+    "source_segment_ids": [
+      "seg_034"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "objects"
+    ]
+  },
+  {
+    "event_id": "evt_0212",
+    "start_sec": 198.0,
+    "end_sec": 206.915,
+    "event_type": "pose_motion",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks show no clear limb movement",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0261"
+    ],
+    "source_segment_ids": [
+      "seg_034"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-528"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  }
+]

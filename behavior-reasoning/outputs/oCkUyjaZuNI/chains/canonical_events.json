@@ -1,6 +1,65 @@
 [
   {
-    "event_id": "evt_0015",
+    "event_id": "evt_0001",
+    "start_sec": 0.0,
+    "end_sec": 10.0,
+    "event_type": "scene_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "scene"
+    ],
+    "description": "A person wearing a backpack walks down a hallway",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_scenes_0001"
+    ],
+    "source_segment_ids": [
+      "seg_001"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "scenes"
+    ]
+  },
+  {
+    "event_id": "evt_0010",
+    "start_sec": 0.0,
+    "end_sec": 10.0,
+    "event_type": "object_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [
+      "backpack",
+      "hallway"
+    ],
+    "modalities": [
+      "object"
+    ],
+    "description": "Visible objects: backpack: black and red backpack; hallway: indoor hallway with neutral walls",
+    "confidence": 0.925,
+    "source_detection_ids": [
+      "det_objects_0017"
+    ],
+    "source_segment_ids": [
+      "seg_001"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "objects"
+    ]
+  },
+  {
+    "event_id": "evt_0019",
     "start_sec": 0.0,
     "end_sec": 10.0,
     "event_type": "gesture",
@@ -13,7 +72,7 @@
       "motion",
       "pose"
     ],
-    "description": "Pose landmarks suggest movement in left_arm, right_arm, right_leg",
+    "description": "Pose landmarks suggest movement in right_arm, right_leg",
     "confidence": 0.6,
     "source_detection_ids": [
       "det_characters_0033"
@@ -27,14 +86,14 @@
       "dropped_interpretive_claims": []
     },
     "track_ids": [
-      "track-18"
+      "track-20"
     ],
     "source_kinds": [
       "characters"
     ]
   },
   {
-    "event_id": "evt_0016",
+    "event_id": "evt_0021",
     "start_sec": 0.0,
     "end_sec": 10.0,
     "event_type": "gesture",
@@ -47,10 +106,10 @@
       "motion",
       "pose"
     ],
-    "description": "Pose landmarks suggest movement in left_arm, left_leg",
+    "description": "Pose landmarks suggest movement in left_arm, right_arm, left_leg, right_leg",
     "confidence": 0.6,
     "source_detection_ids": [
-      "det_characters_0034"
+      "det_characters_0035"
     ],
     "source_segment_ids": [
       "seg_001"
@@ -61,14 +120,14 @@
       "dropped_interpretive_claims": []
     },
     "track_ids": [
-      "track-5"
+      "track-16"
     ],
     "source_kinds": [
       "characters"
     ]
   },
   {
-    "event_id": "evt_0018",
+    "event_id": "evt_0022",
     "start_sec": 0.0,
     "end_sec": 10.0,
     "event_type": "pose_motion",
@@ -95,14 +154,45 @@
       "dropped_interpretive_claims": []
     },
     "track_ids": [
-      "track-22"
+      "track-23"
     ],
     "source_kinds": [
       "characters"
     ]
   },
   {
-    "event_id": "evt_0017",
+    "event_id": "evt_0023",
+    "start_sec": 0.0,
+    "end_sec": 10.0,
+    "event_type": "locomotion_posture",
+    "actor_ids": [
+      "person-01"
+    ],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "vlm"
+    ],
+    "description": "walking in a hallway",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_characters_0037"
+    ],
+    "source_segment_ids": [
+      "seg_001"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0020",
     "start_sec": 0.0,
     "end_sec": 16.0,
     "event_type": "gesture",
@@ -118,8 +208,8 @@
     "description": "Pose landmarks suggest movement in left_arm, right_arm, left_leg, right_leg",
     "confidence": 0.6,
     "source_detection_ids": [
-      "det_characters_0035",
-      "det_characters_0040"
+      "det_characters_0034",
+      "det_characters_0041"
     ],
     "source_segment_ids": [
       "seg_001",
@@ -129,17 +219,17 @@
       "merged_count": 2,
       "conflicts": [],
       "dropped_interpretive_claims": [],
-      "description_count": 1
+      "description_count": 2
     },
     "track_ids": [
-      "track-14"
+      "track-4"
     ],
     "source_kinds": [
       "characters"
     ]
   },
   {
-    "event_id": "evt_0001",
+    "event_id": "evt_0002",
     "start_sec": 6.0,
     "end_sec": 16.0,
     "event_type": "scene_context",
@@ -149,7 +239,7 @@
     "modalities": [
       "scene"
     ],
-    "description": "A person is bending over in a dimly lit room, possibly picking something up off the floor",
+    "description": "A person in dark clothing is seen from behind walking through a well-lit room with large windows and furniture",
     "confidence": 0.9,
     "source_detection_ids": [
       "det_scenes_0002"
@@ -167,21 +257,22 @@
     ]
   },
   {
-    "event_id": "evt_0008",
+    "event_id": "evt_0011",
     "start_sec": 6.0,
     "end_sec": 16.0,
     "event_type": "object_context",
     "actor_ids": [],
     "target_ids": [],
     "object_ids": [
-      "floor",
-      "bag"
+      "room",
+      "window",
+      "furniture"
     ],
     "modalities": [
       "object"
     ],
-    "description": "Visible objects: floor: The surface where the person is bending over.; bag: A bag lying on the floor near the person",
-    "confidence": 0.5,
+    "description": "Visible objects: room: interior space with windows and furniture; window: large windows letting in natural light; furniture: seating and other items in the room",
+    "confidence": 0.9,
     "source_detection_ids": [
       "det_objects_0018"
     ],
@@ -198,7 +289,7 @@
     ]
   },
   {
-    "event_id": "evt_0019",
+    "event_id": "evt_0025",
     "start_sec": 6.0,
     "end_sec": 16.0,
     "event_type": "pose_motion",
@@ -214,7 +305,7 @@
     "description": "Pose landmarks show no clear limb movement",
     "confidence": 0.6,
     "source_detection_ids": [
-      "det_characters_0037"
+      "det_characters_0039"
     ],
     "source_segment_ids": [
       "seg_002"
@@ -225,14 +316,14 @@
       "dropped_interpretive_claims": []
     },
     "track_ids": [
-      "track-18"
+      "track-20"
     ],
     "source_kinds": [
       "characters"
     ]
   },
   {
-    "event_id": "evt_0021",
+    "event_id": "evt_0026",
     "start_sec": 6.0,
     "end_sec": 16.0,
     "event_type": "gesture",
@@ -248,7 +339,7 @@
     "description": "Pose landmarks suggest movement in left_arm, right_arm",
     "confidence": 0.6,
     "source_detection_ids": [
-      "det_characters_0039"
+      "det_characters_0040"
     ],
     "source_segment_ids": [
       "seg_002"
@@ -259,17 +350,17 @@
       "dropped_interpretive_claims": []
     },
     "track_ids": [
-      "track-21"
+      "track-55"
     ],
     "source_kinds": [
       "characters"
     ]
   },
   {
-    "event_id": "evt_0022",
+    "event_id": "evt_0027",
     "start_sec": 6.0,
     "end_sec": 16.0,
-    "event_type": "object_action",
+    "event_type": "locomotion_posture",
     "actor_ids": [
       "person-01"
     ],
@@ -279,10 +370,10 @@
       "rgb",
       "vlm"
     ],
-    "description": "bending over, reaching down towards the floor",
+    "description": "walking through the room",
     "confidence": 0.9,
     "source_detection_ids": [
-      "det_characters_0041"
+      "det_characters_0042"
     ],
     "source_segment_ids": [
       "seg_002"
@@ -297,7 +388,7 @@
     ]
   },
   {
-    "event_id": "evt_0020",
+    "event_id": "evt_0024",
     "start_sec": 6.0,
     "end_sec": 22.0,
     "event_type": "gesture",
@@ -314,7 +405,7 @@
     "confidence": 0.6,
     "source_detection_ids": [
       "det_characters_0038",
-      "det_characters_0042"
+      "det_characters_0044"
     ],
     "source_segment_ids": [
       "seg_002",
@@ -327,14 +418,14 @@
       "description_count": 1
     },
     "track_ids": [
-      "track-5"
+      "track-48"
     ],
     "source_kinds": [
       "characters"
     ]
   },
   {
-    "event_id": "evt_0002",
+    "event_id": "evt_0003",
     "start_sec": 12.0,
     "end_sec": 22.0,
     "event_type": "scene_context",
@@ -344,7 +435,7 @@
     "modalities": [
       "scene"
     ],
-    "description": "A person is walking through a dimly lit hallway",
+    "description": "A person in a dark jacket is seen from behind, walking through an indoor space with modern decor",
     "confidence": 0.9,
     "source_detection_ids": [
       "det_scenes_0003"
@@ -362,21 +453,21 @@
     ]
   },
   {
-    "event_id": "evt_0009",
+    "event_id": "evt_0012",
     "start_sec": 12.0,
     "end_sec": 22.0,
     "event_type": "object_context",
     "actor_ids": [],
     "target_ids": [],
     "object_ids": [
-      "door",
-      "light_fixture"
+      "jacket",
+      "indoor_space"
     ],
     "modalities": [
       "object"
     ],
-    "description": "Visible objects: door: a closed door; light fixture: a wall-mounted light fixture",
-    "confidence": 0.5,
+    "description": "Visible objects: jacket: dark-colored jacket worn by a person; indoor space: modern interior with lighting fixtures and shelves",
+    "confidence": 0.925,
     "source_detection_ids": [
       "det_objects_0019"
     ],
@@ -393,41 +484,7 @@
     ]
   },
   {
-    "event_id": "evt_0023",
-    "start_sec": 12.0,
-    "end_sec": 22.0,
-    "event_type": "gesture",
-    "actor_ids": [],
-    "target_ids": [],
-    "object_ids": [],
-    "modalities": [
-      "rgb",
-      "yolo",
-      "motion",
-      "pose"
-    ],
-    "description": "Pose landmarks suggest movement in right_arm, right_leg",
-    "confidence": 0.6,
-    "source_detection_ids": [
-      "det_characters_0043"
-    ],
-    "source_segment_ids": [
-      "seg_003"
-    ],
-    "merge_notes": {
-      "merged_count": 1,
-      "conflicts": [],
-      "dropped_interpretive_claims": []
-    },
-    "track_ids": [
-      "track-21"
-    ],
-    "source_kinds": [
-      "characters"
-    ]
-  },
-  {
-    "event_id": "evt_0024",
+    "event_id": "evt_0029",
     "start_sec": 12.0,
     "end_sec": 22.0,
     "event_type": "pose_motion",
@@ -440,10 +497,10 @@
       "motion",
       "pose"
     ],
-    "description": "Pose landmarks show no clear limb movement",
+    "description": "Pose landmarks suggest movement in left_leg, right_leg",
     "confidence": 0.6,
     "source_detection_ids": [
-      "det_characters_0044"
+      "det_characters_0045"
     ],
     "source_segment_ids": [
       "seg_003"
@@ -454,14 +511,14 @@
       "dropped_interpretive_claims": []
     },
     "track_ids": [
-      "track-52"
+      "track-23"
     ],
     "source_kinds": [
       "characters"
     ]
   },
   {
-    "event_id": "evt_0025",
+    "event_id": "evt_0030",
     "start_sec": 12.0,
     "end_sec": 22.0,
     "event_type": "gesture",
@@ -477,40 +534,6 @@
     "description": "Pose landmarks suggest movement in left_arm, right_arm, left_leg, right_leg",
     "confidence": 0.6,
     "source_detection_ids": [
-      "det_characters_0045"
-    ],
-    "source_segment_ids": [
-      "seg_003"
-    ],
-    "merge_notes": {
-      "merged_count": 1,
-      "conflicts": [],
-      "dropped_interpretive_claims": []
-    },
-    "track_ids": [
-      "track-42"
-    ],
-    "source_kinds": [
-      "characters"
-    ]
-  },
-  {
-    "event_id": "evt_0026",
-    "start_sec": 12.0,
-    "end_sec": 22.0,
-    "event_type": "locomotion_posture",
-    "actor_ids": [
-      "person-01"
-    ],
-    "target_ids": [],
-    "object_ids": [],
-    "modalities": [
-      "rgb",
-      "vlm"
-    ],
-    "description": "walking",
-    "confidence": 0.9,
-    "source_detection_ids": [
       "det_characters_0046"
     ],
     "source_segment_ids": [
@@ -521,12 +544,81 @@
       "conflicts": [],
       "dropped_interpretive_claims": []
     },
+    "track_ids": [
+      "track-56"
+    ],
     "source_kinds": [
       "characters"
     ]
   },
   {
-    "event_id": "evt_0003",
+    "event_id": "evt_0031",
+    "start_sec": 12.0,
+    "end_sec": 22.0,
+    "event_type": "locomotion_posture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "vlm"
+    ],
+    "description": "walking indoors",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_characters_0047"
+    ],
+    "source_segment_ids": [
+      "seg_003"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0028",
+    "start_sec": 12.0,
+    "end_sec": 28.0,
+    "event_type": "gesture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks suggest movement in left_arm, right_arm, left_leg",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0043",
+      "det_characters_0048"
+    ],
+    "source_segment_ids": [
+      "seg_003",
+      "seg_004"
+    ],
+    "merge_notes": {
+      "merged_count": 2,
+      "conflicts": [],
+      "dropped_interpretive_claims": [],
+      "description_count": 1
+    },
+    "track_ids": [
+      "track-55"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0004",
     "start_sec": 18.0,
     "end_sec": 28.0,
     "event_type": "scene_context",
@@ -536,7 +628,7 @@
     "modalities": [
       "scene"
     ],
-    "description": "A person is standing in a dimly lit room, facing away from the camera towards a shelf filled with books and decorative items",
+    "description": "A dimly lit room with various objects on shelves and a lamp emitting warm light",
     "confidence": 0.9,
     "source_detection_ids": [
       "det_scenes_0004"
@@ -554,21 +646,22 @@
     ]
   },
   {
-    "event_id": "evt_0010",
+    "event_id": "evt_0013",
     "start_sec": 18.0,
     "end_sec": 28.0,
     "event_type": "object_context",
     "actor_ids": [],
     "target_ids": [],
     "object_ids": [
+      "lamp",
       "shelf",
-      "lamp"
+      "painting"
     ],
     "modalities": [
       "object"
     ],
-    "description": "Visible objects: shelf: A bookshelf containing books, a lamp, and other decorative items.; lamp: A table lamp with a warm light",
-    "confidence": 0.5,
+    "description": "Visible objects: lamp: tall lamp with a patterned shade; shelf: metal shelf holding books and decorative items; painting: framed artwork on the wall",
+    "confidence": 0.9,
     "source_detection_ids": [
       "det_objects_0020"
     ],
@@ -585,41 +678,7 @@
     ]
   },
   {
-    "event_id": "evt_0027",
-    "start_sec": 18.0,
-    "end_sec": 28.0,
-    "event_type": "gesture",
-    "actor_ids": [],
-    "target_ids": [],
-    "object_ids": [],
-    "modalities": [
-      "rgb",
-      "yolo",
-      "motion",
-      "pose"
-    ],
-    "description": "Pose landmarks suggest movement in left_arm, right_arm, left_leg",
-    "confidence": 0.6,
-    "source_detection_ids": [
-      "det_characters_0047"
-    ],
-    "source_segment_ids": [
-      "seg_004"
-    ],
-    "merge_notes": {
-      "merged_count": 1,
-      "conflicts": [],
-      "dropped_interpretive_claims": []
-    },
-    "track_ids": [
-      "track-21"
-    ],
-    "source_kinds": [
-      "characters"
-    ]
-  },
-  {
-    "event_id": "evt_0028",
+    "event_id": "evt_0032",
     "start_sec": 18.0,
     "end_sec": 28.0,
     "event_type": "gesture",
@@ -635,7 +694,7 @@
     "description": "Pose landmarks suggest movement in right_arm",
     "confidence": 0.6,
     "source_detection_ids": [
-      "det_characters_0048"
+      "det_characters_0049"
     ],
     "source_segment_ids": [
       "seg_004"
@@ -646,14 +705,14 @@
       "dropped_interpretive_claims": []
     },
     "track_ids": [
-      "track-71"
+      "track-86"
     ],
     "source_kinds": [
       "characters"
     ]
   },
   {
-    "event_id": "evt_0029",
+    "event_id": "evt_0033",
     "start_sec": 18.0,
     "end_sec": 28.0,
     "event_type": "gesture",
@@ -669,7 +728,7 @@
     "description": "Pose landmarks suggest movement in left_arm, right_arm",
     "confidence": 0.6,
     "source_detection_ids": [
-      "det_characters_0049"
+      "det_characters_0050"
     ],
     "source_segment_ids": [
       "seg_004"
@@ -680,14 +739,14 @@
       "dropped_interpretive_claims": []
     },
     "track_ids": [
-      "track-69"
+      "track-83"
     ],
     "source_kinds": [
       "characters"
     ]
   },
   {
-    "event_id": "evt_0030",
+    "event_id": "evt_0034",
     "start_sec": 18.0,
     "end_sec": 28.0,
     "event_type": "pose_motion",
@@ -703,40 +762,6 @@
     "description": "Pose landmarks show no clear limb movement",
     "confidence": 0.6,
     "source_detection_ids": [
-      "det_characters_0050"
-    ],
-    "source_segment_ids": [
-      "seg_004"
-    ],
-    "merge_notes": {
-      "merged_count": 1,
-      "conflicts": [],
-      "dropped_interpretive_claims": []
-    },
-    "track_ids": [
-      "track-65"
-    ],
-    "source_kinds": [
-      "characters"
-    ]
-  },
-  {
-    "event_id": "evt_0031",
-    "start_sec": 18.0,
-    "end_sec": 28.0,
-    "event_type": "gaze_head_orientation",
-    "actor_ids": [
-      "person-02"
-    ],
-    "target_ids": [],
-    "object_ids": [],
-    "modalities": [
-      "rgb",
-      "vlm"
-    ],
-    "description": "standing still, facing away from the camera",
-    "confidence": 0.9,
-    "source_detection_ids": [
       "det_characters_0051"
     ],
     "source_segment_ids": [
@@ -747,12 +772,46 @@
       "conflicts": [],
       "dropped_interpretive_claims": []
     },
+    "track_ids": [
+      "track-78"
+    ],
     "source_kinds": [
       "characters"
     ]
   },
   {
-    "event_id": "evt_0004",
+    "event_id": "evt_0035",
+    "start_sec": 18.0,
+    "end_sec": 28.0,
+    "event_type": "gaze_head_orientation",
+    "actor_ids": [
+      "person-01"
+    ],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "vlm"
+    ],
+    "description": "standing and looking around the room",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_characters_0052"
+    ],
+    "source_segment_ids": [
+      "seg_004"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0005",
     "start_sec": 24.0,
     "end_sec": 34.0,
     "event_type": "scene_context",
@@ -762,7 +821,7 @@
     "modalities": [
       "scene"
     ],
-    "description": "A person walks into a dimly lit room, passing by a kitchen area with a dish rack and chairs in the background",
+    "description": "A person in a kitchen wearing a graphic t-shirt and a dark jacket, holding an object in their hand",
     "confidence": 0.9,
     "source_detection_ids": [
       "det_scenes_0005"
@@ -780,22 +839,21 @@
     ]
   },
   {
-    "event_id": "evt_0011",
+    "event_id": "evt_0014",
     "start_sec": 24.0,
     "end_sec": 34.0,
     "event_type": "object_context",
     "actor_ids": [],
     "target_ids": [],
     "object_ids": [
-      "kitchen",
-      "dish_rack",
-      "chairs"
+      "microwave",
+      "cabinet"
     ],
     "modalities": [
       "object"
     ],
-    "description": "Visible objects: kitchen: A kitchen area with a dish rack, chairs, and a wall-mounted shelf; dish rack: A dish rack holding dishes and glasses; chairs: Wooden chairs near the kitchen area",
-    "confidence": 0.5,
+    "description": "Visible objects: microwave: a stainless steel microwave oven; cabinet: green kitchen cabinets",
+    "confidence": 0.925,
     "source_detection_ids": [
       "det_objects_0021"
     ],
@@ -812,7 +870,7 @@
     ]
   },
   {
-    "event_id": "evt_0032",
+    "event_id": "evt_0036",
     "start_sec": 24.0,
     "end_sec": 34.0,
     "event_type": "gesture",
@@ -828,7 +886,7 @@
     "description": "Pose landmarks suggest movement in left_arm, right_arm, right_leg",
     "confidence": 0.6,
     "source_detection_ids": [
-      "det_characters_0052"
+      "det_characters_0053"
     ],
     "source_segment_ids": [
       "seg_005"
@@ -839,17 +897,17 @@
       "dropped_interpretive_claims": []
     },
     "track_ids": [
-      "track-78"
+      "track-90"
     ],
     "source_kinds": [
       "characters"
     ]
   },
   {
-    "event_id": "evt_0034",
+    "event_id": "evt_0038",
     "start_sec": 24.0,
     "end_sec": 34.0,
-    "event_type": "pose_motion",
+    "event_type": "gesture",
     "actor_ids": [],
     "target_ids": [],
     "object_ids": [],
@@ -859,41 +917,7 @@
       "motion",
       "pose"
     ],
-    "description": "Pose landmarks show no clear limb movement",
-    "confidence": 0.6,
-    "source_detection_ids": [
-      "det_characters_0054"
-    ],
-    "source_segment_ids": [
-      "seg_005"
-    ],
-    "merge_notes": {
-      "merged_count": 1,
-      "conflicts": [],
-      "dropped_interpretive_claims": []
-    },
-    "track_ids": [
-      "track-73"
-    ],
-    "source_kinds": [
-      "characters"
-    ]
-  },
-  {
-    "event_id": "evt_0035",
-    "start_sec": 24.0,
-    "end_sec": 34.0,
-    "event_type": "pose_motion",
-    "actor_ids": [],
-    "target_ids": [],
-    "object_ids": [],
-    "modalities": [
-      "rgb",
-      "yolo",
-      "motion",
-      "pose"
-    ],
-    "description": "Pose landmarks show no clear limb movement",
+    "description": "Pose landmarks suggest movement in left_arm, right_arm, left_leg, right_leg",
     "confidence": 0.6,
     "source_detection_ids": [
       "det_characters_0055"
@@ -907,19 +931,53 @@
       "dropped_interpretive_claims": []
     },
     "track_ids": [
-      "track-71"
+      "track-86"
     ],
     "source_kinds": [
       "characters"
     ]
   },
   {
-    "event_id": "evt_0036",
+    "event_id": "evt_0039",
     "start_sec": 24.0,
     "end_sec": 34.0,
-    "event_type": "locomotion_posture",
+    "event_type": "gesture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks suggest movement in left_arm",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0056"
+    ],
+    "source_segment_ids": [
+      "seg_005"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-88"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0040",
+    "start_sec": 24.0,
+    "end_sec": 34.0,
+    "event_type": "object_action",
     "actor_ids": [
-      "person-01"
+      "person-03"
     ],
     "target_ids": [],
     "object_ids": [],
@@ -927,10 +985,10 @@
       "rgb",
       "vlm"
     ],
-    "description": "walking into the room",
+    "description": "standing and holding an object",
     "confidence": 0.9,
     "source_detection_ids": [
-      "det_characters_0056"
+      "det_characters_0057"
     ],
     "source_segment_ids": [
       "seg_005"
@@ -945,7 +1003,7 @@
     ]
   },
   {
-    "event_id": "evt_0033",
+    "event_id": "evt_0037",
     "start_sec": 24.0,
     "end_sec": 40.0,
     "event_type": "pose_motion",
@@ -961,8 +1019,8 @@
     "description": "Pose landmarks show no clear limb movement",
     "confidence": 0.6,
     "source_detection_ids": [
-      "det_characters_0053",
-      "det_characters_0059"
+      "det_characters_0054",
+      "det_characters_0061"
     ],
     "source_segment_ids": [
       "seg_005",
@@ -975,14 +1033,14 @@
       "description_count": 1
     },
     "track_ids": [
-      "track-74"
+      "track-87"
     ],
     "source_kinds": [
       "characters"
     ]
   },
   {
-    "event_id": "evt_0005",
+    "event_id": "evt_0006",
     "start_sec": 30.0,
     "end_sec": 40.0,
     "event_type": "scene_context",
@@ -992,7 +1050,7 @@
     "modalities": [
       "scene"
     ],
-    "description": "A person stands in a kitchen, holding a small object",
+    "description": "A person in a kitchen wearing a white t-shirt with a graphic design and a dark jacket. The background includes kitchen appliances like a microwave and cabinets",
     "confidence": 0.9,
     "source_detection_ids": [
       "det_scenes_0006"
@@ -1010,20 +1068,21 @@
     ]
   },
   {
-    "event_id": "evt_0012",
+    "event_id": "evt_0015",
     "start_sec": 30.0,
     "end_sec": 40.0,
     "event_type": "object_context",
     "actor_ids": [],
     "target_ids": [],
     "object_ids": [
-      "small_object"
+      "microwave",
+      "cabinet"
     ],
     "modalities": [
       "object"
     ],
-    "description": "Visible objects: small object: Appears to be a small, possibly electronic device",
-    "confidence": 0.7,
+    "description": "Visible objects: microwave: silver microwave oven; cabinet: green kitchen cabinets",
+    "confidence": 0.825,
     "source_detection_ids": [
       "det_objects_0022"
     ],
@@ -1040,7 +1099,7 @@
     ]
   },
   {
-    "event_id": "evt_0037",
+    "event_id": "evt_0041",
     "start_sec": 30.0,
     "end_sec": 40.0,
     "event_type": "gesture",
@@ -1056,7 +1115,7 @@
     "description": "Pose landmarks suggest movement in right_arm",
     "confidence": 0.6,
     "source_detection_ids": [
-      "det_characters_0057"
+      "det_characters_0058"
     ],
     "source_segment_ids": [
       "seg_006"
@@ -1067,17 +1126,17 @@
       "dropped_interpretive_claims": []
     },
     "track_ids": [
-      "track-78"
+      "track-90"
     ],
     "source_kinds": [
       "characters"
     ]
   },
   {
-    "event_id": "evt_0040",
+    "event_id": "evt_0044",
     "start_sec": 30.0,
     "end_sec": 40.0,
-    "event_type": "object_action",
+    "event_type": "gesture",
     "actor_ids": [
       "person-03"
     ],
@@ -1087,10 +1146,10 @@
       "rgb",
       "vlm"
     ],
-    "description": "standing, holding an object, looking towards the camera",
+    "description": "standing with arms crossed",
     "confidence": 0.9,
     "source_detection_ids": [
-      "det_characters_0061"
+      "det_characters_0062"
     ],
     "source_segment_ids": [
       "seg_006"
@@ -1105,44 +1164,7 @@
     ]
   },
   {
-    "event_id": "evt_0038",
-    "start_sec": 30.0,
-    "end_sec": 46.0,
-    "event_type": "pose_motion",
-    "actor_ids": [],
-    "target_ids": [],
-    "object_ids": [],
-    "modalities": [
-      "rgb",
-      "yolo",
-      "motion",
-      "pose"
-    ],
-    "description": "Pose landmarks show no clear limb movement",
-    "confidence": 0.6,
-    "source_detection_ids": [
-      "det_characters_0058",
-      "det_characters_0063"
-    ],
-    "source_segment_ids": [
-      "seg_006",
-      "seg_007"
-    ],
-    "merge_notes": {
-      "merged_count": 2,
-      "conflicts": [],
-      "dropped_interpretive_claims": [],
-      "description_count": 1
-    },
-    "track_ids": [
-      "track-85"
-    ],
-    "source_kinds": [
-      "characters"
-    ]
-  },
-  {
-    "event_id": "evt_0039",
+    "event_id": "evt_0042",
     "start_sec": 30.0,
     "end_sec": 46.0,
     "event_type": "gesture",
@@ -1158,8 +1180,8 @@
     "description": "Pose landmarks suggest movement in left_arm, right_arm",
     "confidence": 0.6,
     "source_detection_ids": [
-      "det_characters_0060",
-      "det_characters_0065"
+      "det_characters_0059",
+      "det_characters_0066"
     ],
     "source_segment_ids": [
       "seg_006",
@@ -1172,14 +1194,51 @@
       "description_count": 1
     },
     "track_ids": [
-      "track-86"
+      "track-93"
     ],
     "source_kinds": [
       "characters"
     ]
   },
   {
-    "event_id": "evt_0006",
+    "event_id": "evt_0043",
+    "start_sec": 30.0,
+    "end_sec": 46.0,
+    "event_type": "pose_motion",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks show no clear limb movement",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0060",
+      "det_characters_0064"
+    ],
+    "source_segment_ids": [
+      "seg_006",
+      "seg_007"
+    ],
+    "merge_notes": {
+      "merged_count": 2,
+      "conflicts": [],
+      "dropped_interpretive_claims": [],
+      "description_count": 1
+    },
+    "track_ids": [
+      "track-92"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0007",
     "start_sec": 36.0,
     "end_sec": 46.0,
     "event_type": "scene_context",
@@ -1189,7 +1248,7 @@
     "modalities": [
       "scene"
     ],
-    "description": "A person stands in a kitchen, arms crossed, and appears to be mouth open or changing posture or facial orientation to someone off-camera",
+    "description": "A person stands in a kitchen-like setting with cabinets and a microwave in the background. The individual appears to be gesturing with their hands with mouth open",
     "confidence": 0.9,
     "source_detection_ids": [
       "det_scenes_0007"
@@ -1207,21 +1266,21 @@
     ]
   },
   {
-    "event_id": "evt_0013",
+    "event_id": "evt_0016",
     "start_sec": 36.0,
     "end_sec": 46.0,
     "event_type": "object_context",
     "actor_ids": [],
     "target_ids": [],
     "object_ids": [
-      "kitchen_appliances",
-      "fridge"
+      "microwave",
+      "cabinet"
     ],
     "modalities": [
       "object"
     ],
-    "description": "Visible objects: kitchen appliances: a microwave and an oven; fridge: partially visible on the right side of the frame",
-    "confidence": 0.8,
+    "description": "Visible objects: microwave: silver microwave on a countertop; cabinet: green cabinets above the microwave",
+    "confidence": 0.825,
     "source_detection_ids": [
       "det_objects_0023"
     ],
@@ -1238,7 +1297,7 @@
     ]
   },
   {
-    "event_id": "evt_0041",
+    "event_id": "evt_0045",
     "start_sec": 36.0,
     "end_sec": 46.0,
     "event_type": "gesture",
@@ -1254,7 +1313,7 @@
     "description": "Pose landmarks suggest movement in left_arm",
     "confidence": 0.6,
     "source_detection_ids": [
-      "det_characters_0062"
+      "det_characters_0063"
     ],
     "source_segment_ids": [
       "seg_007"
@@ -1265,14 +1324,14 @@
       "dropped_interpretive_claims": []
     },
     "track_ids": [
-      "track-78"
+      "track-90"
     ],
     "source_kinds": [
       "characters"
     ]
   },
   {
-    "event_id": "evt_0043",
+    "event_id": "evt_0047",
     "start_sec": 36.0,
     "end_sec": 46.0,
     "event_type": "gesture",
@@ -1285,10 +1344,10 @@
       "rgb",
       "vlm"
     ],
-    "description": "arms crossed, mouth open or changing posture or facial orientation",
+    "description": "gesturing with hands while standing",
     "confidence": 0.9,
     "source_detection_ids": [
-      "det_characters_0066"
+      "det_characters_0067"
     ],
     "source_segment_ids": [
       "seg_007"
@@ -1303,7 +1362,7 @@
     ]
   },
   {
-    "event_id": "evt_0042",
+    "event_id": "evt_0046",
     "start_sec": 36.0,
     "end_sec": 52.0,
     "event_type": "pose_motion",
@@ -1319,8 +1378,8 @@
     "description": "Pose landmarks show no clear limb movement",
     "confidence": 0.6,
     "source_detection_ids": [
-      "det_characters_0064",
-      "det_characters_0067"
+      "det_characters_0065",
+      "det_characters_0069"
     ],
     "source_segment_ids": [
       "seg_007",
@@ -1333,14 +1392,14 @@
       "description_count": 1
     },
     "track_ids": [
-      "track-94"
+      "track-104"
     ],
     "source_kinds": [
       "characters"
     ]
   },
   {
-    "event_id": "evt_0044",
+    "event_id": "evt_0048",
     "start_sec": 42.0,
     "end_sec": 52.0,
     "event_type": "gesture",
@@ -1367,17 +1426,17 @@
       "dropped_interpretive_claims": []
     },
     "track_ids": [
-      "track-86"
+      "track-93"
     ],
     "source_kinds": [
       "characters"
     ]
   },
   {
-    "event_id": "evt_0046",
+    "event_id": "evt_0050",
     "start_sec": 42.0,
     "end_sec": 52.0,
-    "event_type": "pose_motion",
+    "event_type": "gesture",
     "actor_ids": [],
     "target_ids": [],
     "object_ids": [],
@@ -1387,10 +1446,10 @@
       "motion",
       "pose"
     ],
-    "description": "Pose landmarks show no clear limb movement",
+    "description": "Pose landmarks suggest movement in right_arm",
     "confidence": 0.6,
     "source_detection_ids": [
-      "det_characters_0070"
+      "det_characters_0071"
     ],
     "source_segment_ids": [
       "seg_008"
@@ -1401,14 +1460,14 @@
       "dropped_interpretive_claims": []
     },
     "track_ids": [
-      "track-106"
+      "track-105"
     ],
     "source_kinds": [
       "characters"
     ]
   },
   {
-    "event_id": "evt_0045",
+    "event_id": "evt_0049",
     "start_sec": 42.0,
     "end_sec": 58.0,
     "event_type": "pose_motion",
@@ -1424,8 +1483,8 @@
     "description": "Pose landmarks show no clear limb movement",
     "confidence": 0.6,
     "source_detection_ids": [
-      "det_characters_0069",
-      "det_characters_0073"
+      "det_characters_0070",
+      "det_characters_0074"
     ],
     "source_segment_ids": [
       "seg_008",
@@ -1438,14 +1497,138 @@
       "description_count": 1
     },
     "track_ids": [
-      "track-107"
+      "track-115"
     ],
     "source_kinds": [
       "characters"
     ]
   },
   {
-    "event_id": "evt_0047",
+    "event_id": "evt_0008",
+    "start_sec": 48.0,
+    "end_sec": 58.0,
+    "event_type": "scene_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "scene"
+    ],
+    "description": "A person wearing a white t-shirt with a graphic design and a dark jacket stands in a kitchen setting. The background includes a microwave and cabinets",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_scenes_0009"
+    ],
+    "source_segment_ids": [
+      "seg_009"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "scenes"
+    ]
+  },
+  {
+    "event_id": "evt_0017",
+    "start_sec": 48.0,
+    "end_sec": 58.0,
+    "event_type": "object_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [
+      "microwave",
+      "cabinets"
+    ],
+    "modalities": [
+      "object"
+    ],
+    "description": "Visible objects: microwave: silver microwave on the countertop; cabinets: green kitchen cabinets",
+    "confidence": 0.85,
+    "source_detection_ids": [
+      "det_objects_0025"
+    ],
+    "source_segment_ids": [
+      "seg_009"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "objects"
+    ]
+  },
+  {
+    "event_id": "evt_0053",
+    "start_sec": 48.0,
+    "end_sec": 58.0,
+    "event_type": "pose_motion",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks show no clear limb movement",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0075"
+    ],
+    "source_segment_ids": [
+      "seg_009"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-116"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0054",
+    "start_sec": 48.0,
+    "end_sec": 58.0,
+    "event_type": "gesture",
+    "actor_ids": [
+      "person-01"
+    ],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "vlm"
+    ],
+    "description": "standing with arms crossed",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_characters_0076"
+    ],
+    "source_segment_ids": [
+      "seg_009"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0051",
     "start_sec": 48.0,
     "end_sec": 64.0,
     "event_type": "pose_motion",
@@ -1461,81 +1644,7 @@
     "description": "Pose landmarks show no clear limb movement",
     "confidence": 0.6,
     "source_detection_ids": [
-      "det_characters_0071",
-      "det_characters_0077"
-    ],
-    "source_segment_ids": [
-      "seg_009",
-      "seg_010"
-    ],
-    "merge_notes": {
-      "merged_count": 2,
-      "conflicts": [],
-      "dropped_interpretive_claims": [],
-      "description_count": 1
-    },
-    "track_ids": [
-      "track-86"
-    ],
-    "source_kinds": [
-      "characters"
-    ]
-  },
-  {
-    "event_id": "evt_0048",
-    "start_sec": 48.0,
-    "end_sec": 64.0,
-    "event_type": "gesture",
-    "actor_ids": [],
-    "target_ids": [],
-    "object_ids": [],
-    "modalities": [
-      "rgb",
-      "yolo",
-      "motion",
-      "pose"
-    ],
-    "description": "Pose landmarks suggest movement in right_arm",
-    "confidence": 0.6,
-    "source_detection_ids": [
       "det_characters_0072",
-      "det_characters_0075"
-    ],
-    "source_segment_ids": [
-      "seg_009",
-      "seg_010"
-    ],
-    "merge_notes": {
-      "merged_count": 2,
-      "conflicts": [],
-      "dropped_interpretive_claims": [],
-      "description_count": 1
-    },
-    "track_ids": [
-      "track-110"
-    ],
-    "source_kinds": [
-      "characters"
-    ]
-  },
-  {
-    "event_id": "evt_0049",
-    "start_sec": 48.0,
-    "end_sec": 64.0,
-    "event_type": "gesture",
-    "actor_ids": [],
-    "target_ids": [],
-    "object_ids": [],
-    "modalities": [
-      "rgb",
-      "yolo",
-      "motion",
-      "pose"
-    ],
-    "description": "Pose landmarks suggest movement in left_arm, right_arm",
-    "confidence": 0.6,
-    "source_detection_ids": [
-      "det_characters_0074",
       "det_characters_0078"
     ],
     "source_segment_ids": [
@@ -1549,15 +1658,15 @@
       "description_count": 1
     },
     "track_ids": [
-      "track-121"
+      "track-93"
     ],
     "source_kinds": [
       "characters"
     ]
   },
   {
-    "event_id": "evt_0050",
-    "start_sec": 54.0,
+    "event_id": "evt_0052",
+    "start_sec": 48.0,
     "end_sec": 64.0,
     "event_type": "gesture",
     "actor_ids": [],
@@ -1572,27 +1681,30 @@
     "description": "Pose landmarks suggest movement in right_arm",
     "confidence": 0.6,
     "source_detection_ids": [
-      "det_characters_0076"
+      "det_characters_0073",
+      "det_characters_0077"
     ],
     "source_segment_ids": [
+      "seg_009",
       "seg_010"
     ],
     "merge_notes": {
-      "merged_count": 1,
+      "merged_count": 2,
       "conflicts": [],
-      "dropped_interpretive_claims": []
+      "dropped_interpretive_claims": [],
+      "description_count": 1
     },
     "track_ids": [
-      "track-123"
+      "track-118"
     ],
     "source_kinds": [
       "characters"
     ]
   },
   {
-    "event_id": "evt_0051",
-    "start_sec": 60.0,
-    "end_sec": 70.0,
+    "event_id": "evt_0055",
+    "start_sec": 54.0,
+    "end_sec": 64.0,
     "event_type": "pose_motion",
     "actor_ids": [],
     "target_ids": [],
@@ -1609,7 +1721,7 @@
       "det_characters_0079"
     ],
     "source_segment_ids": [
-      "seg_011"
+      "seg_010"
     ],
     "merge_notes": {
       "merged_count": 1,
@@ -1617,14 +1729,48 @@
       "dropped_interpretive_claims": []
     },
     "track_ids": [
-      "track-123"
+      "track-129"
     ],
     "source_kinds": [
       "characters"
     ]
   },
   {
-    "event_id": "evt_0052",
+    "event_id": "evt_0056",
+    "start_sec": 54.0,
+    "end_sec": 64.0,
+    "event_type": "gesture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks suggest movement in left_arm",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0080"
+    ],
+    "source_segment_ids": [
+      "seg_010"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-130"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0057",
     "start_sec": 60.0,
     "end_sec": 70.0,
     "event_type": "pose_motion",
@@ -1640,7 +1786,7 @@
     "description": "Pose landmarks show no clear limb movement",
     "confidence": 0.6,
     "source_detection_ids": [
-      "det_characters_0080"
+      "det_characters_0081"
     ],
     "source_segment_ids": [
       "seg_011"
@@ -1651,17 +1797,17 @@
       "dropped_interpretive_claims": []
     },
     "track_ids": [
-      "track-121"
+      "track-125"
     ],
     "source_kinds": [
       "characters"
     ]
   },
   {
-    "event_id": "evt_0054",
+    "event_id": "evt_0058",
     "start_sec": 60.0,
     "end_sec": 70.0,
-    "event_type": "gesture",
+    "event_type": "pose_motion",
     "actor_ids": [],
     "target_ids": [],
     "object_ids": [],
@@ -1671,7 +1817,7 @@
       "motion",
       "pose"
     ],
-    "description": "Pose landmarks suggest movement in left_arm",
+    "description": "Pose landmarks show no clear limb movement",
     "confidence": 0.6,
     "source_detection_ids": [
       "det_characters_0082"
@@ -1685,14 +1831,48 @@
       "dropped_interpretive_claims": []
     },
     "track_ids": [
-      "track-131"
+      "track-126"
     ],
     "source_kinds": [
       "characters"
     ]
   },
   {
-    "event_id": "evt_0053",
+    "event_id": "evt_0060",
+    "start_sec": 60.0,
+    "end_sec": 70.0,
+    "event_type": "gesture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks suggest movement in left_arm, right_arm, right_leg",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0084"
+    ],
+    "source_segment_ids": [
+      "seg_011"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-129"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0059",
     "start_sec": 60.0,
     "end_sec": 76.0,
     "event_type": "pose_motion",
@@ -1708,8 +1888,8 @@
     "description": "Pose landmarks show no clear limb movement",
     "confidence": 0.6,
     "source_detection_ids": [
-      "det_characters_0081",
-      "det_characters_0083"
+      "det_characters_0083",
+      "det_characters_0085"
     ],
     "source_segment_ids": [
       "seg_011",
@@ -1722,14 +1902,14 @@
       "description_count": 1
     },
     "track_ids": [
-      "track-135"
+      "track-151"
     ],
     "source_kinds": [
       "characters"
     ]
   },
   {
-    "event_id": "evt_0055",
+    "event_id": "evt_0062",
     "start_sec": 66.0,
     "end_sec": 76.0,
     "event_type": "gesture",
@@ -1742,10 +1922,10 @@
       "motion",
       "pose"
     ],
-    "description": "Pose landmarks suggest movement in right_arm",
+    "description": "Pose landmarks suggest movement in left_arm, right_arm",
     "confidence": 0.6,
     "source_detection_ids": [
-      "det_characters_0084"
+      "det_characters_0087"
     ],
     "source_segment_ids": [
       "seg_012"
@@ -1756,14 +1936,14 @@
       "dropped_interpretive_claims": []
     },
     "track_ids": [
-      "track-121"
+      "track-129"
     ],
     "source_kinds": [
       "characters"
     ]
   },
   {
-    "event_id": "evt_0056",
+    "event_id": "evt_0061",
     "start_sec": 66.0,
     "end_sec": 82.0,
     "event_type": "pose_motion",
@@ -1779,8 +1959,8 @@
     "description": "Pose landmarks show no clear limb movement",
     "confidence": 0.6,
     "source_detection_ids": [
-      "det_characters_0085",
-      "det_characters_0088"
+      "det_characters_0086",
+      "det_characters_0091"
     ],
     "source_segment_ids": [
       "seg_012",
@@ -1793,14 +1973,14 @@
       "description_count": 1
     },
     "track_ids": [
-      "track-138"
+      "track-154"
     ],
     "source_kinds": [
       "characters"
     ]
   },
   {
-    "event_id": "evt_0057",
+    "event_id": "evt_0063",
     "start_sec": 66.0,
     "end_sec": 82.0,
     "event_type": "gesture",
@@ -1816,8 +1996,8 @@
     "description": "Pose landmarks suggest movement in left_arm",
     "confidence": 0.6,
     "source_detection_ids": [
-      "det_characters_0086",
-      "det_characters_0089"
+      "det_characters_0088",
+      "det_characters_0092"
     ],
     "source_segment_ids": [
       "seg_012",
@@ -1830,74 +2010,14 @@
       "description_count": 1
     },
     "track_ids": [
-      "track-140"
+      "track-156"
     ],
     "source_kinds": [
       "characters"
     ]
   },
   {
-    "event_id": "evt_0007",
-    "start_sec": 72.0,
-    "end_sec": 82.0,
-    "event_type": "scene_context",
-    "actor_ids": [],
-    "target_ids": [],
-    "object_ids": [],
-    "modalities": [
-      "scene"
-    ],
-    "description": "A person in a kitchen gestures with mouth open",
-    "confidence": 0.9,
-    "source_detection_ids": [
-      "det_scenes_0013"
-    ],
-    "source_segment_ids": [
-      "seg_013"
-    ],
-    "merge_notes": {
-      "merged_count": 1,
-      "conflicts": [],
-      "dropped_interpretive_claims": []
-    },
-    "source_kinds": [
-      "scenes"
-    ]
-  },
-  {
-    "event_id": "evt_0014",
-    "start_sec": 72.0,
-    "end_sec": 82.0,
-    "event_type": "object_context",
-    "actor_ids": [],
-    "target_ids": [],
-    "object_ids": [
-      "kitchen_counter",
-      "microwave",
-      "cabinets"
-    ],
-    "modalities": [
-      "object"
-    ],
-    "description": "Visible objects: kitchen counter: with various items on it; microwave: on the counter; cabinets: in the background",
-    "confidence": 0.5,
-    "source_detection_ids": [
-      "det_objects_0029"
-    ],
-    "source_segment_ids": [
-      "seg_013"
-    ],
-    "merge_notes": {
-      "merged_count": 1,
-      "conflicts": [],
-      "dropped_interpretive_claims": []
-    },
-    "source_kinds": [
-      "objects"
-    ]
-  },
-  {
-    "event_id": "evt_0059",
+    "event_id": "evt_0064",
     "start_sec": 72.0,
     "end_sec": 82.0,
     "event_type": "pose_motion",
@@ -1913,7 +2033,7 @@
     "description": "Pose landmarks show no clear limb movement",
     "confidence": 0.6,
     "source_detection_ids": [
-      "det_characters_0090"
+      "det_characters_0089"
     ],
     "source_segment_ids": [
       "seg_013"
@@ -1924,45 +2044,14 @@
       "dropped_interpretive_claims": []
     },
     "track_ids": [
-      "track-121"
+      "track-152"
     ],
     "source_kinds": [
       "characters"
     ]
   },
   {
-    "event_id": "evt_0060",
-    "start_sec": 72.0,
-    "end_sec": 82.0,
-    "event_type": "gesture",
-    "actor_ids": [
-      "person-02"
-    ],
-    "target_ids": [],
-    "object_ids": [],
-    "modalities": [
-      "rgb",
-      "vlm"
-    ],
-    "description": "gesturing with hands with mouth open",
-    "confidence": 0.9,
-    "source_detection_ids": [
-      "det_characters_0091"
-    ],
-    "source_segment_ids": [
-      "seg_013"
-    ],
-    "merge_notes": {
-      "merged_count": 1,
-      "conflicts": [],
-      "dropped_interpretive_claims": []
-    },
-    "source_kinds": [
-      "characters"
-    ]
-  },
-  {
-    "event_id": "evt_0058",
+    "event_id": "evt_0065",
     "start_sec": 72.0,
     "end_sec": 94.0,
     "event_type": "pose_motion",
@@ -1978,9 +2067,9 @@
     "description": "Pose landmarks show no clear limb movement",
     "confidence": 0.6,
     "source_detection_ids": [
-      "det_characters_0087",
-      "det_characters_0094",
-      "det_characters_0099"
+      "det_characters_0090",
+      "det_characters_0095",
+      "det_characters_0100"
     ],
     "source_segment_ids": [
       "seg_013",
@@ -1994,14 +2083,14 @@
       "description_count": 1
     },
     "track_ids": [
-      "track-144"
+      "track-160"
     ],
     "source_kinds": [
       "characters"
     ]
   },
   {
-    "event_id": "evt_0061",
+    "event_id": "evt_0066",
     "start_sec": 78.0,
     "end_sec": 88.0,
     "event_type": "gesture",
@@ -2017,7 +2106,7 @@
     "description": "Pose landmarks suggest movement in left_arm, right_arm",
     "confidence": 0.6,
     "source_detection_ids": [
-      "det_characters_0092"
+      "det_characters_0093"
     ],
     "source_segment_ids": [
       "seg_014"
@@ -2028,87 +2117,16 @@
       "dropped_interpretive_claims": []
     },
     "track_ids": [
-      "track-141"
+      "track-152"
     ],
     "source_kinds": [
       "characters"
     ]
   },
   {
-    "event_id": "evt_0063",
+    "event_id": "evt_0068",
     "start_sec": 78.0,
     "end_sec": 88.0,
-    "event_type": "gesture",
-    "actor_ids": [],
-    "target_ids": [],
-    "object_ids": [],
-    "modalities": [
-      "rgb",
-      "yolo",
-      "motion",
-      "pose"
-    ],
-    "description": "Pose landmarks suggest movement in left_arm, right_arm",
-    "confidence": 0.6,
-    "source_detection_ids": [
-      "det_characters_0095"
-    ],
-    "source_segment_ids": [
-      "seg_014"
-    ],
-    "merge_notes": {
-      "merged_count": 1,
-      "conflicts": [],
-      "dropped_interpretive_claims": []
-    },
-    "track_ids": [
-      "track-143"
-    ],
-    "source_kinds": [
-      "characters"
-    ]
-  },
-  {
-    "event_id": "evt_0062",
-    "start_sec": 78.0,
-    "end_sec": 94.0,
-    "event_type": "pose_motion",
-    "actor_ids": [],
-    "target_ids": [],
-    "object_ids": [],
-    "modalities": [
-      "rgb",
-      "yolo",
-      "motion",
-      "pose"
-    ],
-    "description": "Pose landmarks show no clear limb movement",
-    "confidence": 0.6,
-    "source_detection_ids": [
-      "det_characters_0093",
-      "det_characters_0098"
-    ],
-    "source_segment_ids": [
-      "seg_014",
-      "seg_015"
-    ],
-    "merge_notes": {
-      "merged_count": 2,
-      "conflicts": [],
-      "dropped_interpretive_claims": [],
-      "description_count": 1
-    },
-    "track_ids": [
-      "track-147"
-    ],
-    "source_kinds": [
-      "characters"
-    ]
-  },
-  {
-    "event_id": "evt_0064",
-    "start_sec": 84.0,
-    "end_sec": 94.0,
     "event_type": "pose_motion",
     "actor_ids": [],
     "target_ids": [],
@@ -2125,6 +2143,136 @@
       "det_characters_0096"
     ],
     "source_segment_ids": [
+      "seg_014"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-164"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0067",
+    "start_sec": 78.0,
+    "end_sec": 94.0,
+    "event_type": "pose_motion",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks show no clear limb movement",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0094",
+      "det_characters_0099"
+    ],
+    "source_segment_ids": [
+      "seg_014",
+      "seg_015"
+    ],
+    "merge_notes": {
+      "merged_count": 2,
+      "conflicts": [],
+      "dropped_interpretive_claims": [],
+      "description_count": 1
+    },
+    "track_ids": [
+      "track-163"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0009",
+    "start_sec": 84.0,
+    "end_sec": 94.0,
+    "event_type": "scene_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "scene"
+    ],
+    "description": "A superhero in a red and blue suit swings through a cityscape while another character in a red and gold suit flies nearby",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_scenes_0015"
+    ],
+    "source_segment_ids": [
+      "seg_015"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "scenes"
+    ]
+  },
+  {
+    "event_id": "evt_0018",
+    "start_sec": 84.0,
+    "end_sec": 94.0,
+    "event_type": "object_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [
+      "superhero",
+      "city_buildings"
+    ],
+    "modalities": [
+      "object"
+    ],
+    "description": "Visible objects: superhero: one in red and blue suit swinging, one in red and gold suit flying; city buildings: tall skyscrapers in the background",
+    "confidence": 0.925,
+    "source_detection_ids": [
+      "det_objects_0031"
+    ],
+    "source_segment_ids": [
+      "seg_015"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "objects"
+    ]
+  },
+  {
+    "event_id": "evt_0069",
+    "start_sec": 84.0,
+    "end_sec": 94.0,
+    "event_type": "pose_motion",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks show no clear limb movement",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0097"
+    ],
+    "source_segment_ids": [
       "seg_015"
     ],
     "merge_notes": {
@@ -2133,14 +2281,45 @@
       "dropped_interpretive_claims": []
     },
     "track_ids": [
-      "track-141"
+      "track-152"
     ],
     "source_kinds": [
       "characters"
     ]
   },
   {
-    "event_id": "evt_0065",
+    "event_id": "evt_0071",
+    "start_sec": 84.0,
+    "end_sec": 94.0,
+    "event_type": "gaze_head_orientation",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "vlm"
+    ],
+    "description": "action-oriented movement",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_characters_0101",
+      "det_characters_0102"
+    ],
+    "source_segment_ids": [
+      "seg_015"
+    ],
+    "merge_notes": {
+      "merged_count": 2,
+      "conflicts": [],
+      "dropped_interpretive_claims": [],
+      "description_count": 1
+    },
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0070",
     "start_sec": 84.0,
     "end_sec": 97.556,
     "event_type": "pose_motion",
@@ -2156,8 +2335,8 @@
     "description": "Pose landmarks show no clear limb movement",
     "confidence": 0.6,
     "source_detection_ids": [
-      "det_characters_0097",
-      "det_characters_0100"
+      "det_characters_0098",
+      "det_characters_0103"
     ],
     "source_segment_ids": [
       "seg_015",
@@ -2170,14 +2349,14 @@
       "description_count": 1
     },
     "track_ids": [
-      "track-152"
+      "track-172"
     ],
     "source_kinds": [
       "characters"
     ]
   },
   {
-    "event_id": "evt_0066",
+    "event_id": "evt_0072",
     "start_sec": 90.0,
     "end_sec": 97.556,
     "event_type": "pose_motion",
@@ -2193,7 +2372,7 @@
     "description": "Pose landmarks show no clear limb movement",
     "confidence": 0.6,
     "source_detection_ids": [
-      "det_characters_0101"
+      "det_characters_0104"
     ],
     "source_segment_ids": [
       "seg_016"
@@ -2204,7 +2383,7 @@
       "dropped_interpretive_claims": []
     },
     "track_ids": [
-      "track-153"
+      "track-173"
     ],
     "source_kinds": [
       "characters"

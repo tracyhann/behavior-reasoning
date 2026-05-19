@@ -1,0 +1,218 @@
+{
+  "schema_version": "0.1",
+  "source_files": {
+    "characters": "/DATA/zihao/projects/Project-Ava/behavior-reasoning/behavior-reasoning/outputs/DmSmN-oqFZ0/characters/characters.json",
+    "detections": "/DATA/zihao/projects/Project-Ava/behavior-reasoning/behavior-reasoning/outputs/DmSmN-oqFZ0/detections/detections.json"
+  },
+  "parameters": {
+    "max_merge_gap_sec": 2.0,
+    "max_chain_gap_sec": 10.0,
+    "max_response_window_sec": 8.0,
+    "min_dedupe_score": 0.72
+  },
+  "chains": [
+    {
+      "chain_id": "chain_0001",
+      "start_sec": 24.0,
+      "end_sec": 34.0,
+      "participant_ids": [
+        "person-01"
+      ],
+      "object_ids": [
+        "dartboard",
+        "kitchen_appliances",
+        "staircase"
+      ],
+      "event_ids": [
+        "evt_0024"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0024",
+          "time_span": [
+            24.0,
+            34.0
+          ],
+          "event_type": "locomotion_posture",
+          "actor_ids": [
+            "person-01"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "walking and standing in different rooms"
+        }
+      ],
+      "interaction_pattern": "motion_observation",
+      "summary": "Person-01 is walking and standing in different rooms from 24.0s to 34.0s.",
+      "confidence": 0.9,
+      "source_detection_ids": [
+        "det_characters_0053",
+        "det_scenes_0005",
+        "det_objects_0021"
+      ],
+      "source_segment_ids": [
+        "seg_005"
+      ],
+      "reasoner_model": "Qwen/Qwen2.5-VL-72B-Instruct"
+    },
+    {
+      "chain_id": "chain_0002",
+      "start_sec": 48.0,
+      "end_sec": 64.0,
+      "participant_ids": [
+        "person-01"
+      ],
+      "object_ids": [
+        "door",
+        "caution_tape",
+        "brick_wall"
+      ],
+      "event_ids": [
+        "evt_0036",
+        "evt_0039"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0036",
+          "time_span": [
+            48.0,
+            58.0
+          ],
+          "event_type": "posture",
+          "actor_ids": [
+            "person-01"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "standing still"
+        },
+        {
+          "event_id": "evt_0039",
+          "time_span": [
+            54.0,
+            64.0
+          ],
+          "event_type": "gaze_head_orientation",
+          "actor_ids": [
+            "person-01"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "standing still, looking around"
+        }
+      ],
+      "interaction_pattern": "behavior_sequence",
+      "summary": "Person-01 stands still from 48.0s to 58.0s and then continues standing still while looking around from 54.0s to 64.0s.",
+      "confidence": 0.9,
+      "source_detection_ids": [
+        "det_characters_0069",
+        "det_characters_0074",
+        "det_scenes_0009",
+        "det_objects_0025",
+        "det_scenes_0010",
+        "det_objects_0026"
+      ],
+      "source_segment_ids": [
+        "seg_009",
+        "seg_010"
+      ],
+      "reasoner_model": "Qwen/Qwen2.5-VL-72B-Instruct"
+    },
+    {
+      "chain_id": "chain_0003",
+      "start_sec": 90.0,
+      "end_sec": 95.195,
+      "participant_ids": [
+        "person-01",
+        "person-02"
+      ],
+      "object_ids": [
+        "door",
+        "caution_tape"
+      ],
+      "event_ids": [
+        "evt_0057"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0057",
+          "time_span": [
+            90.0,
+            95.195
+          ],
+          "event_type": "observed_behavior",
+          "actor_ids": [
+            "person-01",
+            "person-02"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "embracing another individual and then separating"
+        }
+      ],
+      "interaction_pattern": "single_observation",
+      "summary": "Person-01 and person-02 embrace each other and then separate.",
+      "confidence": 0.9,
+      "source_detection_ids": [
+        "det_characters_0099",
+        "det_characters_0100",
+        "det_scenes_0016",
+        "det_objects_0032"
+      ],
+      "source_segment_ids": [
+        "seg_016"
+      ],
+      "reasoner_model": "Qwen/Qwen2.5-VL-72B-Instruct"
+    }
+  ],
+  "orphan_event_ids": [
+    "evt_0009",
+    "evt_0011",
+    "evt_0012",
+    "evt_0010",
+    "evt_0013",
+    "evt_0015",
+    "evt_0014",
+    "evt_0016",
+    "evt_0017",
+    "evt_0018",
+    "evt_0021",
+    "evt_0019",
+    "evt_0020",
+    "evt_0023",
+    "evt_0022",
+    "evt_0027",
+    "evt_0026",
+    "evt_0025",
+    "evt_0028",
+    "evt_0029",
+    "evt_0030",
+    "evt_0031",
+    "evt_0032",
+    "evt_0034",
+    "evt_0033",
+    "evt_0035",
+    "evt_0037",
+    "evt_0038",
+    "evt_0040",
+    "evt_0041",
+    "evt_0042",
+    "evt_0043",
+    "evt_0044",
+    "evt_0045",
+    "evt_0047",
+    "evt_0046",
+    "evt_0048",
+    "evt_0049",
+    "evt_0050",
+    "evt_0051",
+    "evt_0053",
+    "evt_0052",
+    "evt_0054",
+    "evt_0055",
+    "evt_0056"
+  ],
+  "warnings": [
+    "45 track-only events have no resolved character id; see orphan_event_ids."
+  ]
+}

@@ -1,0 +1,3493 @@
+[
+  {
+    "event_id": "evt_0001",
+    "start_sec": 0.0,
+    "end_sec": 10.0,
+    "event_type": "scene_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "scene"
+    ],
+    "description": "A kitchen and living room area with wooden cabinets, a refrigerator, a microwave, and a cluttered desk. A person stands near the desk while a person sits at it. The person then moves to a different area with a bookshelf and couch",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_scenes_0001"
+    ],
+    "source_segment_ids": [
+      "seg_001"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "scenes"
+    ]
+  },
+  {
+    "event_id": "evt_0017",
+    "start_sec": 0.0,
+    "end_sec": 10.0,
+    "event_type": "object_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [
+      "refrigerator",
+      "microwave",
+      "desk",
+      "bookshelf",
+      "couch",
+      "whiteboard"
+    ],
+    "modalities": [
+      "object"
+    ],
+    "description": "Visible objects: refrigerator: A silver refrigerator with items on its door.; microwave: A silver microwave oven on a counter.; desk: A cluttered wooden desk with a laptop, books, and a cup of pencils.; bookshelf: A tall wooden bookshelf filled with books.; couch: A brown leather couch with a beige pillow.; whiteboard: A whiteboard with writing on it, visible in the background",
+    "confidence": 0.955,
+    "source_detection_ids": [
+      "det_objects_0017"
+    ],
+    "source_segment_ids": [
+      "seg_001"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "objects"
+    ]
+  },
+  {
+    "event_id": "evt_0033",
+    "start_sec": 0.0,
+    "end_sec": 10.0,
+    "event_type": "gesture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks suggest movement in left_arm, left_leg, right_leg",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0033"
+    ],
+    "source_segment_ids": [
+      "seg_001"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-2"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0035",
+    "start_sec": 0.0,
+    "end_sec": 10.0,
+    "event_type": "gesture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks suggest movement in left_arm, right_arm, left_leg, right_leg",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0035"
+    ],
+    "source_segment_ids": [
+      "seg_001"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-1"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0036",
+    "start_sec": 0.0,
+    "end_sec": 10.0,
+    "event_type": "gesture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks suggest movement in left_arm",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0036"
+    ],
+    "source_segment_ids": [
+      "seg_001"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-4"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0037",
+    "start_sec": 0.0,
+    "end_sec": 10.0,
+    "event_type": "gaze_head_orientation",
+    "actor_ids": [
+      "person-01"
+    ],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "vlm"
+    ],
+    "description": "sitting at a desk, then standing up and turning to look at the person",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_characters_0037"
+    ],
+    "source_segment_ids": [
+      "seg_001"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0038",
+    "start_sec": 0.0,
+    "end_sec": 10.0,
+    "event_type": "posture",
+    "actor_ids": [
+      "person-02"
+    ],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "vlm"
+    ],
+    "description": "standing near the desk, then moving to a different area",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_characters_0038"
+    ],
+    "source_segment_ids": [
+      "seg_001"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0039",
+    "start_sec": 0.0,
+    "end_sec": 10.0,
+    "event_type": "observed_behavior",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "vlm"
+    ],
+    "description": "unknown",
+    "confidence": 0.3,
+    "source_detection_ids": [
+      "det_characters_0039"
+    ],
+    "source_segment_ids": [
+      "seg_001"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0034",
+    "start_sec": 0.0,
+    "end_sec": 16.0,
+    "event_type": "gesture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks suggest movement in left_arm",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0034",
+      "det_characters_0041"
+    ],
+    "source_segment_ids": [
+      "seg_001",
+      "seg_002"
+    ],
+    "merge_notes": {
+      "merged_count": 2,
+      "conflicts": [],
+      "dropped_interpretive_claims": [],
+      "description_count": 1
+    },
+    "track_ids": [
+      "track-31"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0002",
+    "start_sec": 6.0,
+    "end_sec": 16.0,
+    "event_type": "scene_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "scene"
+    ],
+    "description": "A kitchen and living room setting with wooden cabinets, a whiteboard with writing, and bookshelves. A person in a blue shirt with a yellow number '73' on it is visible. A person in a purple jacket and glasses is visible, adjusting the person's clothing and then standing still",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_scenes_0002"
+    ],
+    "source_segment_ids": [
+      "seg_002"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "scenes"
+    ]
+  },
+  {
+    "event_id": "evt_0018",
+    "start_sec": 6.0,
+    "end_sec": 16.0,
+    "event_type": "object_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [
+      "whiteboard",
+      "bookshelf",
+      "cabinet",
+      "microwave",
+      "sofa",
+      "kettle"
+    ],
+    "modalities": [
+      "object"
+    ],
+    "description": "Visible objects: whiteboard: Whiteboard with mathematical or scientific equations written on it.; bookshelf: Wooden bookshelf filled with books.; cabinet: Wooden kitchen cabinets with glassware and dishes.; microwave: White microwave oven.; sofa: Brown leather sofa with a beige pillow.; kettle: Orange kettle on a counter",
+    "confidence": 0.95,
+    "source_detection_ids": [
+      "det_objects_0018"
+    ],
+    "source_segment_ids": [
+      "seg_002"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "objects"
+    ]
+  },
+  {
+    "event_id": "evt_0040",
+    "start_sec": 6.0,
+    "end_sec": 16.0,
+    "event_type": "pose_motion",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks show no clear limb movement",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0040"
+    ],
+    "source_segment_ids": [
+      "seg_002"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-2"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0042",
+    "start_sec": 6.0,
+    "end_sec": 16.0,
+    "event_type": "gesture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks suggest movement in left_arm, right_arm",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0043"
+    ],
+    "source_segment_ids": [
+      "seg_002"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-16"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0043",
+    "start_sec": 6.0,
+    "end_sec": 16.0,
+    "event_type": "vocalization_or_mouth_movement",
+    "actor_ids": [
+      "person-01"
+    ],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "vlm"
+    ],
+    "description": "standing, mouth open or changing posture or facial orientation",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_characters_0044"
+    ],
+    "source_segment_ids": [
+      "seg_002"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0044",
+    "start_sec": 6.0,
+    "end_sec": 16.0,
+    "event_type": "posture",
+    "actor_ids": [
+      "person-02"
+    ],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "vlm"
+    ],
+    "description": "adjusting jacket, then standing still",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_characters_0045"
+    ],
+    "source_segment_ids": [
+      "seg_002"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0041",
+    "start_sec": 6.0,
+    "end_sec": 22.0,
+    "event_type": "pose_motion",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks show no clear limb movement",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0042",
+      "det_characters_0048"
+    ],
+    "source_segment_ids": [
+      "seg_002",
+      "seg_003"
+    ],
+    "merge_notes": {
+      "merged_count": 2,
+      "conflicts": [],
+      "dropped_interpretive_claims": [],
+      "description_count": 1
+    },
+    "track_ids": [
+      "track-43"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0003",
+    "start_sec": 12.0,
+    "end_sec": 22.0,
+    "event_type": "scene_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "scene"
+    ],
+    "description": "A person with long hair and glasses stands in a room with bookshelves and a whiteboard in the background. person is adjusting the person's clothing and then stands with the person's hands clasped. A Superman figurine and a sword are visible on a shelf behind the person's",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_scenes_0003"
+    ],
+    "source_segment_ids": [
+      "seg_003"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "scenes"
+    ]
+  },
+  {
+    "event_id": "evt_0019",
+    "start_sec": 12.0,
+    "end_sec": 22.0,
+    "event_type": "object_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [
+      "bookshelf",
+      "whiteboard",
+      "superman_figurine",
+      "sword",
+      "couch"
+    ],
+    "modalities": [
+      "object"
+    ],
+    "description": "Visible objects: bookshelf: Wooden bookshelf filled with books.; whiteboard: Whiteboard with writing and a graph.; superman figurine: Small Superman action figure on a shelf.; sword: Decorative sword mounted on the wall.; couch: Brown leather couch with a beige pillow",
+    "confidence": 0.926,
+    "source_detection_ids": [
+      "det_objects_0019"
+    ],
+    "source_segment_ids": [
+      "seg_003"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "objects"
+    ]
+  },
+  {
+    "event_id": "evt_0045",
+    "start_sec": 12.0,
+    "end_sec": 22.0,
+    "event_type": "pose_motion",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks show no clear limb movement",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0046"
+    ],
+    "source_segment_ids": [
+      "seg_003"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-31"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0046",
+    "start_sec": 12.0,
+    "end_sec": 22.0,
+    "event_type": "pose_motion",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks show no clear limb movement",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0047"
+    ],
+    "source_segment_ids": [
+      "seg_003"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-44"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0048",
+    "start_sec": 12.0,
+    "end_sec": 22.0,
+    "event_type": "gesture",
+    "actor_ids": [
+      "person-02"
+    ],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "vlm"
+    ],
+    "description": "adjusting clothing, standing with hands clasped",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_characters_0050"
+    ],
+    "source_segment_ids": [
+      "seg_003"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0047",
+    "start_sec": 12.0,
+    "end_sec": 28.0,
+    "event_type": "pose_motion",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks show no clear limb movement",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0049",
+      "det_characters_0052"
+    ],
+    "source_segment_ids": [
+      "seg_003",
+      "seg_004"
+    ],
+    "merge_notes": {
+      "merged_count": 2,
+      "conflicts": [],
+      "dropped_interpretive_claims": [],
+      "description_count": 1
+    },
+    "track_ids": [
+      "track-45"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0004",
+    "start_sec": 18.0,
+    "end_sec": 28.0,
+    "event_type": "scene_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "scene"
+    ],
+    "description": "A person with long hair and glasses stands in a room with a whiteboard and bookshelf. the person then turns away and raises the person's hands to the person's head. A person in a blue shirt with the number 73 on it stands in a kitchen",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_scenes_0004"
+    ],
+    "source_segment_ids": [
+      "seg_004"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "scenes"
+    ]
+  },
+  {
+    "event_id": "evt_0020",
+    "start_sec": 18.0,
+    "end_sec": 28.0,
+    "event_type": "object_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [
+      "whiteboard",
+      "bookshelf",
+      "dartboard",
+      "microwave",
+      "superman_figurine"
+    ],
+    "modalities": [
+      "object"
+    ],
+    "description": "Visible objects: whiteboard: Whiteboard with handwritten equations and diagrams.; bookshelf: Wooden bookshelf filled with books.; dartboard: Circular dartboard on the wall.; microwave: White microwave oven on a counter.; superman figurine: Red and blue Superman action figure on a shelf",
+    "confidence": 0.936,
+    "source_detection_ids": [
+      "det_objects_0020"
+    ],
+    "source_segment_ids": [
+      "seg_004"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "objects"
+    ]
+  },
+  {
+    "event_id": "evt_0051",
+    "start_sec": 18.0,
+    "end_sec": 28.0,
+    "event_type": "gesture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks suggest movement in left_arm, right_arm, left_leg, right_leg",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0054"
+    ],
+    "source_segment_ids": [
+      "seg_004"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-46"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0052",
+    "start_sec": 18.0,
+    "end_sec": 28.0,
+    "event_type": "gesture",
+    "actor_ids": [
+      "person-02"
+    ],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "vlm"
+    ],
+    "description": "standing, then turning and raising hands to head",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_characters_0055"
+    ],
+    "source_segment_ids": [
+      "seg_004"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0053",
+    "start_sec": 18.0,
+    "end_sec": 28.0,
+    "event_type": "posture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "vlm"
+    ],
+    "description": "standing still",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_characters_0056"
+    ],
+    "source_segment_ids": [
+      "seg_004"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0049",
+    "start_sec": 18.0,
+    "end_sec": 34.0,
+    "event_type": "gesture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks suggest movement in left_arm, right_arm",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0051",
+      "det_characters_0057"
+    ],
+    "source_segment_ids": [
+      "seg_004",
+      "seg_005"
+    ],
+    "merge_notes": {
+      "merged_count": 2,
+      "conflicts": [],
+      "dropped_interpretive_claims": [],
+      "description_count": 1
+    },
+    "track_ids": [
+      "track-44"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0050",
+    "start_sec": 18.0,
+    "end_sec": 34.0,
+    "event_type": "pose_motion",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks show no clear limb movement",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0053",
+      "det_characters_0060"
+    ],
+    "source_segment_ids": [
+      "seg_004",
+      "seg_005"
+    ],
+    "merge_notes": {
+      "merged_count": 2,
+      "conflicts": [],
+      "dropped_interpretive_claims": [],
+      "description_count": 1
+    },
+    "track_ids": [
+      "track-56"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0005",
+    "start_sec": 24.0,
+    "end_sec": 34.0,
+    "event_type": "scene_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "scene"
+    ],
+    "description": "A person in a purple jacket walks through a hallway with a dartboard on the wall. The scene cuts to a person in a blue shirt with the number 73 on it in a kitchen. The person in the purple jacket is then seen walking past a door with yellow caution tape",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_scenes_0005"
+    ],
+    "source_segment_ids": [
+      "seg_005"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "scenes"
+    ]
+  },
+  {
+    "event_id": "evt_0021",
+    "start_sec": 24.0,
+    "end_sec": 34.0,
+    "event_type": "object_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [
+      "dartboard",
+      "caution_tape",
+      "kitchen",
+      "stairs"
+    ],
+    "modalities": [
+      "object"
+    ],
+    "description": "Visible objects: dartboard: A standard dartboard mounted on a wall.; caution tape: Yellow caution tape stretched across a doorway.; kitchen: A kitchen with wooden cabinets, a refrigerator, and hanging pots.; stairs: A staircase with blue carpeted steps",
+    "confidence": 0.932,
+    "source_detection_ids": [
+      "det_objects_0021"
+    ],
+    "source_segment_ids": [
+      "seg_005"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "objects"
+    ]
+  },
+  {
+    "event_id": "evt_0055",
+    "start_sec": 24.0,
+    "end_sec": 34.0,
+    "event_type": "gesture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks suggest movement in left_arm, right_arm, left_leg, right_leg",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0059"
+    ],
+    "source_segment_ids": [
+      "seg_005"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-71"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0056",
+    "start_sec": 24.0,
+    "end_sec": 34.0,
+    "event_type": "locomotion_posture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "vlm"
+    ],
+    "description": "walking",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_characters_0061"
+    ],
+    "source_segment_ids": [
+      "seg_005"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0057",
+    "start_sec": 24.0,
+    "end_sec": 34.0,
+    "event_type": "gaze_head_orientation",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "vlm"
+    ],
+    "description": "sitting, looking down",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_characters_0062"
+    ],
+    "source_segment_ids": [
+      "seg_005"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0054",
+    "start_sec": 24.0,
+    "end_sec": 40.0,
+    "event_type": "gesture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks suggest movement in right_arm, right_leg",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0058",
+      "det_characters_0066"
+    ],
+    "source_segment_ids": [
+      "seg_005",
+      "seg_006"
+    ],
+    "merge_notes": {
+      "merged_count": 2,
+      "conflicts": [],
+      "dropped_interpretive_claims": [],
+      "description_count": 1
+    },
+    "track_ids": [
+      "track-65"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0006",
+    "start_sec": 30.0,
+    "end_sec": 40.0,
+    "event_type": "scene_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "scene"
+    ],
+    "description": "An indoor hallway with a door marked 'OUT OF ORDER' and secured with yellow caution tape. A person in a blue shirt walks away from the camera toward the door. Another person in a purple jacket enters the frame from the right, looking toward the door. A third person in a blue shirt with the number 73 on it descends a staircase",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_scenes_0006"
+    ],
+    "source_segment_ids": [
+      "seg_006"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "scenes"
+    ]
+  },
+  {
+    "event_id": "evt_0022",
+    "start_sec": 30.0,
+    "end_sec": 40.0,
+    "event_type": "object_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [
+      "caution_tape",
+      "door",
+      "staircase",
+      "bookshelf",
+      "poster"
+    ],
+    "modalities": [
+      "object"
+    ],
+    "description": "Visible objects: caution tape: Yellow caution tape forming an X across a door.; door: Wooden door with a sign reading 'OUT OF ORDER'.; staircase: Staircase with blue carpeted steps.; bookshelf: Wooden bookshelf filled with books.; poster: Colorful poster on the wall depicting figures in costumes",
+    "confidence": 0.932,
+    "source_detection_ids": [
+      "det_objects_0022"
+    ],
+    "source_segment_ids": [
+      "seg_006"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "objects"
+    ]
+  },
+  {
+    "event_id": "evt_0060",
+    "start_sec": 30.0,
+    "end_sec": 40.0,
+    "event_type": "gesture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks suggest movement in left_arm, right_arm",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0065"
+    ],
+    "source_segment_ids": [
+      "seg_006"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-71"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0061",
+    "start_sec": 30.0,
+    "end_sec": 40.0,
+    "event_type": "locomotion_posture",
+    "actor_ids": [
+      "person-01"
+    ],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "vlm"
+    ],
+    "description": "walking away from the camera toward a door, then descending stairs",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_characters_0067"
+    ],
+    "source_segment_ids": [
+      "seg_006"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0062",
+    "start_sec": 30.0,
+    "end_sec": 40.0,
+    "event_type": "gaze_head_orientation",
+    "actor_ids": [
+      "person-02"
+    ],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "vlm"
+    ],
+    "description": "entering the frame from the right, looking toward the door",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_characters_0068"
+    ],
+    "source_segment_ids": [
+      "seg_006"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0063",
+    "start_sec": 30.0,
+    "end_sec": 40.0,
+    "event_type": "observed_behavior",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "vlm"
+    ],
+    "description": "descending stairs",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_characters_0069"
+    ],
+    "source_segment_ids": [
+      "seg_006"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0059",
+    "start_sec": 30.0,
+    "end_sec": 46.0,
+    "event_type": "gesture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks suggest movement in left_arm, right_arm",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0064",
+      "det_characters_0070"
+    ],
+    "source_segment_ids": [
+      "seg_006",
+      "seg_007"
+    ],
+    "merge_notes": {
+      "merged_count": 2,
+      "conflicts": [],
+      "dropped_interpretive_claims": [],
+      "description_count": 1
+    },
+    "track_ids": [
+      "track-75"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0058",
+    "start_sec": 30.0,
+    "end_sec": 52.0,
+    "event_type": "pose_motion",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks show no clear limb movement",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0063",
+      "det_characters_0073",
+      "det_characters_0078"
+    ],
+    "source_segment_ids": [
+      "seg_006",
+      "seg_007",
+      "seg_008"
+    ],
+    "merge_notes": {
+      "merged_count": 3,
+      "conflicts": [],
+      "dropped_interpretive_claims": [],
+      "description_count": 1
+    },
+    "track_ids": [
+      "track-76"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0007",
+    "start_sec": 36.0,
+    "end_sec": 46.0,
+    "event_type": "scene_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "scene"
+    ],
+    "description": "An indoor hallway scene with a closed door blocked by yellow caution tape. A person in a blue shirt walks toward the door and gestures toward it. A person in a purple jacket stands near the door, head oriented toward the person",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_scenes_0007"
+    ],
+    "source_segment_ids": [
+      "seg_007"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "scenes"
+    ]
+  },
+  {
+    "event_id": "evt_0023",
+    "start_sec": 36.0,
+    "end_sec": 46.0,
+    "event_type": "object_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [
+      "caution_tape",
+      "door",
+      "stairs",
+      "wall"
+    ],
+    "modalities": [
+      "object"
+    ],
+    "description": "Visible objects: caution tape: Yellow caution tape with black text, forming an X across a door.; door: Dark wooden door with a small white sign on it.; stairs: Blue carpeted stairs to the left of the door.; wall: Wall with exposed brick on the right and painted surface on the left",
+    "confidence": 0.975,
+    "source_detection_ids": [
+      "det_objects_0023"
+    ],
+    "source_segment_ids": [
+      "seg_007"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "objects"
+    ]
+  },
+  {
+    "event_id": "evt_0064",
+    "start_sec": 36.0,
+    "end_sec": 46.0,
+    "event_type": "gesture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks suggest movement in right_arm",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0071"
+    ],
+    "source_segment_ids": [
+      "seg_007"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-81"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0065",
+    "start_sec": 36.0,
+    "end_sec": 46.0,
+    "event_type": "gesture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks suggest movement in right_arm",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0072"
+    ],
+    "source_segment_ids": [
+      "seg_007"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-80"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0066",
+    "start_sec": 36.0,
+    "end_sec": 46.0,
+    "event_type": "gesture",
+    "actor_ids": [
+      "person-01"
+    ],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "vlm"
+    ],
+    "description": "walking toward the door, gesturing with the person's right hand",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_characters_0074"
+    ],
+    "source_segment_ids": [
+      "seg_007"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0067",
+    "start_sec": 36.0,
+    "end_sec": 46.0,
+    "event_type": "gaze_head_orientation",
+    "actor_ids": [
+      "person-02"
+    ],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "vlm"
+    ],
+    "description": "standing near the door, head oriented toward the person",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_characters_0075"
+    ],
+    "source_segment_ids": [
+      "seg_007"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0008",
+    "start_sec": 42.0,
+    "end_sec": 52.0,
+    "event_type": "scene_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "scene"
+    ],
+    "description": "An indoor scene with a brick wall and a doorway blocked by yellow caution tape and an 'OUT OF ORDER' sign. A person in a blue shirt with the number 73 stands near the doorway. A person in a purple jacket stands nearby, facing him",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_scenes_0008"
+    ],
+    "source_segment_ids": [
+      "seg_008"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "scenes"
+    ]
+  },
+  {
+    "event_id": "evt_0024",
+    "start_sec": 42.0,
+    "end_sec": 52.0,
+    "event_type": "object_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [
+      "caution_tape",
+      "out_of_order_sign",
+      "brick_wall",
+      "wall_sconce"
+    ],
+    "modalities": [
+      "object"
+    ],
+    "description": "Visible objects: caution tape: Yellow tape with repeating 'CAUTION' text, diagonally across a doorway.; out of order sign: White rectangular sign with red text reading 'OUT OF ORDER'.; brick wall: Red brick wall in the background.; wall sconce: A wall-mounted light fixture with a warm glow",
+    "confidence": 0.965,
+    "source_detection_ids": [
+      "det_objects_0024"
+    ],
+    "source_segment_ids": [
+      "seg_008"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "objects"
+    ]
+  },
+  {
+    "event_id": "evt_0068",
+    "start_sec": 42.0,
+    "end_sec": 52.0,
+    "event_type": "gesture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks suggest movement in left_arm, right_arm",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0076"
+    ],
+    "source_segment_ids": [
+      "seg_008"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-81"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0069",
+    "start_sec": 42.0,
+    "end_sec": 52.0,
+    "event_type": "gesture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks suggest movement in left_arm",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0077"
+    ],
+    "source_segment_ids": [
+      "seg_008"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-80"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0070",
+    "start_sec": 42.0,
+    "end_sec": 52.0,
+    "event_type": "gaze_head_orientation",
+    "actor_ids": [
+      "person-01"
+    ],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "vlm"
+    ],
+    "description": "Standing still, facing right, looking toward the doorway",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_characters_0079"
+    ],
+    "source_segment_ids": [
+      "seg_008"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0071",
+    "start_sec": 42.0,
+    "end_sec": 52.0,
+    "event_type": "gaze_head_orientation",
+    "actor_ids": [
+      "person-02"
+    ],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "vlm"
+    ],
+    "description": "Standing still, facing left, looking toward the person",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_characters_0080"
+    ],
+    "source_segment_ids": [
+      "seg_008"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0009",
+    "start_sec": 48.0,
+    "end_sec": 58.0,
+    "event_type": "scene_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "scene"
+    ],
+    "description": "An indoor scene with a brick wall and a doorway. Yellow caution tape is strung across the doorway, which has a sign that reads 'OUT OF ORDER'",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_scenes_0009"
+    ],
+    "source_segment_ids": [
+      "seg_009"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "scenes"
+    ]
+  },
+  {
+    "event_id": "evt_0025",
+    "start_sec": 48.0,
+    "end_sec": 58.0,
+    "event_type": "object_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [
+      "caution_tape",
+      "sign",
+      "wall",
+      "light_fixture"
+    ],
+    "modalities": [
+      "object"
+    ],
+    "description": "Visible objects: caution tape: Yellow tape with black text, strung across a doorway.; sign: White sign with red text reading 'OUT OF ORDER'.; wall: Red brick wall.; light fixture: Wall-mounted light fixture with a warm glow",
+    "confidence": 0.955,
+    "source_detection_ids": [
+      "det_objects_0025"
+    ],
+    "source_segment_ids": [
+      "seg_009"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "objects"
+    ]
+  },
+  {
+    "event_id": "evt_0072",
+    "start_sec": 48.0,
+    "end_sec": 58.0,
+    "event_type": "pose_motion",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks show no clear limb movement",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0081"
+    ],
+    "source_segment_ids": [
+      "seg_009"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-81"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0074",
+    "start_sec": 48.0,
+    "end_sec": 58.0,
+    "event_type": "pose_motion",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks show no clear limb movement",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0083"
+    ],
+    "source_segment_ids": [
+      "seg_009"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-80"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0076",
+    "start_sec": 48.0,
+    "end_sec": 58.0,
+    "event_type": "gaze_head_orientation",
+    "actor_ids": [
+      "person-02"
+    ],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "vlm"
+    ],
+    "description": "standing, facing left, mouth slightly open",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_characters_0085"
+    ],
+    "source_segment_ids": [
+      "seg_009"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0077",
+    "start_sec": 48.0,
+    "end_sec": 58.0,
+    "event_type": "gesture",
+    "actor_ids": [
+      "person-01"
+    ],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "vlm"
+    ],
+    "description": "standing, looking right, hand near the caution tape",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_characters_0086"
+    ],
+    "source_segment_ids": [
+      "seg_009"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0073",
+    "start_sec": 48.0,
+    "end_sec": 64.0,
+    "event_type": "pose_motion",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks show no clear limb movement",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0082",
+      "det_characters_0089"
+    ],
+    "source_segment_ids": [
+      "seg_009",
+      "seg_010"
+    ],
+    "merge_notes": {
+      "merged_count": 2,
+      "conflicts": [],
+      "dropped_interpretive_claims": [],
+      "description_count": 1
+    },
+    "track_ids": [
+      "track-108"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0075",
+    "start_sec": 48.0,
+    "end_sec": 64.0,
+    "event_type": "pose_motion",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks show no clear limb movement",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0084",
+      "det_characters_0090"
+    ],
+    "source_segment_ids": [
+      "seg_009",
+      "seg_010"
+    ],
+    "merge_notes": {
+      "merged_count": 2,
+      "conflicts": [],
+      "dropped_interpretive_claims": [],
+      "description_count": 1
+    },
+    "track_ids": [
+      "track-106"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0010",
+    "start_sec": 54.0,
+    "end_sec": 64.0,
+    "event_type": "scene_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "scene"
+    ],
+    "description": "A person stands in an indoor hallway next to a door blocked by yellow caution tape. The door has a sign that reads 'OUT OF ORDER'",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_scenes_0010"
+    ],
+    "source_segment_ids": [
+      "seg_010"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "scenes"
+    ]
+  },
+  {
+    "event_id": "evt_0026",
+    "start_sec": 54.0,
+    "end_sec": 64.0,
+    "event_type": "object_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [
+      "caution_tape",
+      "door",
+      "wall",
+      "light_fixture"
+    ],
+    "modalities": [
+      "object"
+    ],
+    "description": "Visible objects: caution tape: yellow tape with black text reading 'CAUTION' and 'OUT OF ORDER' sign on door; door: wooden door with a sign and caution tape blocking access; wall: interior wall with a light fixture and brick section; light fixture: wall-mounted light fixture",
+    "confidence": 0.99,
+    "source_detection_ids": [
+      "det_objects_0026"
+    ],
+    "source_segment_ids": [
+      "seg_010"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "objects"
+    ]
+  },
+  {
+    "event_id": "evt_0078",
+    "start_sec": 54.0,
+    "end_sec": 64.0,
+    "event_type": "gesture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks suggest movement in left_arm, right_arm, left_leg, right_leg",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0087"
+    ],
+    "source_segment_ids": [
+      "seg_010"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-81"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0080",
+    "start_sec": 54.0,
+    "end_sec": 64.0,
+    "event_type": "gaze_head_orientation",
+    "actor_ids": [
+      "person-01"
+    ],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "vlm"
+    ],
+    "description": "standing still, looking toward the right",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_characters_0091"
+    ],
+    "source_segment_ids": [
+      "seg_010"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0079",
+    "start_sec": 54.0,
+    "end_sec": 70.0,
+    "event_type": "gesture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks suggest movement in left_arm, right_arm, left_leg, right_leg",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0088",
+      "det_characters_0093"
+    ],
+    "source_segment_ids": [
+      "seg_010",
+      "seg_011"
+    ],
+    "merge_notes": {
+      "merged_count": 2,
+      "conflicts": [],
+      "dropped_interpretive_claims": [],
+      "description_count": 1
+    },
+    "track_ids": [
+      "track-113"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0011",
+    "start_sec": 60.0,
+    "end_sec": 70.0,
+    "event_type": "scene_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "scene"
+    ],
+    "description": "An indoor scene with a brick wall and a doorway. A person in a blue shirt stands near the doorway, which is blocked by yellow caution tape. Another person in a purple jacket stands nearby, facing the first person",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_scenes_0011"
+    ],
+    "source_segment_ids": [
+      "seg_011"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "scenes"
+    ]
+  },
+  {
+    "event_id": "evt_0027",
+    "start_sec": 60.0,
+    "end_sec": 70.0,
+    "event_type": "object_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [
+      "caution_tape",
+      "brick_wall",
+      "doorway",
+      "wall_lamp"
+    ],
+    "modalities": [
+      "object"
+    ],
+    "description": "Visible objects: caution tape: Yellow tape with black text, stretched across a doorway.; brick wall: Red brick wall in the background.; doorway: Wooden door with a sign that reads 'OUT OF ORDER'.; wall lamp: A wall-mounted lamp with a warm glow",
+    "confidence": 0.912,
+    "source_detection_ids": [
+      "det_objects_0027"
+    ],
+    "source_segment_ids": [
+      "seg_011"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "objects"
+    ]
+  },
+  {
+    "event_id": "evt_0081",
+    "start_sec": 60.0,
+    "end_sec": 70.0,
+    "event_type": "pose_motion",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks show no clear limb movement",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0092"
+    ],
+    "source_segment_ids": [
+      "seg_011"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-124"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0082",
+    "start_sec": 60.0,
+    "end_sec": 70.0,
+    "event_type": "gesture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks suggest movement in left_arm, right_arm",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0094"
+    ],
+    "source_segment_ids": [
+      "seg_011"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-108"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0084",
+    "start_sec": 60.0,
+    "end_sec": 70.0,
+    "event_type": "gaze_head_orientation",
+    "actor_ids": [
+      "person-02",
+      "person-01"
+    ],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "vlm"
+    ],
+    "description": "standing, facing person-01",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_characters_0096",
+      "det_characters_0097"
+    ],
+    "source_segment_ids": [
+      "seg_011"
+    ],
+    "merge_notes": {
+      "merged_count": 2,
+      "conflicts": [],
+      "dropped_interpretive_claims": [],
+      "description_count": 2
+    },
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0083",
+    "start_sec": 60.0,
+    "end_sec": 76.0,
+    "event_type": "pose_motion",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks show no clear limb movement",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0095",
+      "det_characters_0101"
+    ],
+    "source_segment_ids": [
+      "seg_011",
+      "seg_012"
+    ],
+    "merge_notes": {
+      "merged_count": 2,
+      "conflicts": [],
+      "dropped_interpretive_claims": [],
+      "description_count": 1
+    },
+    "track_ids": [
+      "track-125"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0012",
+    "start_sec": 66.0,
+    "end_sec": 76.0,
+    "event_type": "scene_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "scene"
+    ],
+    "description": "A person in a blue t-shirt with the number 73 on it stands in a hallway next to a door blocked by yellow caution tape. Another person is partially visible to the person's right",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_scenes_0012"
+    ],
+    "source_segment_ids": [
+      "seg_012"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "scenes"
+    ]
+  },
+  {
+    "event_id": "evt_0028",
+    "start_sec": 66.0,
+    "end_sec": 76.0,
+    "event_type": "object_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [
+      "caution_tape",
+      "door",
+      "wall"
+    ],
+    "modalities": [
+      "object"
+    ],
+    "description": "Visible objects: caution tape: Yellow caution tape with repeating 'CAUTION' text, stretched across a doorway.; door: Wooden door with a white sign reading 'OUT OF ORDER' attached to it.; wall: Interior wall with exposed brick section and a wall-mounted light fixture",
+    "confidence": 0.97,
+    "source_detection_ids": [
+      "det_objects_0028"
+    ],
+    "source_segment_ids": [
+      "seg_012"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "objects"
+    ]
+  },
+  {
+    "event_id": "evt_0085",
+    "start_sec": 66.0,
+    "end_sec": 76.0,
+    "event_type": "gesture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks suggest movement in left_arm, right_arm, left_leg, right_leg",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0098"
+    ],
+    "source_segment_ids": [
+      "seg_012"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-124"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0086",
+    "start_sec": 66.0,
+    "end_sec": 76.0,
+    "event_type": "pose_motion",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks show no clear limb movement",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0099"
+    ],
+    "source_segment_ids": [
+      "seg_012"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-113"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0088",
+    "start_sec": 66.0,
+    "end_sec": 76.0,
+    "event_type": "gaze_head_orientation",
+    "actor_ids": [
+      "person-01"
+    ],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "vlm"
+    ],
+    "description": "Standing still, looking toward the right side of the frame",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_characters_0102"
+    ],
+    "source_segment_ids": [
+      "seg_012"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0089",
+    "start_sec": 66.0,
+    "end_sec": 76.0,
+    "event_type": "gaze_head_orientation",
+    "actor_ids": [
+      "person-02"
+    ],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "vlm"
+    ],
+    "description": "Partially visible, facing the person",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_characters_0103"
+    ],
+    "source_segment_ids": [
+      "seg_012"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0087",
+    "start_sec": 66.0,
+    "end_sec": 82.0,
+    "event_type": "pose_motion",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks show no clear limb movement",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0100",
+      "det_characters_0105"
+    ],
+    "source_segment_ids": [
+      "seg_012",
+      "seg_013"
+    ],
+    "merge_notes": {
+      "merged_count": 2,
+      "conflicts": [],
+      "dropped_interpretive_claims": [],
+      "description_count": 1
+    },
+    "track_ids": [
+      "track-135"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0013",
+    "start_sec": 72.0,
+    "end_sec": 82.0,
+    "event_type": "scene_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "scene"
+    ],
+    "description": "An indoor scene with two people. One person, wearing a blue t-shirt with the number 73, stands facing the other person. A yellow caution tape is draped over a doorway behind them. A wall-mounted light fixture is visible on the left",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_scenes_0013"
+    ],
+    "source_segment_ids": [
+      "seg_013"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "scenes"
+    ]
+  },
+  {
+    "event_id": "evt_0029",
+    "start_sec": 72.0,
+    "end_sec": 82.0,
+    "event_type": "object_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [
+      "caution_tape",
+      "wall_mounted_light_fixture",
+      "door",
+      "sign"
+    ],
+    "modalities": [
+      "object"
+    ],
+    "description": "Visible objects: caution tape: Yellow tape with black text, draped over a doorway.; wall-mounted light fixture: A lit, bowl-shaped light fixture on the wall.; door: A wooden door with a sign that reads 'OUT OF ORDER'.; sign: A white sign with red text reading 'OUT OF ORDER'",
+    "confidence": 0.925,
+    "source_detection_ids": [
+      "det_objects_0029"
+    ],
+    "source_segment_ids": [
+      "seg_013"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "objects"
+    ]
+  },
+  {
+    "event_id": "evt_0091",
+    "start_sec": 72.0,
+    "end_sec": 82.0,
+    "event_type": "pose_motion",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks show no clear limb movement",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0106"
+    ],
+    "source_segment_ids": [
+      "seg_013"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-134"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0093",
+    "start_sec": 72.0,
+    "end_sec": 82.0,
+    "event_type": "gaze_head_orientation",
+    "actor_ids": [
+      "person-01"
+    ],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "vlm"
+    ],
+    "description": "Standing still, facing the other person",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_characters_0108"
+    ],
+    "source_segment_ids": [
+      "seg_013"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0094",
+    "start_sec": 72.0,
+    "end_sec": 82.0,
+    "event_type": "gaze_head_orientation",
+    "actor_ids": [
+      "person-02"
+    ],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "vlm"
+    ],
+    "description": "Standing with their back mostly to the camera, facing person-01",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_characters_0109"
+    ],
+    "source_segment_ids": [
+      "seg_013"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0090",
+    "start_sec": 72.0,
+    "end_sec": 88.0,
+    "event_type": "pose_motion",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks show no clear limb movement",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0104",
+      "det_characters_0110"
+    ],
+    "source_segment_ids": [
+      "seg_013",
+      "seg_014"
+    ],
+    "merge_notes": {
+      "merged_count": 2,
+      "conflicts": [],
+      "dropped_interpretive_claims": [],
+      "description_count": 1
+    },
+    "track_ids": [
+      "track-124"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0092",
+    "start_sec": 72.0,
+    "end_sec": 88.0,
+    "event_type": "pose_motion",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks show no clear limb movement",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0107",
+      "det_characters_0112"
+    ],
+    "source_segment_ids": [
+      "seg_013",
+      "seg_014"
+    ],
+    "merge_notes": {
+      "merged_count": 2,
+      "conflicts": [],
+      "dropped_interpretive_claims": [],
+      "description_count": 1
+    },
+    "track_ids": [
+      "track-136"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0014",
+    "start_sec": 78.0,
+    "end_sec": 88.0,
+    "event_type": "scene_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "scene"
+    ],
+    "description": "A person in a blue shirt with the number 73 on it stands in a doorway area. A person in a purple jacket approaches him and then embraces him. The door is blocked by yellow caution tape and has an 'OUT OF ORDER' sign",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_scenes_0014"
+    ],
+    "source_segment_ids": [
+      "seg_014"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "scenes"
+    ]
+  },
+  {
+    "event_id": "evt_0030",
+    "start_sec": 78.0,
+    "end_sec": 88.0,
+    "event_type": "object_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [
+      "caution_tape",
+      "door",
+      "wall_sconce",
+      "plant"
+    ],
+    "modalities": [
+      "object"
+    ],
+    "description": "Visible objects: caution tape: Yellow tape with black text reading 'CAUTION' diagonally across a door.; door: Wooden door with a red fire alarm pull station and an 'OUT OF ORDER' sign.; wall sconce: Wall-mounted light fixture with a curved, bowl-shaped shade.; plant: Small potted plant on a stand in the background",
+    "confidence": 0.943,
+    "source_detection_ids": [
+      "det_objects_0030"
+    ],
+    "source_segment_ids": [
+      "seg_014"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "objects"
+    ]
+  },
+  {
+    "event_id": "evt_0095",
+    "start_sec": 78.0,
+    "end_sec": 88.0,
+    "event_type": "gesture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks suggest movement in left_arm, right_arm, left_leg, right_leg",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0111"
+    ],
+    "source_segment_ids": [
+      "seg_014"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-148"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0097",
+    "start_sec": 78.0,
+    "end_sec": 88.0,
+    "event_type": "gaze_head_orientation",
+    "actor_ids": [
+      "person-01"
+    ],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "vlm"
+    ],
+    "description": "standing, head oriented toward the person, then being embraced",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_characters_0114"
+    ],
+    "source_segment_ids": [
+      "seg_014"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0098",
+    "start_sec": 78.0,
+    "end_sec": 88.0,
+    "event_type": "object_action",
+    "actor_ids": [
+      "person-02"
+    ],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "vlm"
+    ],
+    "description": "approaching the person, reaching for the door, then embracing him",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_characters_0115"
+    ],
+    "source_segment_ids": [
+      "seg_014"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0096",
+    "start_sec": 78.0,
+    "end_sec": 94.0,
+    "event_type": "pose_motion",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks show no clear limb movement",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0113",
+      "det_characters_0119"
+    ],
+    "source_segment_ids": [
+      "seg_014",
+      "seg_015"
+    ],
+    "merge_notes": {
+      "merged_count": 2,
+      "conflicts": [],
+      "dropped_interpretive_claims": [],
+      "description_count": 1
+    },
+    "track_ids": [
+      "track-149"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0015",
+    "start_sec": 84.0,
+    "end_sec": 94.0,
+    "event_type": "scene_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "scene"
+    ],
+    "description": "Two adults are standing in front of a door that is blocked by yellow caution tape and has an 'OUT OF ORDER' sign. One person is embracing the other from behind. The setting appears to be an indoor hallway with brick walls and a light fixture",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_scenes_0015"
+    ],
+    "source_segment_ids": [
+      "seg_015"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "scenes"
+    ]
+  },
+  {
+    "event_id": "evt_0031",
+    "start_sec": 84.0,
+    "end_sec": 94.0,
+    "event_type": "object_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [
+      "door",
+      "caution_tape",
+      "wall",
+      "light_fixture"
+    ],
+    "modalities": [
+      "object"
+    ],
+    "description": "Visible objects: door: A dark wooden door covered with yellow caution tape and an 'OUT OF ORDER' sign.; caution tape: Yellow tape with black text reading 'CAUTION' and 'OUT OF ORDER' wrapped around the door.; wall: One section is brick, the other is light-colored paneling.; light fixture: A wall-mounted light fixture with a warm glow",
+    "confidence": 0.95,
+    "source_detection_ids": [
+      "det_objects_0031"
+    ],
+    "source_segment_ids": [
+      "seg_015"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "objects"
+    ]
+  },
+  {
+    "event_id": "evt_0099",
+    "start_sec": 84.0,
+    "end_sec": 94.0,
+    "event_type": "gesture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks suggest movement in right_arm",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0116"
+    ],
+    "source_segment_ids": [
+      "seg_015"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-155"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0101",
+    "start_sec": 84.0,
+    "end_sec": 94.0,
+    "event_type": "pose_motion",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks show no clear limb movement",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0118"
+    ],
+    "source_segment_ids": [
+      "seg_015"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-148"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0102",
+    "start_sec": 84.0,
+    "end_sec": 94.0,
+    "event_type": "gaze_head_orientation",
+    "actor_ids": [
+      "person-01"
+    ],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "vlm"
+    ],
+    "description": "standing, being embraced from behind, head oriented toward the other person",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_characters_0120"
+    ],
+    "source_segment_ids": [
+      "seg_015"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0103",
+    "start_sec": 84.0,
+    "end_sec": 94.0,
+    "event_type": "gaze_head_orientation",
+    "actor_ids": [
+      "person-02"
+    ],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "vlm"
+    ],
+    "description": "embracing person-01 from behind, looking up at them",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_characters_0121"
+    ],
+    "source_segment_ids": [
+      "seg_015"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0100",
+    "start_sec": 84.0,
+    "end_sec": 95.195,
+    "event_type": "gesture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks suggest movement in left_arm, right_arm, left_leg",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0117",
+      "det_characters_0123"
+    ],
+    "source_segment_ids": [
+      "seg_015",
+      "seg_016"
+    ],
+    "merge_notes": {
+      "merged_count": 2,
+      "conflicts": [],
+      "dropped_interpretive_claims": [],
+      "description_count": 2
+    },
+    "track_ids": [
+      "track-137"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0016",
+    "start_sec": 90.0,
+    "end_sec": 95.195,
+    "event_type": "scene_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "scene"
+    ],
+    "description": "Two people are embracing in a hallway next to a door marked 'OUT OF ORDER' and surrounded by yellow caution tape. They then separate and face each other",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_scenes_0016"
+    ],
+    "source_segment_ids": [
+      "seg_016"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "scenes"
+    ]
+  },
+  {
+    "event_id": "evt_0032",
+    "start_sec": 90.0,
+    "end_sec": 95.195,
+    "event_type": "object_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [
+      "caution_tape",
+      "door",
+      "wall",
+      "light_fixture"
+    ],
+    "modalities": [
+      "object"
+    ],
+    "description": "Visible objects: caution tape: Yellow tape with black text reading 'CAUTION' is draped across a doorway.; door: A dark wooden door with a red 'OUT OF ORDER' sign affixed to it.; wall: A brick wall is visible in the background.; light fixture: A wall-mounted light fixture with a warm glow",
+    "confidence": 0.965,
+    "source_detection_ids": [
+      "det_objects_0032"
+    ],
+    "source_segment_ids": [
+      "seg_016"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "objects"
+    ]
+  },
+  {
+    "event_id": "evt_0104",
+    "start_sec": 90.0,
+    "end_sec": 95.195,
+    "event_type": "pose_motion",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks show no clear limb movement",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0122"
+    ],
+    "source_segment_ids": [
+      "seg_016"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-155"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0105",
+    "start_sec": 90.0,
+    "end_sec": 95.195,
+    "event_type": "pose_motion",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks show no clear limb movement",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0124"
+    ],
+    "source_segment_ids": [
+      "seg_016"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-154"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0106",
+    "start_sec": 90.0,
+    "end_sec": 95.195,
+    "event_type": "pose_motion",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks show no clear limb movement",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0125"
+    ],
+    "source_segment_ids": [
+      "seg_016"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-152"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0107",
+    "start_sec": 90.0,
+    "end_sec": 95.195,
+    "event_type": "gaze_head_orientation",
+    "actor_ids": [
+      "person-01",
+      "person-02"
+    ],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "vlm"
+    ],
+    "description": "hugging, then facing the other person",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_characters_0126",
+      "det_characters_0127"
+    ],
+    "source_segment_ids": [
+      "seg_016"
+    ],
+    "merge_notes": {
+      "merged_count": 2,
+      "conflicts": [],
+      "dropped_interpretive_claims": [],
+      "description_count": 1
+    },
+    "source_kinds": [
+      "characters"
+    ]
+  }
+]

@@ -1,0 +1,2517 @@
+[
+  {
+    "event_id": "evt_0001",
+    "start_sec": 0.0,
+    "end_sec": 10.0,
+    "event_type": "scene_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "scene"
+    ],
+    "description": "Interior of an apartment kitchen and living room. The kitchen has cabinets, appliances, and a refrigerator covered with notes. The living room has a sofa, coffee table, and bookshelves",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_scenes_0001"
+    ],
+    "source_segment_ids": [
+      "seg_001"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "scenes"
+    ]
+  },
+  {
+    "event_id": "evt_0015",
+    "start_sec": 0.0,
+    "end_sec": 10.0,
+    "event_type": "object_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [
+      "refrigerator",
+      "cabinets",
+      "sofa",
+      "coffee_table",
+      "bookshelves",
+      "mug",
+      "chair"
+    ],
+    "modalities": [
+      "object"
+    ],
+    "description": "Visible objects: refrigerator: stainless steel refrigerator with notes on the door; cabinets: wooden cabinets; sofa: brown leather sofa; coffee table: round glass coffee table with CDs; bookshelves: wooden bookshelves filled with books; mug: yellow ceramic mug; chair: wooden chair",
+    "confidence": 1.0,
+    "source_detection_ids": [
+      "det_objects_0015"
+    ],
+    "source_segment_ids": [
+      "seg_001"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "objects"
+    ]
+  },
+  {
+    "event_id": "evt_0029",
+    "start_sec": 0.0,
+    "end_sec": 10.0,
+    "event_type": "gesture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks suggest movement in left_arm, right_arm, left_leg, right_leg",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0029"
+    ],
+    "source_segment_ids": [
+      "seg_001"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-1"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0032",
+    "start_sec": 0.0,
+    "end_sec": 10.0,
+    "event_type": "pose_motion",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks show no clear limb movement",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0032"
+    ],
+    "source_segment_ids": [
+      "seg_001"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-2"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0033",
+    "start_sec": 0.0,
+    "end_sec": 10.0,
+    "event_type": "object_action",
+    "actor_ids": [
+      "person-01"
+    ],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "vlm"
+    ],
+    "description": "standing, holding a mug",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_characters_0033"
+    ],
+    "source_segment_ids": [
+      "seg_001"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0034",
+    "start_sec": 0.0,
+    "end_sec": 10.0,
+    "event_type": "object_action",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "vlm"
+    ],
+    "description": "sitting on sofa, holding a mug",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_characters_0034"
+    ],
+    "source_segment_ids": [
+      "seg_001"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0031",
+    "start_sec": 0.0,
+    "end_sec": 16.0,
+    "event_type": "pose_motion",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks show no clear limb movement",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0031",
+      "det_characters_0037"
+    ],
+    "source_segment_ids": [
+      "seg_001",
+      "seg_002"
+    ],
+    "merge_notes": {
+      "merged_count": 2,
+      "conflicts": [],
+      "dropped_interpretive_claims": [],
+      "description_count": 1
+    },
+    "track_ids": [
+      "track-11"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0030",
+    "start_sec": 0.0,
+    "end_sec": 22.0,
+    "event_type": "gesture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks suggest movement in left_arm, right_arm, left_leg, right_leg",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0030",
+      "det_characters_0035",
+      "det_characters_0042"
+    ],
+    "source_segment_ids": [
+      "seg_001",
+      "seg_002",
+      "seg_003"
+    ],
+    "merge_notes": {
+      "merged_count": 3,
+      "conflicts": [],
+      "dropped_interpretive_claims": [],
+      "description_count": 2
+    },
+    "track_ids": [
+      "track-10"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0002",
+    "start_sec": 6.0,
+    "end_sec": 16.0,
+    "event_type": "scene_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "scene"
+    ],
+    "description": "Interior of a living room with a large bookshelf, a brown leather sofa, and a coffee table",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_scenes_0002"
+    ],
+    "source_segment_ids": [
+      "seg_002"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "scenes"
+    ]
+  },
+  {
+    "event_id": "evt_0016",
+    "start_sec": 6.0,
+    "end_sec": 16.0,
+    "event_type": "object_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [
+      "sofa",
+      "coffee_table",
+      "bookshelf",
+      "mug",
+      "lamp",
+      "rug"
+    ],
+    "modalities": [
+      "object"
+    ],
+    "description": "Visible objects: sofa: brown leather sofa with a beige throw pillow; coffee table: round coffee table with multiple DVDs on top; bookshelf: large wooden bookshelf filled with books and various items; mug: ceramic mugs, one yellow and one blue; lamp: table lamp with a lampshade; rug: patterned rug on the floor",
+    "confidence": 1.0,
+    "source_detection_ids": [
+      "det_objects_0016"
+    ],
+    "source_segment_ids": [
+      "seg_002"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "objects"
+    ]
+  },
+  {
+    "event_id": "evt_0036",
+    "start_sec": 6.0,
+    "end_sec": 16.0,
+    "event_type": "pose_motion",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks show no clear limb movement",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0038"
+    ],
+    "source_segment_ids": [
+      "seg_002"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-13"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0037",
+    "start_sec": 6.0,
+    "end_sec": 16.0,
+    "event_type": "posture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "vlm"
+    ],
+    "description": "standing and gesturing",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_characters_0039"
+    ],
+    "source_segment_ids": [
+      "seg_002"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0038",
+    "start_sec": 6.0,
+    "end_sec": 16.0,
+    "event_type": "object_action",
+    "actor_ids": [
+      "person-01",
+      "person-02"
+    ],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "vlm"
+    ],
+    "description": "sitting and holding a mug",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_characters_0040",
+      "det_characters_0041"
+    ],
+    "source_segment_ids": [
+      "seg_002"
+    ],
+    "merge_notes": {
+      "merged_count": 2,
+      "conflicts": [],
+      "dropped_interpretive_claims": [],
+      "description_count": 1
+    },
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0035",
+    "start_sec": 6.0,
+    "end_sec": 22.0,
+    "event_type": "pose_motion",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks show no clear limb movement",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0036",
+      "det_characters_0043"
+    ],
+    "source_segment_ids": [
+      "seg_002",
+      "seg_003"
+    ],
+    "merge_notes": {
+      "merged_count": 2,
+      "conflicts": [],
+      "dropped_interpretive_claims": [],
+      "description_count": 1
+    },
+    "track_ids": [
+      "track-16"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0003",
+    "start_sec": 12.0,
+    "end_sec": 22.0,
+    "event_type": "scene_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "scene"
+    ],
+    "description": "Interior of a living room with a brown leather couch and bookshelves",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_scenes_0003"
+    ],
+    "source_segment_ids": [
+      "seg_003"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "scenes"
+    ]
+  },
+  {
+    "event_id": "evt_0017",
+    "start_sec": 12.0,
+    "end_sec": 22.0,
+    "event_type": "object_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [
+      "couch",
+      "pillows",
+      "bookshelf",
+      "lamp",
+      "mug",
+      "magazine"
+    ],
+    "modalities": [
+      "object"
+    ],
+    "description": "Visible objects: couch: brown leather couch with pillows; pillows: various colored pillows on the couch; bookshelf: wooden bookshelf filled with books and objects; lamp: table lamp with a yellow lampshade; mug: ceramic mugs; magazine: stack of magazines",
+    "confidence": 1.0,
+    "source_detection_ids": [
+      "det_objects_0017"
+    ],
+    "source_segment_ids": [
+      "seg_003"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "objects"
+    ]
+  },
+  {
+    "event_id": "evt_0041",
+    "start_sec": 12.0,
+    "end_sec": 22.0,
+    "event_type": "object_action",
+    "actor_ids": [
+      "person-01"
+    ],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "vlm"
+    ],
+    "description": "sitting on the couch, holding a mug",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_characters_0046",
+      "det_characters_0047"
+    ],
+    "source_segment_ids": [
+      "seg_003"
+    ],
+    "merge_notes": {
+      "merged_count": 2,
+      "conflicts": [],
+      "dropped_interpretive_claims": [],
+      "description_count": 1
+    },
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0039",
+    "start_sec": 12.0,
+    "end_sec": 28.0,
+    "event_type": "gesture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks suggest movement in right_arm",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0044",
+      "det_characters_0049"
+    ],
+    "source_segment_ids": [
+      "seg_003",
+      "seg_004"
+    ],
+    "merge_notes": {
+      "merged_count": 2,
+      "conflicts": [],
+      "dropped_interpretive_claims": [],
+      "description_count": 1
+    },
+    "track_ids": [
+      "track-32"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0040",
+    "start_sec": 12.0,
+    "end_sec": 28.0,
+    "event_type": "pose_motion",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks show no clear limb movement",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0045",
+      "det_characters_0051"
+    ],
+    "source_segment_ids": [
+      "seg_003",
+      "seg_004"
+    ],
+    "merge_notes": {
+      "merged_count": 2,
+      "conflicts": [],
+      "dropped_interpretive_claims": [],
+      "description_count": 1
+    },
+    "track_ids": [
+      "track-35"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0004",
+    "start_sec": 18.0,
+    "end_sec": 28.0,
+    "event_type": "scene_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "scene"
+    ],
+    "description": "Interior of a living room with a brown leather couch and bookshelves",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_scenes_0004"
+    ],
+    "source_segment_ids": [
+      "seg_004"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "scenes"
+    ]
+  },
+  {
+    "event_id": "evt_0018",
+    "start_sec": 18.0,
+    "end_sec": 28.0,
+    "event_type": "object_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [
+      "couch",
+      "pillow",
+      "bookshelf",
+      "lamp",
+      "cup"
+    ],
+    "modalities": [
+      "object"
+    ],
+    "description": "Visible objects: couch: brown leather couch with pillows; pillow: various colored pillows; bookshelf: wooden bookshelves filled with books and objects; lamp: table lamp with a lampshade; cup: ceramic cups",
+    "confidence": 1.0,
+    "source_detection_ids": [
+      "det_objects_0018"
+    ],
+    "source_segment_ids": [
+      "seg_004"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "objects"
+    ]
+  },
+  {
+    "event_id": "evt_0042",
+    "start_sec": 18.0,
+    "end_sec": 28.0,
+    "event_type": "gesture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks suggest movement in left_arm, left_leg",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0048"
+    ],
+    "source_segment_ids": [
+      "seg_004"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-10"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0044",
+    "start_sec": 18.0,
+    "end_sec": 28.0,
+    "event_type": "object_action",
+    "actor_ids": [
+      "person-01",
+      "person-02"
+    ],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "vlm"
+    ],
+    "description": "sitting on couch, holding a cup",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_characters_0052",
+      "det_characters_0053"
+    ],
+    "source_segment_ids": [
+      "seg_004"
+    ],
+    "merge_notes": {
+      "merged_count": 2,
+      "conflicts": [],
+      "dropped_interpretive_claims": [],
+      "description_count": 1
+    },
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0043",
+    "start_sec": 18.0,
+    "end_sec": 34.0,
+    "event_type": "pose_motion",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks show no clear limb movement",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0050",
+      "det_characters_0055"
+    ],
+    "source_segment_ids": [
+      "seg_004",
+      "seg_005"
+    ],
+    "merge_notes": {
+      "merged_count": 2,
+      "conflicts": [],
+      "dropped_interpretive_claims": [],
+      "description_count": 1
+    },
+    "track_ids": [
+      "track-54"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0005",
+    "start_sec": 24.0,
+    "end_sec": 34.0,
+    "event_type": "scene_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "scene"
+    ],
+    "description": "Interior of a living room with a couch, bookshelves, and lamps",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_scenes_0005"
+    ],
+    "source_segment_ids": [
+      "seg_005"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "scenes"
+    ]
+  },
+  {
+    "event_id": "evt_0019",
+    "start_sec": 24.0,
+    "end_sec": 34.0,
+    "event_type": "object_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [
+      "couch",
+      "bookshelf",
+      "lamp",
+      "pillow",
+      "tissues",
+      "remote_control"
+    ],
+    "modalities": [
+      "object"
+    ],
+    "description": "Visible objects: couch: brown leather couch with beige cushion; bookshelf: wooden bookshelf filled with books; lamp: brown lamp with a tan lampshade; pillow: multicolored pillow; tissues: box of tissues; remote control: black remote control",
+    "confidence": 1.0,
+    "source_detection_ids": [
+      "det_objects_0019"
+    ],
+    "source_segment_ids": [
+      "seg_005"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "objects"
+    ]
+  },
+  {
+    "event_id": "evt_0046",
+    "start_sec": 24.0,
+    "end_sec": 34.0,
+    "event_type": "gaze_head_orientation",
+    "actor_ids": [
+      "person-02"
+    ],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "vlm"
+    ],
+    "description": "sitting, looking to the side",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_characters_0056"
+    ],
+    "source_segment_ids": [
+      "seg_005"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0047",
+    "start_sec": 24.0,
+    "end_sec": 34.0,
+    "event_type": "gesture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "vlm"
+    ],
+    "description": "sitting, gesturing with hands",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_characters_0057"
+    ],
+    "source_segment_ids": [
+      "seg_005"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0045",
+    "start_sec": 24.0,
+    "end_sec": 46.0,
+    "event_type": "pose_motion",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks show no clear limb movement",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0054",
+      "det_characters_0058",
+      "det_characters_0060"
+    ],
+    "source_segment_ids": [
+      "seg_005",
+      "seg_006",
+      "seg_007"
+    ],
+    "merge_notes": {
+      "merged_count": 3,
+      "conflicts": [],
+      "dropped_interpretive_claims": [],
+      "description_count": 1
+    },
+    "track_ids": [
+      "track-10"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0006",
+    "start_sec": 30.0,
+    "end_sec": 40.0,
+    "event_type": "scene_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "scene"
+    ],
+    "description": "Interior of a living room. A person is seated in an armchair",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_scenes_0006"
+    ],
+    "source_segment_ids": [
+      "seg_006"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "scenes"
+    ]
+  },
+  {
+    "event_id": "evt_0020",
+    "start_sec": 30.0,
+    "end_sec": 40.0,
+    "event_type": "object_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [
+      "armchair",
+      "pillow",
+      "bookshelf",
+      "lamp",
+      "tissues",
+      "books"
+    ],
+    "modalities": [
+      "object"
+    ],
+    "description": "Visible objects: armchair: brown leather armchair with beige cushions; pillow: multicolored pillow; bookshelf: wooden bookshelf with books and objects; lamp: table lamp with orange lampshade; tissues: box of tissues; books: various books on bookshelf",
+    "confidence": 0.967,
+    "source_detection_ids": [
+      "det_objects_0020"
+    ],
+    "source_segment_ids": [
+      "seg_006"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "objects"
+    ]
+  },
+  {
+    "event_id": "evt_0048",
+    "start_sec": 30.0,
+    "end_sec": 40.0,
+    "event_type": "gesture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "vlm"
+    ],
+    "description": "sitting, gesturing with hands",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_characters_0059"
+    ],
+    "source_segment_ids": [
+      "seg_006"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0007",
+    "start_sec": 36.0,
+    "end_sec": 46.0,
+    "event_type": "scene_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "scene"
+    ],
+    "description": "Interior of a living room. A person is seated on a brown leather armchair",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_scenes_0007"
+    ],
+    "source_segment_ids": [
+      "seg_007"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "scenes"
+    ]
+  },
+  {
+    "event_id": "evt_0021",
+    "start_sec": 36.0,
+    "end_sec": 46.0,
+    "event_type": "object_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [
+      "armchair",
+      "pillow",
+      "bookshelf",
+      "lamp",
+      "tissues"
+    ],
+    "modalities": [
+      "object"
+    ],
+    "description": "Visible objects: armchair: brown leather armchair with beige cushions; pillow: multicolored pillow; bookshelf: wooden bookshelf with books and objects; lamp: table lamp with a beige lampshade; tissues: box of tissues",
+    "confidence": 1.0,
+    "source_detection_ids": [
+      "det_objects_0021"
+    ],
+    "source_segment_ids": [
+      "seg_007"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "objects"
+    ]
+  },
+  {
+    "event_id": "evt_0049",
+    "start_sec": 36.0,
+    "end_sec": 46.0,
+    "event_type": "gesture",
+    "actor_ids": [
+      "person-02"
+    ],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "vlm"
+    ],
+    "description": "seated, hands clasped",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_characters_0061"
+    ],
+    "source_segment_ids": [
+      "seg_007"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0008",
+    "start_sec": 42.0,
+    "end_sec": 52.0,
+    "event_type": "scene_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "scene"
+    ],
+    "description": "Interior of a living room with a couch, bookshelves, and a lamp",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_scenes_0008"
+    ],
+    "source_segment_ids": [
+      "seg_008"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "scenes"
+    ]
+  },
+  {
+    "event_id": "evt_0022",
+    "start_sec": 42.0,
+    "end_sec": 52.0,
+    "event_type": "object_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [
+      "couch",
+      "bookshelf",
+      "lamp",
+      "tissues",
+      "pillow"
+    ],
+    "modalities": [
+      "object"
+    ],
+    "description": "Visible objects: couch: brown leather couch with beige cushions; bookshelf: wooden bookshelf filled with books; lamp: table lamp with a beige lampshade; tissues: box of tissues; pillow: pillows on the couch",
+    "confidence": 0.94,
+    "source_detection_ids": [
+      "det_objects_0022"
+    ],
+    "source_segment_ids": [
+      "seg_008"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "objects"
+    ]
+  },
+  {
+    "event_id": "evt_0050",
+    "start_sec": 42.0,
+    "end_sec": 52.0,
+    "event_type": "gesture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks suggest movement in left_arm, right_arm, left_leg, right_leg",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0062"
+    ],
+    "source_segment_ids": [
+      "seg_008"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-10"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0052",
+    "start_sec": 42.0,
+    "end_sec": 52.0,
+    "event_type": "gesture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks suggest movement in left_arm",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0064"
+    ],
+    "source_segment_ids": [
+      "seg_008"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-60"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0053",
+    "start_sec": 42.0,
+    "end_sec": 52.0,
+    "event_type": "gesture",
+    "actor_ids": [
+      "person-02"
+    ],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "vlm"
+    ],
+    "description": "sitting on the couch, hands clasped",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_characters_0065"
+    ],
+    "source_segment_ids": [
+      "seg_008"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0051",
+    "start_sec": 42.0,
+    "end_sec": 58.0,
+    "event_type": "pose_motion",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks show no clear limb movement",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0063",
+      "det_characters_0069"
+    ],
+    "source_segment_ids": [
+      "seg_008",
+      "seg_009"
+    ],
+    "merge_notes": {
+      "merged_count": 2,
+      "conflicts": [],
+      "dropped_interpretive_claims": [],
+      "description_count": 1
+    },
+    "track_ids": [
+      "track-59"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0054",
+    "start_sec": 42.0,
+    "end_sec": 58.0,
+    "event_type": "vocalization_or_mouth_movement",
+    "actor_ids": [
+      "person-01"
+    ],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "vlm"
+    ],
+    "description": "sitting on the couch, mouth open",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_characters_0066",
+      "det_characters_0072"
+    ],
+    "source_segment_ids": [
+      "seg_008",
+      "seg_009"
+    ],
+    "merge_notes": {
+      "merged_count": 2,
+      "conflicts": [],
+      "dropped_interpretive_claims": [],
+      "description_count": 1
+    },
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0009",
+    "start_sec": 48.0,
+    "end_sec": 58.0,
+    "event_type": "scene_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "scene"
+    ],
+    "description": "Interior of a living room with a couch, bookshelves, and a lamp",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_scenes_0009"
+    ],
+    "source_segment_ids": [
+      "seg_009"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "scenes"
+    ]
+  },
+  {
+    "event_id": "evt_0023",
+    "start_sec": 48.0,
+    "end_sec": 58.0,
+    "event_type": "object_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [
+      "couch",
+      "bookshelf",
+      "lamp",
+      "tissues",
+      "books"
+    ],
+    "modalities": [
+      "object"
+    ],
+    "description": "Visible objects: couch: brown leather couch with cushions; bookshelf: wooden bookshelf filled with books; lamp: table lamp with a tan lampshade; tissues: box of tissues; books: various books on shelves",
+    "confidence": 0.92,
+    "source_detection_ids": [
+      "det_objects_0023"
+    ],
+    "source_segment_ids": [
+      "seg_009"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "objects"
+    ]
+  },
+  {
+    "event_id": "evt_0055",
+    "start_sec": 48.0,
+    "end_sec": 58.0,
+    "event_type": "pose_motion",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks show no clear limb movement",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0067"
+    ],
+    "source_segment_ids": [
+      "seg_009"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-10"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0056",
+    "start_sec": 48.0,
+    "end_sec": 58.0,
+    "event_type": "pose_motion",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks show no clear limb movement",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0068"
+    ],
+    "source_segment_ids": [
+      "seg_009"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-61"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0057",
+    "start_sec": 48.0,
+    "end_sec": 58.0,
+    "event_type": "gesture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks suggest movement in left_arm, right_arm",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0070"
+    ],
+    "source_segment_ids": [
+      "seg_009"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-60"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0058",
+    "start_sec": 48.0,
+    "end_sec": 58.0,
+    "event_type": "gaze_head_orientation",
+    "actor_ids": [
+      "person-02"
+    ],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "vlm"
+    ],
+    "description": "sitting on the couch, looking down",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_characters_0071"
+    ],
+    "source_segment_ids": [
+      "seg_009"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0010",
+    "start_sec": 54.0,
+    "end_sec": 64.0,
+    "event_type": "scene_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "scene"
+    ],
+    "description": "Interior of a living room. Two people are seated on a brown leather couch",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_scenes_0010"
+    ],
+    "source_segment_ids": [
+      "seg_010"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "scenes"
+    ]
+  },
+  {
+    "event_id": "evt_0024",
+    "start_sec": 54.0,
+    "end_sec": 64.0,
+    "event_type": "object_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [
+      "couch",
+      "pillow",
+      "lamp",
+      "bookshelf",
+      "tissue",
+      "cup"
+    ],
+    "modalities": [
+      "object"
+    ],
+    "description": "Visible objects: couch: brown leather couch with pillows; pillow: various colored pillows; lamp: table lamp with a lampshade; bookshelf: wooden bookshelf with books and objects; tissue: white tissue on the couch; cup: yellow cup on the couch",
+    "confidence": 1.0,
+    "source_detection_ids": [
+      "det_objects_0024"
+    ],
+    "source_segment_ids": [
+      "seg_010"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "objects"
+    ]
+  },
+  {
+    "event_id": "evt_0059",
+    "start_sec": 54.0,
+    "end_sec": 64.0,
+    "event_type": "pose_motion",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks show no clear limb movement",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0073"
+    ],
+    "source_segment_ids": [
+      "seg_010"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-60"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0060",
+    "start_sec": 54.0,
+    "end_sec": 64.0,
+    "event_type": "gesture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks suggest movement in left_arm, right_arm, left_leg, right_leg",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0074"
+    ],
+    "source_segment_ids": [
+      "seg_010"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-10"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0063",
+    "start_sec": 54.0,
+    "end_sec": 64.0,
+    "event_type": "object_action",
+    "actor_ids": [
+      "person-01"
+    ],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "vlm"
+    ],
+    "description": "seated, holding hands with another person",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_characters_0077"
+    ],
+    "source_segment_ids": [
+      "seg_010"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0064",
+    "start_sec": 54.0,
+    "end_sec": 64.0,
+    "event_type": "object_action",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "vlm"
+    ],
+    "description": "seated, holding knees",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_characters_0078"
+    ],
+    "source_segment_ids": [
+      "seg_010"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0062",
+    "start_sec": 54.0,
+    "end_sec": 70.0,
+    "event_type": "gesture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks suggest movement in left_arm, right_arm, left_leg, right_leg",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0076",
+      "det_characters_0079"
+    ],
+    "source_segment_ids": [
+      "seg_010",
+      "seg_011"
+    ],
+    "merge_notes": {
+      "merged_count": 2,
+      "conflicts": [],
+      "dropped_interpretive_claims": [],
+      "description_count": 1
+    },
+    "track_ids": [
+      "track-64"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0061",
+    "start_sec": 54.0,
+    "end_sec": 76.0,
+    "event_type": "gesture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks suggest movement in left_arm, right_arm, left_leg, right_leg",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0075",
+      "det_characters_0080",
+      "det_characters_0085"
+    ],
+    "source_segment_ids": [
+      "seg_010",
+      "seg_011",
+      "seg_012"
+    ],
+    "merge_notes": {
+      "merged_count": 3,
+      "conflicts": [],
+      "dropped_interpretive_claims": [],
+      "description_count": 2
+    },
+    "track_ids": [
+      "track-63"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0011",
+    "start_sec": 60.0,
+    "end_sec": 70.0,
+    "event_type": "scene_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "scene"
+    ],
+    "description": "Interior of a living room with brown leather furniture and bookshelves",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_scenes_0011"
+    ],
+    "source_segment_ids": [
+      "seg_011"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "scenes"
+    ]
+  },
+  {
+    "event_id": "evt_0025",
+    "start_sec": 60.0,
+    "end_sec": 70.0,
+    "event_type": "object_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [
+      "sofa",
+      "armchair",
+      "coffee_table",
+      "bookshelf",
+      "lamp",
+      "rug",
+      "tissues",
+      "rubiks_cube",
+      "dvds"
+    ],
+    "modalities": [
+      "object"
+    ],
+    "description": "Visible objects: sofa: large brown leather sofa; armchair: brown leather armchair; coffee table: round coffee table with various items on top; bookshelf: wooden bookshelf filled with books; lamp: yellow table lamp; rug: colorful patterned rug; tissues: box of tissues; rubiks cube: rubik's cube; dvds: stack of DVDs",
+    "confidence": 0.978,
+    "source_detection_ids": [
+      "det_objects_0025"
+    ],
+    "source_segment_ids": [
+      "seg_011"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "objects"
+    ]
+  },
+  {
+    "event_id": "evt_0065",
+    "start_sec": 60.0,
+    "end_sec": 70.0,
+    "event_type": "pose_motion",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks show no clear limb movement",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0081"
+    ],
+    "source_segment_ids": [
+      "seg_011"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-69"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0066",
+    "start_sec": 60.0,
+    "end_sec": 70.0,
+    "event_type": "object_action",
+    "actor_ids": [
+      "person-01"
+    ],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "vlm"
+    ],
+    "description": "sitting on sofa, holding a cup",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_characters_0082"
+    ],
+    "source_segment_ids": [
+      "seg_011"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0067",
+    "start_sec": 60.0,
+    "end_sec": 70.0,
+    "event_type": "object_action",
+    "actor_ids": [
+      "person-02"
+    ],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "vlm"
+    ],
+    "description": "sitting in armchair, holding knees",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_characters_0083"
+    ],
+    "source_segment_ids": [
+      "seg_011"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0012",
+    "start_sec": 66.0,
+    "end_sec": 76.0,
+    "event_type": "scene_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "scene"
+    ],
+    "description": "Two people are seated on a brown couch in a living room. A bookshelf is visible in the background",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_scenes_0012"
+    ],
+    "source_segment_ids": [
+      "seg_012"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "scenes"
+    ]
+  },
+  {
+    "event_id": "evt_0026",
+    "start_sec": 66.0,
+    "end_sec": 76.0,
+    "event_type": "object_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [
+      "couch",
+      "bookshelf",
+      "lamp",
+      "tissues"
+    ],
+    "modalities": [
+      "object"
+    ],
+    "description": "Visible objects: couch: brown, upholstered; bookshelf: wooden, filled with books; lamp: table lamp with a lampshade; tissues: white tissue on the couch",
+    "confidence": 0.95,
+    "source_detection_ids": [
+      "det_objects_0026"
+    ],
+    "source_segment_ids": [
+      "seg_012"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "objects"
+    ]
+  },
+  {
+    "event_id": "evt_0068",
+    "start_sec": 66.0,
+    "end_sec": 76.0,
+    "event_type": "gesture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks suggest movement in left_arm, right_arm",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0084"
+    ],
+    "source_segment_ids": [
+      "seg_012"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-64"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0069",
+    "start_sec": 66.0,
+    "end_sec": 76.0,
+    "event_type": "object_action",
+    "actor_ids": [
+      "person-01"
+    ],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "vlm"
+    ],
+    "description": "sitting, holding hands with another person",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_characters_0086"
+    ],
+    "source_segment_ids": [
+      "seg_012"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0070",
+    "start_sec": 66.0,
+    "end_sec": 76.0,
+    "event_type": "posture",
+    "actor_ids": [
+      "person-02"
+    ],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "vlm"
+    ],
+    "description": "sitting, being held by another person",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_characters_0087"
+    ],
+    "source_segment_ids": [
+      "seg_012"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0013",
+    "start_sec": 72.0,
+    "end_sec": 82.0,
+    "event_type": "scene_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "scene"
+    ],
+    "description": "Two people are seated on a brown leather couch in a room with bookshelves and a lamp",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_scenes_0013"
+    ],
+    "source_segment_ids": [
+      "seg_013"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "scenes"
+    ]
+  },
+  {
+    "event_id": "evt_0027",
+    "start_sec": 72.0,
+    "end_sec": 82.0,
+    "event_type": "object_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [
+      "couch",
+      "bookshelf",
+      "lamp",
+      "tissue"
+    ],
+    "modalities": [
+      "object"
+    ],
+    "description": "Visible objects: couch: brown leather couch; bookshelf: wooden bookshelf with books; lamp: table lamp with a lampshade; tissue: white tissue on a table",
+    "confidence": 0.95,
+    "source_detection_ids": [
+      "det_objects_0027"
+    ],
+    "source_segment_ids": [
+      "seg_013"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "objects"
+    ]
+  },
+  {
+    "event_id": "evt_0071",
+    "start_sec": 72.0,
+    "end_sec": 82.0,
+    "event_type": "gesture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks suggest movement in right_arm",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0088"
+    ],
+    "source_segment_ids": [
+      "seg_013"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-64"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0072",
+    "start_sec": 72.0,
+    "end_sec": 82.0,
+    "event_type": "gesture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks suggest movement in right_arm, right_leg",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0089"
+    ],
+    "source_segment_ids": [
+      "seg_013"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-63"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0074",
+    "start_sec": 72.0,
+    "end_sec": 82.0,
+    "event_type": "observed_behavior",
+    "actor_ids": [
+      "person-02"
+    ],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "vlm"
+    ],
+    "description": "seated, leaning on another person",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_characters_0091"
+    ],
+    "source_segment_ids": [
+      "seg_013"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0073",
+    "start_sec": 72.0,
+    "end_sec": 85.419,
+    "event_type": "observed_behavior",
+    "actor_ids": [
+      "person-01"
+    ],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "vlm"
+    ],
+    "description": "embracing another person",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_characters_0090",
+      "det_characters_0094"
+    ],
+    "source_segment_ids": [
+      "seg_013",
+      "seg_014"
+    ],
+    "merge_notes": {
+      "merged_count": 2,
+      "conflicts": [],
+      "dropped_interpretive_claims": [],
+      "description_count": 1
+    },
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0014",
+    "start_sec": 78.0,
+    "end_sec": 85.419,
+    "event_type": "scene_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "scene"
+    ],
+    "description": "Interior of a living room. Two people are seated on a brown leather couch",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_scenes_0014"
+    ],
+    "source_segment_ids": [
+      "seg_014"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "scenes"
+    ]
+  },
+  {
+    "event_id": "evt_0028",
+    "start_sec": 78.0,
+    "end_sec": 85.419,
+    "event_type": "object_context",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [
+      "couch",
+      "lamp",
+      "tissue"
+    ],
+    "modalities": [
+      "object"
+    ],
+    "description": "Visible objects: couch: brown leather couch with cushions; lamp: table lamp with a lampshade; tissue: white tissue on the couch",
+    "confidence": 0.933,
+    "source_detection_ids": [
+      "det_objects_0028"
+    ],
+    "source_segment_ids": [
+      "seg_014"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "objects"
+    ]
+  },
+  {
+    "event_id": "evt_0075",
+    "start_sec": 78.0,
+    "end_sec": 85.419,
+    "event_type": "pose_motion",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks show no clear limb movement",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0092"
+    ],
+    "source_segment_ids": [
+      "seg_014"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-63"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0076",
+    "start_sec": 78.0,
+    "end_sec": 85.419,
+    "event_type": "gesture",
+    "actor_ids": [],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "yolo",
+      "motion",
+      "pose"
+    ],
+    "description": "Pose landmarks suggest movement in left_arm, left_leg",
+    "confidence": 0.6,
+    "source_detection_ids": [
+      "det_characters_0093"
+    ],
+    "source_segment_ids": [
+      "seg_014"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "track_ids": [
+      "track-64"
+    ],
+    "source_kinds": [
+      "characters"
+    ]
+  },
+  {
+    "event_id": "evt_0077",
+    "start_sec": 78.0,
+    "end_sec": 85.419,
+    "event_type": "gaze_head_orientation",
+    "actor_ids": [
+      "person-02"
+    ],
+    "target_ids": [],
+    "object_ids": [],
+    "modalities": [
+      "rgb",
+      "vlm"
+    ],
+    "description": "being embraced, head down",
+    "confidence": 0.9,
+    "source_detection_ids": [
+      "det_characters_0095"
+    ],
+    "source_segment_ids": [
+      "seg_014"
+    ],
+    "merge_notes": {
+      "merged_count": 1,
+      "conflicts": [],
+      "dropped_interpretive_claims": []
+    },
+    "source_kinds": [
+      "characters"
+    ]
+  }
+]

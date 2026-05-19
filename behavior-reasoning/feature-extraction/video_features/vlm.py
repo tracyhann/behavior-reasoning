@@ -100,7 +100,7 @@ def normalize_vlm_payload(raw_text: str | dict[str, Any]) -> dict[str, Any]:
         objects.append(
             {
                 "label": _label(item.get("label") or item.get("name")),
-                "count": max(1, int(float(item.get("count", 1) or 1))),
+                "count": _int_count(item.get("count", 1)),
                 "confidence": _float01(item.get("confidence", 0.5)),
                 "description": _clean(
                     item.get("description") or item.get("location"),
@@ -432,6 +432,36 @@ def _float01(value: object) -> float:
     except (TypeError, ValueError):
         return 0.5
     return max(0.0, min(1.0, round(number, 3)))
+
+
+def _int_count(value: object) -> int:
+    if isinstance(value, bool):
+        return 1
+    try:
+        return max(1, int(float(value)))
+    except (TypeError, ValueError):
+        pass
+    text = str(value or "").strip().lower()
+    word_map = {
+        "zero": 0, "none": 0,
+        "one": 1, "a": 1, "an": 1, "single": 1,
+        "two": 2, "couple": 2, "pair": 2, "both": 2,
+        "three": 3, "few": 3,
+        "four": 4, "five": 5, "six": 6, "seven": 7, "eight": 8, "nine": 9,
+        "ten": 10,
+        "several": 3, "many": 5, "multiple": 2,
+        "various": 3, "numerous": 5,
+    }
+    if text in word_map:
+        return max(1, word_map[text])
+    import re as _re
+    m = _re.search(r"\d+", text)
+    if m:
+        try:
+            return max(1, int(m.group(0)))
+        except ValueError:
+            pass
+    return 1
 
 
 def _clean(value: object, fallback: str) -> str:

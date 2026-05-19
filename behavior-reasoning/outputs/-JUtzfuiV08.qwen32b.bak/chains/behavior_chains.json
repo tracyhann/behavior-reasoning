@@ -1,0 +1,113 @@
+{
+  "schema_version": "0.1",
+  "source_files": {
+    "characters": "/DATA/zihao/projects/Project-Ava/behavior-reasoning/behavior-reasoning/outputs/-JUtzfuiV08/characters/characters.json",
+    "detections": "/DATA/zihao/projects/Project-Ava/behavior-reasoning/behavior-reasoning/outputs/-JUtzfuiV08/detections/detections.json"
+  },
+  "parameters": {
+    "max_merge_gap_sec": 2.0,
+    "max_chain_gap_sec": 10.0,
+    "max_response_window_sec": 8.0,
+    "min_dedupe_score": 0.72
+  },
+  "chains": [
+    {
+      "chain_id": "chain_0001",
+      "start_sec": 0.0,
+      "end_sec": 28.0,
+      "participant_ids": [
+        "person-01"
+      ],
+      "object_ids": [
+        "person",
+        "yellow_mug",
+        "kitchen",
+        "couch",
+        "bookshelf",
+        "lamp"
+      ],
+      "event_ids": [
+        "evt_0011",
+        "evt_0018"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0011",
+          "time_span": [
+            0.0,
+            10.0
+          ],
+          "event_type": "object_action",
+          "actor_ids": [
+            "person-01"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "standing in a kitchen holding a yellow mug"
+        },
+        {
+          "event_id": "evt_0018",
+          "time_span": [
+            18.0,
+            28.0
+          ],
+          "event_type": "gesture",
+          "actor_ids": [
+            "person-01"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "sitting on a couch, gesturing with hands with mouth open"
+        }
+      ],
+      "interaction_pattern": "motion_sequence",
+      "summary": "Person-01 transitions from standing in a kitchen holding a yellow mug to sitting on a couch, gesturing with hands and mouth open.",
+      "confidence": 0.9,
+      "source_detection_ids": [
+        "det_characters_0033",
+        "det_characters_0046",
+        "det_scenes_0001",
+        "det_objects_0015",
+        "det_scenes_0004",
+        "det_objects_0018"
+      ],
+      "source_segment_ids": [
+        "seg_001",
+        "seg_004"
+      ],
+      "reasoner_model": "Qwen/Qwen2.5-VL-32B-Instruct"
+    }
+  ],
+  "orphan_event_ids": [
+    "evt_0007",
+    "evt_0010",
+    "evt_0009",
+    "evt_0008",
+    "evt_0013",
+    "evt_0012",
+    "evt_0014",
+    "evt_0015",
+    "evt_0016",
+    "evt_0017",
+    "evt_0019",
+    "evt_0020",
+    "evt_0022",
+    "evt_0021",
+    "evt_0023",
+    "evt_0024",
+    "evt_0025",
+    "evt_0026",
+    "evt_0027",
+    "evt_0029",
+    "evt_0028",
+    "evt_0030",
+    "evt_0031",
+    "evt_0032",
+    "evt_0033",
+    "evt_0034",
+    "evt_0035"
+  ],
+  "warnings": [
+    "27 track-only events have no resolved character id; see orphan_event_ids."
+  ]
+}

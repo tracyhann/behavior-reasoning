@@ -1,0 +1,82 @@
+{
+  "schema_version": "0.1",
+  "qa_iterations": 5,
+  "overall_status": "pass",
+  "iterations": [
+    {
+      "iteration": 1,
+      "status": "pass",
+      "errors": [],
+      "questions": {
+        "what_happened_first": "Standing, head oriented toward computer",
+        "which_chains_have_multiple_characters": [
+          "chain_0021"
+        ],
+        "are_events_chronological": true,
+        "are_source_detections_traceable": true,
+        "are_summaries_observable": true,
+        "are_unusable_events_listed": true
+      }
+    },
+    {
+      "iteration": 2,
+      "status": "pass",
+      "errors": [],
+      "questions": {
+        "what_happened_first": "Standing, head oriented toward computer",
+        "which_chains_have_multiple_characters": [
+          "chain_0021"
+        ],
+        "are_events_chronological": true,
+        "are_source_detections_traceable": true,
+        "are_summaries_observable": true,
+        "are_unusable_events_listed": true
+      }
+    },
+    {
+      "iteration": 3,
+      "status": "pass",
+      "errors": [],
+      "questions": {
+        "what_happened_first": "Standing, head oriented toward computer",
+        "which_chains_have_multiple_characters": [
+          "chain_0021"
+        ],
+        "are_events_chronological": true,
+        "are_source_detections_traceable": true,
+        "are_summaries_observable": true,
+        "are_unusable_events_listed": true
+      }
+    },
+    {
+      "iteration": 4,
+      "status": "pass",
+      "errors": [],
+      "questions": {
+        "what_happened_first": "Standing, head oriented toward computer",
+        "which_chains_have_multiple_characters": [
+          "chain_0021"
+        ],
+        "are_events_chronological": true,
+        "are_source_detections_traceable": true,
+        "are_summaries_observable": true,
+        "are_unusable_events_listed": true
+      }
+    },
+    {
+      "iteration": 5,
+      "status": "pass",
+      "errors": [],
+      "questions": {
+        "what_happened_first": "Standing, head oriented toward computer",
+        "which_chains_have_multiple_characters": [
+          "chain_0021"
+        ],
+        "are_events_chronological": true,
+        "are_source_detections_traceable": true,
+        "are_summaries_observable": true,
+        "are_unusable_events_listed": true
+      }
+    }
+  ]
+}

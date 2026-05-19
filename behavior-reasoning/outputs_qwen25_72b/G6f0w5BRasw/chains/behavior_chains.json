@@ -1,0 +1,1869 @@
+{
+  "schema_version": "0.1",
+  "source_files": {
+    "characters": "/workspace/behavior-reasoning/outputs_qwen25_72b/G6f0w5BRasw/characters/characters.json",
+    "detections": "/workspace/behavior-reasoning/outputs_qwen25_72b/G6f0w5BRasw/detections/detections.json"
+  },
+  "parameters": {
+    "max_merge_gap_sec": 2.0,
+    "max_chain_gap_sec": 10.0,
+    "max_response_window_sec": 8.0,
+    "min_dedupe_score": 0.72
+  },
+  "chains": [
+    {
+      "chain_id": "chain_0001",
+      "start_sec": 0.0,
+      "end_sec": 16.0,
+      "participant_ids": [
+        "person-02"
+      ],
+      "object_ids": [
+        "plants",
+        "furniture",
+        "architecture",
+        "cup",
+        "door"
+      ],
+      "event_ids": [
+        "evt_0072"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0072",
+          "time_span": [
+            0.0,
+            16.0
+          ],
+          "event_type": "gesture",
+          "actor_ids": [
+            "person-02"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "standing and gesturing with hands"
+        }
+      ],
+      "interaction_pattern": "single_observation",
+      "summary": "Person-02 (female, child) stands and gestures with hands from 0.0s to 16.0s.",
+      "confidence": 0.9,
+      "source_detection_ids": [
+        "det_characters_0074",
+        "det_characters_0080",
+        "det_scenes_0001",
+        "det_objects_0035",
+        "det_scenes_0002",
+        "det_objects_0036"
+      ],
+      "source_segment_ids": [
+        "seg_001",
+        "seg_002"
+      ],
+      "reasoner_model": "/models/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5"
+    },
+    {
+      "chain_id": "chain_0002",
+      "start_sec": 0.0,
+      "end_sec": 22.0,
+      "participant_ids": [
+        "person-01"
+      ],
+      "object_ids": [
+        "plants",
+        "furniture",
+        "architecture",
+        "cup",
+        "door"
+      ],
+      "event_ids": [
+        "evt_0071"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0071",
+          "time_span": [
+            0.0,
+            22.0
+          ],
+          "event_type": "object_action",
+          "actor_ids": [
+            "person-01"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "sitting on steps, holding a cup"
+        }
+      ],
+      "interaction_pattern": "single_observation",
+      "summary": "Person-01 is sitting on steps while holding a cup.",
+      "confidence": 0.9,
+      "source_detection_ids": [
+        "det_characters_0073",
+        "det_characters_0079",
+        "det_characters_0086",
+        "det_scenes_0001",
+        "det_objects_0035",
+        "det_scenes_0002",
+        "det_objects_0036",
+        "det_scenes_0003",
+        "det_objects_0037"
+      ],
+      "source_segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003"
+      ],
+      "reasoner_model": "/models/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5"
+    },
+    {
+      "chain_id": "chain_0003",
+      "start_sec": 12.0,
+      "end_sec": 28.0,
+      "participant_ids": [
+        "person-02"
+      ],
+      "object_ids": [
+        "door",
+        "cup",
+        "plants",
+        "black_object"
+      ],
+      "event_ids": [
+        "evt_0078",
+        "evt_0083"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0078",
+          "time_span": [
+            12.0,
+            22.0
+          ],
+          "event_type": "object_action",
+          "actor_ids": [
+            "person-02"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "standing, holding a black jacket"
+        },
+        {
+          "event_id": "evt_0083",
+          "time_span": [
+            18.0,
+            28.0
+          ],
+          "event_type": "object_action",
+          "actor_ids": [
+            "person-02"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "standing, holding object"
+        }
+      ],
+      "interaction_pattern": "object_mediated",
+      "summary": "Person-02 (female, child) stands and holds a black jacket from 12.0s to 18.0s, then continues to stand and hold an unspecified object from 18.0s to 28.0s.",
+      "confidence": 0.9,
+      "source_detection_ids": [
+        "det_characters_0085",
+        "det_characters_0091",
+        "det_scenes_0003",
+        "det_objects_0037",
+        "det_scenes_0004",
+        "det_objects_0038"
+      ],
+      "source_segment_ids": [
+        "seg_003",
+        "seg_004"
+      ],
+      "reasoner_model": "/models/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5"
+    },
+    {
+      "chain_id": "chain_0004",
+      "start_sec": 18.0,
+      "end_sec": 28.0,
+      "participant_ids": [
+        "person-01"
+      ],
+      "object_ids": [
+        "door",
+        "black_object"
+      ],
+      "event_ids": [
+        "evt_0084"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0084",
+          "time_span": [
+            18.0,
+            28.0
+          ],
+          "event_type": "posture",
+          "actor_ids": [
+            "person-01"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "standing"
+        }
+      ],
+      "interaction_pattern": "single_observation",
+      "summary": "From 18.0s to 28.0s, person-01 (male, adult) is standing.",
+      "confidence": 0.9,
+      "source_detection_ids": [
+        "det_characters_0092",
+        "det_scenes_0004",
+        "det_objects_0038"
+      ],
+      "source_segment_ids": [
+        "seg_004"
+      ],
+      "reasoner_model": "/models/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5"
+    },
+    {
+      "chain_id": "chain_0005",
+      "start_sec": 18.0,
+      "end_sec": 28.0,
+      "participant_ids": [],
+      "object_ids": [
+        "door",
+        "black_object"
+      ],
+      "event_ids": [
+        "evt_0085"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0085",
+          "time_span": [
+            18.0,
+            28.0
+          ],
+          "event_type": "observed_behavior",
+          "actor_ids": [],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "partially visible"
+        }
+      ],
+      "interaction_pattern": "single_observation",
+      "summary": "From 18.0s to 28.0s, an unknown person is partially visible.",
+      "confidence": 0.6,
+      "source_detection_ids": [
+        "det_characters_0093",
+        "det_scenes_0004",
+        "det_objects_0038"
+      ],
+      "source_segment_ids": [
+        "seg_004"
+      ],
+      "reasoner_model": "/models/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5"
+    },
+    {
+      "chain_id": "chain_0006",
+      "start_sec": 24.0,
+      "end_sec": 34.0,
+      "participant_ids": [
+        "person-01"
+      ],
+      "object_ids": [
+        "door",
+        "brick_wall"
+      ],
+      "event_ids": [
+        "evt_0089"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0089",
+          "time_span": [
+            24.0,
+            34.0
+          ],
+          "event_type": "posture",
+          "actor_ids": [
+            "person-01"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "standing still"
+        }
+      ],
+      "interaction_pattern": "single_observation",
+      "summary": "From 24.0s to 34.0s, person-01 (male, adult) is standing still.",
+      "confidence": 0.9,
+      "source_detection_ids": [
+        "det_characters_0098",
+        "det_scenes_0005",
+        "det_objects_0039"
+      ],
+      "source_segment_ids": [
+        "seg_005"
+      ],
+      "reasoner_model": "/models/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5"
+    },
+    {
+      "chain_id": "chain_0007",
+      "start_sec": 24.0,
+      "end_sec": 34.0,
+      "participant_ids": [
+        "person-02"
+      ],
+      "object_ids": [
+        "door",
+        "brick_wall"
+      ],
+      "event_ids": [
+        "evt_0090"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0090",
+          "time_span": [
+            24.0,
+            34.0
+          ],
+          "event_type": "observed_behavior",
+          "actor_ids": [
+            "person-02"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "adjusting clothing"
+        }
+      ],
+      "interaction_pattern": "single_observation",
+      "summary": "From 24.0s to 34.0s, person-02 (female, child) adjusts clothing.",
+      "confidence": 0.9,
+      "source_detection_ids": [
+        "det_characters_0099",
+        "det_scenes_0005",
+        "det_objects_0039"
+      ],
+      "source_segment_ids": [
+        "seg_005"
+      ],
+      "reasoner_model": "/models/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5"
+    },
+    {
+      "chain_id": "chain_0008",
+      "start_sec": 30.0,
+      "end_sec": 40.0,
+      "participant_ids": [
+        "person-01"
+      ],
+      "object_ids": [
+        "plants",
+        "wooden_chair",
+        "hanging_shirt"
+      ],
+      "event_ids": [
+        "evt_0094"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0094",
+          "time_span": [
+            30.0,
+            40.0
+          ],
+          "event_type": "gaze_head_orientation",
+          "actor_ids": [
+            "person-01"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "standing and facing another individual"
+        }
+      ],
+      "interaction_pattern": "single_observation",
+      "summary": "Person-01 is standing and facing another individual from 30.0s to 40.0s.",
+      "confidence": 0.9,
+      "source_detection_ids": [
+        "det_characters_0104",
+        "det_scenes_0006",
+        "det_objects_0040"
+      ],
+      "source_segment_ids": [
+        "seg_006"
+      ],
+      "reasoner_model": "/models/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5"
+    },
+    {
+      "chain_id": "chain_0009",
+      "start_sec": 30.0,
+      "end_sec": 46.0,
+      "participant_ids": [
+        "person-02"
+      ],
+      "object_ids": [
+        "plants",
+        "wooden_chair",
+        "hanging_shirt",
+        "clothes"
+      ],
+      "event_ids": [
+        "evt_0095",
+        "evt_0099"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0095",
+          "time_span": [
+            30.0,
+            40.0
+          ],
+          "event_type": "gaze_head_orientation",
+          "actor_ids": [
+            "person-02"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "standing with back turned towards the other individual"
+        },
+        {
+          "event_id": "evt_0099",
+          "time_span": [
+            36.0,
+            46.0
+          ],
+          "event_type": "gesture",
+          "actor_ids": [
+            "person-02"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "gesturing with hands, looking down then up"
+        }
+      ],
+      "interaction_pattern": "behavior_sequence",
+      "summary": "Person-02 (female, child) stands with back turned for 10 seconds, then gestures with hands while looking down and up.",
+      "confidence": 0.9,
+      "source_detection_ids": [
+        "det_characters_0105",
+        "det_characters_0110",
+        "det_scenes_0006",
+        "det_objects_0040",
+        "det_scenes_0007",
+        "det_objects_0041"
+      ],
+      "source_segment_ids": [
+        "seg_006",
+        "seg_007"
+      ],
+      "reasoner_model": "/models/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5"
+    },
+    {
+      "chain_id": "chain_0010",
+      "start_sec": 36.0,
+      "end_sec": 46.0,
+      "participant_ids": [],
+      "object_ids": [
+        "clothes",
+        "plants"
+      ],
+      "event_ids": [
+        "evt_0100"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0100",
+          "time_span": [
+            36.0,
+            46.0
+          ],
+          "event_type": "gaze_head_orientation",
+          "actor_ids": [],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "standing still, facing away from camera"
+        }
+      ],
+      "interaction_pattern": "single_observation",
+      "summary": "Person-03 is standing still and facing away from the camera.",
+      "confidence": 0.9,
+      "source_detection_ids": [
+        "det_characters_0111",
+        "det_scenes_0007",
+        "det_objects_0041"
+      ],
+      "source_segment_ids": [
+        "seg_007"
+      ],
+      "reasoner_model": "/models/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5"
+    },
+    {
+      "chain_id": "chain_0011",
+      "start_sec": 42.0,
+      "end_sec": 82.0,
+      "participant_ids": [
+        "person-01",
+        "person-02"
+      ],
+      "object_ids": [
+        "trees",
+        "buildings",
+        "green_plants",
+        "brick_wall",
+        "metal_object",
+        "greenery"
+      ],
+      "event_ids": [
+        "evt_0104",
+        "evt_0111",
+        "evt_0114",
+        "evt_0117",
+        "evt_0121"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0104",
+          "time_span": [
+            42.0,
+            52.0
+          ],
+          "event_type": "gaze_head_orientation",
+          "actor_ids": [
+            "person-01",
+            "person-02"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "standing, facing another individual"
+        },
+        {
+          "event_id": "evt_0111",
+          "time_span": [
+            54.0,
+            64.0
+          ],
+          "event_type": "gesture",
+          "actor_ids": [
+            "person-01",
+            "person-02"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "engaged in arm movement with another individual"
+        },
+        {
+          "event_id": "evt_0114",
+          "time_span": [
+            60.0,
+            70.0
+          ],
+          "event_type": "gesture",
+          "actor_ids": [
+            "person-01",
+            "person-02"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "engaging in a physical interaction using arms and hands"
+        },
+        {
+          "event_id": "evt_0117",
+          "time_span": [
+            66.0,
+            76.0
+          ],
+          "event_type": "object_action",
+          "actor_ids": [
+            "person-01",
+            "person-02"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "engaged in a physical interaction, holding the other person's hand and arm"
+        },
+        {
+          "event_id": "evt_0121",
+          "time_span": [
+            72.0,
+            82.0
+          ],
+          "event_type": "gesture",
+          "actor_ids": [
+            "person-01"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "engaged in hand-to-hand combat, demonstrating defensive and offensive moves"
+        }
+      ],
+      "interaction_pattern": "object_mediated",
+      "summary": "Person-01 and Person-02 engage in a series of physical interactions, including arm movements and hand-to-hand combat.",
+      "confidence": 0.9,
+      "source_detection_ids": [
+        "det_characters_0116",
+        "det_characters_0117",
+        "det_characters_0126",
+        "det_characters_0127",
+        "det_characters_0131",
+        "det_characters_0132",
+        "det_characters_0137",
+        "det_characters_0138",
+        "det_characters_0143",
+        "det_scenes_0008",
+        "det_objects_0042",
+        "det_scenes_0010",
+        "det_objects_0044",
+        "det_scenes_0011",
+        "det_objects_0045",
+        "det_scenes_0012",
+        "det_objects_0046",
+        "det_scenes_0013",
+        "det_objects_0047"
+      ],
+      "source_segment_ids": [
+        "seg_008",
+        "seg_010",
+        "seg_011",
+        "seg_012",
+        "seg_013"
+      ],
+      "reasoner_model": "/models/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5"
+    },
+    {
+      "chain_id": "chain_0012",
+      "start_sec": 72.0,
+      "end_sec": 82.0,
+      "participant_ids": [
+        "person-02"
+      ],
+      "object_ids": [
+        "brick_wall",
+        "greenery"
+      ],
+      "event_ids": [
+        "evt_0122"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0122",
+          "time_span": [
+            72.0,
+            82.0
+          ],
+          "event_type": "gesture",
+          "actor_ids": [
+            "person-02"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "participating in hand-to-hand combat, mirroring the movements of the other individual"
+        }
+      ],
+      "interaction_pattern": "single_observation",
+      "summary": "From 72.0s to 82.0s, person-02 (female, child) participates in hand-to-hand combat, mirroring the movements of another individual.",
+      "confidence": 0.9,
+      "source_detection_ids": [
+        "det_characters_0144",
+        "det_scenes_0013",
+        "det_objects_0047"
+      ],
+      "source_segment_ids": [
+        "seg_013"
+      ],
+      "reasoner_model": "/models/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5"
+    },
+    {
+      "chain_id": "chain_0013",
+      "start_sec": 78.0,
+      "end_sec": 88.0,
+      "participant_ids": [
+        "person-01"
+      ],
+      "object_ids": [
+        "building",
+        "furniture"
+      ],
+      "event_ids": [
+        "evt_0124"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0124",
+          "time_span": [
+            78.0,
+            88.0
+          ],
+          "event_type": "observed_behavior",
+          "actor_ids": [
+            "person-01"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "engaging in martial arts practice with another individual"
+        }
+      ],
+      "interaction_pattern": "single_observation",
+      "summary": "From 78.0s to 88.0s, person-01 (male, adult) is engaging in martial arts practice.",
+      "confidence": 0.9,
+      "source_detection_ids": [
+        "det_characters_0147",
+        "det_scenes_0014",
+        "det_objects_0048"
+      ],
+      "source_segment_ids": [
+        "seg_014"
+      ],
+      "reasoner_model": "/models/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5"
+    },
+    {
+      "chain_id": "chain_0014",
+      "start_sec": 78.0,
+      "end_sec": 88.0,
+      "participant_ids": [
+        "person-02"
+      ],
+      "object_ids": [
+        "building",
+        "furniture"
+      ],
+      "event_ids": [
+        "evt_0125"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0125",
+          "time_span": [
+            78.0,
+            88.0
+          ],
+          "event_type": "observed_behavior",
+          "actor_ids": [
+            "person-02"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "practicing martial arts with an adult"
+        }
+      ],
+      "interaction_pattern": "single_observation",
+      "summary": "From 78.0s to 88.0s, person-02 (female, child) is practicing martial arts with an adult.",
+      "confidence": 0.9,
+      "source_detection_ids": [
+        "det_characters_0148",
+        "det_scenes_0014",
+        "det_objects_0048"
+      ],
+      "source_segment_ids": [
+        "seg_014"
+      ],
+      "reasoner_model": "/models/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5"
+    },
+    {
+      "chain_id": "chain_0015",
+      "start_sec": 84.0,
+      "end_sec": 94.0,
+      "participant_ids": [
+        "person-01"
+      ],
+      "object_ids": [
+        "wooden_structure",
+        "traditional_building"
+      ],
+      "event_ids": [
+        "evt_0129"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0129",
+          "time_span": [
+            84.0,
+            94.0
+          ],
+          "event_type": "observed_behavior",
+          "actor_ids": [
+            "person-01"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "engaged in physical interaction, demonstrating movements"
+        }
+      ],
+      "interaction_pattern": "single_observation",
+      "summary": "From 84.0s to 94.0s, person-01 (male, adult) engaged in physical interaction, demonstrating movements.",
+      "confidence": 0.9,
+      "source_detection_ids": [
+        "det_characters_0153",
+        "det_scenes_0015",
+        "det_objects_0049"
+      ],
+      "source_segment_ids": [
+        "seg_015"
+      ],
+      "reasoner_model": "/models/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5"
+    },
+    {
+      "chain_id": "chain_0016",
+      "start_sec": 84.0,
+      "end_sec": 106.0,
+      "participant_ids": [
+        "person-02",
+        "person-01"
+      ],
+      "object_ids": [
+        "wooden_structure",
+        "traditional_building",
+        "plants",
+        "steps",
+        "buildings",
+        "clothesline",
+        "furniture"
+      ],
+      "event_ids": [
+        "evt_0130",
+        "evt_0134",
+        "evt_0137"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0130",
+          "time_span": [
+            84.0,
+            94.0
+          ],
+          "event_type": "observed_behavior",
+          "actor_ids": [
+            "person-02"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "participating in physical interaction, mimicking movements"
+        },
+        {
+          "event_id": "evt_0134",
+          "time_span": [
+            90.0,
+            100.0
+          ],
+          "event_type": "observed_behavior",
+          "actor_ids": [
+            "person-01",
+            "person-02"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "engaged in physical activity, possibly training or sparring"
+        },
+        {
+          "event_id": "evt_0137",
+          "time_span": [
+            96.0,
+            106.0
+          ],
+          "event_type": "observed_behavior",
+          "actor_ids": [
+            "person-01"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "engaged in physical activity, possibly kicking"
+        }
+      ],
+      "interaction_pattern": "turn_taking",
+      "summary": "From 84.0s to 106.0s, person-02 (female, child) and person-01 (male, adult) engage in physical activities, including mimicking movements and possibly sparring.",
+      "confidence": 0.9,
+      "source_detection_ids": [
+        "det_characters_0154",
+        "det_characters_0159",
+        "det_characters_0160",
+        "det_characters_0165",
+        "det_scenes_0015",
+        "det_objects_0049",
+        "det_scenes_0016",
+        "det_objects_0050",
+        "det_scenes_0017",
+        "det_objects_0051"
+      ],
+      "source_segment_ids": [
+        "seg_015",
+        "seg_016",
+        "seg_017"
+      ],
+      "reasoner_model": "/models/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5"
+    },
+    {
+      "chain_id": "chain_0017",
+      "start_sec": 96.0,
+      "end_sec": 112.0,
+      "participant_ids": [
+        "person-02"
+      ],
+      "object_ids": [
+        "clothesline",
+        "furniture",
+        "plants",
+        "household_items"
+      ],
+      "event_ids": [
+        "evt_0138",
+        "evt_0142"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0138",
+          "time_span": [
+            96.0,
+            106.0
+          ],
+          "event_type": "observed_behavior",
+          "actor_ids": [
+            "person-02"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "engaged in physical activity, possibly dodging or blocking"
+        },
+        {
+          "event_id": "evt_0142",
+          "time_span": [
+            102.0,
+            112.0
+          ],
+          "event_type": "object_action",
+          "actor_ids": [
+            "person-02"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "standing and holding hands with another person"
+        }
+      ],
+      "interaction_pattern": "object_mediated",
+      "summary": "Person-02 (female, child) engaged in physical activity, possibly dodging or blocking, and then stood and held hands with another person.",
+      "confidence": 0.9,
+      "source_detection_ids": [
+        "det_characters_0166",
+        "det_characters_0171",
+        "det_scenes_0017",
+        "det_objects_0051",
+        "det_scenes_0018",
+        "det_objects_0052"
+      ],
+      "source_segment_ids": [
+        "seg_017",
+        "seg_018"
+      ],
+      "reasoner_model": "/models/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5"
+    },
+    {
+      "chain_id": "chain_0018",
+      "start_sec": 102.0,
+      "end_sec": 112.0,
+      "participant_ids": [
+        "person-01"
+      ],
+      "object_ids": [
+        "plants",
+        "household_items"
+      ],
+      "event_ids": [
+        "evt_0143"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0143",
+          "time_span": [
+            102.0,
+            112.0
+          ],
+          "event_type": "object_action",
+          "actor_ids": [
+            "person-01"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "joining the child and holding hands"
+        }
+      ],
+      "interaction_pattern": "cue_response",
+      "summary": "From 102.0s to 112.0s, person-01 (male, adult) joins the child and holds hands.",
+      "confidence": 0.9,
+      "source_detection_ids": [
+        "det_characters_0172",
+        "det_scenes_0018",
+        "det_objects_0052"
+      ],
+      "source_segment_ids": [
+        "seg_018"
+      ],
+      "reasoner_model": "/models/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5"
+    },
+    {
+      "chain_id": "chain_0019",
+      "start_sec": 108.0,
+      "end_sec": 130.0,
+      "participant_ids": [
+        "person-02",
+        "person-01"
+      ],
+      "object_ids": [
+        "traditional_building",
+        "plants",
+        "furniture"
+      ],
+      "event_ids": [
+        "evt_0147",
+        "evt_0146",
+        "evt_0155"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0147",
+          "time_span": [
+            108.0,
+            118.0
+          ],
+          "event_type": "observed_behavior",
+          "actor_ids": [
+            "person-02"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "practicing martial arts moves"
+        },
+        {
+          "event_id": "evt_0146",
+          "time_span": [
+            108.0,
+            124.0
+          ],
+          "event_type": "observed_behavior",
+          "actor_ids": [
+            "person-01",
+            "person-02"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "engaging in martial arts practice"
+        },
+        {
+          "event_id": "evt_0155",
+          "time_span": [
+            120.0,
+            130.0
+          ],
+          "event_type": "gesture",
+          "actor_ids": [
+            "person-01"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "gesturing with hands, possibly teaching or demonstrating"
+        }
+      ],
+      "interaction_pattern": "turn_taking",
+      "summary": "From 108.0s to 130.0s, person-02 practices martial arts moves while person-01 engages in martial arts practice and gestures, possibly teaching.",
+      "confidence": 0.9,
+      "source_detection_ids": [
+        "det_characters_0178",
+        "det_characters_0177",
+        "det_characters_0183",
+        "det_characters_0184",
+        "det_characters_0189",
+        "det_scenes_0019",
+        "det_objects_0053",
+        "det_scenes_0020",
+        "det_objects_0054",
+        "det_scenes_0021",
+        "det_objects_0055"
+      ],
+      "source_segment_ids": [
+        "seg_019",
+        "seg_020",
+        "seg_021"
+      ],
+      "reasoner_model": "/models/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5"
+    },
+    {
+      "chain_id": "chain_0020",
+      "start_sec": 120.0,
+      "end_sec": 130.0,
+      "participant_ids": [
+        "person-02"
+      ],
+      "object_ids": [
+        "plants",
+        "furniture"
+      ],
+      "event_ids": [
+        "evt_0156"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0156",
+          "time_span": [
+            120.0,
+            130.0
+          ],
+          "event_type": "gesture",
+          "actor_ids": [
+            "person-02"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "mimicking hand gestures, possibly learning"
+        }
+      ],
+      "interaction_pattern": "single_observation",
+      "summary": "From 120.0s to 130.0s, person-02 (female, child): mimicking hand gestures, possibly learning.",
+      "confidence": 0.9,
+      "source_detection_ids": [
+        "det_characters_0190",
+        "det_scenes_0021",
+        "det_objects_0055"
+      ],
+      "source_segment_ids": [
+        "seg_021"
+      ],
+      "reasoner_model": "/models/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5"
+    },
+    {
+      "chain_id": "chain_0021",
+      "start_sec": 126.0,
+      "end_sec": 136.0,
+      "participant_ids": [
+        "person-01"
+      ],
+      "object_ids": [
+        "brick_wall",
+        "greenery"
+      ],
+      "event_ids": [
+        "evt_0161"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0161",
+          "time_span": [
+            126.0,
+            136.0
+          ],
+          "event_type": "gesture",
+          "actor_ids": [
+            "person-01"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "gesturing with hands near chest"
+        }
+      ],
+      "interaction_pattern": "single_observation",
+      "summary": "Person-01 gestures with hands near chest from 126.0s to 136.0s.",
+      "confidence": 0.9,
+      "source_detection_ids": [
+        "det_characters_0195",
+        "det_scenes_0022",
+        "det_objects_0056"
+      ],
+      "source_segment_ids": [
+        "seg_022"
+      ],
+      "reasoner_model": "/models/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5"
+    },
+    {
+      "chain_id": "chain_0022",
+      "start_sec": 126.0,
+      "end_sec": 136.0,
+      "participant_ids": [
+        "person-02"
+      ],
+      "object_ids": [
+        "brick_wall",
+        "greenery"
+      ],
+      "event_ids": [
+        "evt_0162"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0162",
+          "time_span": [
+            126.0,
+            136.0
+          ],
+          "event_type": "gesture",
+          "actor_ids": [
+            "person-02"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "raising hand towards face"
+        }
+      ],
+      "interaction_pattern": "single_observation",
+      "summary": "From 126.0s to 136.0s, person-02 (female, child) raises hand towards face.",
+      "confidence": 0.9,
+      "source_detection_ids": [
+        "det_characters_0196",
+        "det_scenes_0022",
+        "det_objects_0056"
+      ],
+      "source_segment_ids": [
+        "seg_022"
+      ],
+      "reasoner_model": "/models/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5"
+    },
+    {
+      "chain_id": "chain_0023",
+      "start_sec": 132.0,
+      "end_sec": 142.0,
+      "participant_ids": [
+        "person-01"
+      ],
+      "object_ids": [
+        "white_shirt",
+        "braided_hair"
+      ],
+      "event_ids": [
+        "evt_0165"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0165",
+          "time_span": [
+            132.0,
+            142.0
+          ],
+          "event_type": "observed_behavior",
+          "actor_ids": [
+            "person-01"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "interacting with another person"
+        }
+      ],
+      "interaction_pattern": "single_observation",
+      "summary": "From 132.0s to 142.0s, person-01 (male, adult) is interacting with another person.",
+      "confidence": 0.9,
+      "source_detection_ids": [
+        "det_characters_0201",
+        "det_scenes_0023",
+        "det_objects_0057"
+      ],
+      "source_segment_ids": [
+        "seg_023"
+      ],
+      "reasoner_model": "/models/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5"
+    },
+    {
+      "chain_id": "chain_0024",
+      "start_sec": 132.0,
+      "end_sec": 148.0,
+      "participant_ids": [
+        "person-02"
+      ],
+      "object_ids": [
+        "white_shirt",
+        "braided_hair",
+        "trees",
+        "plants"
+      ],
+      "event_ids": [
+        "evt_0166",
+        "evt_0170"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0166",
+          "time_span": [
+            132.0,
+            142.0
+          ],
+          "event_type": "gesture",
+          "actor_ids": [
+            "person-02"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "performing a physical action with hands"
+        },
+        {
+          "event_id": "evt_0170",
+          "time_span": [
+            138.0,
+            148.0
+          ],
+          "event_type": "gesture",
+          "actor_ids": [
+            "person-02"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "practicing hand movements"
+        }
+      ],
+      "interaction_pattern": "behavior_sequence",
+      "summary": "From 132.0s to 148.0s, person-02 (female, child) performs a physical action with hands followed by practicing hand movements.",
+      "confidence": 0.9,
+      "source_detection_ids": [
+        "det_characters_0202",
+        "det_characters_0207",
+        "det_scenes_0023",
+        "det_objects_0057",
+        "det_scenes_0024",
+        "det_objects_0058"
+      ],
+      "source_segment_ids": [
+        "seg_023",
+        "seg_024"
+      ],
+      "reasoner_model": "/models/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5"
+    },
+    {
+      "chain_id": "chain_0025",
+      "start_sec": 138.0,
+      "end_sec": 148.0,
+      "participant_ids": [],
+      "object_ids": [
+        "trees",
+        "plants"
+      ],
+      "event_ids": [
+        "evt_0171"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0171",
+          "time_span": [
+            138.0,
+            148.0
+          ],
+          "event_type": "observed_behavior",
+          "actor_ids": [],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "interacting with person-02"
+        }
+      ],
+      "interaction_pattern": "single_observation",
+      "summary": "From 138.0s to 148.0s, observing person-02.",
+      "confidence": 0.6,
+      "source_detection_ids": [
+        "det_characters_0208",
+        "det_scenes_0024",
+        "det_objects_0058"
+      ],
+      "source_segment_ids": [
+        "seg_024"
+      ],
+      "reasoner_model": "/models/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5"
+    },
+    {
+      "chain_id": "chain_0026",
+      "start_sec": 144.0,
+      "end_sec": 166.0,
+      "participant_ids": [
+        "person-01",
+        "person-02"
+      ],
+      "object_ids": [
+        "plants",
+        "architecture",
+        "house",
+        "outdoor_environment"
+      ],
+      "event_ids": [
+        "evt_0175",
+        "evt_0180",
+        "evt_0186"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0175",
+          "time_span": [
+            144.0,
+            154.0
+          ],
+          "event_type": "observed_behavior",
+          "actor_ids": [
+            "person-01",
+            "person-02"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "practicing martial arts moves"
+        },
+        {
+          "event_id": "evt_0180",
+          "time_span": [
+            150.0,
+            160.0
+          ],
+          "event_type": "observed_behavior",
+          "actor_ids": [
+            "person-01",
+            "person-02"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "engaged in physical interaction with another person"
+        },
+        {
+          "event_id": "evt_0186",
+          "time_span": [
+            156.0,
+            166.0
+          ],
+          "event_type": "observed_behavior",
+          "actor_ids": [
+            "person-02"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "listening attentively"
+        }
+      ],
+      "interaction_pattern": "behavior_sequence",
+      "summary": "From 144.0s to 166.0s, person-01 and person-02 engage in martial arts practice followed by a physical interaction, and person-02 listens attentively.",
+      "confidence": 0.9,
+      "source_detection_ids": [
+        "det_characters_0213",
+        "det_characters_0214",
+        "det_characters_0219",
+        "det_characters_0220",
+        "det_characters_0226",
+        "det_scenes_0025",
+        "det_objects_0059",
+        "det_scenes_0026",
+        "det_objects_0060",
+        "det_scenes_0027",
+        "det_objects_0061"
+      ],
+      "source_segment_ids": [
+        "seg_025",
+        "seg_026",
+        "seg_027"
+      ],
+      "reasoner_model": "/models/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5"
+    },
+    {
+      "chain_id": "chain_0027",
+      "start_sec": 156.0,
+      "end_sec": 172.0,
+      "participant_ids": [
+        "person-01"
+      ],
+      "object_ids": [
+        "outdoor_environment",
+        "greenery",
+        "structures"
+      ],
+      "event_ids": [
+        "evt_0185"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0185",
+          "time_span": [
+            156.0,
+            172.0
+          ],
+          "event_type": "vocalization_or_mouth_movement",
+          "actor_ids": [
+            "person-01"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "appears to be mouth open"
+        }
+      ],
+      "interaction_pattern": "single_observation",
+      "summary": "From 156.0s to 172.0s, person-01 (male, adult) appears to be mouth open.",
+      "confidence": 0.9,
+      "source_detection_ids": [
+        "det_characters_0225",
+        "det_characters_0230",
+        "det_scenes_0027",
+        "det_objects_0061",
+        "det_scenes_0028",
+        "det_objects_0062"
+      ],
+      "source_segment_ids": [
+        "seg_027",
+        "seg_028"
+      ],
+      "reasoner_model": "/models/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5"
+    },
+    {
+      "chain_id": "chain_0028",
+      "start_sec": 162.0,
+      "end_sec": 172.0,
+      "participant_ids": [
+        "person-02"
+      ],
+      "object_ids": [
+        "greenery",
+        "structures"
+      ],
+      "event_ids": [
+        "evt_0190"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0190",
+          "time_span": [
+            162.0,
+            172.0
+          ],
+          "event_type": "observed_behavior",
+          "actor_ids": [
+            "person-02"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "appears to be listening"
+        }
+      ],
+      "interaction_pattern": "single_observation",
+      "summary": "From 162.0s to 172.0s, person-02 (female, child) appears to be listening.",
+      "confidence": 0.9,
+      "source_detection_ids": [
+        "det_characters_0231",
+        "det_scenes_0028",
+        "det_objects_0062"
+      ],
+      "source_segment_ids": [
+        "seg_028"
+      ],
+      "reasoner_model": "/models/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5"
+    },
+    {
+      "chain_id": "chain_0029",
+      "start_sec": 168.0,
+      "end_sec": 178.0,
+      "participant_ids": [
+        "person-01"
+      ],
+      "object_ids": [
+        "sunlight"
+      ],
+      "event_ids": [
+        "evt_0193"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0193",
+          "time_span": [
+            168.0,
+            178.0
+          ],
+          "event_type": "observed_behavior",
+          "actor_ids": [
+            "person-01"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "engaged in visible interaction or interaction"
+        }
+      ],
+      "interaction_pattern": "single_observation",
+      "summary": "From 168.0s to 178.0s, person-01 (male, adult) was engaged in visible interaction or interaction.",
+      "confidence": 0.9,
+      "source_detection_ids": [
+        "det_characters_0236",
+        "det_scenes_0029",
+        "det_objects_0063"
+      ],
+      "source_segment_ids": [
+        "seg_029"
+      ],
+      "reasoner_model": "/models/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5"
+    },
+    {
+      "chain_id": "chain_0030",
+      "start_sec": 168.0,
+      "end_sec": 178.0,
+      "participant_ids": [
+        "person-02"
+      ],
+      "object_ids": [
+        "sunlight"
+      ],
+      "event_ids": [
+        "evt_0194"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0194",
+          "time_span": [
+            168.0,
+            178.0
+          ],
+          "event_type": "gaze_head_orientation",
+          "actor_ids": [
+            "person-02"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "facing the other individual"
+        }
+      ],
+      "interaction_pattern": "single_observation",
+      "summary": "From 168.0s to 178.0s, person-02 (female, child) is facing the other individual.",
+      "confidence": 0.9,
+      "source_detection_ids": [
+        "det_characters_0237",
+        "det_scenes_0029",
+        "det_objects_0063"
+      ],
+      "source_segment_ids": [
+        "seg_029"
+      ],
+      "reasoner_model": "/models/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5"
+    },
+    {
+      "chain_id": "chain_0031",
+      "start_sec": 174.0,
+      "end_sec": 184.0,
+      "participant_ids": [
+        "person-01"
+      ],
+      "object_ids": [
+        "movie_poster",
+        "text_overlay"
+      ],
+      "event_ids": [
+        "evt_0198"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0198",
+          "time_span": [
+            174.0,
+            184.0
+          ],
+          "event_type": "vocalization_or_mouth_movement",
+          "actor_ids": [
+            "person-01"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "appears to be mouth open or interacting with the child"
+        }
+      ],
+      "interaction_pattern": "single_observation",
+      "summary": "From 174.0s to 184.0s, person-01 (male, adult) appears to be mouth open or interacting with the child.",
+      "confidence": 0.9,
+      "source_detection_ids": [
+        "det_characters_0242",
+        "det_scenes_0030",
+        "det_objects_0064"
+      ],
+      "source_segment_ids": [
+        "seg_030"
+      ],
+      "reasoner_model": "/models/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5"
+    },
+    {
+      "chain_id": "chain_0032",
+      "start_sec": 174.0,
+      "end_sec": 184.0,
+      "participant_ids": [
+        "person-02"
+      ],
+      "object_ids": [
+        "movie_poster",
+        "text_overlay"
+      ],
+      "event_ids": [
+        "evt_0199"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0199",
+          "time_span": [
+            174.0,
+            184.0
+          ],
+          "event_type": "observed_behavior",
+          "actor_ids": [
+            "person-02"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "appears to be listening or interacting with the person"
+        }
+      ],
+      "interaction_pattern": "single_observation",
+      "summary": "From 174.0s to 184.0s, person-02 (female, child) appears to be listening or interacting with the person.",
+      "confidence": 0.9,
+      "source_detection_ids": [
+        "det_characters_0243",
+        "det_scenes_0030",
+        "det_objects_0064"
+      ],
+      "source_segment_ids": [
+        "seg_030"
+      ],
+      "reasoner_model": "/models/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5"
+    },
+    {
+      "chain_id": "chain_0033",
+      "start_sec": 180.0,
+      "end_sec": 202.0,
+      "participant_ids": [],
+      "object_ids": [
+        "movie_poster",
+        "thumbnails",
+        "movie_clip_thumbnails",
+        "text_labels"
+      ],
+      "event_ids": [
+        "evt_0204",
+        "evt_0211"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0204",
+          "time_span": [
+            180.0,
+            190.0
+          ],
+          "event_type": "observed_behavior",
+          "actor_ids": [],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "not applicable in still images"
+        },
+        {
+          "event_id": "evt_0211",
+          "time_span": [
+            192.0,
+            202.0
+          ],
+          "event_type": "observed_behavior",
+          "actor_ids": [],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "not applicable in this context"
+        }
+      ],
+      "interaction_pattern": "behavior_sequence",
+      "summary": "From 180.0s to 202.0s, 2 observable events: not applicable in still images; then not applicable in this context.",
+      "confidence": 0.9,
+      "source_detection_ids": [
+        "det_characters_0248",
+        "det_characters_0257",
+        "det_scenes_0031",
+        "det_objects_0065",
+        "det_scenes_0033",
+        "det_objects_0067"
+      ],
+      "source_segment_ids": [
+        "seg_031",
+        "seg_033"
+      ],
+      "reasoner_model": "/models/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5"
+    }
+  ],
+  "orphan_event_ids": [
+    "evt_0067",
+    "evt_0069",
+    "evt_0070",
+    "evt_0068",
+    "evt_0075",
+    "evt_0073",
+    "evt_0074",
+    "evt_0076",
+    "evt_0077",
+    "evt_0079",
+    "evt_0081",
+    "evt_0082",
+    "evt_0080",
+    "evt_0087",
+    "evt_0088",
+    "evt_0086",
+    "evt_0091",
+    "evt_0092",
+    "evt_0093",
+    "evt_0096",
+    "evt_0097",
+    "evt_0098",
+    "evt_0101",
+    "evt_0102",
+    "evt_0103",
+    "evt_0105",
+    "evt_0108",
+    "evt_0106",
+    "evt_0107",
+    "evt_0110",
+    "evt_0109",
+    "evt_0112",
+    "evt_0113",
+    "evt_0115",
+    "evt_0116",
+    "evt_0118",
+    "evt_0119",
+    "evt_0120",
+    "evt_0123",
+    "evt_0126",
+    "evt_0127",
+    "evt_0128",
+    "evt_0133",
+    "evt_0132",
+    "evt_0131",
+    "evt_0135",
+    "evt_0136",
+    "evt_0141",
+    "evt_0139",
+    "evt_0140",
+    "evt_0144",
+    "evt_0145",
+    "evt_0148",
+    "evt_0149",
+    "evt_0150",
+    "evt_0151",
+    "evt_0152",
+    "evt_0153",
+    "evt_0154",
+    "evt_0159",
+    "evt_0160",
+    "evt_0157",
+    "evt_0158",
+    "evt_0163",
+    "evt_0164",
+    "evt_0168",
+    "evt_0169",
+    "evt_0167",
+    "evt_0172",
+    "evt_0173",
+    "evt_0174",
+    "evt_0176",
+    "evt_0177",
+    "evt_0178",
+    "evt_0179",
+    "evt_0181",
+    "evt_0182",
+    "evt_0183",
+    "evt_0184",
+    "evt_0187",
+    "evt_0189",
+    "evt_0188",
+    "evt_0191",
+    "evt_0192",
+    "evt_0195",
+    "evt_0196",
+    "evt_0197",
+    "evt_0200",
+    "evt_0201",
+    "evt_0202",
+    "evt_0203",
+    "evt_0205",
+    "evt_0207",
+    "evt_0206",
+    "evt_0208",
+    "evt_0209",
+    "evt_0210",
+    "evt_0212"
+  ],
+  "warnings": [
+    "98 track-only events have no resolved character id; see orphan_event_ids."
+  ]
+}

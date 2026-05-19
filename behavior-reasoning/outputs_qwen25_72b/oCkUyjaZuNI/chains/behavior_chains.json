@@ -1,0 +1,1082 @@
+{
+  "schema_version": "0.1",
+  "source_files": {
+    "characters": "/workspace/behavior-reasoning/outputs_qwen25_72b/oCkUyjaZuNI/characters/characters.json",
+    "detections": "/workspace/behavior-reasoning/outputs_qwen25_72b/oCkUyjaZuNI/detections/detections.json"
+  },
+  "parameters": {
+    "max_merge_gap_sec": 2.0,
+    "max_chain_gap_sec": 10.0,
+    "max_response_window_sec": 8.0,
+    "min_dedupe_score": 0.72
+  },
+  "chains": [
+    {
+      "chain_id": "chain_0001",
+      "start_sec": 0.0,
+      "end_sec": 10.0,
+      "participant_ids": [],
+      "object_ids": [
+        "city_buildings",
+        "highway",
+        "backpack"
+      ],
+      "event_ids": [
+        "evt_0037"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0037",
+          "time_span": [
+            0.0,
+            10.0
+          ],
+          "event_type": "locomotion_posture",
+          "actor_ids": [],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "walking in a hallway"
+        }
+      ],
+      "interaction_pattern": "motion_observation",
+      "summary": "A person is walking in a hallway.",
+      "confidence": 0.9,
+      "source_detection_ids": [
+        "det_characters_0037",
+        "det_characters_0038",
+        "det_scenes_0001",
+        "det_objects_0017"
+      ],
+      "source_segment_ids": [
+        "seg_001"
+      ],
+      "reasoner_model": "/models/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5"
+    },
+    {
+      "chain_id": "chain_0002",
+      "start_sec": 6.0,
+      "end_sec": 16.0,
+      "participant_ids": [
+        "person-01"
+      ],
+      "object_ids": [
+        "chair",
+        "lamp"
+      ],
+      "event_ids": [
+        "evt_0041"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0041",
+          "time_span": [
+            6.0,
+            16.0
+          ],
+          "event_type": "locomotion_posture",
+          "actor_ids": [
+            "person-01"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "walking forward"
+        }
+      ],
+      "interaction_pattern": "motion_observation",
+      "summary": "From 6.0s to 16.0s, person-01 (male, adult) is walking forward.",
+      "confidence": 0.9,
+      "source_detection_ids": [
+        "det_characters_0043",
+        "det_scenes_0002",
+        "det_objects_0018"
+      ],
+      "source_segment_ids": [
+        "seg_002"
+      ],
+      "reasoner_model": "/models/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5"
+    },
+    {
+      "chain_id": "chain_0003",
+      "start_sec": 6.0,
+      "end_sec": 16.0,
+      "participant_ids": [],
+      "object_ids": [
+        "chair",
+        "lamp"
+      ],
+      "event_ids": [
+        "evt_0042"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0042",
+          "time_span": [
+            6.0,
+            16.0
+          ],
+          "event_type": "posture",
+          "actor_ids": [],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "sitting in the background"
+        }
+      ],
+      "interaction_pattern": "single_observation",
+      "summary": "A person is sitting in the background from 6.0s to 16.0s.",
+      "confidence": 0.6,
+      "source_detection_ids": [
+        "det_characters_0044",
+        "det_scenes_0002",
+        "det_objects_0018"
+      ],
+      "source_segment_ids": [
+        "seg_002"
+      ],
+      "reasoner_model": "/models/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5"
+    },
+    {
+      "chain_id": "chain_0004",
+      "start_sec": 12.0,
+      "end_sec": 22.0,
+      "participant_ids": [
+        "person-01"
+      ],
+      "object_ids": [
+        "furniture",
+        "hallway"
+      ],
+      "event_ids": [
+        "evt_0046"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0046",
+          "time_span": [
+            12.0,
+            22.0
+          ],
+          "event_type": "locomotion_posture",
+          "actor_ids": [
+            "person-01"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "walking through a hallway and standing in a room"
+        }
+      ],
+      "interaction_pattern": "motion_observation",
+      "summary": "Person-01 walks through a hallway and stands in a room.",
+      "confidence": 0.9,
+      "source_detection_ids": [
+        "det_characters_0049",
+        "det_scenes_0003",
+        "det_objects_0019"
+      ],
+      "source_segment_ids": [
+        "seg_003"
+      ],
+      "reasoner_model": "/models/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5"
+    },
+    {
+      "chain_id": "chain_0005",
+      "start_sec": 12.0,
+      "end_sec": 22.0,
+      "participant_ids": [],
+      "object_ids": [
+        "furniture",
+        "hallway"
+      ],
+      "event_ids": [
+        "evt_0047"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0047",
+          "time_span": [
+            12.0,
+            22.0
+          ],
+          "event_type": "posture",
+          "actor_ids": [],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "sitting on the floor"
+        }
+      ],
+      "interaction_pattern": "single_observation",
+      "summary": "A person is sitting on the floor from 12.0s to 22.0s.",
+      "confidence": 0.6,
+      "source_detection_ids": [
+        "det_characters_0050",
+        "det_scenes_0003",
+        "det_objects_0019"
+      ],
+      "source_segment_ids": [
+        "seg_003"
+      ],
+      "reasoner_model": "/models/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5"
+    },
+    {
+      "chain_id": "chain_0006",
+      "start_sec": 18.0,
+      "end_sec": 52.0,
+      "participant_ids": [
+        "person-01"
+      ],
+      "object_ids": [
+        "shelves",
+        "globe",
+        "lamps",
+        "microwave",
+        "cabinet",
+        "table",
+        "chair",
+        "couch",
+        "teapot"
+      ],
+      "event_ids": [
+        "evt_0051",
+        "evt_0056",
+        "evt_0060",
+        "evt_0063",
+        "evt_0067"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0051",
+          "time_span": [
+            18.0,
+            28.0
+          ],
+          "event_type": "locomotion_posture",
+          "actor_ids": [
+            "person-01"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "walking through the room"
+        },
+        {
+          "event_id": "evt_0056",
+          "time_span": [
+            24.0,
+            34.0
+          ],
+          "event_type": "object_action",
+          "actor_ids": [
+            "person-01"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "holding an object"
+        },
+        {
+          "event_id": "evt_0060",
+          "time_span": [
+            30.0,
+            40.0
+          ],
+          "event_type": "gesture",
+          "actor_ids": [
+            "person-01"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "standing with arms crossed"
+        },
+        {
+          "event_id": "evt_0063",
+          "time_span": [
+            36.0,
+            46.0
+          ],
+          "event_type": "gesture",
+          "actor_ids": [
+            "person-01"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "standing with arms crossed, gesturing with hands"
+        },
+        {
+          "event_id": "evt_0067",
+          "time_span": [
+            42.0,
+            52.0
+          ],
+          "event_type": "gesture",
+          "actor_ids": [
+            "person-01"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "sitting at the table, hand resting on the table"
+        }
+      ],
+      "interaction_pattern": "object_mediated",
+      "summary": "Person-01 walks through the room, holds an object, stands with arms crossed, gestures with hands, and finally sits at the table with hand resting on the table.",
+      "confidence": 0.9,
+      "source_detection_ids": [
+        "det_characters_0055",
+        "det_characters_0060",
+        "det_characters_0065",
+        "det_characters_0070",
+        "det_characters_0075",
+        "det_scenes_0004",
+        "det_objects_0020",
+        "det_scenes_0005",
+        "det_objects_0021",
+        "det_scenes_0006",
+        "det_objects_0022",
+        "det_scenes_0007",
+        "det_objects_0023",
+        "det_scenes_0008",
+        "det_objects_0024"
+      ],
+      "source_segment_ids": [
+        "seg_004",
+        "seg_005",
+        "seg_006",
+        "seg_007",
+        "seg_008"
+      ],
+      "reasoner_model": "/models/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5"
+    },
+    {
+      "chain_id": "chain_0007",
+      "start_sec": 42.0,
+      "end_sec": 52.0,
+      "participant_ids": [
+        "person-02"
+      ],
+      "object_ids": [
+        "table",
+        "chair",
+        "couch",
+        "teapot"
+      ],
+      "event_ids": [
+        "evt_0068"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0068",
+          "time_span": [
+            42.0,
+            52.0
+          ],
+          "event_type": "gaze_head_orientation",
+          "actor_ids": [
+            "person-02"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "sitting at the table, looking towards another person"
+        }
+      ],
+      "interaction_pattern": "single_observation",
+      "summary": "From 42.0s to 52.0s, person-02 (female, adult) is sitting at the table, looking towards another person.",
+      "confidence": 0.9,
+      "source_detection_ids": [
+        "det_characters_0076",
+        "det_scenes_0008",
+        "det_objects_0024"
+      ],
+      "source_segment_ids": [
+        "seg_008"
+      ],
+      "reasoner_model": "/models/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5"
+    },
+    {
+      "chain_id": "chain_0008",
+      "start_sec": 42.0,
+      "end_sec": 52.0,
+      "participant_ids": [],
+      "object_ids": [
+        "table",
+        "chair",
+        "couch",
+        "teapot"
+      ],
+      "event_ids": [
+        "evt_0069"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0069",
+          "time_span": [
+            42.0,
+            52.0
+          ],
+          "event_type": "posture",
+          "actor_ids": [],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "standing in a kitchen area"
+        }
+      ],
+      "interaction_pattern": "motion_observation",
+      "summary": "A person is standing in a kitchen area from 42.0s to 52.0s.",
+      "confidence": 0.9,
+      "source_detection_ids": [
+        "det_characters_0077",
+        "det_scenes_0008",
+        "det_objects_0024"
+      ],
+      "source_segment_ids": [
+        "seg_008"
+      ],
+      "reasoner_model": "/models/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5"
+    },
+    {
+      "chain_id": "chain_0009",
+      "start_sec": 48.0,
+      "end_sec": 64.0,
+      "participant_ids": [
+        "person-01"
+      ],
+      "object_ids": [
+        "microwave",
+        "cabinet",
+        "kitchen_cabinets",
+        "countertop"
+      ],
+      "event_ids": [
+        "evt_0073",
+        "evt_0076"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0073",
+          "time_span": [
+            48.0,
+            58.0
+          ],
+          "event_type": "gesture",
+          "actor_ids": [
+            "person-01"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "standing with arms crossed"
+        },
+        {
+          "event_id": "evt_0076",
+          "time_span": [
+            54.0,
+            64.0
+          ],
+          "event_type": "gaze_head_orientation",
+          "actor_ids": [
+            "person-01"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "standing and facing others"
+        }
+      ],
+      "interaction_pattern": "behavior_sequence",
+      "summary": "Person-01 stands with arms crossed and then faces others.",
+      "confidence": 0.9,
+      "source_detection_ids": [
+        "det_characters_0082",
+        "det_characters_0087",
+        "det_scenes_0009",
+        "det_objects_0025",
+        "det_scenes_0010",
+        "det_objects_0026"
+      ],
+      "source_segment_ids": [
+        "seg_009",
+        "seg_010"
+      ],
+      "reasoner_model": "/models/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5"
+    },
+    {
+      "chain_id": "chain_0010",
+      "start_sec": 54.0,
+      "end_sec": 64.0,
+      "participant_ids": [],
+      "object_ids": [
+        "kitchen_cabinets",
+        "countertop"
+      ],
+      "event_ids": [
+        "evt_0077"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0077",
+          "time_span": [
+            54.0,
+            64.0
+          ],
+          "event_type": "gaze_head_orientation",
+          "actor_ids": [],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "seated and facing the standing individual"
+        }
+      ],
+      "interaction_pattern": "single_observation",
+      "summary": "A seated individual is facing a standing person from 54.0s to 64.0s.",
+      "confidence": 0.75,
+      "source_detection_ids": [
+        "det_characters_0088",
+        "det_characters_0089",
+        "det_scenes_0010",
+        "det_objects_0026"
+      ],
+      "source_segment_ids": [
+        "seg_010"
+      ],
+      "reasoner_model": "/models/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5"
+    },
+    {
+      "chain_id": "chain_0011",
+      "start_sec": 60.0,
+      "end_sec": 70.0,
+      "participant_ids": [
+        "person-01"
+      ],
+      "object_ids": [
+        "kitchen",
+        "microwave"
+      ],
+      "event_ids": [
+        "evt_0082"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0082",
+          "time_span": [
+            60.0,
+            70.0
+          ],
+          "event_type": "gesture",
+          "actor_ids": [
+            "person-01"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "standing with arms crossed"
+        }
+      ],
+      "interaction_pattern": "single_observation",
+      "summary": "From 60.0s to 70.0s, person-01 (male, adult) stands with arms crossed.",
+      "confidence": 0.9,
+      "source_detection_ids": [
+        "det_characters_0094",
+        "det_scenes_0011",
+        "det_objects_0027"
+      ],
+      "source_segment_ids": [
+        "seg_011"
+      ],
+      "reasoner_model": "/models/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5"
+    },
+    {
+      "chain_id": "chain_0012",
+      "start_sec": 60.0,
+      "end_sec": 70.0,
+      "participant_ids": [
+        "person-02"
+      ],
+      "object_ids": [
+        "kitchen",
+        "microwave"
+      ],
+      "event_ids": [
+        "evt_0083"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0083",
+          "time_span": [
+            60.0,
+            70.0
+          ],
+          "event_type": "posture",
+          "actor_ids": [
+            "person-02"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "sitting at a table"
+        }
+      ],
+      "interaction_pattern": "single_observation",
+      "summary": "From 60.0s to 70.0s, person-02 (female, adult) is sitting at a table.",
+      "confidence": 0.9,
+      "source_detection_ids": [
+        "det_characters_0095",
+        "det_scenes_0011",
+        "det_objects_0027"
+      ],
+      "source_segment_ids": [
+        "seg_011"
+      ],
+      "reasoner_model": "/models/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5"
+    },
+    {
+      "chain_id": "chain_0013",
+      "start_sec": 60.0,
+      "end_sec": 70.0,
+      "participant_ids": [],
+      "object_ids": [
+        "kitchen",
+        "microwave"
+      ],
+      "event_ids": [
+        "evt_0084"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0084",
+          "time_span": [
+            60.0,
+            70.0
+          ],
+          "event_type": "gaze_head_orientation",
+          "actor_ids": [],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "facing others"
+        }
+      ],
+      "interaction_pattern": "single_observation",
+      "summary": "From 60.0s to 70.0s, the participants are facing each other.",
+      "confidence": 0.6,
+      "source_detection_ids": [
+        "det_characters_0096",
+        "det_scenes_0011",
+        "det_objects_0027"
+      ],
+      "source_segment_ids": [
+        "seg_011"
+      ],
+      "reasoner_model": "/models/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5"
+    },
+    {
+      "chain_id": "chain_0014",
+      "start_sec": 66.0,
+      "end_sec": 76.0,
+      "participant_ids": [
+        "person-01"
+      ],
+      "object_ids": [
+        "couch",
+        "chair",
+        "television"
+      ],
+      "event_ids": [
+        "evt_0088"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0088",
+          "time_span": [
+            66.0,
+            76.0
+          ],
+          "event_type": "gaze_head_orientation",
+          "actor_ids": [
+            "person-01"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "standing and looking forward"
+        }
+      ],
+      "interaction_pattern": "single_observation",
+      "summary": "Person-01 is standing and looking forward from 66.0s to 76.0s.",
+      "confidence": 0.9,
+      "source_detection_ids": [
+        "det_characters_0101",
+        "det_scenes_0012",
+        "det_objects_0028"
+      ],
+      "source_segment_ids": [
+        "seg_012"
+      ],
+      "reasoner_model": "/models/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5"
+    },
+    {
+      "chain_id": "chain_0015",
+      "start_sec": 66.0,
+      "end_sec": 76.0,
+      "participant_ids": [
+        "person-02",
+        "person-03"
+      ],
+      "object_ids": [
+        "couch",
+        "chair",
+        "television"
+      ],
+      "event_ids": [
+        "evt_0089"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0089",
+          "time_span": [
+            66.0,
+            76.0
+          ],
+          "event_type": "gesture",
+          "actor_ids": [
+            "person-02",
+            "person-03"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "sitting and gesturing with hands"
+        }
+      ],
+      "interaction_pattern": "single_observation",
+      "summary": "From 66.0s to 76.0s, person-02 and person-03 are sitting and gesturing with hands.",
+      "confidence": 0.9,
+      "source_detection_ids": [
+        "det_characters_0102",
+        "det_characters_0103",
+        "det_scenes_0012",
+        "det_objects_0028"
+      ],
+      "source_segment_ids": [
+        "seg_012"
+      ],
+      "reasoner_model": "/models/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5"
+    },
+    {
+      "chain_id": "chain_0016",
+      "start_sec": 72.0,
+      "end_sec": 82.0,
+      "participant_ids": [
+        "person-01"
+      ],
+      "object_ids": [
+        "kitchen"
+      ],
+      "event_ids": [
+        "evt_0092"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0092",
+          "time_span": [
+            72.0,
+            82.0
+          ],
+          "event_type": "gesture",
+          "actor_ids": [
+            "person-01"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "standing and gesturing with hands"
+        }
+      ],
+      "interaction_pattern": "single_observation",
+      "summary": "Person-01 is standing and gesturing with hands from 72.0s to 82.0s.",
+      "confidence": 0.9,
+      "source_detection_ids": [
+        "det_characters_0108",
+        "det_scenes_0013",
+        "det_objects_0029"
+      ],
+      "source_segment_ids": [
+        "seg_013"
+      ],
+      "reasoner_model": "/models/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5"
+    },
+    {
+      "chain_id": "chain_0017",
+      "start_sec": 72.0,
+      "end_sec": 82.0,
+      "participant_ids": [
+        "person-02",
+        "person-03"
+      ],
+      "object_ids": [
+        "kitchen"
+      ],
+      "event_ids": [
+        "evt_0093"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0093",
+          "time_span": [
+            72.0,
+            82.0
+          ],
+          "event_type": "gaze_head_orientation",
+          "actor_ids": [
+            "person-02",
+            "person-03"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "partially visible, facing person-01"
+        }
+      ],
+      "interaction_pattern": "single_observation",
+      "summary": "From 72.0s to 82.0s, person-02 and person-03 are partially visible and facing person-01.",
+      "confidence": 0.9,
+      "source_detection_ids": [
+        "det_characters_0109",
+        "det_characters_0110",
+        "det_scenes_0013",
+        "det_objects_0029"
+      ],
+      "source_segment_ids": [
+        "seg_013"
+      ],
+      "reasoner_model": "/models/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5"
+    },
+    {
+      "chain_id": "chain_0018",
+      "start_sec": 78.0,
+      "end_sec": 88.0,
+      "participant_ids": [
+        "person-01"
+      ],
+      "object_ids": [
+        "cabinets",
+        "microwave",
+        "kitchen_items"
+      ],
+      "event_ids": [
+        "evt_0097"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0097",
+          "time_span": [
+            78.0,
+            88.0
+          ],
+          "event_type": "gesture",
+          "actor_ids": [
+            "person-01"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "gesturing with hands with mouth open"
+        }
+      ],
+      "interaction_pattern": "single_observation",
+      "summary": "From 78.0s to 88.0s, person-01 gestures with hands with mouth open.",
+      "confidence": 0.9,
+      "source_detection_ids": [
+        "det_characters_0115",
+        "det_scenes_0014",
+        "det_objects_0030"
+      ],
+      "source_segment_ids": [
+        "seg_014"
+      ],
+      "reasoner_model": "/models/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5"
+    },
+    {
+      "chain_id": "chain_0019",
+      "start_sec": 78.0,
+      "end_sec": 88.0,
+      "participant_ids": [
+        "person-02"
+      ],
+      "object_ids": [
+        "cabinets",
+        "microwave",
+        "kitchen_items"
+      ],
+      "event_ids": [
+        "evt_0098"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0098",
+          "time_span": [
+            78.0,
+            88.0
+          ],
+          "event_type": "posture",
+          "actor_ids": [
+            "person-02"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "sitting and listening"
+        }
+      ],
+      "interaction_pattern": "single_observation",
+      "summary": "From 78.0s to 88.0s, person-02 (female, adult) is sitting and listening.",
+      "confidence": 0.9,
+      "source_detection_ids": [
+        "det_characters_0116",
+        "det_scenes_0014",
+        "det_objects_0030"
+      ],
+      "source_segment_ids": [
+        "seg_014"
+      ],
+      "reasoner_model": "/models/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5"
+    },
+    {
+      "chain_id": "chain_0020",
+      "start_sec": 78.0,
+      "end_sec": 88.0,
+      "participant_ids": [
+        "person-03"
+      ],
+      "object_ids": [
+        "cabinets",
+        "microwave",
+        "kitchen_items"
+      ],
+      "event_ids": [
+        "evt_0099"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0099",
+          "time_span": [
+            78.0,
+            88.0
+          ],
+          "event_type": "object_action",
+          "actor_ids": [
+            "person-03"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "sitting and holding an object"
+        }
+      ],
+      "interaction_pattern": "object_mediated",
+      "summary": "Person-03 is sitting and holding an object from 78.0s to 88.0s.",
+      "confidence": 0.9,
+      "source_detection_ids": [
+        "det_characters_0117",
+        "det_scenes_0014",
+        "det_objects_0030"
+      ],
+      "source_segment_ids": [
+        "seg_014"
+      ],
+      "reasoner_model": "/models/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5"
+    },
+    {
+      "chain_id": "chain_0021",
+      "start_sec": 84.0,
+      "end_sec": 97.556,
+      "participant_ids": [],
+      "object_ids": [
+        "superhero",
+        "building",
+        "costumed_figure",
+        "urban_skyline",
+        "sparks"
+      ],
+      "event_ids": [
+        "evt_0102",
+        "evt_0104"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0102",
+          "time_span": [
+            84.0,
+            94.0
+          ],
+          "event_type": "observed_behavior",
+          "actor_ids": [],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "swinging through the air"
+        },
+        {
+          "event_id": "evt_0104",
+          "time_span": [
+            90.0,
+            97.556
+          ],
+          "event_type": "observed_behavior",
+          "actor_ids": [],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "appears to be swinging or leaping"
+        }
+      ],
+      "interaction_pattern": "behavior_sequence",
+      "summary": "From 84.0s to 97.6s, 2 observable events: swinging through the air; then appears to be swinging or leaping.",
+      "confidence": 0.9,
+      "source_detection_ids": [
+        "det_characters_0122",
+        "det_characters_0123",
+        "det_characters_0126",
+        "det_characters_0127",
+        "det_scenes_0015",
+        "det_objects_0031",
+        "det_scenes_0016",
+        "det_objects_0032"
+      ],
+      "source_segment_ids": [
+        "seg_015",
+        "seg_016"
+      ],
+      "reasoner_model": "/models/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5"
+    }
+  ],
+  "orphan_event_ids": [
+    "evt_0033",
+    "evt_0035",
+    "evt_0036",
+    "evt_0034",
+    "evt_0039",
+    "evt_0040",
+    "evt_0038",
+    "evt_0044",
+    "evt_0045",
+    "evt_0043",
+    "evt_0048",
+    "evt_0049",
+    "evt_0050",
+    "evt_0052",
+    "evt_0054",
+    "evt_0055",
+    "evt_0053",
+    "evt_0057",
+    "evt_0058",
+    "evt_0059",
+    "evt_0061",
+    "evt_0062",
+    "evt_0064",
+    "evt_0066",
+    "evt_0065",
+    "evt_0072",
+    "evt_0070",
+    "evt_0071",
+    "evt_0074",
+    "evt_0075",
+    "evt_0078",
+    "evt_0079",
+    "evt_0081",
+    "evt_0080",
+    "evt_0086",
+    "evt_0085",
+    "evt_0087",
+    "evt_0090",
+    "evt_0091",
+    "evt_0094",
+    "evt_0096",
+    "evt_0095",
+    "evt_0100",
+    "evt_0101",
+    "evt_0103"
+  ],
+  "warnings": [
+    "45 track-only events have no resolved character id; see orphan_event_ids."
+  ]
+}

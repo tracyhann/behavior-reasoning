@@ -1,0 +1,894 @@
+{
+  "schema_version": "0.1",
+  "source_files": {
+    "characters": "/workspace/behavior-reasoning/outputs_gemma3_12b/-JUtzfuiV08/characters/characters.json",
+    "detections": "/workspace/behavior-reasoning/outputs_gemma3_12b/-JUtzfuiV08/detections/detections.json"
+  },
+  "parameters": {
+    "max_merge_gap_sec": 2.0,
+    "max_chain_gap_sec": 10.0,
+    "max_response_window_sec": 8.0,
+    "min_dedupe_score": 0.72
+  },
+  "chains": [
+    {
+      "chain_id": "chain_0001",
+      "start_sec": 0.0,
+      "end_sec": 10.0,
+      "participant_ids": [
+        "person-01"
+      ],
+      "object_ids": [
+        "refrigerator",
+        "cabinets",
+        "sofa",
+        "coffee_table",
+        "bookshelves",
+        "mug",
+        "chair"
+      ],
+      "event_ids": [
+        "evt_0033"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0033",
+          "time_span": [
+            0.0,
+            10.0
+          ],
+          "event_type": "object_action",
+          "actor_ids": [
+            "person-01"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "standing, holding a mug"
+        }
+      ],
+      "interaction_pattern": "single_observation",
+      "summary": "Person-01 is standing and holding a mug from 0.0s to 10.0s.",
+      "confidence": 0.9,
+      "source_detection_ids": [
+        "det_characters_0033",
+        "det_scenes_0001",
+        "det_objects_0015"
+      ],
+      "source_segment_ids": [
+        "seg_001"
+      ],
+      "reasoner_model": "/models/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5"
+    },
+    {
+      "chain_id": "chain_0002",
+      "start_sec": 0.0,
+      "end_sec": 16.0,
+      "participant_ids": [],
+      "object_ids": [
+        "refrigerator",
+        "cabinets",
+        "sofa",
+        "coffee_table",
+        "bookshelves",
+        "mug",
+        "chair",
+        "bookshelf",
+        "lamp",
+        "rug"
+      ],
+      "event_ids": [
+        "evt_0034",
+        "evt_0037"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0034",
+          "time_span": [
+            0.0,
+            10.0
+          ],
+          "event_type": "object_action",
+          "actor_ids": [],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "sitting on sofa, holding a mug"
+        },
+        {
+          "event_id": "evt_0037",
+          "time_span": [
+            6.0,
+            16.0
+          ],
+          "event_type": "posture",
+          "actor_ids": [],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "standing and gesturing"
+        }
+      ],
+      "interaction_pattern": "object_mediated",
+      "summary": "Person-01 sits on the sofa, holding a mug, and then stands up to gesture.",
+      "confidence": 0.9,
+      "source_detection_ids": [
+        "det_characters_0034",
+        "det_characters_0039",
+        "det_scenes_0001",
+        "det_objects_0015",
+        "det_scenes_0002",
+        "det_objects_0016"
+      ],
+      "source_segment_ids": [
+        "seg_001",
+        "seg_002"
+      ],
+      "reasoner_model": "/models/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5"
+    },
+    {
+      "chain_id": "chain_0003",
+      "start_sec": 6.0,
+      "end_sec": 34.0,
+      "participant_ids": [
+        "person-01",
+        "person-02"
+      ],
+      "object_ids": [
+        "sofa",
+        "coffee_table",
+        "bookshelf",
+        "mug",
+        "lamp",
+        "rug",
+        "couch",
+        "pillows",
+        "magazine",
+        "pillow",
+        "cup",
+        "tissues",
+        "remote_control"
+      ],
+      "event_ids": [
+        "evt_0038",
+        "evt_0041",
+        "evt_0044",
+        "evt_0046"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0038",
+          "time_span": [
+            6.0,
+            16.0
+          ],
+          "event_type": "object_action",
+          "actor_ids": [
+            "person-01",
+            "person-02"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "sitting and holding a mug"
+        },
+        {
+          "event_id": "evt_0041",
+          "time_span": [
+            12.0,
+            22.0
+          ],
+          "event_type": "object_action",
+          "actor_ids": [
+            "person-01"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "sitting on the couch, holding a mug"
+        },
+        {
+          "event_id": "evt_0044",
+          "time_span": [
+            18.0,
+            28.0
+          ],
+          "event_type": "object_action",
+          "actor_ids": [
+            "person-01",
+            "person-02"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "sitting on couch, holding a cup"
+        },
+        {
+          "event_id": "evt_0046",
+          "time_span": [
+            24.0,
+            34.0
+          ],
+          "event_type": "gaze_head_orientation",
+          "actor_ids": [
+            "person-02"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "sitting, looking to the side"
+        }
+      ],
+      "interaction_pattern": "object_mediated",
+      "summary": "Person-01 and Person-02 are sitting and holding mugs, with Person-02 also looking to the side.",
+      "confidence": 0.9,
+      "source_detection_ids": [
+        "det_characters_0040",
+        "det_characters_0041",
+        "det_characters_0046",
+        "det_characters_0047",
+        "det_characters_0052",
+        "det_characters_0053",
+        "det_characters_0056",
+        "det_scenes_0002",
+        "det_objects_0016",
+        "det_scenes_0003",
+        "det_objects_0017",
+        "det_scenes_0004",
+        "det_objects_0018",
+        "det_scenes_0005",
+        "det_objects_0019"
+      ],
+      "source_segment_ids": [
+        "seg_002",
+        "seg_003",
+        "seg_004",
+        "seg_005"
+      ],
+      "reasoner_model": "/models/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5"
+    },
+    {
+      "chain_id": "chain_0004",
+      "start_sec": 24.0,
+      "end_sec": 40.0,
+      "participant_ids": [],
+      "object_ids": [
+        "couch",
+        "bookshelf",
+        "lamp",
+        "pillow",
+        "tissues",
+        "remote_control",
+        "armchair",
+        "books"
+      ],
+      "event_ids": [
+        "evt_0047",
+        "evt_0048"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0047",
+          "time_span": [
+            24.0,
+            34.0
+          ],
+          "event_type": "gesture",
+          "actor_ids": [],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "sitting, gesturing with hands"
+        },
+        {
+          "event_id": "evt_0048",
+          "time_span": [
+            30.0,
+            40.0
+          ],
+          "event_type": "gesture",
+          "actor_ids": [],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "sitting, gesturing with hands"
+        }
+      ],
+      "interaction_pattern": "behavior_sequence",
+      "summary": "From 24.0s to 40.0s, person-01 and person-02 are sitting and gesturing with hands.",
+      "confidence": 0.9,
+      "source_detection_ids": [
+        "det_characters_0057",
+        "det_characters_0059",
+        "det_scenes_0005",
+        "det_objects_0019",
+        "det_scenes_0006",
+        "det_objects_0020"
+      ],
+      "source_segment_ids": [
+        "seg_005",
+        "seg_006"
+      ],
+      "reasoner_model": "/models/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5"
+    },
+    {
+      "chain_id": "chain_0005",
+      "start_sec": 36.0,
+      "end_sec": 52.0,
+      "participant_ids": [
+        "person-02"
+      ],
+      "object_ids": [
+        "armchair",
+        "pillow",
+        "bookshelf",
+        "lamp",
+        "tissues",
+        "couch"
+      ],
+      "event_ids": [
+        "evt_0049",
+        "evt_0053"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0049",
+          "time_span": [
+            36.0,
+            46.0
+          ],
+          "event_type": "gesture",
+          "actor_ids": [
+            "person-02"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "seated, hands clasped"
+        },
+        {
+          "event_id": "evt_0053",
+          "time_span": [
+            42.0,
+            52.0
+          ],
+          "event_type": "gesture",
+          "actor_ids": [
+            "person-02"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "sitting on the couch, hands clasped"
+        }
+      ],
+      "interaction_pattern": "behavior_sequence",
+      "summary": "Person-02 (male, adult) is seated with hands clasped from 36.0s to 46.0s, then sits on the couch with hands clasped from 42.0s to 52.0s.",
+      "confidence": 0.9,
+      "source_detection_ids": [
+        "det_characters_0061",
+        "det_characters_0065",
+        "det_scenes_0007",
+        "det_objects_0021",
+        "det_scenes_0008",
+        "det_objects_0022"
+      ],
+      "source_segment_ids": [
+        "seg_007",
+        "seg_008"
+      ],
+      "reasoner_model": "/models/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5"
+    },
+    {
+      "chain_id": "chain_0006",
+      "start_sec": 42.0,
+      "end_sec": 58.0,
+      "participant_ids": [
+        "person-01"
+      ],
+      "object_ids": [
+        "couch",
+        "bookshelf",
+        "lamp",
+        "tissues",
+        "pillow",
+        "books"
+      ],
+      "event_ids": [
+        "evt_0054"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0054",
+          "time_span": [
+            42.0,
+            58.0
+          ],
+          "event_type": "vocalization_or_mouth_movement",
+          "actor_ids": [
+            "person-01"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "sitting on the couch, mouth open"
+        }
+      ],
+      "interaction_pattern": "single_observation",
+      "summary": "From 42.0s to 58.0s, person-01 (female, adult) is sitting on the couch with their mouth open.",
+      "confidence": 0.9,
+      "source_detection_ids": [
+        "det_characters_0066",
+        "det_characters_0072",
+        "det_scenes_0008",
+        "det_objects_0022",
+        "det_scenes_0009",
+        "det_objects_0023"
+      ],
+      "source_segment_ids": [
+        "seg_008",
+        "seg_009"
+      ],
+      "reasoner_model": "/models/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5"
+    },
+    {
+      "chain_id": "chain_0007",
+      "start_sec": 48.0,
+      "end_sec": 58.0,
+      "participant_ids": [
+        "person-02"
+      ],
+      "object_ids": [
+        "couch",
+        "bookshelf",
+        "lamp",
+        "tissues",
+        "books"
+      ],
+      "event_ids": [
+        "evt_0058"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0058",
+          "time_span": [
+            48.0,
+            58.0
+          ],
+          "event_type": "gaze_head_orientation",
+          "actor_ids": [
+            "person-02"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "sitting on the couch, looking down"
+        }
+      ],
+      "interaction_pattern": "single_observation",
+      "summary": "From 48.0s to 58.0s, person-02 (male, adult) is sitting on the couch, looking down.",
+      "confidence": 0.9,
+      "source_detection_ids": [
+        "det_characters_0071",
+        "det_scenes_0009",
+        "det_objects_0023"
+      ],
+      "source_segment_ids": [
+        "seg_009"
+      ],
+      "reasoner_model": "/models/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5"
+    },
+    {
+      "chain_id": "chain_0008",
+      "start_sec": 54.0,
+      "end_sec": 64.0,
+      "participant_ids": [
+        "person-01"
+      ],
+      "object_ids": [
+        "couch",
+        "pillow",
+        "lamp",
+        "bookshelf",
+        "tissue",
+        "cup"
+      ],
+      "event_ids": [
+        "evt_0063"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0063",
+          "time_span": [
+            54.0,
+            64.0
+          ],
+          "event_type": "object_action",
+          "actor_ids": [
+            "person-01"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "seated, holding hands with another person"
+        }
+      ],
+      "interaction_pattern": "cue_response",
+      "summary": "Person-01 (female, adult) is seated and holding hands with another person from 54.0s to 64.0s.",
+      "confidence": 0.9,
+      "source_detection_ids": [
+        "det_characters_0077",
+        "det_scenes_0010",
+        "det_objects_0024"
+      ],
+      "source_segment_ids": [
+        "seg_010"
+      ],
+      "reasoner_model": "/models/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5"
+    },
+    {
+      "chain_id": "chain_0009",
+      "start_sec": 54.0,
+      "end_sec": 64.0,
+      "participant_ids": [],
+      "object_ids": [
+        "couch",
+        "pillow",
+        "lamp",
+        "bookshelf",
+        "tissue",
+        "cup"
+      ],
+      "event_ids": [
+        "evt_0064"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0064",
+          "time_span": [
+            54.0,
+            64.0
+          ],
+          "event_type": "object_action",
+          "actor_ids": [],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "seated, holding knees"
+        }
+      ],
+      "interaction_pattern": "single_observation",
+      "summary": "A person is seated, holding their knees.",
+      "confidence": 0.9,
+      "source_detection_ids": [
+        "det_characters_0078",
+        "det_scenes_0010",
+        "det_objects_0024"
+      ],
+      "source_segment_ids": [
+        "seg_010"
+      ],
+      "reasoner_model": "/models/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5"
+    },
+    {
+      "chain_id": "chain_0010",
+      "start_sec": 60.0,
+      "end_sec": 70.0,
+      "participant_ids": [
+        "person-01"
+      ],
+      "object_ids": [
+        "sofa",
+        "armchair",
+        "coffee_table",
+        "bookshelf",
+        "lamp",
+        "rug",
+        "tissues",
+        "rubiks_cube",
+        "dvds"
+      ],
+      "event_ids": [
+        "evt_0066"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0066",
+          "time_span": [
+            60.0,
+            70.0
+          ],
+          "event_type": "object_action",
+          "actor_ids": [
+            "person-01"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "sitting on sofa, holding a cup"
+        }
+      ],
+      "interaction_pattern": "single_observation",
+      "summary": "From 60.0s to 70.0s, person-01 is sitting on the sofa, holding a cup.",
+      "confidence": 0.9,
+      "source_detection_ids": [
+        "det_characters_0082",
+        "det_scenes_0011",
+        "det_objects_0025"
+      ],
+      "source_segment_ids": [
+        "seg_011"
+      ],
+      "reasoner_model": "/models/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5"
+    },
+    {
+      "chain_id": "chain_0011",
+      "start_sec": 60.0,
+      "end_sec": 70.0,
+      "participant_ids": [
+        "person-02"
+      ],
+      "object_ids": [
+        "sofa",
+        "armchair",
+        "coffee_table",
+        "bookshelf",
+        "lamp",
+        "rug",
+        "tissues",
+        "rubiks_cube",
+        "dvds"
+      ],
+      "event_ids": [
+        "evt_0067"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0067",
+          "time_span": [
+            60.0,
+            70.0
+          ],
+          "event_type": "object_action",
+          "actor_ids": [
+            "person-02"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "sitting in armchair, holding knees"
+        }
+      ],
+      "interaction_pattern": "object_mediated",
+      "summary": "Person-02 sits in an armchair while holding their knees.",
+      "confidence": 0.9,
+      "source_detection_ids": [
+        "det_characters_0083",
+        "det_scenes_0011",
+        "det_objects_0025"
+      ],
+      "source_segment_ids": [
+        "seg_011"
+      ],
+      "reasoner_model": "/models/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5"
+    },
+    {
+      "chain_id": "chain_0012",
+      "start_sec": 66.0,
+      "end_sec": 76.0,
+      "participant_ids": [
+        "person-01"
+      ],
+      "object_ids": [
+        "couch",
+        "bookshelf",
+        "lamp",
+        "tissues"
+      ],
+      "event_ids": [
+        "evt_0069"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0069",
+          "time_span": [
+            66.0,
+            76.0
+          ],
+          "event_type": "object_action",
+          "actor_ids": [
+            "person-01"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "sitting, holding hands with another person"
+        }
+      ],
+      "interaction_pattern": "cue_response",
+      "summary": "Person-01 is sitting and holding hands with another person.",
+      "confidence": 0.9,
+      "source_detection_ids": [
+        "det_characters_0086",
+        "det_scenes_0012",
+        "det_objects_0026"
+      ],
+      "source_segment_ids": [
+        "seg_012"
+      ],
+      "reasoner_model": "/models/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5"
+    },
+    {
+      "chain_id": "chain_0013",
+      "start_sec": 66.0,
+      "end_sec": 82.0,
+      "participant_ids": [
+        "person-02"
+      ],
+      "object_ids": [
+        "couch",
+        "bookshelf",
+        "lamp",
+        "tissues",
+        "tissue"
+      ],
+      "event_ids": [
+        "evt_0070",
+        "evt_0074"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0070",
+          "time_span": [
+            66.0,
+            76.0
+          ],
+          "event_type": "posture",
+          "actor_ids": [
+            "person-02"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "sitting, being held by another person"
+        },
+        {
+          "event_id": "evt_0074",
+          "time_span": [
+            72.0,
+            82.0
+          ],
+          "event_type": "observed_behavior",
+          "actor_ids": [
+            "person-02"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "seated, leaning on another person"
+        }
+      ],
+      "interaction_pattern": "behavior_sequence",
+      "summary": "Person-02 is observed sitting, being held by another person, and then seated, leaning on another person.",
+      "confidence": 0.9,
+      "source_detection_ids": [
+        "det_characters_0087",
+        "det_characters_0091",
+        "det_scenes_0012",
+        "det_objects_0026",
+        "det_scenes_0013",
+        "det_objects_0027"
+      ],
+      "source_segment_ids": [
+        "seg_012",
+        "seg_013"
+      ],
+      "reasoner_model": "/models/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5"
+    },
+    {
+      "chain_id": "chain_0014",
+      "start_sec": 72.0,
+      "end_sec": 85.419,
+      "participant_ids": [
+        "person-01"
+      ],
+      "object_ids": [
+        "couch",
+        "bookshelf",
+        "lamp",
+        "tissue"
+      ],
+      "event_ids": [
+        "evt_0073"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0073",
+          "time_span": [
+            72.0,
+            85.419
+          ],
+          "event_type": "observed_behavior",
+          "actor_ids": [
+            "person-01"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "embracing another person"
+        }
+      ],
+      "interaction_pattern": "single_observation",
+      "summary": "From 72.0s to 85.4s, person-01 (female, adult) is embracing another person.",
+      "confidence": 0.9,
+      "source_detection_ids": [
+        "det_characters_0090",
+        "det_characters_0094",
+        "det_scenes_0013",
+        "det_objects_0027",
+        "det_scenes_0014",
+        "det_objects_0028"
+      ],
+      "source_segment_ids": [
+        "seg_013",
+        "seg_014"
+      ],
+      "reasoner_model": "/models/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5"
+    },
+    {
+      "chain_id": "chain_0015",
+      "start_sec": 78.0,
+      "end_sec": 85.419,
+      "participant_ids": [
+        "person-02"
+      ],
+      "object_ids": [
+        "couch",
+        "lamp",
+        "tissue"
+      ],
+      "event_ids": [
+        "evt_0077"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0077",
+          "time_span": [
+            78.0,
+            85.419
+          ],
+          "event_type": "gaze_head_orientation",
+          "actor_ids": [
+            "person-02"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "being embraced, head down"
+        }
+      ],
+      "interaction_pattern": "single_observation",
+      "summary": "Person-02 is being embraced with their head down from 78.0s to 85.4s.",
+      "confidence": 0.9,
+      "source_detection_ids": [
+        "det_characters_0095",
+        "det_scenes_0014",
+        "det_objects_0028"
+      ],
+      "source_segment_ids": [
+        "seg_014"
+      ],
+      "reasoner_model": "/models/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5"
+    }
+  ],
+  "orphan_event_ids": [
+    "evt_0029",
+    "evt_0032",
+    "evt_0031",
+    "evt_0030",
+    "evt_0036",
+    "evt_0035",
+    "evt_0039",
+    "evt_0040",
+    "evt_0042",
+    "evt_0043",
+    "evt_0045",
+    "evt_0050",
+    "evt_0052",
+    "evt_0051",
+    "evt_0055",
+    "evt_0056",
+    "evt_0057",
+    "evt_0059",
+    "evt_0060",
+    "evt_0062",
+    "evt_0061",
+    "evt_0065",
+    "evt_0068",
+    "evt_0071",
+    "evt_0072",
+    "evt_0075",
+    "evt_0076"
+  ],
+  "warnings": [
+    "27 track-only events have no resolved character id; see orphan_event_ids."
+  ]
+}

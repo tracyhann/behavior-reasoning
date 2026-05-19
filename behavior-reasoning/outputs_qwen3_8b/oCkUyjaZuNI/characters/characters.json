@@ -1,0 +1,82 @@
+{
+  "video_id": "oCkUyjaZuNI",
+  "characters": {
+    "person-01": {
+      "id": "person-01",
+      "gender": "male",
+      "age_range": "adolescent",
+      "height": "unknown",
+      "clothing": "white t-shirt with graphic, dark zip-up hoodie",
+      "appearance": "short dark hair",
+      "first_seen": 6.0,
+      "last_seen": 94.0,
+      "track_ids": [],
+      "example_segments": [
+        "seg_002",
+        "seg_003",
+        "seg_004",
+        "seg_005",
+        "seg_007",
+        "seg_008",
+        "seg_010",
+        "seg_011",
+        "seg_012",
+        "seg_013",
+        "seg_014",
+        "seg_015"
+      ],
+      "example_crop_paths": [],
+      "match_confidence": "high"
+    },
+    "person-02": {
+      "id": "person-02",
+      "gender": "male",
+      "age_range": "adult",
+      "height": "unknown",
+      "clothing": "dark suit jacket",
+      "appearance": "short dark hair, facial hair",
+      "first_seen": 24.0,
+      "last_seen": 94.0,
+      "track_ids": [],
+      "example_segments": [
+        "seg_005",
+        "seg_006",
+        "seg_008",
+        "seg_009",
+        "seg_010",
+        "seg_011",
+        "seg_012",
+        "seg_013",
+        "seg_014",
+        "seg_015"
+      ],
+      "example_crop_paths": [],
+      "match_confidence": "high"
+    },
+    "person-03": {
+      "id": "person-03",
+      "gender": "female",
+      "age_range": "adult",
+      "height": "unknown",
+      "clothing": "white short-sleeved top",
+      "appearance": "medium-length dark hair",
+      "first_seen": 24.0,
+      "last_seen": 94.0,
+      "track_ids": [],
+      "example_segments": [
+        "seg_005",
+        "seg_006",
+        "seg_008",
+        "seg_009",
+        "seg_010",
+        "seg_011",
+        "seg_012",
+        "seg_013",
+        "seg_014",
+        "seg_015"
+      ],
+      "example_crop_paths": [],
+      "match_confidence": "high"
+    }
+  }
+}

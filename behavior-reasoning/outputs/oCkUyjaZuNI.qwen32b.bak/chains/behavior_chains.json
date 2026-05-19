@@ -1,0 +1,327 @@
+{
+  "schema_version": "0.1",
+  "source_files": {
+    "characters": "/DATA/zihao/projects/Project-Ava/behavior-reasoning/behavior-reasoning/outputs/oCkUyjaZuNI/characters/characters.json",
+    "detections": "/DATA/zihao/projects/Project-Ava/behavior-reasoning/behavior-reasoning/outputs/oCkUyjaZuNI/detections/detections.json"
+  },
+  "parameters": {
+    "max_merge_gap_sec": 2.0,
+    "max_chain_gap_sec": 10.0,
+    "max_response_window_sec": 8.0,
+    "min_dedupe_score": 0.72
+  },
+  "chains": [
+    {
+      "chain_id": "chain_0001",
+      "start_sec": 6.0,
+      "end_sec": 16.0,
+      "participant_ids": [
+        "person-01"
+      ],
+      "object_ids": [
+        "window",
+        "furniture"
+      ],
+      "event_ids": [
+        "evt_0025"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0025",
+          "time_span": [
+            6.0,
+            16.0
+          ],
+          "event_type": "observed_behavior",
+          "actor_ids": [
+            "person-01"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "Interacting with something on the ground"
+        }
+      ],
+      "interaction_pattern": "single_observation",
+      "summary": "Person-01 interacts with something on the ground from 6.0s to 16.0s.",
+      "confidence": 0.9,
+      "source_detection_ids": [
+        "det_characters_0041",
+        "det_scenes_0002",
+        "det_objects_0018"
+      ],
+      "source_segment_ids": [
+        "seg_002"
+      ],
+      "reasoner_model": "Qwen/Qwen2.5-VL-32B-Instruct"
+    },
+    {
+      "chain_id": "chain_0002",
+      "start_sec": 30.0,
+      "end_sec": 40.0,
+      "participant_ids": [
+        "person-03"
+      ],
+      "object_ids": [
+        "microwave_oven",
+        "chart"
+      ],
+      "event_ids": [
+        "evt_0039"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0039",
+          "time_span": [
+            30.0,
+            40.0
+          ],
+          "event_type": "vocalization_or_mouth_movement",
+          "actor_ids": [
+            "person-03"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "mouth open or changing posture or facial orientation"
+        }
+      ],
+      "interaction_pattern": "single_observation",
+      "summary": "From 30.0s to 40.0s, person-03 exhibits vocalization or changes in posture or facial orientation.",
+      "confidence": 0.9,
+      "source_detection_ids": [
+        "det_characters_0058",
+        "det_scenes_0006",
+        "det_objects_0022",
+        "det_objects_0023"
+      ],
+      "source_segment_ids": [
+        "seg_006",
+        "seg_007"
+      ],
+      "reasoner_model": "Qwen/Qwen2.5-VL-32B-Instruct"
+    },
+    {
+      "chain_id": "chain_0003",
+      "start_sec": 36.0,
+      "end_sec": 46.0,
+      "participant_ids": [
+        "person-01"
+      ],
+      "object_ids": [
+        "microwave_oven",
+        "chart"
+      ],
+      "event_ids": [
+        "evt_0042"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0042",
+          "time_span": [
+            36.0,
+            46.0
+          ],
+          "event_type": "observed_behavior",
+          "actor_ids": [
+            "person-01"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "engaged in visible interaction or reaction"
+        }
+      ],
+      "interaction_pattern": "single_observation",
+      "summary": "Person-01 engaged in a visible interaction or reaction from 36.0s to 46.0s.",
+      "confidence": 0.9,
+      "source_detection_ids": [
+        "det_characters_0063",
+        "det_objects_0022",
+        "det_objects_0023",
+        "det_scenes_0007"
+      ],
+      "source_segment_ids": [
+        "seg_007",
+        "seg_006"
+      ],
+      "reasoner_model": "Qwen/Qwen2.5-VL-32B-Instruct"
+    },
+    {
+      "chain_id": "chain_0004",
+      "start_sec": 42.0,
+      "end_sec": 52.0,
+      "participant_ids": [
+        "person-03"
+      ],
+      "object_ids": [
+        "microwave",
+        "kitchen_appliances"
+      ],
+      "event_ids": [
+        "evt_0046"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0046",
+          "time_span": [
+            42.0,
+            52.0
+          ],
+          "event_type": "gaze_head_orientation",
+          "actor_ids": [
+            "person-03"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "facing the camera, standing still"
+        }
+      ],
+      "interaction_pattern": "single_observation",
+      "summary": "Person-03 is facing the camera and standing still from 42.0s to 52.0s.",
+      "confidence": 0.9,
+      "source_detection_ids": [
+        "det_characters_0068",
+        "det_scenes_0008",
+        "det_objects_0024"
+      ],
+      "source_segment_ids": [
+        "seg_008"
+      ],
+      "reasoner_model": "Qwen/Qwen2.5-VL-32B-Instruct"
+    },
+    {
+      "chain_id": "chain_0005",
+      "start_sec": 48.0,
+      "end_sec": 58.0,
+      "participant_ids": [
+        "person-01"
+      ],
+      "object_ids": [
+        "stainless_steel_microwave",
+        "colorful_poster"
+      ],
+      "event_ids": [
+        "evt_0050"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0050",
+          "time_span": [
+            48.0,
+            58.0
+          ],
+          "event_type": "gesture",
+          "actor_ids": [
+            "person-01"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "standing still, arms at sides"
+        }
+      ],
+      "interaction_pattern": "single_observation",
+      "summary": "Person-01 stands still with arms at their sides.",
+      "confidence": 0.9,
+      "source_detection_ids": [
+        "det_characters_0073",
+        "det_scenes_0009",
+        "det_objects_0025"
+      ],
+      "source_segment_ids": [
+        "seg_009"
+      ],
+      "reasoner_model": "Qwen/Qwen2.5-VL-32B-Instruct"
+    },
+    {
+      "chain_id": "chain_0006",
+      "start_sec": 78.0,
+      "end_sec": 88.0,
+      "participant_ids": [
+        "person-01"
+      ],
+      "object_ids": [
+        "microwave",
+        "cabinets"
+      ],
+      "event_ids": [
+        "evt_0065"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0065",
+          "time_span": [
+            78.0,
+            88.0
+          ],
+          "event_type": "gesture",
+          "actor_ids": [
+            "person-01"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "gesturing with hands with mouth open"
+        }
+      ],
+      "interaction_pattern": "single_observation",
+      "summary": "Person-01 is gesturing with hands and has their mouth open.",
+      "confidence": 0.9,
+      "source_detection_ids": [
+        "det_characters_0094",
+        "det_scenes_0014",
+        "det_objects_0030"
+      ],
+      "source_segment_ids": [
+        "seg_014"
+      ],
+      "reasoner_model": "Qwen/Qwen2.5-VL-32B-Instruct"
+    }
+  ],
+  "orphan_event_ids": [
+    "evt_0018",
+    "evt_0020",
+    "evt_0021",
+    "evt_0019",
+    "evt_0023",
+    "evt_0024",
+    "evt_0022",
+    "evt_0027",
+    "evt_0028",
+    "evt_0026",
+    "evt_0029",
+    "evt_0030",
+    "evt_0031",
+    "evt_0032",
+    "evt_0034",
+    "evt_0035",
+    "evt_0033",
+    "evt_0036",
+    "evt_0037",
+    "evt_0038",
+    "evt_0040",
+    "evt_0041",
+    "evt_0043",
+    "evt_0045",
+    "evt_0044",
+    "evt_0049",
+    "evt_0047",
+    "evt_0048",
+    "evt_0051",
+    "evt_0052",
+    "evt_0053",
+    "evt_0054",
+    "evt_0056",
+    "evt_0055",
+    "evt_0058",
+    "evt_0057",
+    "evt_0059",
+    "evt_0060",
+    "evt_0061",
+    "evt_0062",
+    "evt_0064",
+    "evt_0063",
+    "evt_0066",
+    "evt_0067",
+    "evt_0068"
+  ],
+  "warnings": [
+    "45 track-only events have no resolved character id; see orphan_event_ids."
+  ]
+}

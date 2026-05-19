@@ -1,0 +1,85 @@
+{
+  "video_id": "-JUtzfuiV08",
+  "source_video": "/DATA/zihao/projects/Project-Ava/behavior-reasoning/dataset-ours/-JUtzfuiV08/-JUtzfuiV08.mp4",
+  "segment_length_sec": 10.0,
+  "stride_sec": 6.0,
+  "video_metadata": {
+    "fps": 23.976023976023978,
+    "frame_count": 2048,
+    "width": 640,
+    "height": 360,
+    "duration_sec": 85.419
+  },
+  "segments": [
+    {
+      "segment_id": "seg_001",
+      "start_time": 0.0,
+      "end_time": 10.0
+    },
+    {
+      "segment_id": "seg_002",
+      "start_time": 6.0,
+      "end_time": 16.0
+    },
+    {
+      "segment_id": "seg_003",
+      "start_time": 12.0,
+      "end_time": 22.0
+    },
+    {
+      "segment_id": "seg_004",
+      "start_time": 18.0,
+      "end_time": 28.0
+    },
+    {
+      "segment_id": "seg_005",
+      "start_time": 24.0,
+      "end_time": 34.0
+    },
+    {
+      "segment_id": "seg_006",
+      "start_time": 30.0,
+      "end_time": 40.0
+    },
+    {
+      "segment_id": "seg_007",
+      "start_time": 36.0,
+      "end_time": 46.0
+    },
+    {
+      "segment_id": "seg_008",
+      "start_time": 42.0,
+      "end_time": 52.0
+    },
+    {
+      "segment_id": "seg_009",
+      "start_time": 48.0,
+      "end_time": 58.0
+    },
+    {
+      "segment_id": "seg_010",
+      "start_time": 54.0,
+      "end_time": 64.0
+    },
+    {
+      "segment_id": "seg_011",
+      "start_time": 60.0,
+      "end_time": 70.0
+    },
+    {
+      "segment_id": "seg_012",
+      "start_time": 66.0,
+      "end_time": 76.0
+    },
+    {
+      "segment_id": "seg_013",
+      "start_time": 72.0,
+      "end_time": 82.0
+    },
+    {
+      "segment_id": "seg_014",
+      "start_time": 78.0,
+      "end_time": 85.419
+    }
+  ]
+}

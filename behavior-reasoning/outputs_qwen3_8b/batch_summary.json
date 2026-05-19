@@ -1,0 +1,34 @@
+[
+  {
+    "video_id": "oCkUyjaZuNI",
+    "ok": true,
+    "segments": 16,
+    "characters": 3,
+    "elapsed_sec": 296.3,
+    "output_dir": "/workspace/behavior-reasoning/outputs_qwen3_8b/oCkUyjaZuNI"
+  },
+  {
+    "video_id": "-JUtzfuiV08",
+    "ok": true,
+    "segments": 14,
+    "characters": 2,
+    "elapsed_sec": 222.6,
+    "output_dir": "/workspace/behavior-reasoning/outputs_qwen3_8b/-JUtzfuiV08"
+  },
+  {
+    "video_id": "DmSmN-oqFZ0",
+    "ok": true,
+    "segments": 16,
+    "characters": 3,
+    "elapsed_sec": 295.1,
+    "output_dir": "/workspace/behavior-reasoning/outputs_qwen3_8b/DmSmN-oqFZ0"
+  },
+  {
+    "video_id": "G6f0w5BRasw",
+    "ok": true,
+    "segments": 34,
+    "characters": 3,
+    "elapsed_sec": 554.1,
+    "output_dir": "/workspace/behavior-reasoning/outputs_qwen3_8b/G6f0w5BRasw"
+  }
+]

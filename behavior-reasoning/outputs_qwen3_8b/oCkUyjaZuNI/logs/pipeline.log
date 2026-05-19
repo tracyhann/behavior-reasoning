@@ -1,0 +1,20 @@
+2026-05-18 20:18:50,905 INFO starting pipeline video=/workspace/dataset-ours/oCkUyjaZuNI/oCkUyjaZuNI.mp4
+2026-05-18 20:19:18,754 INFO yolo status: available=True reason=ultralytics tracking produced 4474 observations using yolov8n-pose.pt det_model=yolov8n.pt pose_model=yolov8n-pose.pt tracker=botsort.yaml
+2026-05-18 20:19:37,513 INFO global roster subjects=3 expected=3
+2026-05-18 20:19:53,509 INFO segment=seg_001 frames=3 vlm_characters=2 yolo_tracks=4 objects=5
+2026-05-18 20:20:06,040 INFO segment=seg_002 frames=3 vlm_characters=2 yolo_tracks=4 objects=4
+2026-05-18 20:20:25,186 INFO segment=seg_003 frames=3 vlm_characters=5 yolo_tracks=4 objects=3
+2026-05-18 20:20:36,264 INFO segment=seg_004 frames=3 vlm_characters=1 yolo_tracks=4 objects=4
+2026-05-18 20:20:53,545 INFO segment=seg_005 frames=3 vlm_characters=3 yolo_tracks=4 objects=5
+2026-05-18 20:21:09,996 INFO segment=seg_006 frames=3 vlm_characters=3 yolo_tracks=4 objects=4
+2026-05-18 20:21:19,440 INFO segment=seg_007 frames=3 vlm_characters=1 yolo_tracks=4 objects=3
+2026-05-18 20:21:36,101 INFO segment=seg_008 frames=3 vlm_characters=3 yolo_tracks=4 objects=4
+2026-05-18 20:21:51,748 INFO segment=seg_009 frames=3 vlm_characters=3 yolo_tracks=4 objects=4
+2026-05-18 20:22:09,384 INFO segment=seg_010 frames=3 vlm_characters=3 yolo_tracks=4 objects=5
+2026-05-18 20:22:26,289 INFO segment=seg_011 frames=3 vlm_characters=3 yolo_tracks=4 objects=4
+2026-05-18 20:22:40,720 INFO segment=seg_012 frames=3 vlm_characters=3 yolo_tracks=4 objects=4
+2026-05-18 20:22:56,564 INFO segment=seg_013 frames=3 vlm_characters=3 yolo_tracks=4 objects=4
+2026-05-18 20:23:14,266 INFO segment=seg_014 frames=3 vlm_characters=3 yolo_tracks=4 objects=5
+2026-05-18 20:23:33,846 INFO segment=seg_015 frames=3 vlm_characters=5 yolo_tracks=4 objects=3
+2026-05-18 20:23:47,095 INFO segment=seg_016 frames=3 vlm_characters=2 yolo_tracks=2 objects=3
+2026-05-18 20:23:47,174 INFO finished pipeline output=/workspace/behavior-reasoning/outputs_qwen3_8b/oCkUyjaZuNI

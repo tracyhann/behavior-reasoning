@@ -1,21 +1,21 @@
-2026-05-18 11:28:31,302 INFO starting pipeline video=/workspace/dataset-ours/oCkUyjaZuNI/oCkUyjaZuNI.mp4
-2026-05-18 11:28:48,723 INFO yolo status: available=True reason=ultralytics tracking produced 4482 observations using yolov8n-pose.pt det_model=yolo11n.pt pose_model=yolo11n-pose.pt tracker=botsort.yaml
-2026-05-18 11:28:48,723 INFO using local Qwen2.5-VL model_id=Qwen/Qwen2.5-VL-7B-Instruct
-2026-05-18 11:28:59,630 INFO global roster subjects=3 expected=3
-2026-05-18 11:29:03,648 INFO segment=seg_001 frames=3 vlm_characters=0 yolo_tracks=4 objects=0
-2026-05-18 11:29:06,928 INFO segment=seg_002 frames=3 vlm_characters=1 yolo_tracks=4 objects=2
-2026-05-18 11:29:09,810 INFO segment=seg_003 frames=3 vlm_characters=1 yolo_tracks=4 objects=2
-2026-05-18 11:29:13,143 INFO segment=seg_004 frames=3 vlm_characters=1 yolo_tracks=4 objects=2
-2026-05-18 11:29:17,047 INFO segment=seg_005 frames=3 vlm_characters=1 yolo_tracks=4 objects=3
-2026-05-18 11:29:20,141 INFO segment=seg_006 frames=3 vlm_characters=1 yolo_tracks=4 objects=1
-2026-05-18 11:29:23,949 INFO segment=seg_007 frames=3 vlm_characters=1 yolo_tracks=4 objects=2
-2026-05-18 11:29:28,549 INFO segment=seg_008 frames=3 vlm_characters=0 yolo_tracks=4 objects=0
-2026-05-18 11:29:33,150 INFO segment=seg_009 frames=3 vlm_characters=0 yolo_tracks=4 objects=0
-2026-05-18 11:29:37,747 INFO segment=seg_010 frames=3 vlm_characters=0 yolo_tracks=4 objects=0
-2026-05-18 11:29:42,346 INFO segment=seg_011 frames=3 vlm_characters=0 yolo_tracks=4 objects=0
-2026-05-18 11:29:46,946 INFO segment=seg_012 frames=3 vlm_characters=0 yolo_tracks=4 objects=0
-2026-05-18 11:29:50,490 INFO segment=seg_013 frames=3 vlm_characters=1 yolo_tracks=4 objects=3
-2026-05-18 11:29:55,084 INFO segment=seg_014 frames=3 vlm_characters=0 yolo_tracks=4 objects=0
-2026-05-18 11:29:59,679 INFO segment=seg_015 frames=3 vlm_characters=0 yolo_tracks=4 objects=0
-2026-05-18 11:30:04,288 INFO segment=seg_016 frames=3 vlm_characters=0 yolo_tracks=2 objects=0
-2026-05-18 11:30:04,314 INFO finished pipeline output=/workspace/behavior-reasoning/outputs/oCkUyjaZuNI
+2026-05-18 16:49:03,167 INFO starting pipeline video=/DATA/zihao/projects/Project-Ava/behavior-reasoning/dataset-ours/oCkUyjaZuNI/oCkUyjaZuNI.mp4
+2026-05-18 16:49:29,327 INFO yolo status: available=True reason=ultralytics tracking produced 4474 observations using yolov8n-pose.pt det_model=yolo11n.pt pose_model=yolo11n-pose.pt tracker=botsort.yaml
+2026-05-18 16:49:29,327 INFO using local Qwen2.5-VL model_id=Qwen/Qwen2.5-VL-72B-Instruct
+2026-05-18 16:51:34,393 INFO global roster subjects=3 expected=3
+2026-05-18 16:51:58,045 INFO segment=seg_001 frames=3 vlm_characters=1 yolo_tracks=4 objects=2
+2026-05-18 16:52:38,717 INFO segment=seg_002 frames=3 vlm_characters=1 yolo_tracks=4 objects=3
+2026-05-18 16:53:13,717 INFO segment=seg_003 frames=3 vlm_characters=1 yolo_tracks=4 objects=2
+2026-05-18 16:54:08,968 INFO segment=seg_004 frames=3 vlm_characters=1 yolo_tracks=4 objects=3
+2026-05-18 16:54:58,103 INFO segment=seg_005 frames=3 vlm_characters=1 yolo_tracks=4 objects=2
+2026-05-18 16:55:35,121 INFO segment=seg_006 frames=3 vlm_characters=1 yolo_tracks=4 objects=2
+2026-05-18 16:56:10,941 INFO segment=seg_007 frames=3 vlm_characters=1 yolo_tracks=4 objects=2
+2026-05-18 16:56:45,069 INFO segment=seg_008 frames=3 vlm_characters=0 yolo_tracks=4 objects=0
+2026-05-18 16:57:10,836 INFO segment=seg_009 frames=3 vlm_characters=1 yolo_tracks=4 objects=2
+2026-05-18 16:57:44,958 INFO segment=seg_010 frames=3 vlm_characters=0 yolo_tracks=4 objects=0
+2026-05-18 16:58:19,038 INFO segment=seg_011 frames=3 vlm_characters=0 yolo_tracks=4 objects=0
+2026-05-18 16:58:53,123 INFO segment=seg_012 frames=3 vlm_characters=0 yolo_tracks=4 objects=0
+2026-05-18 16:59:27,260 INFO segment=seg_013 frames=3 vlm_characters=0 yolo_tracks=4 objects=0
+2026-05-18 17:00:01,384 INFO segment=seg_014 frames=3 vlm_characters=0 yolo_tracks=4 objects=0
+2026-05-18 17:00:35,523 INFO segment=seg_015 frames=3 vlm_characters=2 yolo_tracks=4 objects=2
+2026-05-18 17:01:09,662 INFO segment=seg_016 frames=3 vlm_characters=0 yolo_tracks=2 objects=0
+2026-05-18 17:01:09,718 INFO finished pipeline output=/DATA/zihao/projects/Project-Ava/behavior-reasoning/behavior-reasoning/outputs/oCkUyjaZuNI

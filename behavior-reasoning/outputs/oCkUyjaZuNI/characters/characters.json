@@ -3,55 +3,54 @@
   "characters": {
     "person-01": {
       "id": "person-01",
-      "gender": "male",
-      "age_range": "adolescent",
+      "gender": "unknown",
+      "age_range": "unknown",
       "height": "unknown",
-      "clothing": "white t-shirt with red design, dark jacket",
-      "appearance": "short brown hair",
-      "first_seen": 6.0,
-      "last_seen": 46.0,
+      "clothing": "visible clothing unclear",
+      "appearance": "visible recurring person; details unclear",
+      "first_seen": 0.0,
+      "last_seen": 58.0,
       "track_ids": [],
       "example_segments": [
+        "seg_001",
         "seg_002",
-        "seg_003",
-        "seg_005",
-        "seg_007"
+        "seg_004",
+        "seg_007",
+        "seg_009"
       ],
       "example_crop_paths": [],
-      "match_confidence": "high"
+      "match_confidence": "low"
     },
     "person-02": {
       "id": "person-02",
-      "gender": "male",
-      "age_range": "adult",
+      "gender": "unknown",
+      "age_range": "unknown",
       "height": "unknown",
-      "clothing": "dark suit jacket, white shirt",
-      "appearance": "short dark hair",
-      "first_seen": 18.0,
-      "last_seen": 82.0,
+      "clothing": "visible clothing unclear",
+      "appearance": "visible recurring person; details unclear",
+      "first_seen": 0.0,
+      "last_seen": 0.0,
       "track_ids": [],
-      "example_segments": [
-        "seg_004",
-        "seg_013"
-      ],
+      "example_segments": [],
       "example_crop_paths": [],
-      "match_confidence": "high"
+      "match_confidence": "low"
     },
     "person-03": {
       "id": "person-03",
-      "gender": "female",
-      "age_range": "adult",
+      "gender": "unknown",
+      "age_range": "unknown",
       "height": "unknown",
-      "clothing": "white top",
-      "appearance": "long dark hair",
-      "first_seen": 30.0,
+      "clothing": "visible clothing unclear",
+      "appearance": "visible recurring person; details unclear",
+      "first_seen": 24.0,
       "last_seen": 40.0,
       "track_ids": [],
       "example_segments": [
+        "seg_005",
         "seg_006"
       ],
       "example_crop_paths": [],
-      "match_confidence": "high"
+      "match_confidence": "low"
     }
   }
 }

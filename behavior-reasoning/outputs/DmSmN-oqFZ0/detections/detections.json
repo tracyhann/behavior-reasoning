@@ -1,0 +1,3306 @@
+{
+  "video_id": "DmSmN-oqFZ0",
+  "scenes": [
+    {
+      "segment_id": "seg_001",
+      "start_time": 0.0,
+      "end_time": 10.0,
+      "description": "Scene description unavailable from sampled frames.",
+      "confidence": "low",
+      "uncertainty": "limited sampled frames; temporal details may be incomplete"
+    },
+    {
+      "segment_id": "seg_002",
+      "start_time": 6.0,
+      "end_time": 16.0,
+      "description": "Scene description unavailable from sampled frames.",
+      "confidence": "low",
+      "uncertainty": "limited sampled frames; temporal details may be incomplete"
+    },
+    {
+      "segment_id": "seg_003",
+      "start_time": 12.0,
+      "end_time": 22.0,
+      "description": "Scene description unavailable from sampled frames.",
+      "confidence": "low",
+      "uncertainty": "limited sampled frames; temporal details may be incomplete"
+    },
+    {
+      "segment_id": "seg_004",
+      "start_time": 18.0,
+      "end_time": 28.0,
+      "description": "Scene description unavailable from sampled frames.",
+      "confidence": "low",
+      "uncertainty": "limited sampled frames; temporal details may be incomplete"
+    },
+    {
+      "segment_id": "seg_005",
+      "start_time": 24.0,
+      "end_time": 34.0,
+      "description": "A person in a purple shirt is seen in various indoor settings, including near a dartboard and in a kitchen area. The person appears to be moving through different rooms.",
+      "confidence": "high",
+      "uncertainty": "limited sampled frames; temporal details may be incomplete"
+    },
+    {
+      "segment_id": "seg_006",
+      "start_time": 30.0,
+      "end_time": 40.0,
+      "description": "Scene description unavailable from sampled frames.",
+      "confidence": "low",
+      "uncertainty": "limited sampled frames; temporal details may be incomplete"
+    },
+    {
+      "segment_id": "seg_007",
+      "start_time": 36.0,
+      "end_time": 46.0,
+      "description": "Scene description unavailable from sampled frames.",
+      "confidence": "low",
+      "uncertainty": "limited sampled frames; temporal details may be incomplete"
+    },
+    {
+      "segment_id": "seg_008",
+      "start_time": 42.0,
+      "end_time": 52.0,
+      "description": "Scene description unavailable from sampled frames.",
+      "confidence": "low",
+      "uncertainty": "limited sampled frames; temporal details may be incomplete"
+    },
+    {
+      "segment_id": "seg_009",
+      "start_time": 48.0,
+      "end_time": 58.0,
+      "description": "A person in a blue shirt with the number 73 on it stands near a door marked 'OUT OF ORDER' with caution tape around it. The background includes a brick wall and a light fixture.",
+      "confidence": "high",
+      "uncertainty": "limited sampled frames; temporal details may be incomplete"
+    },
+    {
+      "segment_id": "seg_010",
+      "start_time": 54.0,
+      "end_time": 64.0,
+      "description": "A person stands in front of a door marked 'OUT OF ORDER' with caution tape surrounding it. The individual wears a blue shirt with the number 73 on it over a yellow long-sleeve shirt.",
+      "confidence": "high",
+      "uncertainty": "limited sampled frames; temporal details may be incomplete"
+    },
+    {
+      "segment_id": "seg_011",
+      "start_time": 60.0,
+      "end_time": 70.0,
+      "description": "Scene description unavailable from sampled frames.",
+      "confidence": "low",
+      "uncertainty": "limited sampled frames; temporal details may be incomplete"
+    },
+    {
+      "segment_id": "seg_012",
+      "start_time": 66.0,
+      "end_time": 76.0,
+      "description": "Scene description unavailable from sampled frames.",
+      "confidence": "low",
+      "uncertainty": "limited sampled frames; temporal details may be incomplete"
+    },
+    {
+      "segment_id": "seg_013",
+      "start_time": 72.0,
+      "end_time": 82.0,
+      "description": "Scene description unavailable from sampled frames.",
+      "confidence": "low",
+      "uncertainty": "limited sampled frames; temporal details may be incomplete"
+    },
+    {
+      "segment_id": "seg_014",
+      "start_time": 78.0,
+      "end_time": 88.0,
+      "description": "Scene description unavailable from sampled frames.",
+      "confidence": "low",
+      "uncertainty": "limited sampled frames; temporal details may be incomplete"
+    },
+    {
+      "segment_id": "seg_015",
+      "start_time": 84.0,
+      "end_time": 94.0,
+      "description": "Scene description unavailable from sampled frames.",
+      "confidence": "low",
+      "uncertainty": "limited sampled frames; temporal details may be incomplete"
+    },
+    {
+      "segment_id": "seg_016",
+      "start_time": 90.0,
+      "end_time": 95.195,
+      "description": "Two individuals are in an indoor setting near a door marked 'OUT OF ORDER' with caution tape. They appear to be embracing and then separate slightly while facing each other.",
+      "confidence": "high",
+      "uncertainty": "limited sampled frames; temporal details may be incomplete"
+    }
+  ],
+  "objects": [
+    {
+      "segment_id": "seg_001",
+      "start_time": 0.0,
+      "end_time": 10.0,
+      "objects": [],
+      "uncertainty": "limited sampled frames; temporal details may be incomplete"
+    },
+    {
+      "segment_id": "seg_002",
+      "start_time": 6.0,
+      "end_time": 16.0,
+      "objects": [],
+      "uncertainty": "limited sampled frames; temporal details may be incomplete"
+    },
+    {
+      "segment_id": "seg_003",
+      "start_time": 12.0,
+      "end_time": 22.0,
+      "objects": [],
+      "uncertainty": "limited sampled frames; temporal details may be incomplete"
+    },
+    {
+      "segment_id": "seg_004",
+      "start_time": 18.0,
+      "end_time": 28.0,
+      "objects": [],
+      "uncertainty": "limited sampled frames; temporal details may be incomplete"
+    },
+    {
+      "segment_id": "seg_005",
+      "start_time": 24.0,
+      "end_time": 34.0,
+      "objects": [
+        {
+          "label": "dartboard",
+          "count": 1,
+          "confidence": 0.95,
+          "description": "a round dartboard on the wall"
+        },
+        {
+          "label": "kitchen appliances",
+          "count": 3,
+          "confidence": 0.85,
+          "description": "various kitchen appliances on the counter"
+        },
+        {
+          "label": "staircase",
+          "count": 1,
+          "confidence": 0.9,
+          "description": "a staircase with carpeted steps"
+        }
+      ],
+      "uncertainty": "limited sampled frames; temporal details may be incomplete"
+    },
+    {
+      "segment_id": "seg_006",
+      "start_time": 30.0,
+      "end_time": 40.0,
+      "objects": [],
+      "uncertainty": "limited sampled frames; temporal details may be incomplete"
+    },
+    {
+      "segment_id": "seg_007",
+      "start_time": 36.0,
+      "end_time": 46.0,
+      "objects": [],
+      "uncertainty": "limited sampled frames; temporal details may be incomplete"
+    },
+    {
+      "segment_id": "seg_008",
+      "start_time": 42.0,
+      "end_time": 52.0,
+      "objects": [],
+      "uncertainty": "limited sampled frames; temporal details may be incomplete"
+    },
+    {
+      "segment_id": "seg_009",
+      "start_time": 48.0,
+      "end_time": 58.0,
+      "objects": [
+        {
+          "label": "door",
+          "count": 1,
+          "confidence": 0.95,
+          "description": "wooden door with an 'OUT OF ORDER' sign"
+        },
+        {
+          "label": "caution tape",
+          "count": 1,
+          "confidence": 0.95,
+          "description": "yellow caution tape with black text"
+        },
+        {
+          "label": "brick wall",
+          "count": 1,
+          "confidence": 0.9,
+          "description": "red brick wall section"
+        }
+      ],
+      "uncertainty": "limited sampled frames; temporal details may be incomplete"
+    },
+    {
+      "segment_id": "seg_010",
+      "start_time": 54.0,
+      "end_time": 64.0,
+      "objects": [
+        {
+          "label": "door",
+          "count": 1,
+          "confidence": 0.95,
+          "description": "wooden door with an 'OUT OF ORDER' sign"
+        },
+        {
+          "label": "caution tape",
+          "count": 1,
+          "confidence": 0.95,
+          "description": "yellow tape with 'CAUTION' written on it"
+        }
+      ],
+      "uncertainty": "limited sampled frames; temporal details may be incomplete"
+    },
+    {
+      "segment_id": "seg_011",
+      "start_time": 60.0,
+      "end_time": 70.0,
+      "objects": [],
+      "uncertainty": "limited sampled frames; temporal details may be incomplete"
+    },
+    {
+      "segment_id": "seg_012",
+      "start_time": 66.0,
+      "end_time": 76.0,
+      "objects": [],
+      "uncertainty": "limited sampled frames; temporal details may be incomplete"
+    },
+    {
+      "segment_id": "seg_013",
+      "start_time": 72.0,
+      "end_time": 82.0,
+      "objects": [],
+      "uncertainty": "limited sampled frames; temporal details may be incomplete"
+    },
+    {
+      "segment_id": "seg_014",
+      "start_time": 78.0,
+      "end_time": 88.0,
+      "objects": [],
+      "uncertainty": "limited sampled frames; temporal details may be incomplete"
+    },
+    {
+      "segment_id": "seg_015",
+      "start_time": 84.0,
+      "end_time": 94.0,
+      "objects": [],
+      "uncertainty": "limited sampled frames; temporal details may be incomplete"
+    },
+    {
+      "segment_id": "seg_016",
+      "start_time": 90.0,
+      "end_time": 95.195,
+      "objects": [
+        {
+          "label": "door",
+          "count": 1,
+          "confidence": 0.95,
+          "description": "wooden door with a sign"
+        },
+        {
+          "label": "caution tape",
+          "count": 1,
+          "confidence": 0.9,
+          "description": "yellow tape with black text"
+        }
+      ],
+      "uncertainty": "limited sampled frames; temporal details may be incomplete"
+    }
+  ],
+  "characters": [
+    {
+      "segment_id": "seg_001",
+      "start_time": 0.0,
+      "end_time": 10.0,
+      "person_id": null,
+      "track_id": "track-2",
+      "temporary_id": "track-2",
+      "bbox_summary": {
+        "mean_bbox": [
+          266,
+          72,
+          425,
+          327
+        ],
+        "visibility": "upper_body",
+        "confidence": 0.886
+      },
+      "pose": {
+        "available": true,
+        "summary": "Pose landmarks suggest movement in left_arm, left_leg, right_leg.",
+        "moving_body_parts": [
+          "left_arm",
+          "left_leg",
+          "right_leg"
+        ],
+        "speed": "fast",
+        "directionality": "unclear",
+        "confidence": "medium"
+      },
+      "motion": {
+        "mean_motion": 0.0027,
+        "peak_motion": 0.0295,
+        "peak_time": 5.038,
+        "activity_level": "low"
+      },
+      "behavior": {
+        "description": "Pose landmarks suggest movement in left_arm, left_leg, right_leg.",
+        "modalities_used": [
+          "rgb",
+          "yolo",
+          "motion",
+          "pose"
+        ],
+        "confidence": "medium",
+        "uncertainty": "YOLO track provides location; clothing and detailed action remain unclear"
+      }
+    },
+    {
+      "segment_id": "seg_001",
+      "start_time": 0.0,
+      "end_time": 10.0,
+      "person_id": null,
+      "track_id": "track-31",
+      "temporary_id": "track-31",
+      "bbox_summary": {
+        "mean_bbox": [
+          187,
+          29,
+          428,
+          355
+        ],
+        "visibility": "full",
+        "confidence": 0.878
+      },
+      "pose": {
+        "available": true,
+        "summary": "Pose landmarks suggest movement in left_arm.",
+        "moving_body_parts": [
+          "left_arm"
+        ],
+        "speed": "slow",
+        "directionality": "unclear",
+        "confidence": "medium"
+      },
+      "motion": {
+        "mean_motion": 0.0079,
+        "peak_motion": 0.0442,
+        "peak_time": 8.175,
+        "activity_level": "low"
+      },
+      "behavior": {
+        "description": "Pose landmarks suggest movement in left_arm.",
+        "modalities_used": [
+          "rgb",
+          "yolo",
+          "motion",
+          "pose"
+        ],
+        "confidence": "medium",
+        "uncertainty": "YOLO track provides location; clothing and detailed action remain unclear"
+      }
+    },
+    {
+      "segment_id": "seg_001",
+      "start_time": 0.0,
+      "end_time": 10.0,
+      "person_id": null,
+      "track_id": "track-1",
+      "temporary_id": "track-1",
+      "bbox_summary": {
+        "mean_bbox": [
+          323,
+          48,
+          433,
+          283
+        ],
+        "visibility": "full",
+        "confidence": 0.854
+      },
+      "pose": {
+        "available": true,
+        "summary": "Pose landmarks suggest movement in left_arm, right_arm, left_leg, right_leg.",
+        "moving_body_parts": [
+          "left_arm",
+          "right_arm",
+          "left_leg",
+          "right_leg"
+        ],
+        "speed": "medium",
+        "directionality": "unclear",
+        "confidence": "medium"
+      },
+      "motion": {
+        "mean_motion": 0.0055,
+        "peak_motion": 0.0127,
+        "peak_time": 0.901,
+        "activity_level": "low"
+      },
+      "behavior": {
+        "description": "Pose landmarks suggest movement in left_arm, right_arm, left_leg, right_leg.",
+        "modalities_used": [
+          "rgb",
+          "yolo",
+          "motion",
+          "pose"
+        ],
+        "confidence": "medium",
+        "uncertainty": "YOLO track provides location; clothing and detailed action remain unclear"
+      }
+    },
+    {
+      "segment_id": "seg_001",
+      "start_time": 0.0,
+      "end_time": 10.0,
+      "person_id": null,
+      "track_id": "track-4",
+      "temporary_id": "track-4",
+      "bbox_summary": {
+        "mean_bbox": [
+          98,
+          52,
+          213,
+          327
+        ],
+        "visibility": "full",
+        "confidence": 0.799
+      },
+      "pose": {
+        "available": true,
+        "summary": "Pose landmarks suggest movement in left_arm.",
+        "moving_body_parts": [
+          "left_arm"
+        ],
+        "speed": "fast",
+        "directionality": "unclear",
+        "confidence": "medium"
+      },
+      "motion": {
+        "mean_motion": 0.0144,
+        "peak_motion": 0.0632,
+        "peak_time": 1.268,
+        "activity_level": "low"
+      },
+      "behavior": {
+        "description": "Pose landmarks suggest movement in left_arm.",
+        "modalities_used": [
+          "rgb",
+          "yolo",
+          "motion",
+          "pose"
+        ],
+        "confidence": "medium",
+        "uncertainty": "YOLO track provides location; clothing and detailed action remain unclear"
+      }
+    },
+    {
+      "segment_id": "seg_002",
+      "start_time": 6.0,
+      "end_time": 16.0,
+      "person_id": null,
+      "track_id": "track-2",
+      "temporary_id": "track-2",
+      "bbox_summary": {
+        "mean_bbox": [
+          308,
+          29,
+          504,
+          355
+        ],
+        "visibility": "full",
+        "confidence": 0.922
+      },
+      "pose": {
+        "available": true,
+        "summary": "Pose landmarks show no clear limb movement.",
+        "moving_body_parts": [],
+        "speed": "slow",
+        "directionality": "unclear",
+        "confidence": "medium"
+      },
+      "motion": {
+        "mean_motion": 0.001,
+        "peak_motion": 0.0032,
+        "peak_time": 6.106,
+        "activity_level": "low"
+      },
+      "behavior": {
+        "description": "Pose landmarks show no clear limb movement.",
+        "modalities_used": [
+          "rgb",
+          "yolo",
+          "motion",
+          "pose"
+        ],
+        "confidence": "medium",
+        "uncertainty": "YOLO track provides location; clothing and detailed action remain unclear"
+      }
+    },
+    {
+      "segment_id": "seg_002",
+      "start_time": 6.0,
+      "end_time": 16.0,
+      "person_id": null,
+      "track_id": "track-31",
+      "temporary_id": "track-31",
+      "bbox_summary": {
+        "mean_bbox": [
+          212,
+          26,
+          415,
+          355
+        ],
+        "visibility": "full",
+        "confidence": 0.921
+      },
+      "pose": {
+        "available": true,
+        "summary": "Pose landmarks suggest movement in left_arm.",
+        "moving_body_parts": [
+          "left_arm"
+        ],
+        "speed": "slow",
+        "directionality": "unclear",
+        "confidence": "medium"
+      },
+      "motion": {
+        "mean_motion": 0.0038,
+        "peak_motion": 0.0442,
+        "peak_time": 8.175,
+        "activity_level": "low"
+      },
+      "behavior": {
+        "description": "Pose landmarks suggest movement in left_arm.",
+        "modalities_used": [
+          "rgb",
+          "yolo",
+          "motion",
+          "pose"
+        ],
+        "confidence": "medium",
+        "uncertainty": "YOLO track provides location; clothing and detailed action remain unclear"
+      }
+    },
+    {
+      "segment_id": "seg_002",
+      "start_time": 6.0,
+      "end_time": 16.0,
+      "person_id": null,
+      "track_id": "track-43",
+      "temporary_id": "track-43",
+      "bbox_summary": {
+        "mean_bbox": [
+          305,
+          21,
+          500,
+          356
+        ],
+        "visibility": "full",
+        "confidence": 0.914
+      },
+      "pose": {
+        "available": true,
+        "summary": "Pose landmarks show no clear limb movement.",
+        "moving_body_parts": [],
+        "speed": "stationary",
+        "directionality": "unclear",
+        "confidence": "medium"
+      },
+      "motion": {
+        "mean_motion": 0.0002,
+        "peak_motion": 0.0013,
+        "peak_time": 14.314,
+        "activity_level": "low"
+      },
+      "behavior": {
+        "description": "Pose landmarks show no clear limb movement.",
+        "modalities_used": [
+          "rgb",
+          "yolo",
+          "motion",
+          "pose"
+        ],
+        "confidence": "medium",
+        "uncertainty": "YOLO track provides location; clothing and detailed action remain unclear"
+      }
+    },
+    {
+      "segment_id": "seg_002",
+      "start_time": 6.0,
+      "end_time": 16.0,
+      "person_id": null,
+      "track_id": "track-16",
+      "temporary_id": "track-16",
+      "bbox_summary": {
+        "mean_bbox": [
+          202,
+          26,
+          410,
+          355
+        ],
+        "visibility": "full",
+        "confidence": 0.777
+      },
+      "pose": {
+        "available": true,
+        "summary": "Pose landmarks suggest movement in left_arm, right_arm.",
+        "moving_body_parts": [
+          "left_arm",
+          "right_arm"
+        ],
+        "speed": "medium",
+        "directionality": "unclear",
+        "confidence": "medium"
+      },
+      "motion": {
+        "mean_motion": 0.0133,
+        "peak_motion": 0.0824,
+        "peak_time": 7.174,
+        "activity_level": "low"
+      },
+      "behavior": {
+        "description": "Pose landmarks suggest movement in left_arm, right_arm.",
+        "modalities_used": [
+          "rgb",
+          "yolo",
+          "motion",
+          "pose"
+        ],
+        "confidence": "medium",
+        "uncertainty": "YOLO track provides location; clothing and detailed action remain unclear"
+      }
+    },
+    {
+      "segment_id": "seg_003",
+      "start_time": 12.0,
+      "end_time": 22.0,
+      "person_id": null,
+      "track_id": "track-31",
+      "temporary_id": "track-31",
+      "bbox_summary": {
+        "mean_bbox": [
+          231,
+          24,
+          407,
+          355
+        ],
+        "visibility": "full",
+        "confidence": 0.945
+      },
+      "pose": {
+        "available": true,
+        "summary": "Pose landmarks show no clear limb movement.",
+        "moving_body_parts": [],
+        "speed": "stationary",
+        "directionality": "unclear",
+        "confidence": "medium"
+      },
+      "motion": {
+        "mean_motion": 0.0011,
+        "peak_motion": 0.0038,
+        "peak_time": 12.212,
+        "activity_level": "low"
+      },
+      "behavior": {
+        "description": "Pose landmarks show no clear limb movement.",
+        "modalities_used": [
+          "rgb",
+          "yolo",
+          "motion",
+          "pose"
+        ],
+        "confidence": "medium",
+        "uncertainty": "YOLO track provides location; clothing and detailed action remain unclear"
+      }
+    },
+    {
+      "segment_id": "seg_003",
+      "start_time": 12.0,
+      "end_time": 22.0,
+      "person_id": null,
+      "track_id": "track-44",
+      "temporary_id": "track-44",
+      "bbox_summary": {
+        "mean_bbox": [
+          170,
+          36,
+          445,
+          356
+        ],
+        "visibility": "full",
+        "confidence": 0.939
+      },
+      "pose": {
+        "available": true,
+        "summary": "Pose landmarks show no clear limb movement.",
+        "moving_body_parts": [],
+        "speed": "slow",
+        "directionality": "unclear",
+        "confidence": "medium"
+      },
+      "motion": {
+        "mean_motion": 0.0016,
+        "peak_motion": 0.0151,
+        "peak_time": 18.752,
+        "activity_level": "low"
+      },
+      "behavior": {
+        "description": "Pose landmarks show no clear limb movement.",
+        "modalities_used": [
+          "rgb",
+          "yolo",
+          "motion",
+          "pose"
+        ],
+        "confidence": "medium",
+        "uncertainty": "YOLO track provides location; clothing and detailed action remain unclear"
+      }
+    },
+    {
+      "segment_id": "seg_003",
+      "start_time": 12.0,
+      "end_time": 22.0,
+      "person_id": null,
+      "track_id": "track-43",
+      "temporary_id": "track-43",
+      "bbox_summary": {
+        "mean_bbox": [
+          305,
+          21,
+          500,
+          356
+        ],
+        "visibility": "full",
+        "confidence": 0.914
+      },
+      "pose": {
+        "available": true,
+        "summary": "Pose landmarks show no clear limb movement.",
+        "moving_body_parts": [],
+        "speed": "stationary",
+        "directionality": "unclear",
+        "confidence": "medium"
+      },
+      "motion": {
+        "mean_motion": 0.0002,
+        "peak_motion": 0.0013,
+        "peak_time": 14.314,
+        "activity_level": "low"
+      },
+      "behavior": {
+        "description": "Pose landmarks show no clear limb movement.",
+        "modalities_used": [
+          "rgb",
+          "yolo",
+          "motion",
+          "pose"
+        ],
+        "confidence": "medium",
+        "uncertainty": "YOLO track provides location; clothing and detailed action remain unclear"
+      }
+    },
+    {
+      "segment_id": "seg_003",
+      "start_time": 12.0,
+      "end_time": 22.0,
+      "person_id": null,
+      "track_id": "track-45",
+      "temporary_id": "track-45",
+      "bbox_summary": {
+        "mean_bbox": [
+          554,
+          6,
+          640,
+          355
+        ],
+        "visibility": "full",
+        "confidence": 0.755
+      },
+      "pose": {
+        "available": true,
+        "summary": "Pose landmarks show no clear limb movement.",
+        "moving_body_parts": [],
+        "speed": "stationary",
+        "directionality": "unclear",
+        "confidence": "low"
+      },
+      "motion": {
+        "mean_motion": 0.0003,
+        "peak_motion": 0.0024,
+        "peak_time": 21.922,
+        "activity_level": "low"
+      },
+      "behavior": {
+        "description": "Pose landmarks show no clear limb movement.",
+        "modalities_used": [
+          "rgb",
+          "yolo",
+          "motion",
+          "pose"
+        ],
+        "confidence": "medium",
+        "uncertainty": "YOLO track provides location; clothing and detailed action remain unclear"
+      }
+    },
+    {
+      "segment_id": "seg_004",
+      "start_time": 18.0,
+      "end_time": 28.0,
+      "person_id": null,
+      "track_id": "track-44",
+      "temporary_id": "track-44",
+      "bbox_summary": {
+        "mean_bbox": [
+          209,
+          37,
+          459,
+          356
+        ],
+        "visibility": "full",
+        "confidence": 0.926
+      },
+      "pose": {
+        "available": true,
+        "summary": "Pose landmarks suggest movement in left_arm, right_arm.",
+        "moving_body_parts": [
+          "left_arm",
+          "right_arm"
+        ],
+        "speed": "medium",
+        "directionality": "unclear",
+        "confidence": "medium"
+      },
+      "motion": {
+        "mean_motion": 0.0039,
+        "peak_motion": 0.1003,
+        "peak_time": 24.524,
+        "activity_level": "low"
+      },
+      "behavior": {
+        "description": "Pose landmarks suggest movement in left_arm, right_arm.",
+        "modalities_used": [
+          "rgb",
+          "yolo",
+          "motion",
+          "pose"
+        ],
+        "confidence": "medium",
+        "uncertainty": "YOLO track provides location; clothing and detailed action remain unclear"
+      }
+    },
+    {
+      "segment_id": "seg_004",
+      "start_time": 18.0,
+      "end_time": 28.0,
+      "person_id": null,
+      "track_id": "track-45",
+      "temporary_id": "track-45",
+      "bbox_summary": {
+        "mean_bbox": [
+          554,
+          5,
+          640,
+          355
+        ],
+        "visibility": "full",
+        "confidence": 0.74
+      },
+      "pose": {
+        "available": true,
+        "summary": "Pose landmarks show no clear limb movement.",
+        "moving_body_parts": [],
+        "speed": "stationary",
+        "directionality": "unclear",
+        "confidence": "low"
+      },
+      "motion": {
+        "mean_motion": 0.0005,
+        "peak_motion": 0.009,
+        "peak_time": 22.422,
+        "activity_level": "low"
+      },
+      "behavior": {
+        "description": "Pose landmarks show no clear limb movement.",
+        "modalities_used": [
+          "rgb",
+          "yolo",
+          "motion",
+          "pose"
+        ],
+        "confidence": "medium",
+        "uncertainty": "YOLO track provides location; clothing and detailed action remain unclear"
+      }
+    },
+    {
+      "segment_id": "seg_004",
+      "start_time": 18.0,
+      "end_time": 28.0,
+      "person_id": null,
+      "track_id": "track-56",
+      "temporary_id": "track-56",
+      "bbox_summary": {
+        "mean_bbox": [
+          0,
+          1,
+          60,
+          208
+        ],
+        "visibility": "full",
+        "confidence": 0.638
+      },
+      "pose": {
+        "available": true,
+        "summary": "Pose landmarks show no clear limb movement.",
+        "moving_body_parts": [],
+        "speed": "slow",
+        "directionality": "unclear",
+        "confidence": "medium"
+      },
+      "motion": {
+        "mean_motion": 0.0011,
+        "peak_motion": 0.0089,
+        "peak_time": 23.69,
+        "activity_level": "low"
+      },
+      "behavior": {
+        "description": "Pose landmarks show no clear limb movement.",
+        "modalities_used": [
+          "rgb",
+          "yolo",
+          "motion",
+          "pose"
+        ],
+        "confidence": "medium",
+        "uncertainty": "YOLO track provides location; clothing and detailed action remain unclear"
+      }
+    },
+    {
+      "segment_id": "seg_004",
+      "start_time": 18.0,
+      "end_time": 28.0,
+      "person_id": null,
+      "track_id": "track-46",
+      "temporary_id": "track-46",
+      "bbox_summary": {
+        "mean_bbox": [
+          193,
+          93,
+          257,
+          233
+        ],
+        "visibility": "upper_body",
+        "confidence": 0.617
+      },
+      "pose": {
+        "available": true,
+        "summary": "Pose landmarks suggest movement in left_arm, right_arm, left_leg, right_leg.",
+        "moving_body_parts": [
+          "left_arm",
+          "right_arm",
+          "left_leg",
+          "right_leg"
+        ],
+        "speed": "fast",
+        "directionality": "unclear",
+        "confidence": "medium"
+      },
+      "motion": {
+        "mean_motion": 0.0056,
+        "peak_motion": 0.2863,
+        "peak_time": 22.756,
+        "activity_level": "low"
+      },
+      "behavior": {
+        "description": "Pose landmarks suggest movement in left_arm, right_arm, left_leg, right_leg.",
+        "modalities_used": [
+          "rgb",
+          "yolo",
+          "motion",
+          "pose"
+        ],
+        "confidence": "medium",
+        "uncertainty": "YOLO track provides location; clothing and detailed action remain unclear"
+      }
+    },
+    {
+      "segment_id": "seg_005",
+      "start_time": 24.0,
+      "end_time": 34.0,
+      "person_id": null,
+      "track_id": "track-44",
+      "temporary_id": "track-44",
+      "bbox_summary": {
+        "mean_bbox": [
+          277,
+          37,
+          500,
+          356
+        ],
+        "visibility": "full",
+        "confidence": 0.924
+      },
+      "pose": {
+        "available": true,
+        "summary": "Pose landmarks suggest movement in left_arm, right_arm.",
+        "moving_body_parts": [
+          "left_arm",
+          "right_arm"
+        ],
+        "speed": "fast",
+        "directionality": "unclear",
+        "confidence": "medium"
+      },
+      "motion": {
+        "mean_motion": 0.0035,
+        "peak_motion": 0.1003,
+        "peak_time": 24.524,
+        "activity_level": "low"
+      },
+      "behavior": {
+        "description": "Pose landmarks suggest movement in left_arm, right_arm.",
+        "modalities_used": [
+          "rgb",
+          "yolo",
+          "motion",
+          "pose"
+        ],
+        "confidence": "medium",
+        "uncertainty": "YOLO track provides location; clothing and detailed action remain unclear"
+      }
+    },
+    {
+      "segment_id": "seg_005",
+      "start_time": 24.0,
+      "end_time": 34.0,
+      "person_id": null,
+      "track_id": "track-65",
+      "temporary_id": "track-65",
+      "bbox_summary": {
+        "mean_bbox": [
+          300,
+          6,
+          436,
+          329
+        ],
+        "visibility": "full",
+        "confidence": 0.896
+      },
+      "pose": {
+        "available": true,
+        "summary": "Pose landmarks suggest movement in right_arm, right_leg.",
+        "moving_body_parts": [
+          "right_arm",
+          "right_leg"
+        ],
+        "speed": "fast",
+        "directionality": "unclear",
+        "confidence": "medium"
+      },
+      "motion": {
+        "mean_motion": 0.0106,
+        "peak_motion": 0.0295,
+        "peak_time": 30.397,
+        "activity_level": "low"
+      },
+      "behavior": {
+        "description": "Pose landmarks suggest movement in right_arm, right_leg.",
+        "modalities_used": [
+          "rgb",
+          "yolo",
+          "motion",
+          "pose"
+        ],
+        "confidence": "medium",
+        "uncertainty": "YOLO track provides location; clothing and detailed action remain unclear"
+      }
+    },
+    {
+      "segment_id": "seg_005",
+      "start_time": 24.0,
+      "end_time": 34.0,
+      "person_id": null,
+      "track_id": "track-71",
+      "temporary_id": "track-71",
+      "bbox_summary": {
+        "mean_bbox": [
+          280,
+          85,
+          356,
+          298
+        ],
+        "visibility": "upper_body",
+        "confidence": 0.863
+      },
+      "pose": {
+        "available": true,
+        "summary": "Pose landmarks suggest movement in left_arm, right_arm, left_leg, right_leg.",
+        "moving_body_parts": [
+          "left_arm",
+          "right_arm",
+          "left_leg",
+          "right_leg"
+        ],
+        "speed": "fast",
+        "directionality": "unclear",
+        "confidence": "medium"
+      },
+      "motion": {
+        "mean_motion": 0.0057,
+        "peak_motion": 0.0169,
+        "peak_time": 33.8,
+        "activity_level": "low"
+      },
+      "behavior": {
+        "description": "Pose landmarks suggest movement in left_arm, right_arm, left_leg, right_leg.",
+        "modalities_used": [
+          "rgb",
+          "yolo",
+          "motion",
+          "pose"
+        ],
+        "confidence": "medium",
+        "uncertainty": "YOLO track provides location; clothing and detailed action remain unclear"
+      }
+    },
+    {
+      "segment_id": "seg_005",
+      "start_time": 24.0,
+      "end_time": 34.0,
+      "person_id": null,
+      "track_id": "track-56",
+      "temporary_id": "track-56",
+      "bbox_summary": {
+        "mean_bbox": [
+          0,
+          1,
+          61,
+          208
+        ],
+        "visibility": "full",
+        "confidence": 0.672
+      },
+      "pose": {
+        "available": true,
+        "summary": "Pose landmarks show no clear limb movement.",
+        "moving_body_parts": [],
+        "speed": "stationary",
+        "directionality": "unclear",
+        "confidence": "medium"
+      },
+      "motion": {
+        "mean_motion": 0.0002,
+        "peak_motion": 0.0006,
+        "peak_time": 24.157,
+        "activity_level": "low"
+      },
+      "behavior": {
+        "description": "Pose landmarks show no clear limb movement.",
+        "modalities_used": [
+          "rgb",
+          "yolo",
+          "motion",
+          "pose"
+        ],
+        "confidence": "medium",
+        "uncertainty": "YOLO track provides location; clothing and detailed action remain unclear"
+      }
+    },
+    {
+      "segment_id": "seg_005",
+      "start_time": 24.0,
+      "end_time": 34.0,
+      "person_id": "person-01",
+      "track_id": null,
+      "temporary_id": "person-01",
+      "bbox_summary": {
+        "mean_bbox": [],
+        "visibility": "unclear",
+        "confidence": 0.0
+      },
+      "pose": {
+        "available": false,
+        "summary": "Pose landmarks are unavailable for this segment.",
+        "moving_body_parts": [],
+        "speed": "unclear",
+        "directionality": "unclear",
+        "confidence": "low"
+      },
+      "motion": {
+        "mean_motion": 0.0,
+        "peak_motion": 0.0,
+        "peak_time": 0.0,
+        "activity_level": "unclear"
+      },
+      "behavior": {
+        "description": "walking and standing in different rooms",
+        "modalities_used": [
+          "rgb",
+          "vlm"
+        ],
+        "confidence": "high",
+        "uncertainty": "limited sampled frames; avoid identity, intent, diagnosis, or emotion inference"
+      }
+    },
+    {
+      "segment_id": "seg_006",
+      "start_time": 30.0,
+      "end_time": 40.0,
+      "person_id": null,
+      "track_id": "track-76",
+      "temporary_id": "track-76",
+      "bbox_summary": {
+        "mean_bbox": [
+          132,
+          24,
+          364,
+          356
+        ],
+        "visibility": "full",
+        "confidence": 0.937
+      },
+      "pose": {
+        "available": true,
+        "summary": "Pose landmarks show no clear limb movement.",
+        "moving_body_parts": [],
+        "speed": "slow",
+        "directionality": "unclear",
+        "confidence": "medium"
+      },
+      "motion": {
+        "mean_motion": 0.0013,
+        "peak_motion": 0.0047,
+        "peak_time": 39.606,
+        "activity_level": "low"
+      },
+      "behavior": {
+        "description": "Pose landmarks show no clear limb movement.",
+        "modalities_used": [
+          "rgb",
+          "yolo",
+          "motion",
+          "pose"
+        ],
+        "confidence": "medium",
+        "uncertainty": "YOLO track provides location; clothing and detailed action remain unclear"
+      }
+    },
+    {
+      "segment_id": "seg_006",
+      "start_time": 30.0,
+      "end_time": 40.0,
+      "person_id": null,
+      "track_id": "track-75",
+      "temporary_id": "track-75",
+      "bbox_summary": {
+        "mean_bbox": [
+          105,
+          32,
+          235,
+          327
+        ],
+        "visibility": "full",
+        "confidence": 0.908
+      },
+      "pose": {
+        "available": true,
+        "summary": "Pose landmarks suggest movement in left_arm, right_arm.",
+        "moving_body_parts": [
+          "left_arm",
+          "right_arm"
+        ],
+        "speed": "fast",
+        "directionality": "unclear",
+        "confidence": "medium"
+      },
+      "motion": {
+        "mean_motion": 0.0042,
+        "peak_motion": 0.1552,
+        "peak_time": 37.371,
+        "activity_level": "low"
+      },
+      "behavior": {
+        "description": "Pose landmarks suggest movement in left_arm, right_arm.",
+        "modalities_used": [
+          "rgb",
+          "yolo",
+          "motion",
+          "pose"
+        ],
+        "confidence": "medium",
+        "uncertainty": "YOLO track provides location; clothing and detailed action remain unclear"
+      }
+    },
+    {
+      "segment_id": "seg_006",
+      "start_time": 30.0,
+      "end_time": 40.0,
+      "person_id": null,
+      "track_id": "track-71",
+      "temporary_id": "track-71",
+      "bbox_summary": {
+        "mean_bbox": [
+          341,
+          83,
+          483,
+          341
+        ],
+        "visibility": "upper_body",
+        "confidence": 0.892
+      },
+      "pose": {
+        "available": true,
+        "summary": "Pose landmarks suggest movement in left_arm, right_arm.",
+        "moving_body_parts": [
+          "left_arm",
+          "right_arm"
+        ],
+        "speed": "fast",
+        "directionality": "unclear",
+        "confidence": "medium"
+      },
+      "motion": {
+        "mean_motion": 0.0048,
+        "peak_motion": 0.0678,
+        "peak_time": 39.206,
+        "activity_level": "low"
+      },
+      "behavior": {
+        "description": "Pose landmarks suggest movement in left_arm, right_arm.",
+        "modalities_used": [
+          "rgb",
+          "yolo",
+          "motion",
+          "pose"
+        ],
+        "confidence": "medium",
+        "uncertainty": "YOLO track provides location; clothing and detailed action remain unclear"
+      }
+    },
+    {
+      "segment_id": "seg_006",
+      "start_time": 30.0,
+      "end_time": 40.0,
+      "person_id": null,
+      "track_id": "track-65",
+      "temporary_id": "track-65",
+      "bbox_summary": {
+        "mean_bbox": [
+          231,
+          8,
+          360,
+          319
+        ],
+        "visibility": "full",
+        "confidence": 0.883
+      },
+      "pose": {
+        "available": true,
+        "summary": "Pose landmarks suggest movement in right_arm, right_leg.",
+        "moving_body_parts": [
+          "right_arm",
+          "right_leg"
+        ],
+        "speed": "fast",
+        "directionality": "unclear",
+        "confidence": "medium"
+      },
+      "motion": {
+        "mean_motion": 0.0097,
+        "peak_motion": 0.0295,
+        "peak_time": 30.397,
+        "activity_level": "low"
+      },
+      "behavior": {
+        "description": "Pose landmarks suggest movement in right_arm, right_leg.",
+        "modalities_used": [
+          "rgb",
+          "yolo",
+          "motion",
+          "pose"
+        ],
+        "confidence": "medium",
+        "uncertainty": "YOLO track provides location; clothing and detailed action remain unclear"
+      }
+    },
+    {
+      "segment_id": "seg_007",
+      "start_time": 36.0,
+      "end_time": 46.0,
+      "person_id": null,
+      "track_id": "track-75",
+      "temporary_id": "track-75",
+      "bbox_summary": {
+        "mean_bbox": [
+          69,
+          25,
+          228,
+          355
+        ],
+        "visibility": "full",
+        "confidence": 0.933
+      },
+      "pose": {
+        "available": true,
+        "summary": "Pose landmarks suggest movement in left_arm, right_arm.",
+        "moving_body_parts": [
+          "left_arm",
+          "right_arm"
+        ],
+        "speed": "fast",
+        "directionality": "unclear",
+        "confidence": "medium"
+      },
+      "motion": {
+        "mean_motion": 0.0037,
+        "peak_motion": 0.1552,
+        "peak_time": 37.371,
+        "activity_level": "low"
+      },
+      "behavior": {
+        "description": "Pose landmarks suggest movement in left_arm, right_arm.",
+        "modalities_used": [
+          "rgb",
+          "yolo",
+          "motion",
+          "pose"
+        ],
+        "confidence": "medium",
+        "uncertainty": "YOLO track provides location; clothing and detailed action remain unclear"
+      }
+    },
+    {
+      "segment_id": "seg_007",
+      "start_time": 36.0,
+      "end_time": 46.0,
+      "person_id": null,
+      "track_id": "track-81",
+      "temporary_id": "track-81",
+      "bbox_summary": {
+        "mean_bbox": [
+          249,
+          50,
+          533,
+          356
+        ],
+        "visibility": "full",
+        "confidence": 0.932
+      },
+      "pose": {
+        "available": true,
+        "summary": "Pose landmarks suggest movement in right_arm.",
+        "moving_body_parts": [
+          "right_arm"
+        ],
+        "speed": "medium",
+        "directionality": "unclear",
+        "confidence": "medium"
+      },
+      "motion": {
+        "mean_motion": 0.004,
+        "peak_motion": 0.022,
+        "peak_time": 45.312,
+        "activity_level": "low"
+      },
+      "behavior": {
+        "description": "Pose landmarks suggest movement in right_arm.",
+        "modalities_used": [
+          "rgb",
+          "yolo",
+          "motion",
+          "pose"
+        ],
+        "confidence": "medium",
+        "uncertainty": "YOLO track provides location; clothing and detailed action remain unclear"
+      }
+    },
+    {
+      "segment_id": "seg_007",
+      "start_time": 36.0,
+      "end_time": 46.0,
+      "person_id": null,
+      "track_id": "track-80",
+      "temporary_id": "track-80",
+      "bbox_summary": {
+        "mean_bbox": [
+          0,
+          1,
+          101,
+          354
+        ],
+        "visibility": "full",
+        "confidence": 0.927
+      },
+      "pose": {
+        "available": true,
+        "summary": "Pose landmarks suggest movement in right_arm.",
+        "moving_body_parts": [
+          "right_arm"
+        ],
+        "speed": "fast",
+        "directionality": "unclear",
+        "confidence": "medium"
+      },
+      "motion": {
+        "mean_motion": 0.0006,
+        "peak_motion": 0.0042,
+        "peak_time": 43.043,
+        "activity_level": "low"
+      },
+      "behavior": {
+        "description": "Pose landmarks suggest movement in right_arm.",
+        "modalities_used": [
+          "rgb",
+          "yolo",
+          "motion",
+          "pose"
+        ],
+        "confidence": "medium",
+        "uncertainty": "YOLO track provides location; clothing and detailed action remain unclear"
+      }
+    },
+    {
+      "segment_id": "seg_007",
+      "start_time": 36.0,
+      "end_time": 46.0,
+      "person_id": null,
+      "track_id": "track-76",
+      "temporary_id": "track-76",
+      "bbox_summary": {
+        "mean_bbox": [
+          140,
+          25,
+          423,
+          357
+        ],
+        "visibility": "full",
+        "confidence": 0.917
+      },
+      "pose": {
+        "available": true,
+        "summary": "Pose landmarks show no clear limb movement.",
+        "moving_body_parts": [],
+        "speed": "stationary",
+        "directionality": "unclear",
+        "confidence": "medium"
+      },
+      "motion": {
+        "mean_motion": 0.0025,
+        "peak_motion": 0.0232,
+        "peak_time": 40.707,
+        "activity_level": "low"
+      },
+      "behavior": {
+        "description": "Pose landmarks show no clear limb movement.",
+        "modalities_used": [
+          "rgb",
+          "yolo",
+          "motion",
+          "pose"
+        ],
+        "confidence": "medium",
+        "uncertainty": "YOLO track provides location; clothing and detailed action remain unclear"
+      }
+    },
+    {
+      "segment_id": "seg_008",
+      "start_time": 42.0,
+      "end_time": 52.0,
+      "person_id": null,
+      "track_id": "track-81",
+      "temporary_id": "track-81",
+      "bbox_summary": {
+        "mean_bbox": [
+          206,
+          40,
+          461,
+          356
+        ],
+        "visibility": "full",
+        "confidence": 0.94
+      },
+      "pose": {
+        "available": true,
+        "summary": "Pose landmarks suggest movement in left_arm, right_arm.",
+        "moving_body_parts": [
+          "left_arm",
+          "right_arm"
+        ],
+        "speed": "fast",
+        "directionality": "unclear",
+        "confidence": "medium"
+      },
+      "motion": {
+        "mean_motion": 0.0024,
+        "peak_motion": 0.1972,
+        "peak_time": 48.649,
+        "activity_level": "low"
+      },
+      "behavior": {
+        "description": "Pose landmarks suggest movement in left_arm, right_arm.",
+        "modalities_used": [
+          "rgb",
+          "yolo",
+          "motion",
+          "pose"
+        ],
+        "confidence": "medium",
+        "uncertainty": "YOLO track provides location; clothing and detailed action remain unclear"
+      }
+    },
+    {
+      "segment_id": "seg_008",
+      "start_time": 42.0,
+      "end_time": 52.0,
+      "person_id": null,
+      "track_id": "track-80",
+      "temporary_id": "track-80",
+      "bbox_summary": {
+        "mean_bbox": [
+          0,
+          1,
+          98,
+          355
+        ],
+        "visibility": "full",
+        "confidence": 0.92
+      },
+      "pose": {
+        "available": true,
+        "summary": "Pose landmarks suggest movement in left_arm.",
+        "moving_body_parts": [
+          "left_arm"
+        ],
+        "speed": "fast",
+        "directionality": "unclear",
+        "confidence": "medium"
+      },
+      "motion": {
+        "mean_motion": 0.0004,
+        "peak_motion": 0.0042,
+        "peak_time": 43.043,
+        "activity_level": "low"
+      },
+      "behavior": {
+        "description": "Pose landmarks suggest movement in left_arm.",
+        "modalities_used": [
+          "rgb",
+          "yolo",
+          "motion",
+          "pose"
+        ],
+        "confidence": "medium",
+        "uncertainty": "YOLO track provides location; clothing and detailed action remain unclear"
+      }
+    },
+    {
+      "segment_id": "seg_008",
+      "start_time": 42.0,
+      "end_time": 52.0,
+      "person_id": null,
+      "track_id": "track-76",
+      "temporary_id": "track-76",
+      "bbox_summary": {
+        "mean_bbox": [
+          146,
+          29,
+          439,
+          358
+        ],
+        "visibility": "full",
+        "confidence": 0.905
+      },
+      "pose": {
+        "available": true,
+        "summary": "Pose landmarks show no clear limb movement.",
+        "moving_body_parts": [],
+        "speed": "stationary",
+        "directionality": "unclear",
+        "confidence": "medium"
+      },
+      "motion": {
+        "mean_motion": 0.0012,
+        "peak_motion": 0.0067,
+        "peak_time": 42.075,
+        "activity_level": "low"
+      },
+      "behavior": {
+        "description": "Pose landmarks show no clear limb movement.",
+        "modalities_used": [
+          "rgb",
+          "yolo",
+          "motion",
+          "pose"
+        ],
+        "confidence": "medium",
+        "uncertainty": "YOLO track provides location; clothing and detailed action remain unclear"
+      }
+    },
+    {
+      "segment_id": "seg_009",
+      "start_time": 48.0,
+      "end_time": 58.0,
+      "person_id": null,
+      "track_id": "track-81",
+      "temporary_id": "track-81",
+      "bbox_summary": {
+        "mean_bbox": [
+          158,
+          31,
+          390,
+          356
+        ],
+        "visibility": "full",
+        "confidence": 0.945
+      },
+      "pose": {
+        "available": true,
+        "summary": "Pose landmarks show no clear limb movement.",
+        "moving_body_parts": [],
+        "speed": "stationary",
+        "directionality": "unclear",
+        "confidence": "medium"
+      },
+      "motion": {
+        "mean_motion": 0.002,
+        "peak_motion": 0.1972,
+        "peak_time": 48.649,
+        "activity_level": "low"
+      },
+      "behavior": {
+        "description": "Pose landmarks show no clear limb movement.",
+        "modalities_used": [
+          "rgb",
+          "yolo",
+          "motion",
+          "pose"
+        ],
+        "confidence": "medium",
+        "uncertainty": "YOLO track provides location; clothing and detailed action remain unclear"
+      }
+    },
+    {
+      "segment_id": "seg_009",
+      "start_time": 48.0,
+      "end_time": 58.0,
+      "person_id": null,
+      "track_id": "track-108",
+      "temporary_id": "track-108",
+      "bbox_summary": {
+        "mean_bbox": [
+          134,
+          28,
+          414,
+          358
+        ],
+        "visibility": "full",
+        "confidence": 0.93
+      },
+      "pose": {
+        "available": true,
+        "summary": "Pose landmarks show no clear limb movement.",
+        "moving_body_parts": [],
+        "speed": "stationary",
+        "directionality": "unclear",
+        "confidence": "medium"
+      },
+      "motion": {
+        "mean_motion": 0.0033,
+        "peak_motion": 0.0173,
+        "peak_time": 57.491,
+        "activity_level": "low"
+      },
+      "behavior": {
+        "description": "Pose landmarks show no clear limb movement.",
+        "modalities_used": [
+          "rgb",
+          "yolo",
+          "motion",
+          "pose"
+        ],
+        "confidence": "medium",
+        "uncertainty": "YOLO track provides location; clothing and detailed action remain unclear"
+      }
+    },
+    {
+      "segment_id": "seg_009",
+      "start_time": 48.0,
+      "end_time": 58.0,
+      "person_id": null,
+      "track_id": "track-80",
+      "temporary_id": "track-80",
+      "bbox_summary": {
+        "mean_bbox": [
+          0,
+          1,
+          94,
+          355
+        ],
+        "visibility": "full",
+        "confidence": 0.913
+      },
+      "pose": {
+        "available": true,
+        "summary": "Pose landmarks show no clear limb movement.",
+        "moving_body_parts": [],
+        "speed": "stationary",
+        "directionality": "unclear",
+        "confidence": "medium"
+      },
+      "motion": {
+        "mean_motion": 0.0001,
+        "peak_motion": 0.0005,
+        "peak_time": 48.248,
+        "activity_level": "low"
+      },
+      "behavior": {
+        "description": "Pose landmarks show no clear limb movement.",
+        "modalities_used": [
+          "rgb",
+          "yolo",
+          "motion",
+          "pose"
+        ],
+        "confidence": "medium",
+        "uncertainty": "YOLO track provides location; clothing and detailed action remain unclear"
+      }
+    },
+    {
+      "segment_id": "seg_009",
+      "start_time": 48.0,
+      "end_time": 58.0,
+      "person_id": null,
+      "track_id": "track-106",
+      "temporary_id": "track-106",
+      "bbox_summary": {
+        "mean_bbox": [
+          0,
+          1,
+          83,
+          354
+        ],
+        "visibility": "full",
+        "confidence": 0.893
+      },
+      "pose": {
+        "available": true,
+        "summary": "Pose landmarks show no clear limb movement.",
+        "moving_body_parts": [],
+        "speed": "stationary",
+        "directionality": "unclear",
+        "confidence": "medium"
+      },
+      "motion": {
+        "mean_motion": 0.0002,
+        "peak_motion": 0.0008,
+        "peak_time": 55.556,
+        "activity_level": "low"
+      },
+      "behavior": {
+        "description": "Pose landmarks show no clear limb movement.",
+        "modalities_used": [
+          "rgb",
+          "yolo",
+          "motion",
+          "pose"
+        ],
+        "confidence": "medium",
+        "uncertainty": "YOLO track provides location; clothing and detailed action remain unclear"
+      }
+    },
+    {
+      "segment_id": "seg_009",
+      "start_time": 48.0,
+      "end_time": 58.0,
+      "person_id": "person-01",
+      "track_id": null,
+      "temporary_id": "person-01",
+      "bbox_summary": {
+        "mean_bbox": [],
+        "visibility": "unclear",
+        "confidence": 0.0
+      },
+      "pose": {
+        "available": false,
+        "summary": "Pose landmarks are unavailable for this segment.",
+        "moving_body_parts": [],
+        "speed": "unclear",
+        "directionality": "unclear",
+        "confidence": "low"
+      },
+      "motion": {
+        "mean_motion": 0.0,
+        "peak_motion": 0.0,
+        "peak_time": 0.0,
+        "activity_level": "unclear"
+      },
+      "behavior": {
+        "description": "standing still",
+        "modalities_used": [
+          "rgb",
+          "vlm"
+        ],
+        "confidence": "high",
+        "uncertainty": "limited sampled frames; avoid identity, intent, diagnosis, or emotion inference"
+      }
+    },
+    {
+      "segment_id": "seg_010",
+      "start_time": 54.0,
+      "end_time": 64.0,
+      "person_id": null,
+      "track_id": "track-81",
+      "temporary_id": "track-81",
+      "bbox_summary": {
+        "mean_bbox": [
+          189,
+          37,
+          431,
+          355
+        ],
+        "visibility": "full",
+        "confidence": 0.945
+      },
+      "pose": {
+        "available": true,
+        "summary": "Pose landmarks suggest movement in left_arm, right_arm, left_leg, right_leg.",
+        "moving_body_parts": [
+          "left_arm",
+          "right_arm",
+          "left_leg",
+          "right_leg"
+        ],
+        "speed": "fast",
+        "directionality": "unclear",
+        "confidence": "medium"
+      },
+      "motion": {
+        "mean_motion": 0.0037,
+        "peak_motion": 0.1496,
+        "peak_time": 54.988,
+        "activity_level": "low"
+      },
+      "behavior": {
+        "description": "Pose landmarks suggest movement in left_arm, right_arm, left_leg, right_leg.",
+        "modalities_used": [
+          "rgb",
+          "yolo",
+          "motion",
+          "pose"
+        ],
+        "confidence": "medium",
+        "uncertainty": "YOLO track provides location; clothing and detailed action remain unclear"
+      }
+    },
+    {
+      "segment_id": "seg_010",
+      "start_time": 54.0,
+      "end_time": 64.0,
+      "person_id": null,
+      "track_id": "track-113",
+      "temporary_id": "track-113",
+      "bbox_summary": {
+        "mean_bbox": [
+          216,
+          39,
+          471,
+          356
+        ],
+        "visibility": "full",
+        "confidence": 0.944
+      },
+      "pose": {
+        "available": true,
+        "summary": "Pose landmarks suggest movement in left_arm, right_arm, left_leg, right_leg.",
+        "moving_body_parts": [
+          "left_arm",
+          "right_arm",
+          "left_leg",
+          "right_leg"
+        ],
+        "speed": "medium",
+        "directionality": "unclear",
+        "confidence": "medium"
+      },
+      "motion": {
+        "mean_motion": 0.0044,
+        "peak_motion": 0.084,
+        "peak_time": 63.83,
+        "activity_level": "low"
+      },
+      "behavior": {
+        "description": "Pose landmarks suggest movement in left_arm, right_arm, left_leg, right_leg.",
+        "modalities_used": [
+          "rgb",
+          "yolo",
+          "motion",
+          "pose"
+        ],
+        "confidence": "medium",
+        "uncertainty": "YOLO track provides location; clothing and detailed action remain unclear"
+      }
+    },
+    {
+      "segment_id": "seg_010",
+      "start_time": 54.0,
+      "end_time": 64.0,
+      "person_id": null,
+      "track_id": "track-108",
+      "temporary_id": "track-108",
+      "bbox_summary": {
+        "mean_bbox": [
+          163,
+          39,
+          431,
+          357
+        ],
+        "visibility": "full",
+        "confidence": 0.933
+      },
+      "pose": {
+        "available": true,
+        "summary": "Pose landmarks show no clear limb movement.",
+        "moving_body_parts": [],
+        "speed": "stationary",
+        "directionality": "unclear",
+        "confidence": "medium"
+      },
+      "motion": {
+        "mean_motion": 0.0039,
+        "peak_motion": 0.1873,
+        "peak_time": 59.393,
+        "activity_level": "low"
+      },
+      "behavior": {
+        "description": "Pose landmarks show no clear limb movement.",
+        "modalities_used": [
+          "rgb",
+          "yolo",
+          "motion",
+          "pose"
+        ],
+        "confidence": "medium",
+        "uncertainty": "YOLO track provides location; clothing and detailed action remain unclear"
+      }
+    },
+    {
+      "segment_id": "seg_010",
+      "start_time": 54.0,
+      "end_time": 64.0,
+      "person_id": null,
+      "track_id": "track-106",
+      "temporary_id": "track-106",
+      "bbox_summary": {
+        "mean_bbox": [
+          0,
+          1,
+          83,
+          354
+        ],
+        "visibility": "full",
+        "confidence": 0.893
+      },
+      "pose": {
+        "available": true,
+        "summary": "Pose landmarks show no clear limb movement.",
+        "moving_body_parts": [],
+        "speed": "stationary",
+        "directionality": "unclear",
+        "confidence": "medium"
+      },
+      "motion": {
+        "mean_motion": 0.0002,
+        "peak_motion": 0.0008,
+        "peak_time": 55.556,
+        "activity_level": "low"
+      },
+      "behavior": {
+        "description": "Pose landmarks show no clear limb movement.",
+        "modalities_used": [
+          "rgb",
+          "yolo",
+          "motion",
+          "pose"
+        ],
+        "confidence": "medium",
+        "uncertainty": "YOLO track provides location; clothing and detailed action remain unclear"
+      }
+    },
+    {
+      "segment_id": "seg_010",
+      "start_time": 54.0,
+      "end_time": 64.0,
+      "person_id": "person-01",
+      "track_id": null,
+      "temporary_id": "person-01",
+      "bbox_summary": {
+        "mean_bbox": [],
+        "visibility": "unclear",
+        "confidence": 0.0
+      },
+      "pose": {
+        "available": false,
+        "summary": "Pose landmarks are unavailable for this segment.",
+        "moving_body_parts": [],
+        "speed": "unclear",
+        "directionality": "unclear",
+        "confidence": "low"
+      },
+      "motion": {
+        "mean_motion": 0.0,
+        "peak_motion": 0.0,
+        "peak_time": 0.0,
+        "activity_level": "unclear"
+      },
+      "behavior": {
+        "description": "standing still, looking around",
+        "modalities_used": [
+          "rgb",
+          "vlm"
+        ],
+        "confidence": "high",
+        "uncertainty": "limited sampled frames; avoid identity, intent, diagnosis, or emotion inference"
+      }
+    },
+    {
+      "segment_id": "seg_011",
+      "start_time": 60.0,
+      "end_time": 70.0,
+      "person_id": null,
+      "track_id": "track-124",
+      "temporary_id": "track-124",
+      "bbox_summary": {
+        "mean_bbox": [
+          244,
+          42,
+          502,
+          356
+        ],
+        "visibility": "full",
+        "confidence": 0.945
+      },
+      "pose": {
+        "available": true,
+        "summary": "Pose landmarks show no clear limb movement.",
+        "moving_body_parts": [],
+        "speed": "slow",
+        "directionality": "unclear",
+        "confidence": "medium"
+      },
+      "motion": {
+        "mean_motion": 0.0013,
+        "peak_motion": 0.0053,
+        "peak_time": 69.97,
+        "activity_level": "low"
+      },
+      "behavior": {
+        "description": "Pose landmarks show no clear limb movement.",
+        "modalities_used": [
+          "rgb",
+          "yolo",
+          "motion",
+          "pose"
+        ],
+        "confidence": "medium",
+        "uncertainty": "YOLO track provides location; clothing and detailed action remain unclear"
+      }
+    },
+    {
+      "segment_id": "seg_011",
+      "start_time": 60.0,
+      "end_time": 70.0,
+      "person_id": null,
+      "track_id": "track-113",
+      "temporary_id": "track-113",
+      "bbox_summary": {
+        "mean_bbox": [
+          160,
+          31,
+          397,
+          356
+        ],
+        "visibility": "full",
+        "confidence": 0.942
+      },
+      "pose": {
+        "available": true,
+        "summary": "Pose landmarks suggest movement in left_arm, right_arm, left_leg, right_leg.",
+        "moving_body_parts": [
+          "left_arm",
+          "right_arm",
+          "left_leg",
+          "right_leg"
+        ],
+        "speed": "medium",
+        "directionality": "unclear",
+        "confidence": "medium"
+      },
+      "motion": {
+        "mean_motion": 0.0014,
+        "peak_motion": 0.084,
+        "peak_time": 63.83,
+        "activity_level": "low"
+      },
+      "behavior": {
+        "description": "Pose landmarks suggest movement in left_arm, right_arm, left_leg, right_leg.",
+        "modalities_used": [
+          "rgb",
+          "yolo",
+          "motion",
+          "pose"
+        ],
+        "confidence": "medium",
+        "uncertainty": "YOLO track provides location; clothing and detailed action remain unclear"
+      }
+    },
+    {
+      "segment_id": "seg_011",
+      "start_time": 60.0,
+      "end_time": 70.0,
+      "person_id": null,
+      "track_id": "track-108",
+      "temporary_id": "track-108",
+      "bbox_summary": {
+        "mean_bbox": [
+          179,
+          44,
+          430,
+          356
+        ],
+        "visibility": "full",
+        "confidence": 0.941
+      },
+      "pose": {
+        "available": true,
+        "summary": "Pose landmarks suggest movement in left_arm, right_arm.",
+        "moving_body_parts": [
+          "left_arm",
+          "right_arm"
+        ],
+        "speed": "medium",
+        "directionality": "unclear",
+        "confidence": "medium"
+      },
+      "motion": {
+        "mean_motion": 0.0036,
+        "peak_motion": 0.151,
+        "peak_time": 61.128,
+        "activity_level": "low"
+      },
+      "behavior": {
+        "description": "Pose landmarks suggest movement in left_arm, right_arm.",
+        "modalities_used": [
+          "rgb",
+          "yolo",
+          "motion",
+          "pose"
+        ],
+        "confidence": "medium",
+        "uncertainty": "YOLO track provides location; clothing and detailed action remain unclear"
+      }
+    },
+    {
+      "segment_id": "seg_011",
+      "start_time": 60.0,
+      "end_time": 70.0,
+      "person_id": null,
+      "track_id": "track-125",
+      "temporary_id": "track-125",
+      "bbox_summary": {
+        "mean_bbox": [
+          0,
+          4,
+          68,
+          355
+        ],
+        "visibility": "full",
+        "confidence": 0.862
+      },
+      "pose": {
+        "available": true,
+        "summary": "Pose landmarks show no clear limb movement.",
+        "moving_body_parts": [],
+        "speed": "stationary",
+        "directionality": "unclear",
+        "confidence": "medium"
+      },
+      "motion": {
+        "mean_motion": 0.0002,
+        "peak_motion": 0.0011,
+        "peak_time": 68.268,
+        "activity_level": "low"
+      },
+      "behavior": {
+        "description": "Pose landmarks show no clear limb movement.",
+        "modalities_used": [
+          "rgb",
+          "yolo",
+          "motion",
+          "pose"
+        ],
+        "confidence": "medium",
+        "uncertainty": "YOLO track provides location; clothing and detailed action remain unclear"
+      }
+    },
+    {
+      "segment_id": "seg_012",
+      "start_time": 66.0,
+      "end_time": 76.0,
+      "person_id": null,
+      "track_id": "track-124",
+      "temporary_id": "track-124",
+      "bbox_summary": {
+        "mean_bbox": [
+          198,
+          35,
+          447,
+          356
+        ],
+        "visibility": "full",
+        "confidence": 0.942
+      },
+      "pose": {
+        "available": true,
+        "summary": "Pose landmarks suggest movement in left_arm, right_arm, left_leg, right_leg.",
+        "moving_body_parts": [
+          "left_arm",
+          "right_arm",
+          "left_leg",
+          "right_leg"
+        ],
+        "speed": "medium",
+        "directionality": "unclear",
+        "confidence": "medium"
+      },
+      "motion": {
+        "mean_motion": 0.0028,
+        "peak_motion": 0.1753,
+        "peak_time": 72.439,
+        "activity_level": "low"
+      },
+      "behavior": {
+        "description": "Pose landmarks suggest movement in left_arm, right_arm, left_leg, right_leg.",
+        "modalities_used": [
+          "rgb",
+          "yolo",
+          "motion",
+          "pose"
+        ],
+        "confidence": "medium",
+        "uncertainty": "YOLO track provides location; clothing and detailed action remain unclear"
+      }
+    },
+    {
+      "segment_id": "seg_012",
+      "start_time": 66.0,
+      "end_time": 76.0,
+      "person_id": null,
+      "track_id": "track-113",
+      "temporary_id": "track-113",
+      "bbox_summary": {
+        "mean_bbox": [
+          135,
+          28,
+          362,
+          356
+        ],
+        "visibility": "full",
+        "confidence": 0.941
+      },
+      "pose": {
+        "available": true,
+        "summary": "Pose landmarks show no clear limb movement.",
+        "moving_body_parts": [],
+        "speed": "stationary",
+        "directionality": "unclear",
+        "confidence": "medium"
+      },
+      "motion": {
+        "mean_motion": 0.0001,
+        "peak_motion": 0.0008,
+        "peak_time": 66.133,
+        "activity_level": "low"
+      },
+      "behavior": {
+        "description": "Pose landmarks show no clear limb movement.",
+        "modalities_used": [
+          "rgb",
+          "yolo",
+          "motion",
+          "pose"
+        ],
+        "confidence": "medium",
+        "uncertainty": "YOLO track provides location; clothing and detailed action remain unclear"
+      }
+    },
+    {
+      "segment_id": "seg_012",
+      "start_time": 66.0,
+      "end_time": 76.0,
+      "person_id": null,
+      "track_id": "track-135",
+      "temporary_id": "track-135",
+      "bbox_summary": {
+        "mean_bbox": [
+          0,
+          4,
+          91,
+          355
+        ],
+        "visibility": "full",
+        "confidence": 0.91
+      },
+      "pose": {
+        "available": true,
+        "summary": "Pose landmarks show no clear limb movement.",
+        "moving_body_parts": [],
+        "speed": "stationary",
+        "directionality": "unclear",
+        "confidence": "medium"
+      },
+      "motion": {
+        "mean_motion": 0.0006,
+        "peak_motion": 0.0023,
+        "peak_time": 73.44,
+        "activity_level": "low"
+      },
+      "behavior": {
+        "description": "Pose landmarks show no clear limb movement.",
+        "modalities_used": [
+          "rgb",
+          "yolo",
+          "motion",
+          "pose"
+        ],
+        "confidence": "medium",
+        "uncertainty": "YOLO track provides location; clothing and detailed action remain unclear"
+      }
+    },
+    {
+      "segment_id": "seg_012",
+      "start_time": 66.0,
+      "end_time": 76.0,
+      "person_id": null,
+      "track_id": "track-125",
+      "temporary_id": "track-125",
+      "bbox_summary": {
+        "mean_bbox": [
+          0,
+          4,
+          69,
+          355
+        ],
+        "visibility": "full",
+        "confidence": 0.863
+      },
+      "pose": {
+        "available": true,
+        "summary": "Pose landmarks show no clear limb movement.",
+        "moving_body_parts": [],
+        "speed": "stationary",
+        "directionality": "unclear",
+        "confidence": "medium"
+      },
+      "motion": {
+        "mean_motion": 0.0002,
+        "peak_motion": 0.0011,
+        "peak_time": 68.268,
+        "activity_level": "low"
+      },
+      "behavior": {
+        "description": "Pose landmarks show no clear limb movement.",
+        "modalities_used": [
+          "rgb",
+          "yolo",
+          "motion",
+          "pose"
+        ],
+        "confidence": "medium",
+        "uncertainty": "YOLO track provides location; clothing and detailed action remain unclear"
+      }
+    },
+    {
+      "segment_id": "seg_013",
+      "start_time": 72.0,
+      "end_time": 82.0,
+      "person_id": null,
+      "track_id": "track-124",
+      "temporary_id": "track-124",
+      "bbox_summary": {
+        "mean_bbox": [
+          162,
+          30,
+          397,
+          356
+        ],
+        "visibility": "full",
+        "confidence": 0.941
+      },
+      "pose": {
+        "available": true,
+        "summary": "Pose landmarks show no clear limb movement.",
+        "moving_body_parts": [],
+        "speed": "slow",
+        "directionality": "unclear",
+        "confidence": "medium"
+      },
+      "motion": {
+        "mean_motion": 0.0017,
+        "peak_motion": 0.1753,
+        "peak_time": 72.439,
+        "activity_level": "low"
+      },
+      "behavior": {
+        "description": "Pose landmarks show no clear limb movement.",
+        "modalities_used": [
+          "rgb",
+          "yolo",
+          "motion",
+          "pose"
+        ],
+        "confidence": "medium",
+        "uncertainty": "YOLO track provides location; clothing and detailed action remain unclear"
+      }
+    },
+    {
+      "segment_id": "seg_013",
+      "start_time": 72.0,
+      "end_time": 82.0,
+      "person_id": null,
+      "track_id": "track-135",
+      "temporary_id": "track-135",
+      "bbox_summary": {
+        "mean_bbox": [
+          0,
+          4,
+          91,
+          355
+        ],
+        "visibility": "full",
+        "confidence": 0.91
+      },
+      "pose": {
+        "available": true,
+        "summary": "Pose landmarks show no clear limb movement.",
+        "moving_body_parts": [],
+        "speed": "stationary",
+        "directionality": "unclear",
+        "confidence": "medium"
+      },
+      "motion": {
+        "mean_motion": 0.0006,
+        "peak_motion": 0.0023,
+        "peak_time": 73.44,
+        "activity_level": "low"
+      },
+      "behavior": {
+        "description": "Pose landmarks show no clear limb movement.",
+        "modalities_used": [
+          "rgb",
+          "yolo",
+          "motion",
+          "pose"
+        ],
+        "confidence": "medium",
+        "uncertainty": "YOLO track provides location; clothing and detailed action remain unclear"
+      }
+    },
+    {
+      "segment_id": "seg_013",
+      "start_time": 72.0,
+      "end_time": 82.0,
+      "person_id": null,
+      "track_id": "track-134",
+      "temporary_id": "track-134",
+      "bbox_summary": {
+        "mean_bbox": [
+          535,
+          97,
+          640,
+          357
+        ],
+        "visibility": "upper_body",
+        "confidence": 0.886
+      },
+      "pose": {
+        "available": true,
+        "summary": "Pose landmarks show no clear limb movement.",
+        "moving_body_parts": [],
+        "speed": "stationary",
+        "directionality": "unclear",
+        "confidence": "medium"
+      },
+      "motion": {
+        "mean_motion": 0.0001,
+        "peak_motion": 0.0004,
+        "peak_time": 72.072,
+        "activity_level": "low"
+      },
+      "behavior": {
+        "description": "Pose landmarks show no clear limb movement.",
+        "modalities_used": [
+          "rgb",
+          "yolo",
+          "motion",
+          "pose"
+        ],
+        "confidence": "medium",
+        "uncertainty": "YOLO track provides location; clothing and detailed action remain unclear"
+      }
+    },
+    {
+      "segment_id": "seg_013",
+      "start_time": 72.0,
+      "end_time": 82.0,
+      "person_id": null,
+      "track_id": "track-136",
+      "temporary_id": "track-136",
+      "bbox_summary": {
+        "mean_bbox": [
+          545,
+          101,
+          640,
+          356
+        ],
+        "visibility": "upper_body",
+        "confidence": 0.773
+      },
+      "pose": {
+        "available": true,
+        "summary": "Pose landmarks show no clear limb movement.",
+        "moving_body_parts": [],
+        "speed": "stationary",
+        "directionality": "unclear",
+        "confidence": "medium"
+      },
+      "motion": {
+        "mean_motion": 0.0003,
+        "peak_motion": 0.0017,
+        "peak_time": 80.08,
+        "activity_level": "low"
+      },
+      "behavior": {
+        "description": "Pose landmarks show no clear limb movement.",
+        "modalities_used": [
+          "rgb",
+          "yolo",
+          "motion",
+          "pose"
+        ],
+        "confidence": "medium",
+        "uncertainty": "YOLO track provides location; clothing and detailed action remain unclear"
+      }
+    },
+    {
+      "segment_id": "seg_014",
+      "start_time": 78.0,
+      "end_time": 88.0,
+      "person_id": null,
+      "track_id": "track-124",
+      "temporary_id": "track-124",
+      "bbox_summary": {
+        "mean_bbox": [
+          149,
+          30,
+          377,
+          356
+        ],
+        "visibility": "full",
+        "confidence": 0.943
+      },
+      "pose": {
+        "available": true,
+        "summary": "Pose landmarks show no clear limb movement.",
+        "moving_body_parts": [],
+        "speed": "stationary",
+        "directionality": "unclear",
+        "confidence": "medium"
+      },
+      "motion": {
+        "mean_motion": 0.0004,
+        "peak_motion": 0.0017,
+        "peak_time": 80.347,
+        "activity_level": "low"
+      },
+      "behavior": {
+        "description": "Pose landmarks show no clear limb movement.",
+        "modalities_used": [
+          "rgb",
+          "yolo",
+          "motion",
+          "pose"
+        ],
+        "confidence": "medium",
+        "uncertainty": "YOLO track provides location; clothing and detailed action remain unclear"
+      }
+    },
+    {
+      "segment_id": "seg_014",
+      "start_time": 78.0,
+      "end_time": 88.0,
+      "person_id": null,
+      "track_id": "track-148",
+      "temporary_id": "track-148",
+      "bbox_summary": {
+        "mean_bbox": [
+          252,
+          89,
+          403,
+          355
+        ],
+        "visibility": "upper_body",
+        "confidence": 0.877
+      },
+      "pose": {
+        "available": true,
+        "summary": "Pose landmarks suggest movement in left_arm, right_arm, left_leg, right_leg.",
+        "moving_body_parts": [
+          "left_arm",
+          "right_arm",
+          "left_leg",
+          "right_leg"
+        ],
+        "speed": "fast",
+        "directionality": "unclear",
+        "confidence": "medium"
+      },
+      "motion": {
+        "mean_motion": 0.0067,
+        "peak_motion": 0.0282,
+        "peak_time": 84.451,
+        "activity_level": "low"
+      },
+      "behavior": {
+        "description": "Pose landmarks suggest movement in left_arm, right_arm, left_leg, right_leg.",
+        "modalities_used": [
+          "rgb",
+          "yolo",
+          "motion",
+          "pose"
+        ],
+        "confidence": "medium",
+        "uncertainty": "YOLO track provides location; clothing and detailed action remain unclear"
+      }
+    },
+    {
+      "segment_id": "seg_014",
+      "start_time": 78.0,
+      "end_time": 88.0,
+      "person_id": null,
+      "track_id": "track-136",
+      "temporary_id": "track-136",
+      "bbox_summary": {
+        "mean_bbox": [
+          544,
+          101,
+          640,
+          356
+        ],
+        "visibility": "upper_body",
+        "confidence": 0.757
+      },
+      "pose": {
+        "available": true,
+        "summary": "Pose landmarks show no clear limb movement.",
+        "moving_body_parts": [],
+        "speed": "slow",
+        "directionality": "unclear",
+        "confidence": "medium"
+      },
+      "motion": {
+        "mean_motion": 0.0005,
+        "peak_motion": 0.0084,
+        "peak_time": 82.616,
+        "activity_level": "low"
+      },
+      "behavior": {
+        "description": "Pose landmarks show no clear limb movement.",
+        "modalities_used": [
+          "rgb",
+          "yolo",
+          "motion",
+          "pose"
+        ],
+        "confidence": "medium",
+        "uncertainty": "YOLO track provides location; clothing and detailed action remain unclear"
+      }
+    },
+    {
+      "segment_id": "seg_014",
+      "start_time": 78.0,
+      "end_time": 88.0,
+      "person_id": null,
+      "track_id": "track-149",
+      "temporary_id": "track-149",
+      "bbox_summary": {
+        "mean_bbox": [
+          217,
+          27,
+          312,
+          354
+        ],
+        "visibility": "full",
+        "confidence": 0.72
+      },
+      "pose": {
+        "available": true,
+        "summary": "Pose landmarks show no clear limb movement.",
+        "moving_body_parts": [],
+        "speed": "stationary",
+        "directionality": "unclear",
+        "confidence": "medium"
+      },
+      "motion": {
+        "mean_motion": 0.0008,
+        "peak_motion": 0.0125,
+        "peak_time": 84.518,
+        "activity_level": "low"
+      },
+      "behavior": {
+        "description": "Pose landmarks show no clear limb movement.",
+        "modalities_used": [
+          "rgb",
+          "yolo",
+          "motion",
+          "pose"
+        ],
+        "confidence": "medium",
+        "uncertainty": "YOLO track provides location; clothing and detailed action remain unclear"
+      }
+    },
+    {
+      "segment_id": "seg_015",
+      "start_time": 84.0,
+      "end_time": 94.0,
+      "person_id": null,
+      "track_id": "track-155",
+      "temporary_id": "track-155",
+      "bbox_summary": {
+        "mean_bbox": [
+          204,
+          8,
+          390,
+          357
+        ],
+        "visibility": "full",
+        "confidence": 0.888
+      },
+      "pose": {
+        "available": true,
+        "summary": "Pose landmarks suggest movement in right_arm.",
+        "moving_body_parts": [
+          "right_arm"
+        ],
+        "speed": "slow",
+        "directionality": "unclear",
+        "confidence": "medium"
+      },
+      "motion": {
+        "mean_motion": 0.0007,
+        "peak_motion": 0.0152,
+        "peak_time": 93.994,
+        "activity_level": "low"
+      },
+      "behavior": {
+        "description": "Pose landmarks suggest movement in right_arm.",
+        "modalities_used": [
+          "rgb",
+          "yolo",
+          "motion",
+          "pose"
+        ],
+        "confidence": "medium",
+        "uncertainty": "YOLO track provides location; clothing and detailed action remain unclear"
+      }
+    },
+    {
+      "segment_id": "seg_015",
+      "start_time": 84.0,
+      "end_time": 94.0,
+      "person_id": null,
+      "track_id": "track-137",
+      "temporary_id": "track-137",
+      "bbox_summary": {
+        "mean_bbox": [
+          202,
+          108,
+          403,
+          356
+        ],
+        "visibility": "upper_body",
+        "confidence": 0.807
+      },
+      "pose": {
+        "available": true,
+        "summary": "Pose landmarks suggest movement in left_arm, right_arm, left_leg.",
+        "moving_body_parts": [
+          "left_arm",
+          "right_arm",
+          "left_leg"
+        ],
+        "speed": "fast",
+        "directionality": "unclear",
+        "confidence": "medium"
+      },
+      "motion": {
+        "mean_motion": 0.0021,
+        "peak_motion": 0.0763,
+        "peak_time": 90.624,
+        "activity_level": "low"
+      },
+      "behavior": {
+        "description": "Pose landmarks suggest movement in left_arm, right_arm, left_leg.",
+        "modalities_used": [
+          "rgb",
+          "yolo",
+          "motion",
+          "pose"
+        ],
+        "confidence": "medium",
+        "uncertainty": "YOLO track provides location; clothing and detailed action remain unclear"
+      }
+    },
+    {
+      "segment_id": "seg_015",
+      "start_time": 84.0,
+      "end_time": 94.0,
+      "person_id": null,
+      "track_id": "track-148",
+      "temporary_id": "track-148",
+      "bbox_summary": {
+        "mean_bbox": [
+          230,
+          85,
+          374,
+          355
+        ],
+        "visibility": "upper_body",
+        "confidence": 0.805
+      },
+      "pose": {
+        "available": true,
+        "summary": "Pose landmarks show no clear limb movement.",
+        "moving_body_parts": [],
+        "speed": "slow",
+        "directionality": "unclear",
+        "confidence": "medium"
+      },
+      "motion": {
+        "mean_motion": 0.0047,
+        "peak_motion": 0.0282,
+        "peak_time": 84.451,
+        "activity_level": "low"
+      },
+      "behavior": {
+        "description": "Pose landmarks show no clear limb movement.",
+        "modalities_used": [
+          "rgb",
+          "yolo",
+          "motion",
+          "pose"
+        ],
+        "confidence": "medium",
+        "uncertainty": "YOLO track provides location; clothing and detailed action remain unclear"
+      }
+    },
+    {
+      "segment_id": "seg_015",
+      "start_time": 84.0,
+      "end_time": 94.0,
+      "person_id": null,
+      "track_id": "track-149",
+      "temporary_id": "track-149",
+      "bbox_summary": {
+        "mean_bbox": [
+          217,
+          27,
+          312,
+          354
+        ],
+        "visibility": "full",
+        "confidence": 0.72
+      },
+      "pose": {
+        "available": true,
+        "summary": "Pose landmarks show no clear limb movement.",
+        "moving_body_parts": [],
+        "speed": "stationary",
+        "directionality": "unclear",
+        "confidence": "medium"
+      },
+      "motion": {
+        "mean_motion": 0.0008,
+        "peak_motion": 0.0125,
+        "peak_time": 84.518,
+        "activity_level": "low"
+      },
+      "behavior": {
+        "description": "Pose landmarks show no clear limb movement.",
+        "modalities_used": [
+          "rgb",
+          "yolo",
+          "motion",
+          "pose"
+        ],
+        "confidence": "medium",
+        "uncertainty": "YOLO track provides location; clothing and detailed action remain unclear"
+      }
+    },
+    {
+      "segment_id": "seg_016",
+      "start_time": 90.0,
+      "end_time": 95.195,
+      "person_id": null,
+      "track_id": "track-155",
+      "temporary_id": "track-155",
+      "bbox_summary": {
+        "mean_bbox": [
+          206,
+          9,
+          394,
+          357
+        ],
+        "visibility": "full",
+        "confidence": 0.895
+      },
+      "pose": {
+        "available": true,
+        "summary": "Pose landmarks show no clear limb movement.",
+        "moving_body_parts": [],
+        "speed": "slow",
+        "directionality": "unclear",
+        "confidence": "medium"
+      },
+      "motion": {
+        "mean_motion": 0.0011,
+        "peak_motion": 0.0152,
+        "peak_time": 93.994,
+        "activity_level": "low"
+      },
+      "behavior": {
+        "description": "Pose landmarks show no clear limb movement.",
+        "modalities_used": [
+          "rgb",
+          "yolo",
+          "motion",
+          "pose"
+        ],
+        "confidence": "medium",
+        "uncertainty": "YOLO track provides location; clothing and detailed action remain unclear"
+      }
+    },
+    {
+      "segment_id": "seg_016",
+      "start_time": 90.0,
+      "end_time": 95.195,
+      "person_id": null,
+      "track_id": "track-137",
+      "temporary_id": "track-137",
+      "bbox_summary": {
+        "mean_bbox": [
+          251,
+          113,
+          460,
+          356
+        ],
+        "visibility": "upper_body",
+        "confidence": 0.819
+      },
+      "pose": {
+        "available": true,
+        "summary": "Pose landmarks suggest movement in left_arm, left_leg.",
+        "moving_body_parts": [
+          "left_arm",
+          "left_leg"
+        ],
+        "speed": "fast",
+        "directionality": "unclear",
+        "confidence": "medium"
+      },
+      "motion": {
+        "mean_motion": 0.0026,
+        "peak_motion": 0.0763,
+        "peak_time": 90.624,
+        "activity_level": "low"
+      },
+      "behavior": {
+        "description": "Pose landmarks suggest movement in left_arm, left_leg.",
+        "modalities_used": [
+          "rgb",
+          "yolo",
+          "motion",
+          "pose"
+        ],
+        "confidence": "medium",
+        "uncertainty": "YOLO track provides location; clothing and detailed action remain unclear"
+      }
+    },
+    {
+      "segment_id": "seg_016",
+      "start_time": 90.0,
+      "end_time": 95.195,
+      "person_id": null,
+      "track_id": "track-152",
+      "temporary_id": "track-152",
+      "bbox_summary": {
+        "mean_bbox": [
+          165,
+          33,
+          404,
+          356
+        ],
+        "visibility": "full",
+        "confidence": 0.53
+      },
+      "pose": {
+        "available": true,
+        "summary": "Pose landmarks show no clear limb movement.",
+        "moving_body_parts": [],
+        "speed": "stationary",
+        "directionality": "unclear",
+        "confidence": "medium"
+      },
+      "motion": {
+        "mean_motion": 0.0001,
+        "peak_motion": 0.0005,
+        "peak_time": 90.157,
+        "activity_level": "low"
+      },
+      "behavior": {
+        "description": "Pose landmarks show no clear limb movement.",
+        "modalities_used": [
+          "rgb",
+          "yolo",
+          "motion",
+          "pose"
+        ],
+        "confidence": "medium",
+        "uncertainty": "YOLO track provides location; clothing and detailed action remain unclear"
+      }
+    },
+    {
+      "segment_id": "seg_016",
+      "start_time": 90.0,
+      "end_time": 95.195,
+      "person_id": null,
+      "track_id": "track-154",
+      "temporary_id": "track-154",
+      "bbox_summary": {
+        "mean_bbox": [
+          172,
+          33,
+          389,
+          273
+        ],
+        "visibility": "full",
+        "confidence": 0.53
+      },
+      "pose": {
+        "available": true,
+        "summary": "Pose landmarks show no clear limb movement.",
+        "moving_body_parts": [],
+        "speed": "stationary",
+        "directionality": "unclear",
+        "confidence": "medium"
+      },
+      "motion": {
+        "mean_motion": 0.0005,
+        "peak_motion": 0.0012,
+        "peak_time": 90.49,
+        "activity_level": "low"
+      },
+      "behavior": {
+        "description": "Pose landmarks show no clear limb movement.",
+        "modalities_used": [
+          "rgb",
+          "yolo",
+          "motion",
+          "pose"
+        ],
+        "confidence": "medium",
+        "uncertainty": "YOLO track provides location; clothing and detailed action remain unclear"
+      }
+    },
+    {
+      "segment_id": "seg_016",
+      "start_time": 90.0,
+      "end_time": 95.195,
+      "person_id": "person-01",
+      "track_id": null,
+      "temporary_id": "person-01",
+      "bbox_summary": {
+        "mean_bbox": [],
+        "visibility": "unclear",
+        "confidence": 0.0
+      },
+      "pose": {
+        "available": false,
+        "summary": "Pose landmarks are unavailable for this segment.",
+        "moving_body_parts": [],
+        "speed": "unclear",
+        "directionality": "unclear",
+        "confidence": "low"
+      },
+      "motion": {
+        "mean_motion": 0.0,
+        "peak_motion": 0.0,
+        "peak_time": 0.0,
+        "activity_level": "unclear"
+      },
+      "behavior": {
+        "description": "embracing another individual and then separating",
+        "modalities_used": [
+          "rgb",
+          "vlm"
+        ],
+        "confidence": "high",
+        "uncertainty": "limited sampled frames; avoid identity, intent, diagnosis, or emotion inference"
+      }
+    },
+    {
+      "segment_id": "seg_016",
+      "start_time": 90.0,
+      "end_time": 95.195,
+      "person_id": "person-02",
+      "track_id": null,
+      "temporary_id": "person-02",
+      "bbox_summary": {
+        "mean_bbox": [],
+        "visibility": "unclear",
+        "confidence": 0.0
+      },
+      "pose": {
+        "available": false,
+        "summary": "Pose landmarks are unavailable for this segment.",
+        "moving_body_parts": [],
+        "speed": "unclear",
+        "directionality": "unclear",
+        "confidence": "low"
+      },
+      "motion": {
+        "mean_motion": 0.0,
+        "peak_motion": 0.0,
+        "peak_time": 0.0,
+        "activity_level": "unclear"
+      },
+      "behavior": {
+        "description": "embracing another individual and then separating",
+        "modalities_used": [
+          "rgb",
+          "vlm"
+        ],
+        "confidence": "high",
+        "uncertainty": "limited sampled frames; avoid identity, intent, diagnosis, or emotion inference"
+      }
+    }
+  ],
+  "metadata": {
+    "vlm_model": "Qwen/Qwen2.5-VL-72B-Instruct",
+    "yolo_available": true,
+    "yolo_reason": "ultralytics tracking produced 5536 observations using yolov8n-pose.pt",
+    "pose_available": true,
+    "pose_reason": "pose model attempted; see per-row pose.available",
+    "roster_enabled": true,
+    "roster_uncertainty": "global sampled frames may miss brief appearances"
+  }
+}

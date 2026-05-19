@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Temp / scratch
+behavior-reasoning/outputs_smoke/
+run_logs/
+
+# Secrets / local config
+.env
+.env.*
+
+# Auto-downloaded weights (live at runtime, not source-controlled)
+/yolov8n.pt

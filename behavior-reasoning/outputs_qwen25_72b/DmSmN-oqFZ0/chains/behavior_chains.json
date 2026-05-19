@@ -1,0 +1,1092 @@
+{
+  "schema_version": "0.1",
+  "source_files": {
+    "characters": "/workspace/behavior-reasoning/outputs_qwen25_72b/DmSmN-oqFZ0/characters/characters.json",
+    "detections": "/workspace/behavior-reasoning/outputs_qwen25_72b/DmSmN-oqFZ0/detections/detections.json"
+  },
+  "parameters": {
+    "max_merge_gap_sec": 2.0,
+    "max_chain_gap_sec": 10.0,
+    "max_response_window_sec": 8.0,
+    "min_dedupe_score": 0.72
+  },
+  "chains": [
+    {
+      "chain_id": "chain_0001",
+      "start_sec": 0.0,
+      "end_sec": 10.0,
+      "participant_ids": [
+        "person-01"
+      ],
+      "object_ids": [
+        "computer",
+        "appliance",
+        "whiteboard"
+      ],
+      "event_ids": [
+        "evt_0036"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0036",
+          "time_span": [
+            0.0,
+            10.0
+          ],
+          "event_type": "observed_behavior",
+          "actor_ids": [
+            "person-01"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "seated at a desk using a computer"
+        }
+      ],
+      "interaction_pattern": "single_observation",
+      "summary": "Person-01 is seated at a desk using a computer.",
+      "confidence": 0.9,
+      "source_detection_ids": [
+        "det_characters_0037",
+        "det_scenes_0001",
+        "det_objects_0017"
+      ],
+      "source_segment_ids": [
+        "seg_001"
+      ],
+      "reasoner_model": "/models/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5"
+    },
+    {
+      "chain_id": "chain_0002",
+      "start_sec": 0.0,
+      "end_sec": 10.0,
+      "participant_ids": [
+        "person-02"
+      ],
+      "object_ids": [
+        "computer",
+        "appliance",
+        "whiteboard"
+      ],
+      "event_ids": [
+        "evt_0037"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0037",
+          "time_span": [
+            0.0,
+            10.0
+          ],
+          "event_type": "posture",
+          "actor_ids": [
+            "person-02"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "standing near the seated person"
+        }
+      ],
+      "interaction_pattern": "motion_observation",
+      "summary": "Person-02 stands near the seated individual from 0.0s to 10.0s.",
+      "confidence": 0.9,
+      "source_detection_ids": [
+        "det_characters_0038",
+        "det_scenes_0001",
+        "det_objects_0017"
+      ],
+      "source_segment_ids": [
+        "seg_001"
+      ],
+      "reasoner_model": "/models/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5"
+    },
+    {
+      "chain_id": "chain_0003",
+      "start_sec": 6.0,
+      "end_sec": 16.0,
+      "participant_ids": [
+        "person-01"
+      ],
+      "object_ids": [
+        "kitchen",
+        "living_room",
+        "whiteboard",
+        "superman_figurine"
+      ],
+      "event_ids": [
+        "evt_0041"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0041",
+          "time_span": [
+            6.0,
+            16.0
+          ],
+          "event_type": "posture",
+          "actor_ids": [
+            "person-01"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "standing in the kitchen"
+        }
+      ],
+      "interaction_pattern": "single_observation",
+      "summary": "Person-01 is standing in the kitchen from 6.0s to 16.0s.",
+      "confidence": 0.9,
+      "source_detection_ids": [
+        "det_characters_0043",
+        "det_scenes_0002",
+        "det_objects_0018"
+      ],
+      "source_segment_ids": [
+        "seg_002"
+      ],
+      "reasoner_model": "/models/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5"
+    },
+    {
+      "chain_id": "chain_0004",
+      "start_sec": 6.0,
+      "end_sec": 28.0,
+      "participant_ids": [
+        "person-02"
+      ],
+      "object_ids": [
+        "kitchen",
+        "living_room",
+        "whiteboard",
+        "superman_figurine",
+        "bookshelf",
+        "sword",
+        "dartboard",
+        "shelves"
+      ],
+      "event_ids": [
+        "evt_0042",
+        "evt_0046",
+        "evt_0050"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0042",
+          "time_span": [
+            6.0,
+            16.0
+          ],
+          "event_type": "observed_behavior",
+          "actor_ids": [
+            "person-02"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "adjusting the person's hair in the living room"
+        },
+        {
+          "event_id": "evt_0046",
+          "time_span": [
+            12.0,
+            22.0
+          ],
+          "event_type": "gaze_head_orientation",
+          "actor_ids": [
+            "person-02"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "standing, adjusting the person's clothing, looking around"
+        },
+        {
+          "event_id": "evt_0050",
+          "time_span": [
+            18.0,
+            28.0
+          ],
+          "event_type": "observed_behavior",
+          "actor_ids": [
+            "person-02"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "adjusting hair"
+        }
+      ],
+      "interaction_pattern": "behavior_sequence",
+      "summary": "Person-02 adjusts their hair and clothing while standing in the living room.",
+      "confidence": 0.9,
+      "source_detection_ids": [
+        "det_characters_0044",
+        "det_characters_0049",
+        "det_characters_0054",
+        "det_scenes_0002",
+        "det_objects_0018",
+        "det_scenes_0003",
+        "det_objects_0019",
+        "det_scenes_0004",
+        "det_objects_0020"
+      ],
+      "source_segment_ids": [
+        "seg_002",
+        "seg_003",
+        "seg_004"
+      ],
+      "reasoner_model": "/models/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5"
+    },
+    {
+      "chain_id": "chain_0005",
+      "start_sec": 18.0,
+      "end_sec": 28.0,
+      "participant_ids": [
+        "person-01"
+      ],
+      "object_ids": [
+        "dartboard",
+        "superman_figurine",
+        "whiteboard",
+        "shelves"
+      ],
+      "event_ids": [
+        "evt_0051"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0051",
+          "time_span": [
+            18.0,
+            28.0
+          ],
+          "event_type": "posture",
+          "actor_ids": [
+            "person-01"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "standing still"
+        }
+      ],
+      "interaction_pattern": "single_observation",
+      "summary": "From 18.0s to 28.0s, person-01 (male, adult) is standing still.",
+      "confidence": 0.9,
+      "source_detection_ids": [
+        "det_characters_0055",
+        "det_scenes_0004",
+        "det_objects_0020"
+      ],
+      "source_segment_ids": [
+        "seg_004"
+      ],
+      "reasoner_model": "/models/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5"
+    },
+    {
+      "chain_id": "chain_0006",
+      "start_sec": 24.0,
+      "end_sec": 34.0,
+      "participant_ids": [
+        "person-02"
+      ],
+      "object_ids": [
+        "dartboard",
+        "caution_tape",
+        "kitchen_appliances"
+      ],
+      "event_ids": [
+        "evt_0054"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0054",
+          "time_span": [
+            24.0,
+            34.0
+          ],
+          "event_type": "locomotion_posture",
+          "actor_ids": [
+            "person-02"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "standing near a dartboard and walking through a hallway with caution tape"
+        }
+      ],
+      "interaction_pattern": "motion_observation",
+      "summary": "Person-02 is standing near a dartboard and walking through a hallway with caution tape.",
+      "confidence": 0.9,
+      "source_detection_ids": [
+        "det_characters_0060",
+        "det_scenes_0005",
+        "det_objects_0021"
+      ],
+      "source_segment_ids": [
+        "seg_005"
+      ],
+      "reasoner_model": "/models/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5"
+    },
+    {
+      "chain_id": "chain_0007",
+      "start_sec": 24.0,
+      "end_sec": 40.0,
+      "participant_ids": [
+        "person-01"
+      ],
+      "object_ids": [
+        "dartboard",
+        "caution_tape",
+        "kitchen_appliances",
+        "door",
+        "stairs"
+      ],
+      "event_ids": [
+        "evt_0055",
+        "evt_0059"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0055",
+          "time_span": [
+            24.0,
+            34.0
+          ],
+          "event_type": "posture",
+          "actor_ids": [
+            "person-01"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "standing in a kitchen"
+        },
+        {
+          "event_id": "evt_0059",
+          "time_span": [
+            30.0,
+            40.0
+          ],
+          "event_type": "locomotion_posture",
+          "actor_ids": [
+            "person-01"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "walking down stairs"
+        }
+      ],
+      "interaction_pattern": "motion_sequence",
+      "summary": "Person-01 transitions from standing in a kitchen to walking down stairs.",
+      "confidence": 0.9,
+      "source_detection_ids": [
+        "det_characters_0061",
+        "det_characters_0066",
+        "det_scenes_0005",
+        "det_objects_0021",
+        "det_scenes_0006",
+        "det_objects_0022"
+      ],
+      "source_segment_ids": [
+        "seg_005",
+        "seg_006"
+      ],
+      "reasoner_model": "/models/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5"
+    },
+    {
+      "chain_id": "chain_0008",
+      "start_sec": 30.0,
+      "end_sec": 40.0,
+      "participant_ids": [
+        "person-02"
+      ],
+      "object_ids": [
+        "door",
+        "stairs"
+      ],
+      "event_ids": [
+        "evt_0060"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0060",
+          "time_span": [
+            30.0,
+            40.0
+          ],
+          "event_type": "posture",
+          "actor_ids": [
+            "person-02"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "standing near the door"
+        }
+      ],
+      "interaction_pattern": "single_observation",
+      "summary": "From 30.0s to 40.0s, person-02 (female, adult) is standing near the door.",
+      "confidence": 0.9,
+      "source_detection_ids": [
+        "det_characters_0067",
+        "det_scenes_0006",
+        "det_objects_0022"
+      ],
+      "source_segment_ids": [
+        "seg_006"
+      ],
+      "reasoner_model": "/models/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5"
+    },
+    {
+      "chain_id": "chain_0009",
+      "start_sec": 36.0,
+      "end_sec": 46.0,
+      "participant_ids": [
+        "person-01"
+      ],
+      "object_ids": [
+        "door",
+        "caution_tape",
+        "stairs"
+      ],
+      "event_ids": [
+        "evt_0063"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0063",
+          "time_span": [
+            36.0,
+            46.0
+          ],
+          "event_type": "gesture",
+          "actor_ids": [
+            "person-01"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "standing near the door, gesturing with hand"
+        }
+      ],
+      "interaction_pattern": "single_observation",
+      "summary": "Person-01 is standing near the door and gesturing with their hand.",
+      "confidence": 0.9,
+      "source_detection_ids": [
+        "det_characters_0072",
+        "det_scenes_0007",
+        "det_objects_0023"
+      ],
+      "source_segment_ids": [
+        "seg_007"
+      ],
+      "reasoner_model": "/models/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5"
+    },
+    {
+      "chain_id": "chain_0010",
+      "start_sec": 36.0,
+      "end_sec": 46.0,
+      "participant_ids": [
+        "person-02"
+      ],
+      "object_ids": [
+        "door",
+        "caution_tape",
+        "stairs"
+      ],
+      "event_ids": [
+        "evt_0064"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0064",
+          "time_span": [
+            36.0,
+            46.0
+          ],
+          "event_type": "object_action",
+          "actor_ids": [
+            "person-02"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "standing and holding an object"
+        }
+      ],
+      "interaction_pattern": "object_mediated",
+      "summary": "Person-02 is standing and holding an object from 36.0s to 46.0s.",
+      "confidence": 0.9,
+      "source_detection_ids": [
+        "det_characters_0073",
+        "det_scenes_0007",
+        "det_objects_0023"
+      ],
+      "source_segment_ids": [
+        "seg_007"
+      ],
+      "reasoner_model": "/models/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5"
+    },
+    {
+      "chain_id": "chain_0011",
+      "start_sec": 42.0,
+      "end_sec": 52.0,
+      "participant_ids": [
+        "person-01"
+      ],
+      "object_ids": [
+        "door",
+        "caution_tape"
+      ],
+      "event_ids": [
+        "evt_0067"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0067",
+          "time_span": [
+            42.0,
+            52.0
+          ],
+          "event_type": "posture",
+          "actor_ids": [
+            "person-01"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "standing near a door"
+        }
+      ],
+      "interaction_pattern": "single_observation",
+      "summary": "Person-01 is standing near a door from 42.0s to 52.0s.",
+      "confidence": 0.9,
+      "source_detection_ids": [
+        "det_characters_0077",
+        "det_scenes_0008",
+        "det_objects_0024"
+      ],
+      "source_segment_ids": [
+        "seg_008"
+      ],
+      "reasoner_model": "/models/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5"
+    },
+    {
+      "chain_id": "chain_0012",
+      "start_sec": 42.0,
+      "end_sec": 52.0,
+      "participant_ids": [
+        "person-02"
+      ],
+      "object_ids": [
+        "door",
+        "caution_tape"
+      ],
+      "event_ids": [
+        "evt_0068"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0068",
+          "time_span": [
+            42.0,
+            52.0
+          ],
+          "event_type": "posture",
+          "actor_ids": [
+            "person-02"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "standing in the background"
+        }
+      ],
+      "interaction_pattern": "single_observation",
+      "summary": "Person-02 is standing in the background from 42.0s to 52.0s.",
+      "confidence": 0.9,
+      "source_detection_ids": [
+        "det_characters_0078",
+        "det_scenes_0008",
+        "det_objects_0024"
+      ],
+      "source_segment_ids": [
+        "seg_008"
+      ],
+      "reasoner_model": "/models/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5"
+    },
+    {
+      "chain_id": "chain_0013",
+      "start_sec": 48.0,
+      "end_sec": 70.0,
+      "participant_ids": [
+        "person-01"
+      ],
+      "object_ids": [
+        "door",
+        "caution_tape",
+        "brick_wall"
+      ],
+      "event_ids": [
+        "evt_0073",
+        "evt_0076",
+        "evt_0080"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0073",
+          "time_span": [
+            48.0,
+            58.0
+          ],
+          "event_type": "posture",
+          "actor_ids": [
+            "person-01"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "standing still"
+        },
+        {
+          "event_id": "evt_0076",
+          "time_span": [
+            54.0,
+            64.0
+          ],
+          "event_type": "gaze_head_orientation",
+          "actor_ids": [
+            "person-01"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "standing still, looking around"
+        },
+        {
+          "event_id": "evt_0080",
+          "time_span": [
+            60.0,
+            70.0
+          ],
+          "event_type": "posture",
+          "actor_ids": [
+            "person-01"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "standing near a door"
+        }
+      ],
+      "interaction_pattern": "motion_sequence",
+      "summary": "Person-01 stands still, looks around, and then stands near a door.",
+      "confidence": 0.9,
+      "source_detection_ids": [
+        "det_characters_0083",
+        "det_characters_0088",
+        "det_characters_0093",
+        "det_scenes_0009",
+        "det_objects_0025",
+        "det_scenes_0010",
+        "det_objects_0026",
+        "det_scenes_0011",
+        "det_objects_0027"
+      ],
+      "source_segment_ids": [
+        "seg_009",
+        "seg_010",
+        "seg_011"
+      ],
+      "reasoner_model": "/models/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5"
+    },
+    {
+      "chain_id": "chain_0014",
+      "start_sec": 60.0,
+      "end_sec": 76.0,
+      "participant_ids": [
+        "person-02"
+      ],
+      "object_ids": [
+        "brick_wall",
+        "door",
+        "caution_tape"
+      ],
+      "event_ids": [
+        "evt_0081",
+        "evt_0086"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0081",
+          "time_span": [
+            60.0,
+            70.0
+          ],
+          "event_type": "gaze_head_orientation",
+          "actor_ids": [
+            "person-02"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "standing and facing another individual"
+        },
+        {
+          "event_id": "evt_0086",
+          "time_span": [
+            66.0,
+            76.0
+          ],
+          "event_type": "locomotion_posture",
+          "actor_ids": [
+            "person-02"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "partially entering the frame"
+        }
+      ],
+      "interaction_pattern": "motion_sequence",
+      "summary": "Person-02 (female, adult) stands and faces another individual from 60.0s to 70.0s, then partially enters the frame from 66.0s to 76.0s.",
+      "confidence": 0.9,
+      "source_detection_ids": [
+        "det_characters_0094",
+        "det_characters_0100",
+        "det_scenes_0011",
+        "det_objects_0027",
+        "det_scenes_0012",
+        "det_objects_0028",
+        "det_objects_0029"
+      ],
+      "source_segment_ids": [
+        "seg_011",
+        "seg_012",
+        "seg_013"
+      ],
+      "reasoner_model": "/models/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5"
+    },
+    {
+      "chain_id": "chain_0015",
+      "start_sec": 66.0,
+      "end_sec": 82.0,
+      "participant_ids": [
+        "person-01"
+      ],
+      "object_ids": [
+        "door",
+        "caution_tape"
+      ],
+      "event_ids": [
+        "evt_0085"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0085",
+          "time_span": [
+            66.0,
+            82.0
+          ],
+          "event_type": "posture",
+          "actor_ids": [
+            "person-01"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "standing still"
+        }
+      ],
+      "interaction_pattern": "single_observation",
+      "summary": "Person-01 is standing still from 66.0s to 82.0s.",
+      "confidence": 0.9,
+      "source_detection_ids": [
+        "det_characters_0099",
+        "det_characters_0105",
+        "det_scenes_0012",
+        "det_objects_0028",
+        "det_objects_0029",
+        "det_scenes_0013"
+      ],
+      "source_segment_ids": [
+        "seg_012",
+        "seg_013"
+      ],
+      "reasoner_model": "/models/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5"
+    },
+    {
+      "chain_id": "chain_0016",
+      "start_sec": 72.0,
+      "end_sec": 82.0,
+      "participant_ids": [
+        "person-02"
+      ],
+      "object_ids": [
+        "door",
+        "caution_tape"
+      ],
+      "event_ids": [
+        "evt_0090"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0090",
+          "time_span": [
+            72.0,
+            82.0
+          ],
+          "event_type": "posture",
+          "actor_ids": [
+            "person-02"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "partially visible, standing"
+        }
+      ],
+      "interaction_pattern": "single_observation",
+      "summary": "From 72.0s to 82.0s, person-02 (female, adult) is partially visible and standing.",
+      "confidence": 0.9,
+      "source_detection_ids": [
+        "det_characters_0106",
+        "det_objects_0028",
+        "det_objects_0029",
+        "det_scenes_0013"
+      ],
+      "source_segment_ids": [
+        "seg_013",
+        "seg_012"
+      ],
+      "reasoner_model": "/models/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5"
+    },
+    {
+      "chain_id": "chain_0017",
+      "start_sec": 78.0,
+      "end_sec": 88.0,
+      "participant_ids": [
+        "person-01"
+      ],
+      "object_ids": [
+        "door",
+        "caution_tape",
+        "light_fixture"
+      ],
+      "event_ids": [
+        "evt_0093"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0093",
+          "time_span": [
+            78.0,
+            88.0
+          ],
+          "event_type": "vocalization_or_mouth_movement",
+          "actor_ids": [
+            "person-01"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "standing near the door, mouth open to the person"
+        }
+      ],
+      "interaction_pattern": "single_observation",
+      "summary": "Person-01 is standing near the door with their mouth open.",
+      "confidence": 0.9,
+      "source_detection_ids": [
+        "det_characters_0111",
+        "det_scenes_0014",
+        "det_objects_0030"
+      ],
+      "source_segment_ids": [
+        "seg_014"
+      ],
+      "reasoner_model": "/models/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5"
+    },
+    {
+      "chain_id": "chain_0018",
+      "start_sec": 78.0,
+      "end_sec": 88.0,
+      "participant_ids": [
+        "person-02"
+      ],
+      "object_ids": [
+        "door",
+        "caution_tape",
+        "light_fixture"
+      ],
+      "event_ids": [
+        "evt_0094"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0094",
+          "time_span": [
+            78.0,
+            88.0
+          ],
+          "event_type": "observed_behavior",
+          "actor_ids": [
+            "person-02"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "approaching the person, engaging in visible interaction"
+        }
+      ],
+      "interaction_pattern": "single_observation",
+      "summary": "Person-02 approaches and interacts visibly.",
+      "confidence": 0.9,
+      "source_detection_ids": [
+        "det_characters_0112",
+        "det_scenes_0014",
+        "det_objects_0030"
+      ],
+      "source_segment_ids": [
+        "seg_014"
+      ],
+      "reasoner_model": "/models/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5"
+    },
+    {
+      "chain_id": "chain_0019",
+      "start_sec": 84.0,
+      "end_sec": 94.0,
+      "participant_ids": [
+        "person-01"
+      ],
+      "object_ids": [
+        "door",
+        "caution_tape"
+      ],
+      "event_ids": [
+        "evt_0098"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0098",
+          "time_span": [
+            84.0,
+            94.0
+          ],
+          "event_type": "gaze_head_orientation",
+          "actor_ids": [
+            "person-01"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "embracing another individual and turning slightly"
+        }
+      ],
+      "interaction_pattern": "single_observation",
+      "summary": "Person-01 is embracing another individual and turning slightly.",
+      "confidence": 0.9,
+      "source_detection_ids": [
+        "det_characters_0117",
+        "det_scenes_0015",
+        "det_objects_0031"
+      ],
+      "source_segment_ids": [
+        "seg_015"
+      ],
+      "reasoner_model": "/models/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5"
+    },
+    {
+      "chain_id": "chain_0020",
+      "start_sec": 84.0,
+      "end_sec": 95.195,
+      "participant_ids": [
+        "person-02",
+        "person-01"
+      ],
+      "object_ids": [
+        "door",
+        "caution_tape",
+        "brick_wall"
+      ],
+      "event_ids": [
+        "evt_0099",
+        "evt_0103"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0099",
+          "time_span": [
+            84.0,
+            94.0
+          ],
+          "event_type": "gaze_head_orientation",
+          "actor_ids": [
+            "person-02"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "embracing another individual and looking up"
+        },
+        {
+          "event_id": "evt_0103",
+          "time_span": [
+            90.0,
+            95.195
+          ],
+          "event_type": "observed_behavior",
+          "actor_ids": [
+            "person-01",
+            "person-02"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "embracing another individual"
+        }
+      ],
+      "interaction_pattern": "parallel_activity",
+      "summary": "From 84.0s to 95.2s, person-02 and person-01 are both embracing another individual.",
+      "confidence": 0.9,
+      "source_detection_ids": [
+        "det_characters_0118",
+        "det_characters_0123",
+        "det_characters_0124",
+        "det_scenes_0015",
+        "det_objects_0031",
+        "det_scenes_0016",
+        "det_objects_0032"
+      ],
+      "source_segment_ids": [
+        "seg_015",
+        "seg_016"
+      ],
+      "reasoner_model": "/models/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5"
+    }
+  ],
+  "orphan_event_ids": [
+    "evt_0032",
+    "evt_0034",
+    "evt_0035",
+    "evt_0033",
+    "evt_0038",
+    "evt_0040",
+    "evt_0039",
+    "evt_0043",
+    "evt_0044",
+    "evt_0045",
+    "evt_0049",
+    "evt_0047",
+    "evt_0048",
+    "evt_0053",
+    "evt_0052",
+    "evt_0058",
+    "evt_0057",
+    "evt_0056",
+    "evt_0061",
+    "evt_0062",
+    "evt_0065",
+    "evt_0066",
+    "evt_0069",
+    "evt_0071",
+    "evt_0070",
+    "evt_0072",
+    "evt_0074",
+    "evt_0075",
+    "evt_0077",
+    "evt_0078",
+    "evt_0079",
+    "evt_0082",
+    "evt_0083",
+    "evt_0084",
+    "evt_0088",
+    "evt_0087",
+    "evt_0089",
+    "evt_0091",
+    "evt_0092",
+    "evt_0095",
+    "evt_0097",
+    "evt_0096",
+    "evt_0100",
+    "evt_0101",
+    "evt_0102"
+  ],
+  "warnings": [
+    "45 track-only events have no resolved character id; see orphan_event_ids."
+  ]
+}

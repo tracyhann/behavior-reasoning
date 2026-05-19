@@ -1,0 +1,109 @@
+{
+  "schema_version": "0.1",
+  "source_files": {
+    "characters": "/DATA/zihao/projects/Project-Ava/behavior-reasoning/behavior-reasoning/outputs/DmSmN-oqFZ0/characters/characters.json",
+    "detections": "/DATA/zihao/projects/Project-Ava/behavior-reasoning/behavior-reasoning/outputs/DmSmN-oqFZ0/detections/detections.json"
+  },
+  "parameters": {
+    "max_merge_gap_sec": 2.0,
+    "max_chain_gap_sec": 10.0,
+    "max_response_window_sec": 8.0,
+    "min_dedupe_score": 0.72
+  },
+  "chains": [
+    {
+      "chain_id": "chain_0001",
+      "start_sec": 18.0,
+      "end_sec": 28.0,
+      "participant_ids": [
+        "person-01"
+      ],
+      "object_ids": [
+        "person",
+        "dartboard",
+        "bag"
+      ],
+      "event_ids": [
+        "evt_0016"
+      ],
+      "events": [
+        {
+          "event_id": "evt_0016",
+          "time_span": [
+            18.0,
+            28.0
+          ],
+          "event_type": "object_action",
+          "actor_ids": [
+            "person-01"
+          ],
+          "target_ids": [],
+          "object_ids": [],
+          "description": "standing still, holding a bag over the person's head"
+        }
+      ],
+      "interaction_pattern": "object_mediated",
+      "summary": "Person-01 stands still while holding a bag over their head.",
+      "confidence": 0.9,
+      "source_detection_ids": [
+        "det_characters_0049",
+        "det_scenes_0004",
+        "det_objects_0020"
+      ],
+      "source_segment_ids": [
+        "seg_004"
+      ],
+      "reasoner_model": "Qwen/Qwen2.5-VL-32B-Instruct"
+    }
+  ],
+  "orphan_event_ids": [
+    "evt_0003",
+    "evt_0005",
+    "evt_0006",
+    "evt_0004",
+    "evt_0007",
+    "evt_0009",
+    "evt_0008",
+    "evt_0010",
+    "evt_0011",
+    "evt_0012",
+    "evt_0015",
+    "evt_0013",
+    "evt_0014",
+    "evt_0018",
+    "evt_0017",
+    "evt_0021",
+    "evt_0020",
+    "evt_0019",
+    "evt_0022",
+    "evt_0023",
+    "evt_0024",
+    "evt_0025",
+    "evt_0026",
+    "evt_0028",
+    "evt_0027",
+    "evt_0029",
+    "evt_0030",
+    "evt_0031",
+    "evt_0032",
+    "evt_0033",
+    "evt_0034",
+    "evt_0035",
+    "evt_0036",
+    "evt_0037",
+    "evt_0039",
+    "evt_0038",
+    "evt_0040",
+    "evt_0041",
+    "evt_0042",
+    "evt_0043",
+    "evt_0045",
+    "evt_0044",
+    "evt_0046",
+    "evt_0047",
+    "evt_0048"
+  ],
+  "warnings": [
+    "45 track-only events have no resolved character id; see orphan_event_ids."
+  ]
+}

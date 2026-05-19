@@ -1,0 +1,61 @@
+{
+  "video_id": "-JUtzfuiV08",
+  "characters": {
+    "person-01": {
+      "id": "person-01",
+      "gender": "female",
+      "age_range": "adult",
+      "height": "unknown",
+      "clothing": "blue cable-knit sweater, dark skirt",
+      "appearance": "{'hair': 'long, 'glasses': True, 'jewelry': 'bracelet on left wrist'}",
+      "first_seen": 0.0,
+      "last_seen": 85.419,
+      "track_ids": [],
+      "example_segments": [
+        "seg_001",
+        "seg_002",
+        "seg_003",
+        "seg_004",
+        "seg_005",
+        "seg_008",
+        "seg_009",
+        "seg_010",
+        "seg_011",
+        "seg_012",
+        "seg_013",
+        "seg_014"
+      ],
+      "example_crop_paths": [],
+      "match_confidence": "high"
+    },
+    "person-02": {
+      "id": "person-02",
+      "gender": "male",
+      "age_range": "adult",
+      "height": "unknown",
+      "clothing": "purple striped shirt, brown pants",
+      "appearance": "{'hair': 'short, 'glasses': False, 'jewelry': 'watch on left wrist'}",
+      "first_seen": 0.0,
+      "last_seen": 85.419,
+      "track_ids": [],
+      "example_segments": [
+        "seg_001",
+        "seg_002",
+        "seg_003",
+        "seg_004",
+        "seg_005",
+        "seg_006",
+        "seg_007",
+        "seg_008",
+        "seg_009",
+        "seg_010",
+        "seg_011",
+        "seg_012",
+        "seg_013",
+        "seg_014"
+      ],
+      "example_crop_paths": [],
+      "match_confidence": "high"
+    }
+  }
+}

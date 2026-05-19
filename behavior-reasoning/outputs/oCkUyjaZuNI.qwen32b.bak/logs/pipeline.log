@@ -1,0 +1,21 @@
+2026-05-18 15:08:14,764 INFO starting pipeline video=/DATA/zihao/projects/Project-Ava/behavior-reasoning/dataset-ours/oCkUyjaZuNI/oCkUyjaZuNI.mp4
+2026-05-18 15:08:40,298 INFO yolo status: available=True reason=ultralytics tracking produced 4474 observations using yolov8n-pose.pt det_model=yolo11n.pt pose_model=yolo11n-pose.pt tracker=botsort.yaml
+2026-05-18 15:08:40,299 INFO using local Qwen2.5-VL model_id=Qwen/Qwen2.5-VL-32B-Instruct
+2026-05-18 15:09:25,174 INFO global roster subjects=3 expected=3
+2026-05-18 15:09:44,423 INFO segment=seg_001 frames=3 vlm_characters=0 yolo_tracks=4 objects=4
+2026-05-18 15:10:02,708 INFO segment=seg_002 frames=3 vlm_characters=1 yolo_tracks=4 objects=2
+2026-05-18 15:10:25,726 INFO segment=seg_003 frames=3 vlm_characters=0 yolo_tracks=4 objects=0
+2026-05-18 15:10:46,913 INFO segment=seg_004 frames=3 vlm_characters=0 yolo_tracks=4 objects=4
+2026-05-18 15:11:08,366 INFO segment=seg_005 frames=3 vlm_characters=0 yolo_tracks=4 objects=0
+2026-05-18 15:11:28,476 INFO segment=seg_006 frames=3 vlm_characters=1 yolo_tracks=4 objects=2
+2026-05-18 15:11:49,045 INFO segment=seg_007 frames=3 vlm_characters=1 yolo_tracks=4 objects=2
+2026-05-18 15:12:08,938 INFO segment=seg_008 frames=3 vlm_characters=1 yolo_tracks=4 objects=2
+2026-05-18 15:12:30,533 INFO segment=seg_009 frames=3 vlm_characters=1 yolo_tracks=4 objects=2
+2026-05-18 15:12:53,105 INFO segment=seg_010 frames=3 vlm_characters=0 yolo_tracks=4 objects=0
+2026-05-18 15:13:14,440 INFO segment=seg_011 frames=3 vlm_characters=0 yolo_tracks=4 objects=0
+2026-05-18 15:13:35,945 INFO segment=seg_012 frames=3 vlm_characters=0 yolo_tracks=4 objects=0
+2026-05-18 15:13:57,462 INFO segment=seg_013 frames=3 vlm_characters=0 yolo_tracks=4 objects=0
+2026-05-18 15:14:16,063 INFO segment=seg_014 frames=3 vlm_characters=1 yolo_tracks=4 objects=2
+2026-05-18 15:14:31,831 INFO segment=seg_015 frames=3 vlm_characters=0 yolo_tracks=4 objects=3
+2026-05-18 15:14:53,108 INFO segment=seg_016 frames=3 vlm_characters=0 yolo_tracks=2 objects=0
+2026-05-18 15:14:53,163 INFO finished pipeline output=/DATA/zihao/projects/Project-Ava/behavior-reasoning/behavior-reasoning/outputs/oCkUyjaZuNI

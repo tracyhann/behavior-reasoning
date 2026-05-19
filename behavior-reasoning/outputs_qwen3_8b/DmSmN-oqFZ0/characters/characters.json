@@ -1,0 +1,76 @@
+{
+  "video_id": "DmSmN-oqFZ0",
+  "characters": {
+    "person-01": {
+      "id": "person-01",
+      "gender": "male",
+      "age_range": "adult",
+      "height": "unknown",
+      "clothing": "blue t-shirt with yellow sleeves and a circular emblem, brown pants",
+      "appearance": "short dark hair, no facial hair, wearing a watch",
+      "first_seen": 0.0,
+      "last_seen": 95.195,
+      "track_ids": [],
+      "example_segments": [
+        "seg_001",
+        "seg_002",
+        "seg_006",
+        "seg_007",
+        "seg_008",
+        "seg_009",
+        "seg_010",
+        "seg_011",
+        "seg_012",
+        "seg_013",
+        "seg_014",
+        "seg_015",
+        "seg_016"
+      ],
+      "example_crop_paths": [],
+      "match_confidence": "high"
+    },
+    "person-02": {
+      "id": "person-02",
+      "gender": "female",
+      "age_range": "adult",
+      "height": "unknown",
+      "clothing": "purple jacket over a purple top, blue skirt, black leggings",
+      "appearance": "long brown hair, wearing glasses",
+      "first_seen": 0.0,
+      "last_seen": 95.195,
+      "track_ids": [],
+      "example_segments": [
+        "seg_001",
+        "seg_002",
+        "seg_003",
+        "seg_004",
+        "seg_006",
+        "seg_007",
+        "seg_008",
+        "seg_009",
+        "seg_011",
+        "seg_012",
+        "seg_013",
+        "seg_014",
+        "seg_015",
+        "seg_016"
+      ],
+      "example_crop_paths": [],
+      "match_confidence": "high"
+    },
+    "person-03": {
+      "id": "person-03",
+      "gender": "unknown",
+      "age_range": "unknown",
+      "height": "unknown",
+      "clothing": "visible clothing unclear",
+      "appearance": "visible recurring person; details unclear",
+      "first_seen": 0.0,
+      "last_seen": 0.0,
+      "track_ids": [],
+      "example_segments": [],
+      "example_crop_paths": [],
+      "match_confidence": "low"
+    }
+  }
+}
