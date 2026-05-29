@@ -1,0 +1,4 @@
+{"end_sec": 2.6, "schema_version": "care.meta_baseline.transcript_turn.v1", "source": "faster_whisper_asr", "speaker_id": "UNKNOWN_SPEAKER", "start_sec": 0.0, "text": "Maybe he does have a question. He's alive.", "turn_id": "ASR_0001"}
+{"end_sec": 4.2, "schema_version": "care.meta_baseline.transcript_turn.v1", "source": "faster_whisper_asr", "speaker_id": "UNKNOWN_SPEAKER", "start_sec": 2.6, "text": "He's catatonic.", "turn_id": "ASR_0002"}
+{"end_sec": 7.2, "schema_version": "care.meta_baseline.transcript_turn.v1", "source": "faster_whisper_asr", "speaker_id": "UNKNOWN_SPEAKER", "start_sec": 4.2, "text": "He still has a brain. Maybe he wants to participate too.", "turn_id": "ASR_0003"}
+{"end_sec": 8.2, "schema_version": "care.meta_baseline.transcript_turn.v1", "source": "faster_whisper_asr", "speaker_id": "UNKNOWN_SPEAKER", "start_sec": 7.2, "text": "Yeah.", "turn_id": "ASR_0004"}

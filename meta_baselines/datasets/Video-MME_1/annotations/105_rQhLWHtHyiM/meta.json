@@ -1,0 +1,11 @@
+{
+  "clip_id": "videomme_105_rQhLWHtHyiM",
+  "duration_sec": 48.8,
+  "label_status": "candidate",
+  "schema_version": "care.videomme_social_annotation_meta.v1",
+  "source_category": "Film & Television / Movie & TV Show",
+  "summary": "Several adults in a room engage in a tense social exchange with pointing and movement.",
+  "videoID": "rQhLWHtHyiM",
+  "video_id": "105",
+  "video_path": "meta_baselines/datasets/Video-MME_1/videos/105_rQhLWHtHyiM.mp4"
+}

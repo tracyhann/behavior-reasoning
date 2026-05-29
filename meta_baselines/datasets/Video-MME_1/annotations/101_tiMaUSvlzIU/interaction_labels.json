@@ -1,0 +1,67 @@
+{
+  "annotation_metadata": {
+    "created_at": "2026-05-29T17:59:58.376105Z",
+    "label_status": "candidate_interaction_label",
+    "notes": [
+      "Candidate labels are based on sampled review frames and available audio/video context.",
+      "No interaction edge is labeled unless a directed co-present exchange is visible or strongly implied by the reviewed evidence."
+    ]
+  },
+  "clip_id": "videomme_101_tiMaUSvlzIU",
+  "clip_path": "meta_baselines/datasets/Video-MME_1/videos/101_tiMaUSvlzIU.mp4",
+  "episode_id": "101",
+  "interactions": [
+    {
+      "actor_id": "C2",
+      "evidence": [
+        {
+          "end_sec": 25.2,
+          "evidence_description": "C2 faces the table group and speaks during the seated exchange.",
+          "modality": "audio_visual",
+          "start_sec": 16.8
+        }
+      ],
+      "interaction_id": "VMME101_INT001",
+      "recipient_ids": [
+        "C3",
+        "C4"
+      ],
+      "relation": "talks_to_group",
+      "status": "labeled_interaction",
+      "time_spans_sec": [
+        [
+          16.8,
+          25.2
+        ]
+      ],
+      "timebase": "video_relative_seconds"
+    },
+    {
+      "actor_id": "C4",
+      "evidence": [
+        {
+          "end_sec": 42.0,
+          "evidence_description": "C4 gestures and addresses the other two seated men.",
+          "modality": "audio_visual",
+          "start_sec": 33.6
+        }
+      ],
+      "interaction_id": "VMME101_INT002",
+      "recipient_ids": [
+        "C2",
+        "C3"
+      ],
+      "relation": "talks_to_group",
+      "status": "labeled_interaction",
+      "time_spans_sec": [
+        [
+          33.6,
+          42.0
+        ]
+      ],
+      "timebase": "video_relative_seconds"
+    }
+  ],
+  "schema_version": "care.interaction_annotation.v1",
+  "timebase": "video_relative_seconds"
+}

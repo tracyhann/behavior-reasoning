@@ -1,0 +1,57 @@
+{
+  "annotation_metadata": {
+    "created_at": "2026-05-29T09:45:12.142616Z",
+    "label_status": "candidate_character_description",
+    "notes": [
+      "Gender and age fields describe visual presentation only.",
+      "Character IDs are semantic foreground IDs for this video, not raw detector tracks.",
+      "C2 is partially visible; the interaction is physical assistance rather than a clean spoken exchange."
+    ],
+    "source_contact_sheet": "meta_baselines/datasets/SIV-Bench_10/review/contact_sheets/origin__caregiver-recipient__video_18_sheet.jpg",
+    "source_dataset": "Fancylalala/SIV-Bench",
+    "source_relation_category": "caregiver-recipient"
+  },
+  "characters": [
+    {
+      "age_group": "adult",
+      "appearance": {
+        "facial_hair": "none_visible",
+        "hair_color": "not_visible_or_unclear",
+        "hair_style": "long dark hair",
+        "notable_visible_features": []
+      },
+      "character_id": "C1",
+      "clothing": {
+        "accessories_or_context": [],
+        "colors": [],
+        "lower_body": "not_visible_or_unclear",
+        "outerwear": null,
+        "upper_body": "light purple or lavender top"
+      },
+      "gender_presentation": "female_presenting"
+    },
+    {
+      "age_group": "adult_or_unclear",
+      "appearance": {
+        "facial_hair": "none_visible",
+        "hair_color": "not_visible_or_unclear",
+        "hair_style": "not_visible_or_unclear",
+        "notable_visible_features": []
+      },
+      "character_id": "C2",
+      "clothing": {
+        "accessories_or_context": [],
+        "colors": [],
+        "lower_body": "not_visible_or_unclear",
+        "outerwear": null,
+        "upper_body": "yellow or light blanket/clothing"
+      },
+      "gender_presentation": "unknown_or_unclear"
+    }
+  ],
+  "clip_id": "sivbench_002_caregiver-recipient__video_18",
+  "clip_path": "meta_baselines/datasets/SIV-Bench_10/origin/caregiver-recipient/video_18.mp4",
+  "episode_id": "SIV002",
+  "schema_version": "care.character_annotation.v1",
+  "timebase": "video_relative_seconds"
+}

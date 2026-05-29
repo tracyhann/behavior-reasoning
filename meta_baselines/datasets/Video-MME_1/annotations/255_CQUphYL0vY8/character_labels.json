@@ -1,0 +1,110 @@
+{
+  "annotation_metadata": {
+    "created_at": "2026-05-29T17:59:58.378435Z",
+    "label_scope": "Foreground or repeated visible people only; background crowds, unlabeled extras, and offscreen phone/audio recipients are excluded.",
+    "label_status": "candidate_character_description",
+    "notes": [
+      "The first scored interaction is the cafe conversation; later street greeting is a separate visible social event."
+    ],
+    "source_contact_sheet": "meta_baselines/datasets/Video-MME_1/review/contact_sheets/255_CQUphYL0vY8_sheet.jpg"
+  },
+  "characters": [
+    {
+      "age_group": "adult",
+      "appearance": {
+        "facial_hair": "none_visible",
+        "hair_color": "brown",
+        "hair_style": "long brown hair",
+        "notable_visible_features": []
+      },
+      "character_id": "C1",
+      "clothing": {
+        "accessories_or_context": [],
+        "colors": [],
+        "lower_body": "not_visible_or_unclear",
+        "outerwear": null,
+        "upper_body": "dark short-sleeve top"
+      },
+      "gender_presentation": "female_presenting"
+    },
+    {
+      "age_group": "adult",
+      "appearance": {
+        "facial_hair": "none_visible",
+        "hair_color": "not_visible_or_unclear",
+        "hair_style": "short or shaved hair",
+        "notable_visible_features": []
+      },
+      "character_id": "C2",
+      "clothing": {
+        "accessories_or_context": [],
+        "colors": [],
+        "lower_body": "not_visible_or_unclear",
+        "outerwear": null,
+        "upper_body": "light pink shirt"
+      },
+      "gender_presentation": "male_presenting"
+    },
+    {
+      "age_group": "adult",
+      "appearance": {
+        "facial_hair": "none_visible",
+        "hair_color": "brown",
+        "hair_style": "long hair",
+        "notable_visible_features": []
+      },
+      "character_id": "C3",
+      "clothing": {
+        "accessories_or_context": [],
+        "colors": [],
+        "lower_body": "not_visible_or_unclear",
+        "outerwear": null,
+        "upper_body": "green top"
+      },
+      "gender_presentation": "female_presenting"
+    },
+    {
+      "age_group": "adult",
+      "appearance": {
+        "facial_hair": "none_visible",
+        "hair_color": "brown",
+        "hair_style": "long hair",
+        "notable_visible_features": []
+      },
+      "character_id": "C4",
+      "clothing": {
+        "accessories_or_context": [],
+        "colors": [],
+        "lower_body": "not_visible_or_unclear",
+        "outerwear": null,
+        "upper_body": "dark purple top"
+      },
+      "gender_presentation": "female_presenting"
+    },
+    {
+      "age_group": "adult",
+      "appearance": {
+        "facial_hair": "none_visible",
+        "hair_color": "brown",
+        "hair_style": "long hair",
+        "notable_visible_features": []
+      },
+      "character_id": "C5",
+      "clothing": {
+        "accessories_or_context": [
+          "sunglasses"
+        ],
+        "colors": [],
+        "lower_body": "not_visible_or_unclear",
+        "outerwear": null,
+        "upper_body": "dark top with sunglasses"
+      },
+      "gender_presentation": "female_presenting"
+    }
+  ],
+  "clip_id": "videomme_255_CQUphYL0vY8",
+  "clip_path": "meta_baselines/datasets/Video-MME_1/videos/255_CQUphYL0vY8.mp4",
+  "episode_id": "255",
+  "schema_version": "care.character_annotation.v1",
+  "timebase": "video_relative_seconds"
+}

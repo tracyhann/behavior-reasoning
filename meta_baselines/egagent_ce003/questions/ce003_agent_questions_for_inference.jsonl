@@ -1,0 +1,7 @@
+{"answer_type": "mcq_letter", "candidates": {"A": 2, "B": 3, "C": 4, "D": 6}, "question": "How many characters are present in this clip?", "question_id": "CE003_Q001_character_count"}
+{"answer_type": "mcq_letter", "candidates": {"A": ["C1", "C2"], "B": ["C1", "C2", "C3"], "C": ["C2", "C3", "C4"], "D": ["C1", "C3"]}, "question": "Which source-video characters are present in this clip?", "question_id": "CE003_Q002_present_characters"}
+{"answer_type": "mcq_letter", "candidates": {"A": "C1", "B": "C2", "C": "C3", "D": "No one or unclear"}, "question": "Who initiated the interaction first?", "question_id": "CE003_Q003_first_initiator"}
+{"answer_type": "mcq_letter", "candidates": {"A": "C1", "B": "C3", "C": "Both C1 and C3", "D": "No visible character or unclear"}, "question": "Who did C2 talk to?", "question_id": "CE003_Q004_c2_recipient"}
+{"answer_type": "mcq_letter", "candidates": {"A": true, "B": false, "C": "Unclear", "D": "No visible recipient"}, "question": "Did the recipient respond to the social initiator?", "question_id": "CE003_Q005_recipient_response"}
+{"answer_type": "mcq_letter", "candidates": {"A": true, "B": false, "C": "Unclear", "D": "C1 is not present"}, "question": "Did C1 interact with any character?", "question_id": "CE003_Q006_c1_interaction"}
+{"answer_type": "mcq_letter", "candidates": {"A": true, "B": false, "C": "Unclear", "D": "C1 is not present"}, "question": "Did C1 and C2 interact?", "question_id": "CE003_Q007_c1_c2_interaction"}

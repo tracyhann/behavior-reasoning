@@ -1,0 +1,62 @@
+[
+  {
+    "video": "101_tiMaUSvlzIU.mp4",
+    "duration_sec": 46.18,
+    "sampled_frames": 11,
+    "contact_sheet": "meta_baselines/datasets/Video-MME_1/review/contact_sheets/101_tiMaUSvlzIU_sheet.jpg"
+  },
+  {
+    "video": "103_G267g0DpCVg.mp4",
+    "duration_sec": 60.019,
+    "sampled_frames": 11,
+    "contact_sheet": "meta_baselines/datasets/Video-MME_1/review/contact_sheets/103_G267g0DpCVg_sheet.jpg"
+  },
+  {
+    "video": "104__cZXyj6rYVg.mp4",
+    "duration_sec": 39.74,
+    "sampled_frames": 11,
+    "contact_sheet": "meta_baselines/datasets/Video-MME_1/review/contact_sheets/104__cZXyj6rYVg_sheet.jpg"
+  },
+  {
+    "video": "105_rQhLWHtHyiM.mp4",
+    "duration_sec": 48.8,
+    "sampled_frames": 11,
+    "contact_sheet": "meta_baselines/datasets/Video-MME_1/review/contact_sheets/105_rQhLWHtHyiM_sheet.jpg"
+  },
+  {
+    "video": "106_bYXhA8VG8Lw.mp4",
+    "duration_sec": 95.6,
+    "sampled_frames": 11,
+    "contact_sheet": "meta_baselines/datasets/Video-MME_1/review/contact_sheets/106_bYXhA8VG8Lw_sheet.jpg"
+  },
+  {
+    "video": "251_1sTQOxXFO44.mp4",
+    "duration_sec": 81.567,
+    "sampled_frames": 11,
+    "contact_sheet": "meta_baselines/datasets/Video-MME_1/review/contact_sheets/251_1sTQOxXFO44_sheet.jpg"
+  },
+  {
+    "video": "252_RP1AL2DU6vQ.mp4",
+    "duration_sec": 108.763,
+    "sampled_frames": 11,
+    "contact_sheet": "meta_baselines/datasets/Video-MME_1/review/contact_sheets/252_RP1AL2DU6vQ_sheet.jpg"
+  },
+  {
+    "video": "257_s-lM2uwiwyQ.mp4",
+    "duration_sec": 106.71,
+    "sampled_frames": 11,
+    "contact_sheet": "meta_baselines/datasets/Video-MME_1/review/contact_sheets/257_s-lM2uwiwyQ_sheet.jpg"
+  },
+  {
+    "video": "255_CQUphYL0vY8.mp4",
+    "duration_sec": 101.06,
+    "sampled_frames": 11,
+    "contact_sheet": "meta_baselines/datasets/Video-MME_1/review/contact_sheets/255_CQUphYL0vY8_sheet.jpg"
+  },
+  {
+    "video": "256_aFfMGy94sjE.mp4",
+    "duration_sec": 104.839,
+    "sampled_frames": 11,
+    "contact_sheet": "meta_baselines/datasets/Video-MME_1/review/contact_sheets/256_aFfMGy94sjE_sheet.jpg"
+  }
+]

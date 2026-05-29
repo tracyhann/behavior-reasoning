@@ -1,0 +1,57 @@
+{
+  "annotation_metadata": {
+    "created_at": "2026-05-29T09:45:12.142217Z",
+    "label_status": "candidate_character_description",
+    "notes": [
+      "Gender and age fields describe visual presentation only.",
+      "Character IDs are semantic foreground IDs for this video, not raw detector tracks.",
+      "Timing is approximate and based on reviewed contact-sheet frames plus SIV-Bench QA context."
+    ],
+    "source_contact_sheet": "meta_baselines/datasets/SIV-Bench_10/review/contact_sheets/origin__boss-employee__video_141_sheet.jpg",
+    "source_dataset": "Fancylalala/SIV-Bench",
+    "source_relation_category": "boss-employee"
+  },
+  "characters": [
+    {
+      "age_group": "adult",
+      "appearance": {
+        "facial_hair": "none_visible",
+        "hair_color": "not_visible_or_unclear",
+        "hair_style": "short dark hair",
+        "notable_visible_features": []
+      },
+      "character_id": "C1",
+      "clothing": {
+        "accessories_or_context": [],
+        "colors": [],
+        "lower_body": "not_visible_or_unclear",
+        "outerwear": null,
+        "upper_body": "dark long-sleeve top"
+      },
+      "gender_presentation": "male_presenting"
+    },
+    {
+      "age_group": "adult",
+      "appearance": {
+        "facial_hair": "none_visible",
+        "hair_color": "not_visible_or_unclear",
+        "hair_style": "long blond hair",
+        "notable_visible_features": []
+      },
+      "character_id": "C2",
+      "clothing": {
+        "accessories_or_context": [],
+        "colors": [],
+        "lower_body": "not_visible_or_unclear",
+        "outerwear": null,
+        "upper_body": "dark sleeveless top"
+      },
+      "gender_presentation": "female_presenting"
+    }
+  ],
+  "clip_id": "sivbench_001_boss-employee__video_141",
+  "clip_path": "meta_baselines/datasets/SIV-Bench_10/origin/boss-employee/video_141.mp4",
+  "episode_id": "SIV001",
+  "schema_version": "care.character_annotation.v1",
+  "timebase": "video_relative_seconds"
+}

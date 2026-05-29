@@ -1,0 +1,167 @@
+{
+  "clip_id": "sivbench_005_colleague__video_114",
+  "duration_sec": 12.066666666666666,
+  "episode_id": "SIV005",
+  "schema_version": "care.sivbench_social_annotation_meta.v1",
+  "sivbench_qa_rows": [
+    {
+      "answer": "They will stop talking.",
+      "category": "Factual Prediction",
+      "correct_answer_index": "B",
+      "index": "0467",
+      "options": "A. They will start arguing., B. They will stop talking., C. They will change the subject., D. They will ask more questions., E. They will leave the room.",
+      "question": "What will happen after the individual labeled \"Med Surge Nurse\" makes his comment?",
+      "question_id": "0467-1",
+      "video": "colleague/video_114",
+      "video_path": "colleague/video_114.mp4"
+    },
+    {
+      "answer": "There would be no competition.",
+      "category": "Counterfactual Prediction",
+      "correct_answer_index": "C",
+      "index": "0467",
+      "options": "A. They would collaborate more effectively., B. Everyone would feel less motivated., C. There would be no competition., D. The relationships would become more strained., E. It would likely lead to increased tension.",
+      "question": "How would the interaction change if all individuals in the video were making the same amount of money?",
+      "question_id": "0467-2",
+      "video": "colleague/video_114",
+      "video_path": "colleague/video_114.mp4"
+    },
+    {
+      "answer": "colleague",
+      "category": "Relation Inference",
+      "correct_answer_index": "N",
+      "index": "0467",
+      "options": "A. sibling, B. transactional, C. coach-player, D. classmates, E. grandparent-child, F. caregiver-recipient, G. sports teammates, H. colleagues, I. couple, J. friends, K. service, L. teacher-student, M. parent-child, N. colleague",
+      "question": "Which kind of relationship plays a dominant role in this video?",
+      "question_id": "0467-3",
+      "video": "colleague/video_114",
+      "video_path": "colleague/video_114.mp4"
+    },
+    {
+      "answer": "The employee speaks in English to interact with English-speaking customers, and then switches to Japanese to ask a question of her co-worker.",
+      "category": "Relation Inference",
+      "correct_answer_index": "B",
+      "index": "0547",
+      "options": "A. The employee uses English to respond to a client inquiry, and subsequently uses Japanese to explain a policy to a team member., B. The employee speaks in English to interact with English-speaking customers, and then switches to Japanese to ask a question of her co-worker., C. The employee communicates in English to deliver a presentation, and later switches to Japanese to summarize the points for her audience., D. The employee follows English guidelines for writing reports, then switches to Japanese to review the content with her supervisor., E. The employee converses in English during a meeting, and afterwards uses Japanese to clarify instructions to her assistant.",
+      "question": "Why does the employee speak in English and then in Japanese?",
+      "question_id": "0547-1",
+      "video": "colleague/video_114",
+      "video_path": "colleague/video_114.mp4"
+    },
+    {
+      "answer": "Enthusiastic",
+      "category": "Attitude Inference",
+      "correct_answer_index": "B",
+      "index": "0547",
+      "options": "A. Indifferent, B. Enthusiastic, C. Cautious, D. Apathetic, E. Complacent",
+      "question": "What is the work attitude of these two individuals?",
+      "question_id": "0547-2",
+      "video": "colleague/video_114",
+      "video_path": "colleague/video_114.mp4"
+    },
+    {
+      "answer": "Smiling.",
+      "category": "Facial Expression Recognition",
+      "correct_answer_index": "E",
+      "index": "0547",
+      "options": "A. Frowning., B. Looking confused., C. Pensive., D. Excited., E. Smiling.",
+      "question": "What kind of expression does the employee who speaks English have when speaking Japanese?",
+      "question_id": "0547-3",
+      "video": "colleague/video_114",
+      "video_path": "colleague/video_114.mp4"
+    },
+    {
+      "answer": "The customer would be unsatisfied.",
+      "category": "Counterfactual Prediction",
+      "correct_answer_index": "C",
+      "index": "0547",
+      "options": "A. The employee might lose their job., B. The customer would likely compliment the service., C. The customer would be unsatisfied., D. The situation might escalate into a confrontation., E. The interaction would remain entirely positive.",
+      "question": "If the employee had been rude to the customer, how would the interaction change?",
+      "question_id": "0547-4",
+      "video": "colleague/video_114",
+      "video_path": "colleague/video_114.mp4"
+    },
+    {
+      "answer": "It is not mentioned in the video",
+      "category": "Intent Inference",
+      "correct_answer_index": "C",
+      "index": "0584",
+      "options": "A. He has a habit of misplacing his keys, B. He enjoys taking long walks before arriving, C. It is not mentioned in the video, D. He often gets caught in traffic jams, E. He prefers to leave only at the last minute",
+      "question": "Why is the man called Ádám always late?",
+      "question_id": "0584-1",
+      "video": "colleague/video_114",
+      "video_path": "colleague/video_114.mp4"
+    },
+    {
+      "answer": "To take a break.",
+      "category": "Intent Inference",
+      "correct_answer_index": "B",
+      "index": "0593",
+      "options": "A. To focus on a new project., B. To take a break., C. To enjoy a snack., D. To answer a phone call., E. To meet with a colleague.",
+      "question": "Why does the person pause to drink coffee between tasks?",
+      "question_id": "0593-1",
+      "video": "colleague/video_114",
+      "video_path": "colleague/video_114.mp4"
+    },
+    {
+      "answer": "colleague",
+      "category": "Relation Inference",
+      "correct_answer_index": "I",
+      "index": "0593",
+      "options": "A. couple, B. teacher-student, C. boss-employee, D. coach-player, E. classmates, F. colleagues, G. parent-child, H. sibling, I. colleague, J. caregiver-recipient, K. sports teammates, L. friends, M. transactional, N. service",
+      "question": "Which kind of relationship plays a dominant role in this video?",
+      "question_id": "0593-2",
+      "video": "colleague/video_114",
+      "video_path": "colleague/video_114.mp4"
+    },
+    {
+      "answer": "The person at the desk will remain skeptical.",
+      "category": "Factual Prediction",
+      "correct_answer_index": "D",
+      "index": "0610",
+      "options": "A. The person at the desk will become enthusiastic., B. The person at the desk will agree without hesitation., C. The person at the desk will feel relieved and hopeful., D. The person at the desk will remain skeptical., E. The person at the desk will dismiss all concerns.",
+      "question": "What is likely to happen after this conversation?",
+      "question_id": "0610-1",
+      "video": "colleague/video_114",
+      "video_path": "colleague/video_114.mp4"
+    },
+    {
+      "answer": "A poor work environment with many negative emotions.",
+      "category": "Environment Perception",
+      "correct_answer_index": "D",
+      "index": "0610",
+      "options": "A. A supportive work environment filled with positive energy., B. A comfortable workspace with abundant resources., C. A chaotic workplace full of distractions., D. A poor work environment with many negative emotions., E. An innovative environment encouraging collaboration.",
+      "question": "What is the work environment like for the two people?",
+      "question_id": "0610-2",
+      "video": "colleague/video_114",
+      "video_path": "colleague/video_114.mp4"
+    },
+    {
+      "answer": "Condescending.",
+      "category": "Environment Perception",
+      "correct_answer_index": "C",
+      "index": "0610",
+      "options": "A. Cheerful., B. Anxious., C. Condescending., D. Indifferent., E. Angry.",
+      "question": "What is the tone of the person who came into the room?",
+      "question_id": "0610-3",
+      "video": "colleague/video_114",
+      "video_path": "colleague/video_114.mp4"
+    },
+    {
+      "answer": "Argues that it would complicate the investigation process.",
+      "category": "Environment Perception",
+      "correct_answer_index": "D",
+      "index": "0610",
+      "options": "A. Believes that revealing the identity would lead to retaliation., B. Thinks that the matter is too trivial to discuss., C. Considers it unnecessary since the issue is already addressed., D. Argues that it would complicate the investigation process., E. Claims that it would narrow down the source of the information.",
+      "question": "Why does the person at the door not want to disclose the person who reported the employee's behaviour?",
+      "question_id": "0610-4",
+      "video": "colleague/video_114",
+      "video_path": "colleague/video_114.mp4"
+    }
+  ],
+  "source_dataset": "Fancylalala/SIV-Bench",
+  "source_hf_url": "https://huggingface.co/datasets/Fancylalala/SIV-Bench",
+  "source_relation_category": "colleague",
+  "summary": "Office colleagues answer or react to an office gossip prompt.",
+  "video_path": "meta_baselines/datasets/SIV-Bench_10/origin/colleague/video_114.mp4"
+}

@@ -1,0 +1,90 @@
+{
+  "clip_id": "sivbench_008_transactional__video_11",
+  "duration_sec": 63.06666666666667,
+  "episode_id": "SIV008",
+  "schema_version": "care.sivbench_social_annotation_meta.v1",
+  "sivbench_qa_rows": [
+    {
+      "answer": "To show the customer it works.",
+      "category": "Intent Inference",
+      "correct_answer_index": "C",
+      "index": "1184",
+      "options": "A. To highlight its unique design features., B. To discuss the history of drone technology., C. To show the customer it works., D. To explain the store's return policy., E. To convince the customer to buy other products.",
+      "question": "Why does the woman demonstrate the drone's flight inside the store?",
+      "question_id": "1184-1",
+      "video": "transactional/video_11",
+      "video_path": "transactional/video_11.mp4"
+    },
+    {
+      "answer": "He will pay for the drone.",
+      "category": "Factual Prediction",
+      "correct_answer_index": "D",
+      "index": "1184",
+      "options": "A. He will return the drone., B. He will assemble the drone., C. He will sell the drone., D. He will pay for the drone., E. He will fly the drone.",
+      "question": "What will the man do next?",
+      "question_id": "1184-2",
+      "video": "transactional/video_11",
+      "video_path": "transactional/video_11.mp4"
+    },
+    {
+      "answer": "To convince the second man to work with his employer.",
+      "category": "Intent Inference",
+      "correct_answer_index": "D",
+      "index": "1250",
+      "options": "A. To persuade the second man to invest in real estate., B. To encourage the second man to abandon his current projects., C. To inform the second man about new regulations in agriculture., D. To convince the second man to work with his employer., E. To explain the risks of not engaging with Getty's business ethics.",
+      "question": "Why does the first man say, \"If you renew your land use agreement with Getty, he'll make you twice as rich?\"",
+      "question_id": "1250-1",
+      "video": "transactional/video_11",
+      "video_path": "transactional/video_11.mp4"
+    },
+    {
+      "answer": "Unclear.",
+      "category": "Factual Prediction",
+      "correct_answer_index": "E",
+      "index": "1250",
+      "options": "A. Definitely yes., B. No, he has already left., C. He is considering other offers., D. The employer is not interested., E. Unclear.",
+      "question": "Will the second man renew the agreement with the second man's employer?",
+      "question_id": "1250-2",
+      "video": "transactional/video_11",
+      "video_path": "transactional/video_11.mp4"
+    },
+    {
+      "answer": "Interests",
+      "category": "Emotion Inference",
+      "correct_answer_index": "C",
+      "index": "1250",
+      "options": "A. Trust, B. Communication, C. Interests, D. Time management, E. Flexibility",
+      "question": "What is the most important thing in negotiations?",
+      "question_id": "1250-3",
+      "video": "transactional/video_11",
+      "video_path": "transactional/video_11.mp4"
+    },
+    {
+      "answer": "To discredit his trustworthiness.",
+      "category": "Intent Inference",
+      "correct_answer_index": "B",
+      "index": "1250",
+      "options": "A. To emphasize his secretive nature., B. To discredit his trustworthiness., C. To illustrate his connection to government agencies., D. To undermine his credibility in the conversation., E. To suggest he has insider knowledge about espionage.",
+      "question": "Why does the second man say that the first man belongs to the den of CIA spies?",
+      "question_id": "1250-4",
+      "video": "transactional/video_11",
+      "video_path": "transactional/video_11.mp4"
+    },
+    {
+      "answer": "transactional",
+      "category": "Relation Inference",
+      "correct_answer_index": "M",
+      "index": "1250",
+      "options": "A. sibling, B. colleagues, C. classmates, D. sports teammates, E. boss-employee, F. parent-child, G. caregiver-recipient, H. couple, I. coach-player, J. service, K. grandparent-child, L. transactional, M. transactional, N. friends",
+      "question": "Which kind of relationship plays a dominant role in this video?",
+      "question_id": "1250-5",
+      "video": "transactional/video_11",
+      "video_path": "transactional/video_11.mp4"
+    }
+  ],
+  "source_dataset": "Fancylalala/SIV-Bench",
+  "source_hf_url": "https://huggingface.co/datasets/Fancylalala/SIV-Bench",
+  "source_relation_category": "transactional",
+  "summary": "A salesperson demonstrates and negotiates over a drone with a customer.",
+  "video_path": "meta_baselines/datasets/SIV-Bench_10/origin/transactional/video_11.mp4"
+}

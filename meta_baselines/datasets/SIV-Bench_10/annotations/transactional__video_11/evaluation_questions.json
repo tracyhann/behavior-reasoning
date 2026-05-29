@@ -1,0 +1,62 @@
+{
+  "clip_id": "sivbench_008_transactional__video_11",
+  "clip_path": "meta_baselines/datasets/SIV-Bench_10/origin/transactional/video_11.mp4",
+  "episode_id": "SIV008",
+  "questions": [
+    {
+      "answer": 3,
+      "answer_type": "integer",
+      "question": "How many characters are present in this video?",
+      "question_id": "SIV008_Q001_character_count",
+      "scoring": "exact_match"
+    },
+    {
+      "answer": [
+        "C1",
+        "C2",
+        "C3"
+      ],
+      "answer_type": "character_id_list",
+      "question": "Which characters are present in this video?",
+      "question_id": "SIV008_Q002_present_characters",
+      "scoring": "set_exact_match"
+    },
+    {
+      "answer": "C1",
+      "answer_type": "nullable_character_id",
+      "question": "Who initiated the interaction first?",
+      "question_id": "SIV008_Q003_first_initiator",
+      "scoring": "exact_match"
+    },
+    {
+      "answer": "C1",
+      "answer_type": "nullable_character_id_or_list",
+      "question": "Who did C2 talk to?",
+      "question_id": "SIV008_Q004_c2_recipient",
+      "scoring": "exact_match"
+    },
+    {
+      "answer": true,
+      "answer_type": "boolean",
+      "question": "Did the recipient respond to the social initiator?",
+      "question_id": "SIV008_Q005_recipient_response",
+      "scoring": "exact_match"
+    },
+    {
+      "answer": true,
+      "answer_type": "boolean",
+      "question": "Did C1 interact with any characters?",
+      "question_id": "SIV008_Q006_c1_interaction",
+      "scoring": "exact_match"
+    },
+    {
+      "answer": true,
+      "answer_type": "boolean",
+      "question": "Did C1 and C2 interact?",
+      "question_id": "SIV008_Q007_c1_c2_interaction",
+      "scoring": "exact_match"
+    }
+  ],
+  "schema_version": "care.clip_evaluation_questions.v1",
+  "timebase": "video_relative_seconds"
+}

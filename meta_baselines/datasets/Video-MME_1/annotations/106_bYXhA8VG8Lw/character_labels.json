@@ -1,0 +1,72 @@
+{
+  "annotation_metadata": {
+    "created_at": "2026-05-29T17:59:58.377400Z",
+    "label_scope": "Foreground or repeated visible people only; background crowds, unlabeled extras, and offscreen phone/audio recipients are excluded.",
+    "label_status": "candidate_character_description",
+    "notes": [
+      "C3 is present but not labeled as the first speaker."
+    ],
+    "source_contact_sheet": "meta_baselines/datasets/Video-MME_1/review/contact_sheets/106_bYXhA8VG8Lw_sheet.jpg"
+  },
+  "characters": [
+    {
+      "age_group": "adult",
+      "appearance": {
+        "facial_hair": "none_visible",
+        "hair_color": "dark",
+        "hair_style": "curly dark hair",
+        "notable_visible_features": []
+      },
+      "character_id": "C1",
+      "clothing": {
+        "accessories_or_context": [],
+        "colors": [],
+        "lower_body": "not_visible_or_unclear",
+        "outerwear": null,
+        "upper_body": "dark suit jacket over light shirt"
+      },
+      "gender_presentation": "male_presenting"
+    },
+    {
+      "age_group": "adult",
+      "appearance": {
+        "facial_hair": "none_visible",
+        "hair_color": "dark",
+        "hair_style": "long dark hair",
+        "notable_visible_features": []
+      },
+      "character_id": "C2",
+      "clothing": {
+        "accessories_or_context": [],
+        "colors": [],
+        "lower_body": "not_visible_or_unclear",
+        "outerwear": null,
+        "upper_body": "dark top"
+      },
+      "gender_presentation": "female_presenting"
+    },
+    {
+      "age_group": "adult",
+      "appearance": {
+        "facial_hair": "none_visible",
+        "hair_color": "blond",
+        "hair_style": "short light hair",
+        "notable_visible_features": []
+      },
+      "character_id": "C3",
+      "clothing": {
+        "accessories_or_context": [],
+        "colors": [],
+        "lower_body": "not_visible_or_unclear",
+        "outerwear": null,
+        "upper_body": "dark patterned jacket or shirt"
+      },
+      "gender_presentation": "male_presenting"
+    }
+  ],
+  "clip_id": "videomme_106_bYXhA8VG8Lw",
+  "clip_path": "meta_baselines/datasets/Video-MME_1/videos/106_bYXhA8VG8Lw.mp4",
+  "episode_id": "106",
+  "schema_version": "care.character_annotation.v1",
+  "timebase": "video_relative_seconds"
+}

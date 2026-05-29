@@ -1,0 +1,68 @@
+{
+  "baseline_name": "egagent_style_qwen_tool_packet",
+  "created_at": "2026-05-29T08:08:39.952770Z",
+  "question_correct": 2,
+  "question_details": [
+    {
+      "correct": false,
+      "gold": "B",
+      "justification": "There are four distinct characters visible in the video: one in a wheelchair, another sitting beside him, a third person in a lab coat, and a fourth person partially visible on the left side of the frame.",
+      "prediction": "C",
+      "question_id": "CE003_Q001_character_count",
+      "raw_status": "complete"
+    },
+    {
+      "correct": true,
+      "gold": "B",
+      "justification": "The video shows three characters: one in a wheelchair wearing a light blue-gray hospital gown (C1), another sitting next to him also in a hospital gown (C2), and a third person in a white lab coat holding a clipboard (C3). The ASR transcripts confirm the presence of an active speaker (C2) and other speakers (C1 and C3).",
+      "prediction": "B",
+      "question_id": "CE003_Q002_present_characters",
+      "raw_status": "complete"
+    },
+    {
+      "correct": false,
+      "gold": "B",
+      "justification": "The video does not provide clear evidence of who initiated the interaction first. The audio transcript shows a series of statements without clear indication of who is speaking first. The visual evidence also does not show any clear indication of who is initiating the interaction.",
+      "prediction": "D",
+      "question_id": "CE003_Q003_first_initiator",
+      "raw_status": "complete"
+    },
+    {
+      "correct": false,
+      "gold": "B",
+      "justification": "The video shows C2 speaking while C1 and C3 are present, indicating that C2 talked to both C1 and C3.",
+      "prediction": "C",
+      "question_id": "CE003_Q004_c2_recipient",
+      "raw_status": "complete"
+    },
+    {
+      "correct": false,
+      "gold": "A",
+      "justification": "The video shows two individuals in a hospital setting, both wearing hospital gowns. One individual is seated in a wheelchair, while the other is sitting on a bed. There is no clear indication of any direct interaction between them or any response from either party to the other. The audio suggests a discussion about the state of one of the individuals, but there is no visible recipient of the social interaction.",
+      "prediction": "B",
+      "question_id": "CE003_Q005_recipient_response",
+      "raw_status": "complete"
+    },
+    {
+      "correct": true,
+      "gold": "B",
+      "justification": "The video shows two characters, C1 and C2, both wearing hospital gowns and sitting in a room that appears to be a medical facility. There is no direct interaction between C1 and any other character visible in the video. The audio suggests a discussion about a patient who might want to participate, but there is no clear indication of C1 interacting with anyone.",
+      "prediction": "B",
+      "question_id": "CE003_Q006_c1_interaction",
+      "raw_status": "complete"
+    },
+    {
+      "correct": false,
+      "gold": "B",
+      "justification": "The video shows two characters, C1 and C2, both wearing hospital gowns and sitting in a room that appears to be a medical facility. There is no direct interaction between them as they are both facing towards another character who is not fully visible but seems to be speaking. The body language of C2 suggests attentiveness, possibly indicating an interaction.",
+      "prediction": "A",
+      "question_id": "CE003_Q007_c1_c2_interaction",
+      "raw_status": "complete"
+    }
+  ],
+  "question_exact_match": 0.285714,
+  "question_total": 7,
+  "qwen_model_invoked": true,
+  "schema_version": "care.meta_baseline.egagent_qwen_tool_packet_metrics.v1",
+  "upstream_egagent_unmodified": false
+}

@@ -1,0 +1,43 @@
+{
+  "annotation_metadata": {
+    "created_at": "2026-05-29T09:45:12.143238Z",
+    "label_status": "candidate_interaction_label",
+    "notes": [
+      "Interaction labels use semantic character IDs from character_labels.json.",
+      "Timing is approximate pending adjudication with audio and frame-level review."
+    ],
+    "source_dataset": "Fancylalala/SIV-Bench",
+    "source_relation_category": "coach-player"
+  },
+  "clip_id": "sivbench_004_coach-player__video_147",
+  "clip_path": "meta_baselines/datasets/SIV-Bench_10/origin/coach-player/video_147.mp4",
+  "episode_id": "SIV004",
+  "interactions": [
+    {
+      "actor_id": "C1",
+      "evidence": [
+        {
+          "end_sec": 32.7,
+          "evidence_description": "C1 approaches and consoles or coaches C2 near the table-tennis table.",
+          "modality": "audio_visual",
+          "start_sec": 17.0
+        }
+      ],
+      "interaction_id": "SIV004_INT001",
+      "recipient_ids": [
+        "C2"
+      ],
+      "relation": "comforts_or_coaches",
+      "status": "labeled_interaction",
+      "time_spans_sec": [
+        [
+          17.0,
+          32.7
+        ]
+      ],
+      "timebase": "video_relative_seconds"
+    }
+  ],
+  "schema_version": "care.interaction_annotation.v1",
+  "timebase": "video_relative_seconds"
+}

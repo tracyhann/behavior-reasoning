@@ -1,0 +1,13 @@
+*.mp4
+*.mov
+*.mkv
+*.webm
+*.jpg
+*.jpeg
+*.png
+*.webp
+*.parquet
+*.db
+__pycache__/
+.cache/
+

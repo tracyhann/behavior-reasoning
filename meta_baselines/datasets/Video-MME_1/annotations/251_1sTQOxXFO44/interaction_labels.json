@@ -1,0 +1,16 @@
+{
+  "annotation_metadata": {
+    "created_at": "2026-05-29T17:59:58.377691Z",
+    "label_status": "candidate_interaction_label",
+    "notes": [
+      "Candidate labels are based on sampled review frames and available audio/video context.",
+      "No interaction edge is labeled unless a directed co-present exchange is visible or strongly implied by the reviewed evidence."
+    ]
+  },
+  "clip_id": "videomme_251_1sTQOxXFO44",
+  "clip_path": "meta_baselines/datasets/Video-MME_1/videos/251_1sTQOxXFO44.mp4",
+  "episode_id": "251",
+  "interactions": [],
+  "schema_version": "care.interaction_annotation.v1",
+  "timebase": "video_relative_seconds"
+}

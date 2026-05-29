@@ -1,0 +1,233 @@
+{
+  "clip_id": "sivbench_010_sibling__video_146",
+  "duration_sec": 45.6,
+  "episode_id": "SIV010",
+  "schema_version": "care.sivbench_social_annotation_meta.v1",
+  "sivbench_qa_rows": [
+    {
+      "answer": "He will ask why they are making trouble.",
+      "category": "Factual Prediction",
+      "correct_answer_index": "A",
+      "index": "1504",
+      "options": "A. He will ask why they are making trouble., B. He will tell them to be quiet., C. He will invite them to play a game., D. He will remind them to do their homework., E. He will ask if they want a snack.",
+      "question": "What will the man say to the girl and boy?",
+      "question_id": "1504-1",
+      "video": "sibling/video_146",
+      "video_path": "sibling/video_146.mp4"
+    },
+    {
+      "answer": "They want to live at grandma's house.",
+      "category": "Emotion Inference",
+      "correct_answer_index": "B",
+      "index": "1504",
+      "options": "A. They want to go to the park., B. They want to live at grandma's house., C. They want to play video games., D. They want to visit their friends., E. They want to go to the beach.",
+      "question": "What do the children want?",
+      "question_id": "1504-2",
+      "video": "sibling/video_146",
+      "video_path": "sibling/video_146.mp4"
+    },
+    {
+      "answer": "Yes, it is correct; one shouldn't yell at children but should reason with them.",
+      "category": "Emotion Inference",
+      "correct_answer_index": "C",
+      "index": "1504",
+      "options": "A. No, it's better to ignore the child's behavior., B. Yes, but only when they're very young., C. Yes, it is correct; one shouldn't yell at children but should reason with them., D. No, reasoning is ineffective with children., E. Yes, yelling is more effective than talking.",
+      "question": "Is it correct to reason with children?",
+      "question_id": "1504-3",
+      "video": "sibling/video_146",
+      "video_path": "sibling/video_146.mp4"
+    },
+    {
+      "answer": "Confused.",
+      "category": "Attitude Inference",
+      "correct_answer_index": "D",
+      "index": "1504",
+      "options": "A. Elated., B. Frustrated., C. Indifferent., D. Confused., E. Hopeful.",
+      "question": "What is the attitude of the man at the end of the video?",
+      "question_id": "1504-4",
+      "video": "sibling/video_146",
+      "video_path": "sibling/video_146.mp4"
+    },
+    {
+      "answer": "Excited.",
+      "category": "Environment Perception",
+      "correct_answer_index": "D",
+      "index": "1504",
+      "options": "A. Disappointed., B. Angry., C. Indifferent., D. Excited., E. Confused.",
+      "question": "What is the tone of the girl when she says '奶奶这次可没跟我们俩喊哎'?",
+      "question_id": "1504-5",
+      "video": "sibling/video_146",
+      "video_path": "sibling/video_146.mp4"
+    },
+    {
+      "answer": "sibling",
+      "category": "Relation Inference",
+      "correct_answer_index": "C",
+      "index": "1504",
+      "options": "A. transactional, B. caregiver-recipient, C. sibling, D. colleagues, E. coach-player, F. friends, G. grandparent-child, H. parent-child, I. sports teammates, J. service, K. classmates, L. couple, M. teacher-student, N. boss-employee",
+      "question": "Which kind of relationship plays a dominant role in this video?",
+      "question_id": "1504-6",
+      "video": "sibling/video_146",
+      "video_path": "sibling/video_146.mp4"
+    },
+    {
+      "answer": "To recognize his face.",
+      "category": "Intent Inference",
+      "correct_answer_index": "E",
+      "index": "1514",
+      "options": "A. To play with his toys., B. To follow the noise of the music., C. To see what the adult is doing., D. To observe the colors of the room., E. To recognize his face.",
+      "question": "Why does the baby look at the toddler?",
+      "question_id": "1514-1",
+      "video": "sibling/video_146",
+      "video_path": "sibling/video_146.mp4"
+    },
+    {
+      "answer": "There might still be a recording of this child.",
+      "category": "Counterfactual Prediction",
+      "correct_answer_index": "C",
+      "index": "1514",
+      "options": "A. The video would definitely not be made., B. There may only be photos of the child., C. There might still be a recording of this child., D. Only the parents would have a video., E. The child would not be featured at all.",
+      "question": "Would there still be a video of this child if they had no siblings?",
+      "question_id": "1514-2",
+      "video": "sibling/video_146",
+      "video_path": "sibling/video_146.mp4"
+    },
+    {
+      "answer": "Upbeat and happy.",
+      "category": "Counterfactual Prediction",
+      "correct_answer_index": "D",
+      "index": "1514",
+      "options": "A. Melancholic and slow., B. Intense and dramatic., C. Mysterious and eerie., D. Upbeat and happy., E. Calm and relaxing.",
+      "question": "How would you describe the tone of the music used in this video?",
+      "question_id": "1514-3",
+      "video": "sibling/video_146",
+      "video_path": "sibling/video_146.mp4"
+    },
+    {
+      "answer": "He would look uninterested.",
+      "category": "Emotion Inference",
+      "correct_answer_index": "C",
+      "index": "1514",
+      "options": "A. He might smile enthusiastically., B. He would appear curious and excited., C. He would look uninterested., D. He could show a sense of jealousy., E. He may react with laughter and joy.",
+      "question": "If the toddler did not want a sibling, how might his expression differ when looking at the baby?",
+      "question_id": "1514-4",
+      "video": "sibling/video_146",
+      "video_path": "sibling/video_146.mp4"
+    },
+    {
+      "answer": "To show affection",
+      "category": "Intent Inference",
+      "correct_answer_index": "E",
+      "index": "1554",
+      "options": "A. To share a secret, B. To compete in a game, C. To celebrate a victory, D. To discuss a plan, E. To show affection",
+      "question": "Why do the individuals hug and laugh together?",
+      "question_id": "1554-1",
+      "video": "sibling/video_146",
+      "video_path": "sibling/video_146.mp4"
+    },
+    {
+      "answer": "Continue spending time together",
+      "category": "Factual Prediction",
+      "correct_answer_index": "E",
+      "index": "1554",
+      "options": "A. Leave the area immediately, B. Start working on a project, C. Engage in a heated debate, D. Plan their next vacation, E. Continue spending time together",
+      "question": "What will the individuals do next?",
+      "question_id": "1554-2",
+      "video": "sibling/video_146",
+      "video_path": "sibling/video_146.mp4"
+    },
+    {
+      "answer": "In a small outdoor park",
+      "category": "Environment Perception",
+      "correct_answer_index": "D",
+      "index": "1554",
+      "options": "A. In a large indoor studio, B. At a university campus, C. On a busy city street, D. In a small outdoor park, E. In a private home",
+      "question": "Where did they film the video?",
+      "question_id": "1554-3",
+      "video": "sibling/video_146",
+      "video_path": "sibling/video_146.mp4"
+    },
+    {
+      "answer": "There would be no physical contact.",
+      "category": "Counterfactual Prediction",
+      "correct_answer_index": "C",
+      "index": "1554",
+      "options": "A. They might avoid eye contact., B. Conversations would be more formal., C. There would be no physical contact., D. Body language would be more reserved., E. Emotions would likely be less expressive.",
+      "question": "How would the interaction change if the individuals were strangers?",
+      "question_id": "1554-4",
+      "video": "sibling/video_146",
+      "video_path": "sibling/video_146.mp4"
+    },
+    {
+      "answer": "They might chat.",
+      "category": "Emotion Inference",
+      "correct_answer_index": "B",
+      "index": "1597",
+      "options": "A. They might edit the video., B. They might chat., C. They might upload the video online., D. They might review the footage., E. They might take a break.",
+      "question": "What might they do after filming the video?",
+      "question_id": "1597-1",
+      "video": "sibling/video_146",
+      "video_path": "sibling/video_146.mp4"
+    },
+    {
+      "answer": "No, it depends on their own abilities.",
+      "category": "Emotion Inference",
+      "correct_answer_index": "D",
+      "index": "1597",
+      "options": "A. Yes, it is entirely reliant on teachers., B. Yes, parental involvement is crucial., C. No, but environment plays a significant role., D. No, it depends on their own abilities., E. Yes, children learn best through peer interactions.",
+      "question": "Does a child's learning ability depend on others' guidance?",
+      "question_id": "1597-2",
+      "video": "sibling/video_146",
+      "video_path": "sibling/video_146.mp4"
+    },
+    {
+      "answer": "To hide his embarrassment.",
+      "category": "Intent Inference",
+      "correct_answer_index": "A",
+      "index": "1597",
+      "options": "A. To hide his embarrassment., B. To shield himself from the sun., C. To play a game of peek-a-boo., D. To express his excitement about the next question., E. To demonstrate his artistic flair.",
+      "question": "Why does the child on the left cover his face after answering incorrectly?",
+      "question_id": "1597-3",
+      "video": "sibling/video_146",
+      "video_path": "sibling/video_146.mp4"
+    },
+    {
+      "answer": "Confusion.",
+      "category": "Emotion Inference",
+      "correct_answer_index": "D",
+      "index": "1597",
+      "options": "A. Excitement., B. Indifference., C. Joy., D. Confusion., E. Frustration.",
+      "question": "What emotion is the child who is learning displaying just before the object falls down?",
+      "question_id": "1597-4",
+      "video": "sibling/video_146",
+      "video_path": "sibling/video_146.mp4"
+    },
+    {
+      "answer": "She is trying to be authoritative.",
+      "category": "Emotion Inference",
+      "correct_answer_index": "D",
+      "index": "1597",
+      "options": "A. He wants to make it fun., B. She is feeling very relaxed., C. He is excited to teach., D. She is trying to be authoritative., E. He is getting frustrated.",
+      "question": "Why is the tone of the child teaching somewhat stern?",
+      "question_id": "1597-5",
+      "video": "sibling/video_146",
+      "video_path": "sibling/video_146.mp4"
+    },
+    {
+      "answer": "The other child will get frustrated and leave.",
+      "category": "Factual Prediction",
+      "correct_answer_index": "D",
+      "index": "1597",
+      "options": "A. The other child will start laughing out loud., B. The other child will join in the game., C. The other child will ask for help with the task., D. The other child will get frustrated and leave., E. The other child will become curious and approach.",
+      "question": "What is most likely to happen next?",
+      "question_id": "1597-6",
+      "video": "sibling/video_146",
+      "video_path": "sibling/video_146.mp4"
+    }
+  ],
+  "source_dataset": "Fancylalala/SIV-Bench",
+  "source_hf_url": "https://huggingface.co/datasets/Fancylalala/SIV-Bench",
+  "source_relation_category": "sibling",
+  "summary": "Two children talk on a couch before an adult enters at the end.",
+  "video_path": "meta_baselines/datasets/SIV-Bench_10/origin/sibling/video_146.mp4"
+}

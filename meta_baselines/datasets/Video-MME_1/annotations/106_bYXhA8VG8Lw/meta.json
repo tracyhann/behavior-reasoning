@@ -1,0 +1,11 @@
+{
+  "clip_id": "videomme_106_bYXhA8VG8Lw",
+  "duration_sec": 95.6,
+  "label_status": "candidate",
+  "schema_version": "care.videomme_social_annotation_meta.v1",
+  "source_category": "Film & Television / Movie & TV Show",
+  "summary": "A woman speaks closely to a curly-haired man, who later responds while another man is present.",
+  "videoID": "bYXhA8VG8Lw",
+  "video_id": "106",
+  "video_path": "meta_baselines/datasets/Video-MME_1/videos/106_bYXhA8VG8Lw.mp4"
+}

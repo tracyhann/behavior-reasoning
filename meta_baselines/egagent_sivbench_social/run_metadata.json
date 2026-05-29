@@ -1,0 +1,14 @@
+{
+  "annotation_root": "meta_baselines/datasets/SIV-Bench_10/annotations",
+  "baseline_name": "egagent_style_sivbench_social_adapter",
+  "created_at": "2026-05-29T09:45:12.145717Z",
+  "dataset_root": "meta_baselines/datasets/SIV-Bench_10",
+  "downloaded_video_count": 10,
+  "notes": [
+    "This adapter evaluates CARE-style social labels over selected SIV-Bench samples.",
+    "Labels are candidate labels and should be adjudicated before publication use."
+  ],
+  "schema_version": "care.meta_baseline.sivbench_social_run_metadata.v1",
+  "upstream_egagent_unmodified": false,
+  "upstream_repo": "facebookresearch/egagent"
+}

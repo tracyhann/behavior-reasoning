@@ -1,0 +1,92 @@
+{
+  "annotation_metadata": {
+    "created_at": "2026-05-29T09:45:12.145041Z",
+    "label_status": "candidate_interaction_label",
+    "notes": [
+      "Interaction labels use semantic character IDs from character_labels.json.",
+      "Timing is approximate pending adjudication with audio and frame-level review."
+    ],
+    "source_dataset": "Fancylalala/SIV-Bench",
+    "source_relation_category": "sibling"
+  },
+  "clip_id": "sivbench_010_sibling__video_146",
+  "clip_path": "meta_baselines/datasets/SIV-Bench_10/origin/sibling/video_146.mp4",
+  "episode_id": "SIV010",
+  "interactions": [
+    {
+      "actor_id": "C1",
+      "evidence": [
+        {
+          "end_sec": 18.0,
+          "evidence_description": "C1 talks while seated next to C2 on the couch.",
+          "modality": "audio_visual",
+          "start_sec": 0.0
+        }
+      ],
+      "interaction_id": "SIV010_INT001",
+      "recipient_ids": [
+        "C2"
+      ],
+      "relation": "talks_to",
+      "status": "labeled_interaction",
+      "time_spans_sec": [
+        [
+          0.0,
+          18.0
+        ]
+      ],
+      "timebase": "video_relative_seconds"
+    },
+    {
+      "actor_id": "C2",
+      "evidence": [
+        {
+          "end_sec": 35.0,
+          "evidence_description": "C2 turns toward and talks with C1.",
+          "modality": "audio_visual",
+          "start_sec": 18.0
+        }
+      ],
+      "interaction_id": "SIV010_INT002",
+      "recipient_ids": [
+        "C1"
+      ],
+      "relation": "talks_to",
+      "status": "labeled_interaction",
+      "time_spans_sec": [
+        [
+          18.0,
+          35.0
+        ]
+      ],
+      "timebase": "video_relative_seconds"
+    },
+    {
+      "actor_id": "C3",
+      "evidence": [
+        {
+          "end_sec": 45.6,
+          "evidence_description": "C3 enters and addresses the two children.",
+          "modality": "audio_visual",
+          "start_sec": 37.0
+        }
+      ],
+      "interaction_id": "SIV010_INT003",
+      "recipient_ids": [
+        "C1",
+        "C2"
+      ],
+      "relation": "talks_to_group",
+      "status": "labeled_interaction",
+      "time_spans_sec": [
+        [
+          37.0,
+          45.6
+        ]
+      ],
+      "timebase": "video_relative_seconds"
+    }
+  ],
+  "schema_version": "care.interaction_annotation.v1",
+  "timebase": "video_relative_seconds"
+}

@@ -1,0 +1,90 @@
+{
+  "annotation_metadata": {
+    "created_at": "2026-05-29T17:59:58.377099Z",
+    "label_status": "candidate_interaction_label",
+    "notes": [
+      "Candidate labels are based on sampled review frames and available audio/video context.",
+      "No interaction edge is labeled unless a directed co-present exchange is visible or strongly implied by the reviewed evidence."
+    ]
+  },
+  "clip_id": "videomme_105_rQhLWHtHyiM",
+  "clip_path": "meta_baselines/datasets/Video-MME_1/videos/105_rQhLWHtHyiM.mp4",
+  "episode_id": "105",
+  "interactions": [
+    {
+      "actor_id": "C1",
+      "evidence": [
+        {
+          "end_sec": 8.9,
+          "evidence_description": "C1 raises a hand and gestures toward C2's side of the room.",
+          "modality": "visual",
+          "start_sec": 0.0
+        }
+      ],
+      "interaction_id": "VMME105_INT001",
+      "recipient_ids": [
+        "C2"
+      ],
+      "relation": "gestures_toward",
+      "status": "labeled_interaction",
+      "time_spans_sec": [
+        [
+          0.0,
+          8.9
+        ]
+      ],
+      "timebase": "video_relative_seconds"
+    },
+    {
+      "actor_id": "C1",
+      "evidence": [
+        {
+          "end_sec": 31.1,
+          "evidence_description": "C1 faces the other visible adults during the room exchange.",
+          "modality": "audio_visual",
+          "start_sec": 22.2
+        }
+      ],
+      "interaction_id": "VMME105_INT002",
+      "recipient_ids": [
+        "C2",
+        "C3"
+      ],
+      "relation": "talks_to_group",
+      "status": "labeled_interaction",
+      "time_spans_sec": [
+        [
+          22.2,
+          31.1
+        ]
+      ],
+      "timebase": "video_relative_seconds"
+    },
+    {
+      "actor_id": "C2",
+      "evidence": [
+        {
+          "end_sec": 44.4,
+          "evidence_description": "C2 responds with a directed hand/arm gesture toward C1.",
+          "modality": "visual",
+          "start_sec": 39.9
+        }
+      ],
+      "interaction_id": "VMME105_INT003",
+      "recipient_ids": [
+        "C1"
+      ],
+      "relation": "gestures_toward",
+      "status": "labeled_interaction",
+      "time_spans_sec": [
+        [
+          39.9,
+          44.4
+        ]
+      ],
+      "timebase": "video_relative_seconds"
+    }
+  ],
+  "schema_version": "care.interaction_annotation.v1",
+  "timebase": "video_relative_seconds"
+}

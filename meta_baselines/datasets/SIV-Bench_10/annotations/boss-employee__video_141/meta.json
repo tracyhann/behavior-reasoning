@@ -1,0 +1,35 @@
+{
+  "clip_id": "sivbench_001_boss-employee__video_141",
+  "duration_sec": 13.04,
+  "episode_id": "SIV001",
+  "schema_version": "care.sivbench_social_annotation_meta.v1",
+  "sivbench_qa_rows": [
+    {
+      "answer": "Because the information is supposed to be confidential",
+      "category": "Environment Perception",
+      "correct_answer_index": "B",
+      "index": "0001",
+      "options": "A. Because she fears the consequences of sharing it, B. Because the information is supposed to be confidential, C. Because she isn't sure if it's accurate information, D. Because she wants to protect someone involved, E. Because she believes it could cause misunderstandings",
+      "question": "Why is the woman hesitant to reveal what she knows?",
+      "question_id": "0001-1",
+      "video": "boss-employee/video_141",
+      "video_path": "boss-employee/video_141.mp4"
+    },
+    {
+      "answer": "boss-employee",
+      "category": "Relation Inference",
+      "correct_answer_index": "L",
+      "index": "0001",
+      "options": "A. service, B. grandparent-child, C. friends, D. transactional, E. colleagues, F. parent-child, G. couple, H. caregiver-recipient, I. coach-player, J. teacher-student, K. sibling, L. boss-employee, M. classmates, N. teammates",
+      "question": "Which kind of relationship plays a dominant role in this video?",
+      "question_id": "0001-2",
+      "video": "boss-employee/video_141",
+      "video_path": "boss-employee/video_141.mp4"
+    }
+  ],
+  "source_dataset": "Fancylalala/SIV-Bench",
+  "source_hf_url": "https://huggingface.co/datasets/Fancylalala/SIV-Bench",
+  "source_relation_category": "boss-employee",
+  "summary": "Two office characters discuss confidential information.",
+  "video_path": "meta_baselines/datasets/SIV-Bench_10/origin/boss-employee/video_141.mp4"
+}

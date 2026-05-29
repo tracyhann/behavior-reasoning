@@ -1,0 +1,145 @@
+{
+  "clip_id": "sivbench_009_service__video_73",
+  "duration_sec": 60.06666666666667,
+  "episode_id": "SIV009",
+  "schema_version": "care.sivbench_social_annotation_meta.v1",
+  "sivbench_qa_rows": [
+    {
+      "answer": "Continue walking on the runway.",
+      "category": "Human Attribute Identification",
+      "correct_answer_index": "C",
+      "index": "1251",
+      "options": "A. Take a seat in the front row., B. Start a conversation with a friend., C. Continue walking on the runway., D. Leave the venue immediately., E. Begin to take photographs of the audience.",
+      "question": "What will the person do after posing in front of the 'BOSS' sign?",
+      "question_id": "1251-1",
+      "video": "service/video_73",
+      "video_path": "service/video_73.mp4"
+    },
+    {
+      "answer": "People would likely express more sympathy.",
+      "category": "Counterfactual Prediction",
+      "correct_answer_index": "E",
+      "index": "1251",
+      "options": "A. People would probably laugh at the situation., B. People would mostly ignore the struggle., C. People would feel annoyed by the disturbance., D. People would outright criticize the individual., E. People would likely express more sympathy.",
+      "question": "How would people react if the person was struggling to carry the leg around?",
+      "question_id": "1251-2",
+      "video": "service/video_73",
+      "video_path": "service/video_73.mp4"
+    },
+    {
+      "answer": "service",
+      "category": "Relation Inference",
+      "correct_answer_index": "H",
+      "index": "1251",
+      "options": "A. sibling, B. boss-employee, C. caregiver-recipient, D. couple, E. grandparent-child, F. classmates, G. sports teammates, H. service, I. coach-player, J. transactional, K. friends, L. colleagues, M. parent-child, N. teacher-student",
+      "question": "Which kind of relationship plays a dominant role in this video?",
+      "question_id": "1251-3",
+      "video": "service/video_73",
+      "video_path": "service/video_73.mp4"
+    },
+    {
+      "answer": "Because she perceives them as being rude and obnoxious to the employee.",
+      "category": "Environment Perception",
+      "correct_answer_index": "D",
+      "index": "1323",
+      "options": "A. Because she thinks the music is too loud and disruptive for everyone., B. Because she wants to ensure there is enough space for her family to sit., C. Because she believes they are taking too long to order and holding up the line., D. Because she perceives them as being rude and obnoxious to the employee., E. Because she feels they are discussing inappropriate topics in a public setting.",
+      "question": "Why does the older lady tell the younger ladies to get out of the restaurant?",
+      "question_id": "1323-1",
+      "video": "service/video_73",
+      "video_path": "service/video_73.mp4"
+    },
+    {
+      "answer": "Because they treated the waiter rudely, provoking public outrage.",
+      "category": "Intent Inference",
+      "correct_answer_index": "D",
+      "index": "1323",
+      "options": "A. Because they didn't pay their bill and caused a scene., B. Because they arrived late and disrupted the service., C. Because they were arguing loudly with each other., D. Because they treated the waiter rudely, provoking public outrage., E. Because they spilled food on the floor without cleaning it up.",
+      "question": "Why were the two women kicked out of the restaurant at the end of the video?",
+      "question_id": "1323-2",
+      "video": "service/video_73",
+      "video_path": "service/video_73.mp4"
+    },
+    {
+      "answer": "Sarcastic and mocking.",
+      "category": "Emotion Inference",
+      "correct_answer_index": "D",
+      "index": "1323",
+      "options": "A. Friendly and supportive., B. Joyful and enthusiastic., C. Mild and indifferent., D. Sarcastic and mocking., E. Tense and confrontational.",
+      "question": "What is the general tone of the conversation between the two women at the beginning of the video?",
+      "question_id": "1323-3",
+      "video": "service/video_73",
+      "video_path": "service/video_73.mp4"
+    },
+    {
+      "answer": "She may have given them a strict warning immediately.",
+      "category": "Counterfactual Prediction",
+      "correct_answer_index": "A",
+      "index": "1323",
+      "options": "A. She may have given them a strict warning immediately., B. She might have ignored them completely., C. She could have started a lively discussion instead., D. She would have probably laughed and joined in the fun., E. She would have likely asked them to leave in a calmer manner.",
+      "question": "If the seated older lady were a manager, how would the interaction with the younger ladies have changed?",
+      "question_id": "1323-4",
+      "video": "service/video_73",
+      "video_path": "service/video_73.mp4"
+    },
+    {
+      "answer": "Receiving a report.",
+      "category": "Emotion Inference",
+      "correct_answer_index": "D",
+      "index": "1392",
+      "options": "A. Being praised for her actions., B. Gaining more friends., C. Receiving a compliment., D. Receiving a report., E. Being ignored by others.",
+      "question": "What might happen as a result of this woman's behavior?",
+      "question_id": "1392-1",
+      "video": "service/video_73",
+      "video_path": "service/video_73.mp4"
+    },
+    {
+      "answer": "Because of discrimination based on race.",
+      "category": "Environment Perception",
+      "correct_answer_index": "A",
+      "index": "1392",
+      "options": "A. Because of discrimination based on race., B. Due to societal expectations placed on them., C. Because they feel undervalued at work., D. As a result of cultural stereotypes., E. Due to lack of representation in leadership roles.",
+      "question": "Why do women express dissatisfaction?",
+      "question_id": "1392-2",
+      "video": "service/video_73",
+      "video_path": "service/video_73.mp4"
+    },
+    {
+      "answer": "To express her anger and disrespect.",
+      "category": "Intent Inference",
+      "correct_answer_index": "C",
+      "index": "1392",
+      "options": "A. To share a meal with her friends., B. To demonstrate cooking skills., C. To express her anger and disrespect., D. To create a makeshift decoration., E. To signal the start of a celebration.",
+      "question": "Why does the woman throw the food on the table?",
+      "question_id": "1392-3",
+      "video": "service/video_73",
+      "video_path": "service/video_73.mp4"
+    },
+    {
+      "answer": "She is discriminating him.",
+      "category": "Intent Inference",
+      "correct_answer_index": "D",
+      "index": "1392",
+      "options": "A. She wants him to explore new opportunities., B. She believes the other place offers better services., C. She is trying to help him find more friends., D. She is discriminating him., E. She is concerned about his safety in that area.",
+      "question": "Why does the woman suggest the young man go to another place down the street?",
+      "question_id": "1392-4",
+      "video": "service/video_73",
+      "video_path": "service/video_73.mp4"
+    },
+    {
+      "answer": "service",
+      "category": "Relation Inference",
+      "correct_answer_index": "B",
+      "index": "1392",
+      "options": "A. boss-employee, B. service, C. classmates, D. colleagues, E. grandparent-child, F. transactional, G. sibling, H. sports teammates, I. teacher-student, J. couple, K. parent-child, L. caregiver-recipient, M. coach-player, N. friends",
+      "question": "Which kind of relationship plays a dominant role in this video?",
+      "question_id": "1392-5",
+      "video": "service/video_73",
+      "video_path": "service/video_73.mp4"
+    }
+  ],
+  "source_dataset": "Fancylalala/SIV-Bench",
+  "source_hf_url": "https://huggingface.co/datasets/Fancylalala/SIV-Bench",
+  "source_relation_category": "service",
+  "summary": "A waitress and restaurant customer interact in a service scenario.",
+  "video_path": "meta_baselines/datasets/SIV-Bench_10/origin/service/video_73.mp4"
+}

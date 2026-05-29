@@ -1,0 +1,90 @@
+{
+  "annotation_metadata": {
+    "created_at": "2026-05-29T17:59:58.377410Z",
+    "label_status": "candidate_interaction_label",
+    "notes": [
+      "Candidate labels are based on sampled review frames and available audio/video context.",
+      "No interaction edge is labeled unless a directed co-present exchange is visible or strongly implied by the reviewed evidence."
+    ]
+  },
+  "clip_id": "videomme_106_bYXhA8VG8Lw",
+  "clip_path": "meta_baselines/datasets/Video-MME_1/videos/106_bYXhA8VG8Lw.mp4",
+  "episode_id": "106",
+  "interactions": [
+    {
+      "actor_id": "C2",
+      "evidence": [
+        {
+          "end_sec": 34.8,
+          "evidence_description": "C2 stays close to C1 and speaks into his personal space.",
+          "modality": "audio_visual",
+          "start_sec": 8.7
+        }
+      ],
+      "interaction_id": "VMME106_INT001",
+      "recipient_ids": [
+        "C1"
+      ],
+      "relation": "talks_to",
+      "status": "labeled_interaction",
+      "time_spans_sec": [
+        [
+          8.7,
+          34.8
+        ]
+      ],
+      "timebase": "video_relative_seconds"
+    },
+    {
+      "actor_id": "C1",
+      "evidence": [
+        {
+          "end_sec": 86.9,
+          "evidence_description": "C1 turns back toward C2 and answers during the close exchange.",
+          "modality": "audio_visual",
+          "start_sec": 52.1
+        }
+      ],
+      "interaction_id": "VMME106_INT002",
+      "recipient_ids": [
+        "C2"
+      ],
+      "relation": "talks_to",
+      "status": "labeled_interaction",
+      "time_spans_sec": [
+        [
+          52.1,
+          86.9
+        ]
+      ],
+      "timebase": "video_relative_seconds"
+    },
+    {
+      "actor_id": "C3",
+      "evidence": [
+        {
+          "end_sec": 43.5,
+          "evidence_description": "C3 attends toward the interaction at the table.",
+          "modality": "visual",
+          "start_sec": 34.8
+        }
+      ],
+      "interaction_id": "VMME106_INT003",
+      "recipient_ids": [
+        "C1",
+        "C2"
+      ],
+      "relation": "attends_to_group",
+      "status": "labeled_interaction",
+      "time_spans_sec": [
+        [
+          34.8,
+          43.5
+        ]
+      ],
+      "timebase": "video_relative_seconds"
+    }
+  ],
+  "schema_version": "care.interaction_annotation.v1",
+  "timebase": "video_relative_seconds"
+}

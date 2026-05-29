@@ -1,0 +1,129 @@
+{
+  "created_at": "2026-05-29T17:47:40.777942Z",
+  "dataset": "lmms-lab/Video-MME",
+  "downloaded_video_count": 10,
+  "schema_version": "care.meta_baselines.videomme_download_manifest.v2",
+  "selection_policy": "balanced_human_centric_life_record_and_film_television",
+  "videos": [
+    {
+      "bytes": 6165777,
+      "domain": "Film & Television",
+      "download_mode": "source_url_from_videomme_metadata_yt_dlp_video_audio_merged",
+      "downloaded_at": "2026-05-29T17:41:44.191408Z",
+      "duration_bucket": "short",
+      "local_path": "meta_baselines/datasets/Video-MME_1/videos/101_tiMaUSvlzIU.mp4",
+      "source_url": "https://www.youtube.com/watch?v=tiMaUSvlzIU",
+      "sub_category": "Movie & TV Show",
+      "videoID": "tiMaUSvlzIU",
+      "video_id": "101"
+    },
+    {
+      "bytes": 46715900,
+      "domain": "Film & Television",
+      "download_mode": "source_url_from_videomme_metadata_yt_dlp_video_audio_merged_transcoded_h264_aac",
+      "downloaded_at": "2026-05-29T17:41:44.191454Z",
+      "duration_bucket": "short",
+      "local_path": "meta_baselines/datasets/Video-MME_1/videos/103_G267g0DpCVg.mp4",
+      "source_url": "https://www.youtube.com/watch?v=G267g0DpCVg",
+      "sub_category": "Movie & TV Show",
+      "videoID": "G267g0DpCVg",
+      "video_id": "103"
+    },
+    {
+      "bytes": 4636835,
+      "domain": "Film & Television",
+      "download_mode": "source_url_from_videomme_metadata_yt_dlp_video_audio_merged",
+      "downloaded_at": "2026-05-29T17:41:44.191484Z",
+      "duration_bucket": "short",
+      "local_path": "meta_baselines/datasets/Video-MME_1/videos/104__cZXyj6rYVg.mp4",
+      "source_url": "https://www.youtube.com/watch?v=_cZXyj6rYVg",
+      "sub_category": "Movie & TV Show",
+      "videoID": "_cZXyj6rYVg",
+      "video_id": "104"
+    },
+    {
+      "bytes": 8896637,
+      "domain": "Film & Television",
+      "download_mode": "source_url_from_videomme_metadata_yt_dlp_video_audio_merged",
+      "downloaded_at": "2026-05-29T17:41:44.191511Z",
+      "duration_bucket": "short",
+      "local_path": "meta_baselines/datasets/Video-MME_1/videos/105_rQhLWHtHyiM.mp4",
+      "source_url": "https://www.youtube.com/watch?v=rQhLWHtHyiM",
+      "sub_category": "Movie & TV Show",
+      "videoID": "rQhLWHtHyiM",
+      "video_id": "105"
+    },
+    {
+      "bytes": 7522584,
+      "domain": "Film & Television",
+      "download_mode": "source_url_from_videomme_metadata_yt_dlp_video_audio_merged_transcoded_h264_aac",
+      "downloaded_at": "2026-05-29T17:41:44.191536Z",
+      "duration_bucket": "short",
+      "local_path": "meta_baselines/datasets/Video-MME_1/videos/106_bYXhA8VG8Lw.mp4",
+      "source_url": "https://www.youtube.com/watch?v=bYXhA8VG8Lw",
+      "sub_category": "Movie & TV Show",
+      "videoID": "bYXhA8VG8Lw",
+      "video_id": "106"
+    },
+    {
+      "bytes": 34746910,
+      "domain": "Life Record",
+      "download_mode": "source_url_from_videomme_metadata_yt_dlp_video_audio_merged",
+      "downloaded_at": "2026-05-29T17:41:44.191562Z",
+      "duration_bucket": "short",
+      "local_path": "meta_baselines/datasets/Video-MME_1/videos/251_1sTQOxXFO44.mp4",
+      "source_url": "https://www.youtube.com/watch?v=1sTQOxXFO44",
+      "sub_category": "Daily Life",
+      "videoID": "1sTQOxXFO44",
+      "video_id": "251"
+    },
+    {
+      "bytes": 38648654,
+      "domain": "Life Record",
+      "download_mode": "source_url_from_videomme_metadata_yt_dlp_video_audio_merged_transcoded_h264_aac",
+      "downloaded_at": "2026-05-29T17:41:44.191586Z",
+      "duration_bucket": "short",
+      "local_path": "meta_baselines/datasets/Video-MME_1/videos/252_RP1AL2DU6vQ.mp4",
+      "source_url": "https://www.youtube.com/watch?v=RP1AL2DU6vQ",
+      "sub_category": "Daily Life",
+      "videoID": "RP1AL2DU6vQ",
+      "video_id": "252"
+    },
+    {
+      "bytes": 53557698,
+      "domain": "Life Record",
+      "download_mode": "source_url_from_videomme_metadata_yt_dlp_video_audio_merged_transcoded_h264_aac",
+      "downloaded_at": "2026-05-29T17:47:40.777942Z",
+      "duration_bucket": "short",
+      "local_path": "meta_baselines/datasets/Video-MME_1/videos/257_s-lM2uwiwyQ.mp4",
+      "source_url": "https://www.youtube.com/watch?v=s-lM2uwiwyQ",
+      "sub_category": "Daily Life",
+      "videoID": "s-lM2uwiwyQ",
+      "video_id": "257"
+    },
+    {
+      "bytes": 54849201,
+      "domain": "Life Record",
+      "download_mode": "source_url_from_videomme_metadata_yt_dlp_video_audio_merged",
+      "downloaded_at": "2026-05-29T17:41:44.191636Z",
+      "duration_bucket": "short",
+      "local_path": "meta_baselines/datasets/Video-MME_1/videos/255_CQUphYL0vY8.mp4",
+      "source_url": "https://www.youtube.com/watch?v=CQUphYL0vY8",
+      "sub_category": "Daily Life",
+      "videoID": "CQUphYL0vY8",
+      "video_id": "255"
+    },
+    {
+      "bytes": 36625248,
+      "domain": "Life Record",
+      "download_mode": "source_url_from_videomme_metadata_yt_dlp_video_audio_merged",
+      "downloaded_at": "2026-05-29T17:41:44.191661Z",
+      "duration_bucket": "short",
+      "local_path": "meta_baselines/datasets/Video-MME_1/videos/256_aFfMGy94sjE.mp4",
+      "source_url": "https://www.youtube.com/watch?v=aFfMGy94sjE",
+      "sub_category": "Daily Life",
+      "videoID": "aFfMGy94sjE",
+      "video_id": "256"
+    }
+  ]
+}

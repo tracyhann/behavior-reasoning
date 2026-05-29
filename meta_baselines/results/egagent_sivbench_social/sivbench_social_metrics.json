@@ -1,0 +1,588 @@
+{
+  "baseline_name": "egagent_style_sivbench_social_strict_adapter",
+  "created_at": "2026-05-29T09:45:12.149397Z",
+  "directed_edge_micro": {
+    "f1": 0.0,
+    "precision": 0.0,
+    "recall": 0.0
+  },
+  "gold_edge_count": 13,
+  "predicted_edge_count": 0,
+  "question_correct": 26,
+  "question_details": [
+    {
+      "clip_id": "sivbench_001_boss-employee__video_141",
+      "correct": true,
+      "gold": 2,
+      "metric_key": "character_count",
+      "prediction": 2
+    },
+    {
+      "clip_id": "sivbench_001_boss-employee__video_141",
+      "correct": true,
+      "gold": [
+        "C1",
+        "C2"
+      ],
+      "metric_key": "present_characters",
+      "prediction": [
+        "C1",
+        "C2"
+      ]
+    },
+    {
+      "clip_id": "sivbench_001_boss-employee__video_141",
+      "correct": false,
+      "gold": "C1",
+      "metric_key": "first_interaction_initiator",
+      "prediction": null
+    },
+    {
+      "clip_id": "sivbench_001_boss-employee__video_141",
+      "correct": false,
+      "gold": "C1",
+      "metric_key": "c2_talked_to",
+      "prediction": null
+    },
+    {
+      "clip_id": "sivbench_001_boss-employee__video_141",
+      "correct": false,
+      "gold": true,
+      "metric_key": "recipient_responded_to_first_initiator",
+      "prediction": false
+    },
+    {
+      "clip_id": "sivbench_001_boss-employee__video_141",
+      "correct": false,
+      "gold": true,
+      "metric_key": "c1_interacted_with_any_character",
+      "prediction": false
+    },
+    {
+      "clip_id": "sivbench_001_boss-employee__video_141",
+      "correct": false,
+      "gold": true,
+      "metric_key": "c1_and_c2_interacted",
+      "prediction": false
+    },
+    {
+      "clip_id": "sivbench_002_caregiver-recipient__video_18",
+      "correct": true,
+      "gold": 2,
+      "metric_key": "character_count",
+      "prediction": 2
+    },
+    {
+      "clip_id": "sivbench_002_caregiver-recipient__video_18",
+      "correct": true,
+      "gold": [
+        "C1",
+        "C2"
+      ],
+      "metric_key": "present_characters",
+      "prediction": [
+        "C1",
+        "C2"
+      ]
+    },
+    {
+      "clip_id": "sivbench_002_caregiver-recipient__video_18",
+      "correct": false,
+      "gold": "C1",
+      "metric_key": "first_interaction_initiator",
+      "prediction": null
+    },
+    {
+      "clip_id": "sivbench_002_caregiver-recipient__video_18",
+      "correct": true,
+      "gold": null,
+      "metric_key": "c2_talked_to",
+      "prediction": null
+    },
+    {
+      "clip_id": "sivbench_002_caregiver-recipient__video_18",
+      "correct": false,
+      "gold": true,
+      "metric_key": "recipient_responded_to_first_initiator",
+      "prediction": false
+    },
+    {
+      "clip_id": "sivbench_002_caregiver-recipient__video_18",
+      "correct": false,
+      "gold": true,
+      "metric_key": "c1_interacted_with_any_character",
+      "prediction": false
+    },
+    {
+      "clip_id": "sivbench_002_caregiver-recipient__video_18",
+      "correct": false,
+      "gold": true,
+      "metric_key": "c1_and_c2_interacted",
+      "prediction": false
+    },
+    {
+      "clip_id": "sivbench_003_classmates__video_63",
+      "correct": true,
+      "gold": 5,
+      "metric_key": "character_count",
+      "prediction": 5
+    },
+    {
+      "clip_id": "sivbench_003_classmates__video_63",
+      "correct": true,
+      "gold": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5"
+      ],
+      "metric_key": "present_characters",
+      "prediction": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5"
+      ]
+    },
+    {
+      "clip_id": "sivbench_003_classmates__video_63",
+      "correct": false,
+      "gold": "C4",
+      "metric_key": "first_interaction_initiator",
+      "prediction": null
+    },
+    {
+      "clip_id": "sivbench_003_classmates__video_63",
+      "correct": true,
+      "gold": null,
+      "metric_key": "c2_talked_to",
+      "prediction": null
+    },
+    {
+      "clip_id": "sivbench_003_classmates__video_63",
+      "correct": false,
+      "gold": true,
+      "metric_key": "recipient_responded_to_first_initiator",
+      "prediction": false
+    },
+    {
+      "clip_id": "sivbench_003_classmates__video_63",
+      "correct": true,
+      "gold": false,
+      "metric_key": "c1_interacted_with_any_character",
+      "prediction": false
+    },
+    {
+      "clip_id": "sivbench_003_classmates__video_63",
+      "correct": true,
+      "gold": false,
+      "metric_key": "c1_and_c2_interacted",
+      "prediction": false
+    },
+    {
+      "clip_id": "sivbench_004_coach-player__video_147",
+      "correct": true,
+      "gold": 3,
+      "metric_key": "character_count",
+      "prediction": 3
+    },
+    {
+      "clip_id": "sivbench_004_coach-player__video_147",
+      "correct": true,
+      "gold": [
+        "C1",
+        "C2",
+        "C3"
+      ],
+      "metric_key": "present_characters",
+      "prediction": [
+        "C1",
+        "C2",
+        "C3"
+      ]
+    },
+    {
+      "clip_id": "sivbench_004_coach-player__video_147",
+      "correct": false,
+      "gold": "C1",
+      "metric_key": "first_interaction_initiator",
+      "prediction": null
+    },
+    {
+      "clip_id": "sivbench_004_coach-player__video_147",
+      "correct": true,
+      "gold": null,
+      "metric_key": "c2_talked_to",
+      "prediction": null
+    },
+    {
+      "clip_id": "sivbench_004_coach-player__video_147",
+      "correct": false,
+      "gold": true,
+      "metric_key": "recipient_responded_to_first_initiator",
+      "prediction": false
+    },
+    {
+      "clip_id": "sivbench_004_coach-player__video_147",
+      "correct": false,
+      "gold": true,
+      "metric_key": "c1_interacted_with_any_character",
+      "prediction": false
+    },
+    {
+      "clip_id": "sivbench_004_coach-player__video_147",
+      "correct": false,
+      "gold": true,
+      "metric_key": "c1_and_c2_interacted",
+      "prediction": false
+    },
+    {
+      "clip_id": "sivbench_005_colleague__video_114",
+      "correct": true,
+      "gold": 5,
+      "metric_key": "character_count",
+      "prediction": 5
+    },
+    {
+      "clip_id": "sivbench_005_colleague__video_114",
+      "correct": true,
+      "gold": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5"
+      ],
+      "metric_key": "present_characters",
+      "prediction": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5"
+      ]
+    },
+    {
+      "clip_id": "sivbench_005_colleague__video_114",
+      "correct": false,
+      "gold": "C1",
+      "metric_key": "first_interaction_initiator",
+      "prediction": null
+    },
+    {
+      "clip_id": "sivbench_005_colleague__video_114",
+      "correct": false,
+      "gold": "C1",
+      "metric_key": "c2_talked_to",
+      "prediction": null
+    },
+    {
+      "clip_id": "sivbench_005_colleague__video_114",
+      "correct": false,
+      "gold": true,
+      "metric_key": "recipient_responded_to_first_initiator",
+      "prediction": false
+    },
+    {
+      "clip_id": "sivbench_005_colleague__video_114",
+      "correct": false,
+      "gold": true,
+      "metric_key": "c1_interacted_with_any_character",
+      "prediction": false
+    },
+    {
+      "clip_id": "sivbench_005_colleague__video_114",
+      "correct": false,
+      "gold": true,
+      "metric_key": "c1_and_c2_interacted",
+      "prediction": false
+    },
+    {
+      "clip_id": "sivbench_006_couple__video_108",
+      "correct": true,
+      "gold": 2,
+      "metric_key": "character_count",
+      "prediction": 2
+    },
+    {
+      "clip_id": "sivbench_006_couple__video_108",
+      "correct": true,
+      "gold": [
+        "C1",
+        "C2"
+      ],
+      "metric_key": "present_characters",
+      "prediction": [
+        "C1",
+        "C2"
+      ]
+    },
+    {
+      "clip_id": "sivbench_006_couple__video_108",
+      "correct": false,
+      "gold": "C2",
+      "metric_key": "first_interaction_initiator",
+      "prediction": null
+    },
+    {
+      "clip_id": "sivbench_006_couple__video_108",
+      "correct": true,
+      "gold": null,
+      "metric_key": "c2_talked_to",
+      "prediction": null
+    },
+    {
+      "clip_id": "sivbench_006_couple__video_108",
+      "correct": false,
+      "gold": true,
+      "metric_key": "recipient_responded_to_first_initiator",
+      "prediction": false
+    },
+    {
+      "clip_id": "sivbench_006_couple__video_108",
+      "correct": false,
+      "gold": true,
+      "metric_key": "c1_interacted_with_any_character",
+      "prediction": false
+    },
+    {
+      "clip_id": "sivbench_006_couple__video_108",
+      "correct": false,
+      "gold": true,
+      "metric_key": "c1_and_c2_interacted",
+      "prediction": false
+    },
+    {
+      "clip_id": "sivbench_007_friends__video_132",
+      "correct": true,
+      "gold": 3,
+      "metric_key": "character_count",
+      "prediction": 3
+    },
+    {
+      "clip_id": "sivbench_007_friends__video_132",
+      "correct": true,
+      "gold": [
+        "C1",
+        "C2",
+        "C3"
+      ],
+      "metric_key": "present_characters",
+      "prediction": [
+        "C1",
+        "C2",
+        "C3"
+      ]
+    },
+    {
+      "clip_id": "sivbench_007_friends__video_132",
+      "correct": false,
+      "gold": "C1",
+      "metric_key": "first_interaction_initiator",
+      "prediction": null
+    },
+    {
+      "clip_id": "sivbench_007_friends__video_132",
+      "correct": false,
+      "gold": "C1",
+      "metric_key": "c2_talked_to",
+      "prediction": null
+    },
+    {
+      "clip_id": "sivbench_007_friends__video_132",
+      "correct": false,
+      "gold": true,
+      "metric_key": "recipient_responded_to_first_initiator",
+      "prediction": false
+    },
+    {
+      "clip_id": "sivbench_007_friends__video_132",
+      "correct": false,
+      "gold": true,
+      "metric_key": "c1_interacted_with_any_character",
+      "prediction": false
+    },
+    {
+      "clip_id": "sivbench_007_friends__video_132",
+      "correct": false,
+      "gold": true,
+      "metric_key": "c1_and_c2_interacted",
+      "prediction": false
+    },
+    {
+      "clip_id": "sivbench_009_service__video_73",
+      "correct": true,
+      "gold": 2,
+      "metric_key": "character_count",
+      "prediction": 2
+    },
+    {
+      "clip_id": "sivbench_009_service__video_73",
+      "correct": true,
+      "gold": [
+        "C1",
+        "C2"
+      ],
+      "metric_key": "present_characters",
+      "prediction": [
+        "C1",
+        "C2"
+      ]
+    },
+    {
+      "clip_id": "sivbench_009_service__video_73",
+      "correct": false,
+      "gold": "C1",
+      "metric_key": "first_interaction_initiator",
+      "prediction": null
+    },
+    {
+      "clip_id": "sivbench_009_service__video_73",
+      "correct": false,
+      "gold": "C1",
+      "metric_key": "c2_talked_to",
+      "prediction": null
+    },
+    {
+      "clip_id": "sivbench_009_service__video_73",
+      "correct": false,
+      "gold": true,
+      "metric_key": "recipient_responded_to_first_initiator",
+      "prediction": false
+    },
+    {
+      "clip_id": "sivbench_009_service__video_73",
+      "correct": false,
+      "gold": true,
+      "metric_key": "c1_interacted_with_any_character",
+      "prediction": false
+    },
+    {
+      "clip_id": "sivbench_009_service__video_73",
+      "correct": false,
+      "gold": true,
+      "metric_key": "c1_and_c2_interacted",
+      "prediction": false
+    },
+    {
+      "clip_id": "sivbench_010_sibling__video_146",
+      "correct": true,
+      "gold": 3,
+      "metric_key": "character_count",
+      "prediction": 3
+    },
+    {
+      "clip_id": "sivbench_010_sibling__video_146",
+      "correct": true,
+      "gold": [
+        "C1",
+        "C2",
+        "C3"
+      ],
+      "metric_key": "present_characters",
+      "prediction": [
+        "C1",
+        "C2",
+        "C3"
+      ]
+    },
+    {
+      "clip_id": "sivbench_010_sibling__video_146",
+      "correct": false,
+      "gold": "C1",
+      "metric_key": "first_interaction_initiator",
+      "prediction": null
+    },
+    {
+      "clip_id": "sivbench_010_sibling__video_146",
+      "correct": false,
+      "gold": "C1",
+      "metric_key": "c2_talked_to",
+      "prediction": null
+    },
+    {
+      "clip_id": "sivbench_010_sibling__video_146",
+      "correct": false,
+      "gold": true,
+      "metric_key": "recipient_responded_to_first_initiator",
+      "prediction": false
+    },
+    {
+      "clip_id": "sivbench_010_sibling__video_146",
+      "correct": false,
+      "gold": true,
+      "metric_key": "c1_interacted_with_any_character",
+      "prediction": false
+    },
+    {
+      "clip_id": "sivbench_010_sibling__video_146",
+      "correct": false,
+      "gold": true,
+      "metric_key": "c1_and_c2_interacted",
+      "prediction": false
+    },
+    {
+      "clip_id": "sivbench_008_transactional__video_11",
+      "correct": true,
+      "gold": 3,
+      "metric_key": "character_count",
+      "prediction": 3
+    },
+    {
+      "clip_id": "sivbench_008_transactional__video_11",
+      "correct": true,
+      "gold": [
+        "C1",
+        "C2",
+        "C3"
+      ],
+      "metric_key": "present_characters",
+      "prediction": [
+        "C1",
+        "C2",
+        "C3"
+      ]
+    },
+    {
+      "clip_id": "sivbench_008_transactional__video_11",
+      "correct": false,
+      "gold": "C1",
+      "metric_key": "first_interaction_initiator",
+      "prediction": null
+    },
+    {
+      "clip_id": "sivbench_008_transactional__video_11",
+      "correct": false,
+      "gold": "C1",
+      "metric_key": "c2_talked_to",
+      "prediction": null
+    },
+    {
+      "clip_id": "sivbench_008_transactional__video_11",
+      "correct": false,
+      "gold": true,
+      "metric_key": "recipient_responded_to_first_initiator",
+      "prediction": false
+    },
+    {
+      "clip_id": "sivbench_008_transactional__video_11",
+      "correct": false,
+      "gold": true,
+      "metric_key": "c1_interacted_with_any_character",
+      "prediction": false
+    },
+    {
+      "clip_id": "sivbench_008_transactional__video_11",
+      "correct": false,
+      "gold": true,
+      "metric_key": "c1_and_c2_interacted",
+      "prediction": false
+    }
+  ],
+  "question_exact_match": 0.371429,
+  "question_total": 70,
+  "schema_version": "care.meta_baseline.egagent_sivbench_social_metrics.v1",
+  "upstream_egagent_unmodified": false
+}

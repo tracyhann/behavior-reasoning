@@ -1,0 +1,85 @@
+{
+  "annotation_metadata": {
+    "created_at": "2026-05-29T17:59:58.376829Z",
+    "label_status": "candidate_interaction_label",
+    "notes": [
+      "Candidate labels are based on sampled review frames and available audio/video context.",
+      "No interaction edge is labeled unless a directed co-present exchange is visible or strongly implied by the reviewed evidence."
+    ]
+  },
+  "clip_id": "videomme_104__cZXyj6rYVg",
+  "clip_path": "meta_baselines/datasets/Video-MME_1/videos/104__cZXyj6rYVg.mp4",
+  "episode_id": "104",
+  "interactions": [
+    {
+      "actor_id": "C2",
+      "evidence": [
+        {
+          "end_sec": 12.0,
+          "evidence_description": "C2 stands by the whiteboard and speaks toward C1.",
+          "modality": "audio_visual",
+          "start_sec": 0.0
+        },
+        {
+          "end_sec": 25.3,
+          "evidence_description": "C2 stands by the whiteboard and speaks toward C1.",
+          "modality": "audio_visual",
+          "start_sec": 18.0
+        }
+      ],
+      "interaction_id": "VMME104_INT001",
+      "recipient_ids": [
+        "C1"
+      ],
+      "relation": "talks_to",
+      "status": "labeled_interaction",
+      "time_spans_sec": [
+        [
+          0.0,
+          12.0
+        ],
+        [
+          18.0,
+          25.3
+        ]
+      ],
+      "timebase": "video_relative_seconds"
+    },
+    {
+      "actor_id": "C1",
+      "evidence": [
+        {
+          "end_sec": 16.0,
+          "evidence_description": "C1 looks toward C2 and responds from the couch.",
+          "modality": "audio_visual",
+          "start_sec": 12.0
+        },
+        {
+          "end_sec": 33.0,
+          "evidence_description": "C1 looks toward C2 and responds from the couch.",
+          "modality": "audio_visual",
+          "start_sec": 28.9
+        }
+      ],
+      "interaction_id": "VMME104_INT002",
+      "recipient_ids": [
+        "C2"
+      ],
+      "relation": "talks_to",
+      "status": "labeled_interaction",
+      "time_spans_sec": [
+        [
+          12.0,
+          16.0
+        ],
+        [
+          28.9,
+          33.0
+        ]
+      ],
+      "timebase": "video_relative_seconds"
+    }
+  ],
+  "schema_version": "care.interaction_annotation.v1",
+  "timebase": "video_relative_seconds"
+}

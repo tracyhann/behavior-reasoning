@@ -1,0 +1,75 @@
+{
+  "annotation_metadata": {
+    "created_at": "2026-05-29T09:45:12.144492Z",
+    "label_status": "candidate_character_description",
+    "notes": [
+      "Gender and age fields describe visual presentation only.",
+      "Character IDs are semantic foreground IDs for this video, not raw detector tracks.",
+      "C3 appears as another shop worker or bystander and is not the primary interaction partner."
+    ],
+    "source_contact_sheet": "meta_baselines/datasets/SIV-Bench_10/review/contact_sheets/origin__transactional__video_11_sheet.jpg",
+    "source_dataset": "Fancylalala/SIV-Bench",
+    "source_relation_category": "transactional"
+  },
+  "characters": [
+    {
+      "age_group": "adult",
+      "appearance": {
+        "facial_hair": "none_visible",
+        "hair_color": "not_visible_or_unclear",
+        "hair_style": "long dark hair",
+        "notable_visible_features": []
+      },
+      "character_id": "C1",
+      "clothing": {
+        "accessories_or_context": [],
+        "colors": [],
+        "lower_body": "not_visible_or_unclear",
+        "outerwear": null,
+        "upper_body": "light blue T-shirt"
+      },
+      "gender_presentation": "female_presenting"
+    },
+    {
+      "age_group": "adult",
+      "appearance": {
+        "facial_hair": "none_visible",
+        "hair_color": "not_visible_or_unclear",
+        "hair_style": "short light brown hair",
+        "notable_visible_features": []
+      },
+      "character_id": "C2",
+      "clothing": {
+        "accessories_or_context": [],
+        "colors": [],
+        "lower_body": "not_visible_or_unclear",
+        "outerwear": null,
+        "upper_body": "white T-shirt"
+      },
+      "gender_presentation": "male_presenting"
+    },
+    {
+      "age_group": "adult",
+      "appearance": {
+        "facial_hair": "none_visible",
+        "hair_color": "not_visible_or_unclear",
+        "hair_style": "long dark hair",
+        "notable_visible_features": []
+      },
+      "character_id": "C3",
+      "clothing": {
+        "accessories_or_context": [],
+        "colors": [],
+        "lower_body": "not_visible_or_unclear",
+        "outerwear": null,
+        "upper_body": "black dress"
+      },
+      "gender_presentation": "female_presenting"
+    }
+  ],
+  "clip_id": "sivbench_008_transactional__video_11",
+  "clip_path": "meta_baselines/datasets/SIV-Bench_10/origin/transactional/video_11.mp4",
+  "episode_id": "SIV008",
+  "schema_version": "care.character_annotation.v1",
+  "timebase": "video_relative_seconds"
+}

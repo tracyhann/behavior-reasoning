@@ -1,0 +1,11 @@
+{
+  "clip_id": "videomme_252_RP1AL2DU6vQ",
+  "duration_sec": 108.763,
+  "label_status": "candidate",
+  "schema_version": "care.videomme_social_annotation_meta.v1",
+  "source_category": "Life Record / Daily Life",
+  "summary": "A student narrates a school day, with brief breakfast/table and school-walk shots.",
+  "videoID": "RP1AL2DU6vQ",
+  "video_id": "252",
+  "video_path": "meta_baselines/datasets/Video-MME_1/videos/252_RP1AL2DU6vQ.mp4"
+}

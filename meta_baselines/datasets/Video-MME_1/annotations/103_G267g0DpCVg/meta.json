@@ -1,0 +1,11 @@
+{
+  "clip_id": "videomme_103_G267g0DpCVg",
+  "duration_sec": 60.019,
+  "label_status": "candidate",
+  "schema_version": "care.videomme_social_annotation_meta.v1",
+  "source_category": "Film & Television / Movie & TV Show",
+  "summary": "A single woman eats at a table; no visible dyadic recipient is foregrounded.",
+  "videoID": "G267g0DpCVg",
+  "video_id": "103",
+  "video_path": "meta_baselines/datasets/Video-MME_1/videos/103_G267g0DpCVg.mp4"
+}

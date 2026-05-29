@@ -1,0 +1,113 @@
+{
+  "annotation_metadata": {
+    "created_at": "2026-05-29T09:45:12.142887Z",
+    "label_status": "candidate_character_description",
+    "notes": [
+      "Gender and age fields describe visual presentation only.",
+      "Character IDs are semantic foreground IDs for this video, not raw detector tracks.",
+      "This is a group scene; only the foreground repeatedly visible classmates are assigned IDs."
+    ],
+    "source_contact_sheet": "meta_baselines/datasets/SIV-Bench_10/review/contact_sheets/origin__classmates__video_63_sheet.jpg",
+    "source_dataset": "Fancylalala/SIV-Bench",
+    "source_relation_category": "classmates"
+  },
+  "characters": [
+    {
+      "age_group": "youth_or_adult",
+      "appearance": {
+        "facial_hair": "none_visible",
+        "hair_color": "not_visible_or_unclear",
+        "hair_style": "short brown hair",
+        "notable_visible_features": []
+      },
+      "character_id": "C1",
+      "clothing": {
+        "accessories_or_context": [],
+        "colors": [],
+        "lower_body": "not_visible_or_unclear",
+        "outerwear": null,
+        "upper_body": "white school shirt"
+      },
+      "gender_presentation": "male_presenting"
+    },
+    {
+      "age_group": "youth_or_adult",
+      "appearance": {
+        "facial_hair": "none_visible",
+        "hair_color": "not_visible_or_unclear",
+        "hair_style": "long dark hair",
+        "notable_visible_features": [
+          "face mask"
+        ]
+      },
+      "character_id": "C2",
+      "clothing": {
+        "accessories_or_context": [],
+        "colors": [],
+        "lower_body": "not_visible_or_unclear",
+        "outerwear": null,
+        "upper_body": "dark top or mask-covered upper body"
+      },
+      "gender_presentation": "unknown_or_unclear"
+    },
+    {
+      "age_group": "youth_or_adult",
+      "appearance": {
+        "facial_hair": "none_visible",
+        "hair_color": "not_visible_or_unclear",
+        "hair_style": "long dark hair",
+        "notable_visible_features": []
+      },
+      "character_id": "C3",
+      "clothing": {
+        "accessories_or_context": [],
+        "colors": [],
+        "lower_body": "not_visible_or_unclear",
+        "outerwear": null,
+        "upper_body": "white school shirt"
+      },
+      "gender_presentation": "female_presenting"
+    },
+    {
+      "age_group": "youth_or_adult",
+      "appearance": {
+        "facial_hair": "none_visible",
+        "hair_color": "not_visible_or_unclear",
+        "hair_style": "short dark hair",
+        "notable_visible_features": []
+      },
+      "character_id": "C4",
+      "clothing": {
+        "accessories_or_context": [],
+        "colors": [],
+        "lower_body": "not_visible_or_unclear",
+        "outerwear": null,
+        "upper_body": "white school shirt"
+      },
+      "gender_presentation": "male_presenting"
+    },
+    {
+      "age_group": "youth_or_adult",
+      "appearance": {
+        "facial_hair": "none_visible",
+        "hair_color": "not_visible_or_unclear",
+        "hair_style": "long dark hair",
+        "notable_visible_features": []
+      },
+      "character_id": "C5",
+      "clothing": {
+        "accessories_or_context": [],
+        "colors": [],
+        "lower_body": "not_visible_or_unclear",
+        "outerwear": null,
+        "upper_body": "white school shirt"
+      },
+      "gender_presentation": "female_presenting"
+    }
+  ],
+  "clip_id": "sivbench_003_classmates__video_63",
+  "clip_path": "meta_baselines/datasets/SIV-Bench_10/origin/classmates/video_63.mp4",
+  "episode_id": "SIV003",
+  "schema_version": "care.character_annotation.v1",
+  "timebase": "video_relative_seconds"
+}

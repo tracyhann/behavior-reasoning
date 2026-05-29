@@ -1,0 +1,156 @@
+{
+  "clip_id": "sivbench_003_classmates__video_63",
+  "duration_sec": 18.866666666666667,
+  "episode_id": "SIV003",
+  "schema_version": "care.sivbench_social_annotation_meta.v1",
+  "sivbench_qa_rows": [
+    {
+      "answer": "classmates",
+      "category": "Relation Inference",
+      "correct_answer_index": "I",
+      "index": "0207",
+      "options": "A. transactional, B. sports teammates, C. grandparent-child, D. boss-employee, E. friends, F. caregiver-recipient, G. parent-child, H. sibling, I. classmates, J. service, K. colleagues, L. coach-player, M. teacher-student, N. couple",
+      "question": "Which kind of relationship plays a dominant role in this video?",
+      "question_id": "0207-1",
+      "video": "classmates/video_63",
+      "video_path": "classmates/video_63.mp4"
+    },
+    {
+      "answer": "The crowd would be scared.",
+      "category": "Counterfactual Prediction",
+      "correct_answer_index": "A",
+      "index": "0220",
+      "options": "A. The crowd would be scared., B. The crowd would be indifferent., C. The crowd would start laughing., D. The crowd would engage in conversation., E. The crowd would applaud loudly.",
+      "question": "If the individual was showing anger, how would the reaction of the crowd be?",
+      "question_id": "0220-1",
+      "video": "classmates/video_63",
+      "video_path": "classmates/video_63.mp4"
+    },
+    {
+      "answer": "Yes, but it's not the best solution.",
+      "category": "Attitude Inference",
+      "correct_answer_index": "C",
+      "index": "0220",
+      "options": "A. No, it always leads to more conflict., B. Yes, but only in extreme situations., C. Yes, but it's not the best solution., D. Force is often the first method to try., E. It can be effective, but often causes harm.",
+      "question": "Is force a way to solve problems?",
+      "question_id": "0220-2",
+      "video": "classmates/video_63",
+      "video_path": "classmates/video_63.mp4"
+    },
+    {
+      "answer": "Anger",
+      "category": "Emotion Inference",
+      "correct_answer_index": "E",
+      "index": "0220",
+      "options": "A. Humor., B. Fear, C. Sadness, D. Confusion, E. Anger",
+      "question": "What emotion does the individual performing the kick display?",
+      "question_id": "0220-3",
+      "video": "classmates/video_63",
+      "video_path": "classmates/video_63.mp4"
+    },
+    {
+      "answer": "To maintain balance before executing the kick.",
+      "category": "Intent Inference",
+      "correct_answer_index": "A",
+      "index": "0220",
+      "options": "A. To maintain balance before executing the kick., B. To showcase their athletic skills., C. To prepare for a training drill., D. To mock the idea of a real fight., E. To impress onlookers with their technique.",
+      "question": "Why does the individual strike a boxing pose before kicking?",
+      "question_id": "0220-4",
+      "video": "classmates/video_63",
+      "video_path": "classmates/video_63.mp4"
+    },
+    {
+      "answer": "classmates",
+      "category": "Relation Inference",
+      "correct_answer_index": "F",
+      "index": "0220",
+      "options": "A. transactional, B. sports teammates, C. grandparent-child, D. service, E. couple, F. classmates, G. colleagues, H. parent-child, I. sibling, J. friends, K. coach-player, L. boss-employee, M. teacher-student, N. caregiver-recipient",
+      "question": "Which kind of relationship plays a dominant role in this video?",
+      "question_id": "0220-5",
+      "video": "classmates/video_63",
+      "video_path": "classmates/video_63.mp4"
+    },
+    {
+      "answer": "Naruto.",
+      "category": "Factual Prediction",
+      "correct_answer_index": "A",
+      "index": "0244",
+      "options": "A. Naruto., B. One Piece., C. Dragon Ball Z., D. Attack on Titan., E. My Hero Academia.",
+      "question": "Which classic anime is the gesture played by this group from?",
+      "question_id": "0244-1",
+      "video": "classmates/video_63",
+      "video_path": "classmates/video_63.mp4"
+    },
+    {
+      "answer": "A very long time",
+      "category": "Action Recognition",
+      "correct_answer_index": "A",
+      "index": "0244",
+      "options": "A. A very long time, B. Not long at all, C. Just a few days, D. A couple of weeks, E. I see them all the time",
+      "question": "Do you remember how long it's been since you hung out with your friends?",
+      "question_id": "0244-2",
+      "video": "classmates/video_63",
+      "video_path": "classmates/video_63.mp4"
+    },
+    {
+      "answer": "They are mimicking Vincent Chang.",
+      "category": "Intent Inference",
+      "correct_answer_index": "D",
+      "index": "0244",
+      "options": "A. They are following a popular trend., B. They want to look more attractive., C. They are trying to create a unique style., D. They are mimicking Vincent Chang., E. They are taking photos for a competition.",
+      "question": "Why do they all pose the same way for photos?",
+      "question_id": "0244-3",
+      "video": "classmates/video_63",
+      "video_path": "classmates/video_63.mp4"
+    },
+    {
+      "answer": "They are posing and smiling for the camera.",
+      "category": "Attitude Inference",
+      "correct_answer_index": "E",
+      "index": "0244",
+      "options": "A. They are ignoring the camera completely., B. They are frowning and looking away., C. They are engaged in a serious discussion., D. They are playing with their phones instead., E. They are posing and smiling for the camera.",
+      "question": "Describe the group's non-verbal behavior toward the camera.",
+      "question_id": "0244-4",
+      "video": "classmates/video_63",
+      "video_path": "classmates/video_63.mp4"
+    },
+    {
+      "answer": "The camera will be passed around for everyone to share in the moment.",
+      "category": "Factual Prediction",
+      "correct_answer_index": "B",
+      "index": "0244",
+      "options": "A. They will gather for a group discussion about their next project., B. The camera will be passed around for everyone to share in the moment., C. Someone will suggest taking another picture with a different pose., D. The conversation will shift to a debate about the best lunch options., E. The group will disperse and return to their tasks.",
+      "question": "What is likely to happen after the picture is taken?",
+      "question_id": "0244-5",
+      "video": "classmates/video_63",
+      "video_path": "classmates/video_63.mp4"
+    },
+    {
+      "answer": "The individuals would attempt to comfort him more.",
+      "category": "Factual Prediction",
+      "correct_answer_index": "E",
+      "index": "0275",
+      "options": "A. They might become more aggressive towards him., B. The group would likely call the police immediately., C. They would ignore him and walk away., D. The individuals would try to take the gun from him forcefully., E. The individuals would attempt to comfort him more.",
+      "question": "If the individual with the gun had been a child, how might the individuals' reactions differ?",
+      "question_id": "0275-1",
+      "video": "classmates/video_63",
+      "video_path": "classmates/video_63.mp4"
+    },
+    {
+      "answer": "classmates",
+      "category": "Relation Inference",
+      "correct_answer_index": "J",
+      "index": "0275",
+      "options": "A. teacher-student, B. boss-employee, C. colleagues, D. coach-player, E. sibling, F. friends, G. transactional, H. parent-child, I. grandparent-child, J. classmates, K. service, L. caregiver-recipient, M. sports teammates, N. couple",
+      "question": "Which kind of relationship plays a dominant role in this video?",
+      "question_id": "0275-2",
+      "video": "classmates/video_63",
+      "video_path": "classmates/video_63.mp4"
+    }
+  ],
+  "source_dataset": "Fancylalala/SIV-Bench",
+  "source_hf_url": "https://huggingface.co/datasets/Fancylalala/SIV-Bench",
+  "source_relation_category": "classmates",
+  "summary": "A group of classmates gathers around the camera and performs playful poses.",
+  "video_path": "meta_baselines/datasets/SIV-Bench_10/origin/classmates/video_63.mp4"
+}

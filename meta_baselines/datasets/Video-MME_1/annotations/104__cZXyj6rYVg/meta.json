@@ -1,0 +1,11 @@
+{
+  "clip_id": "videomme_104__cZXyj6rYVg",
+  "duration_sec": 39.74,
+  "label_status": "candidate",
+  "schema_version": "care.videomme_social_annotation_meta.v1",
+  "source_category": "Film & Television / Movie & TV Show",
+  "summary": "A man explains from a whiteboard while a seated woman responds.",
+  "videoID": "_cZXyj6rYVg",
+  "video_id": "104",
+  "video_path": "meta_baselines/datasets/Video-MME_1/videos/104__cZXyj6rYVg.mp4"
+}

@@ -1,0 +1,145 @@
+{
+  "clip_id": "sivbench_006_couple__video_108",
+  "duration_sec": 35.03333333333333,
+  "episode_id": "SIV006",
+  "schema_version": "care.sivbench_social_annotation_meta.v1",
+  "sivbench_qa_rows": [
+    {
+      "answer": "They would appear less comfortable and intimate.",
+      "category": "Counterfactual Prediction",
+      "correct_answer_index": "A",
+      "index": "0665",
+      "options": "A. They would appear less comfortable and intimate., B. They might engage in more formal conversation., C. There would be an increased sense of tension and awkwardness., D. They could exchange pleasantries without deeper connection., E. The overall vibe would be more reserved and distant.",
+      "question": "If the individuals were strangers, how would the interaction differ?",
+      "question_id": "0665-1",
+      "video": "couple/video_108",
+      "video_path": "couple/video_108.mp4"
+    },
+    {
+      "answer": "couple",
+      "category": "Relation Inference",
+      "correct_answer_index": "A",
+      "index": "0665",
+      "options": "A. couple, B. sports teammates, C. parent-child, D. grandparent-child, E. coach-player, F. transactional, G. service, H. sibling, I. colleagues, J. teacher-student, K. boss-employee, L. friends, M. classmates, N. caregiver-recipient",
+      "question": "Which kind of relationship plays a dominant role in this video?",
+      "question_id": "0665-2",
+      "video": "couple/video_108",
+      "video_path": "couple/video_108.mp4"
+    },
+    {
+      "answer": "There would be minimal contact.",
+      "category": "Counterfactual Prediction",
+      "correct_answer_index": "E",
+      "index": "0708",
+      "options": "A. They would engage in prolonged eye contact., B. They would exhibit open and expressive gestures., C. There would be frequent and enthusiastic touching., D. They would stand very close to each other., E. There would be minimal contact.",
+      "question": "If the subjects were complete strangers, how would their body language differ?",
+      "question_id": "0708-1",
+      "video": "couple/video_108",
+      "video_path": "couple/video_108.mp4"
+    },
+    {
+      "answer": "Yes.",
+      "category": "Attitude Inference",
+      "correct_answer_index": "E",
+      "index": "0708",
+      "options": "A. No, they are just friends., B. They might love each other, but who knows?, C. They could be siblings., D. It's hard to say without knowing them., E. Yes.",
+      "question": "They are hugging so tightly; they must love each other, right?",
+      "question_id": "0708-2",
+      "video": "couple/video_108",
+      "video_path": "couple/video_108.mp4"
+    },
+    {
+      "answer": "To seek warmth",
+      "category": "Intent Inference",
+      "correct_answer_index": "B",
+      "index": "0708",
+      "options": "A. To celebrate a special occasion, B. To seek warmth, C. To share a secret conversation, D. To avoid getting lost in a crowd, E. To protect themselves from rain",
+      "question": "Why might the individuals be embracing in outdoor settings?",
+      "question_id": "0708-3",
+      "video": "couple/video_108",
+      "video_path": "couple/video_108.mp4"
+    },
+    {
+      "answer": "He's trying to avoid the smell.",
+      "category": "Intent Inference",
+      "correct_answer_index": "B",
+      "index": "0756",
+      "options": "A. He's surprised by the sudden attention., B. He's trying to avoid the smell., C. He wants to focus on something else., D. He's feeling unwell in that moment., E. He's embarrassed by the unexpected situation.",
+      "question": "Why does the individual recoil and shut his eyes after the other person smells him?",
+      "question_id": "0756-1",
+      "video": "couple/video_108",
+      "video_path": "couple/video_108.mp4"
+    },
+    {
+      "answer": "I absolutely cannot accept that.",
+      "category": "Emotion Inference",
+      "correct_answer_index": "E",
+      "index": "0756",
+      "options": "A. I don't mind if they do., B. It depends on the person., C. I'll consider it in certain situations., D. It's somewhat acceptable to me., E. I absolutely cannot accept that.",
+      "question": "Can you accept others smelling your armpit?",
+      "question_id": "0756-2",
+      "video": "couple/video_108",
+      "video_path": "couple/video_108.mp4"
+    },
+    {
+      "answer": "He seems to be a bit itchy.",
+      "category": "Environment Perception",
+      "correct_answer_index": "A",
+      "index": "0756",
+      "options": "A. He seems to be a bit itchy., B. He appears very comfortable., C. He looks completely unfazed., D. He seems to be annoyed., E. He appears quite pleased.",
+      "question": "Does the person in the video seem to accept this behavior?",
+      "question_id": "0756-3",
+      "video": "couple/video_108",
+      "video_path": "couple/video_108.mp4"
+    },
+    {
+      "answer": "Excited and exuberant.",
+      "category": "Emotion Inference",
+      "correct_answer_index": "C",
+      "index": "0756",
+      "options": "A. Joyful and carefree., B. Calm and contemplative., C. Excited and exuberant., D. Distressed and disgusted., E. Bored and indifferent.",
+      "question": "What is the visible emotional state of the shirtless individual in the video?",
+      "question_id": "0756-4",
+      "video": "couple/video_108",
+      "video_path": "couple/video_108.mp4"
+    },
+    {
+      "answer": "He begins to stretch and relax his muscles.",
+      "category": "Action Recognition",
+      "correct_answer_index": "C",
+      "index": "0756",
+      "options": "A. He turns away and walks off., B. He puts his arm up in defense., C. He begins to stretch and relax his muscles., D. He smiles and greets the person warmly., E. He quickly sits down on the ground.",
+      "question": "What is the initial physical reaction of the shirtless individual when the other person approaches?",
+      "question_id": "0756-5",
+      "video": "couple/video_108",
+      "video_path": "couple/video_108.mp4"
+    },
+    {
+      "answer": "His expression would show pleasure and contentment instead of disgust.",
+      "category": "Facial Expression Recognition",
+      "correct_answer_index": "E",
+      "index": "0756",
+      "options": "A. His expression would shift to bewilderment and confusion rather than delight., B. His expression would remain indifferent and uninterested throughout the moment., C. His expression would reflect surprise and shock instead of satisfaction., D. His expression would indicate annoyance and irritation instead of joy., E. His expression would show pleasure and contentment instead of disgust.",
+      "question": "If the shirtless individual enjoyed the smell of his armpit, how would his expression change?",
+      "question_id": "0756-6",
+      "video": "couple/video_108",
+      "video_path": "couple/video_108.mp4"
+    },
+    {
+      "answer": "Because he has not been contacting her as often as she expects",
+      "category": "Intent Inference",
+      "correct_answer_index": "D",
+      "index": "0813",
+      "options": "A. Because he borrowed her book without asking, B. Because he forgot their anniversary completely, C. Because he has been spending time with her friend, D. Because he has not been contacting her as often as she expects, E. Because he lied about where he was last weekend",
+      "question": "Why is the woman confronting the man?",
+      "question_id": "0813-1",
+      "video": "couple/video_108",
+      "video_path": "couple/video_108.mp4"
+    }
+  ],
+  "source_dataset": "Fancylalala/SIV-Bench",
+  "source_hf_url": "https://huggingface.co/datasets/Fancylalala/SIV-Bench",
+  "source_relation_category": "couple",
+  "summary": "Two people in bed interact closely in a low-light scene.",
+  "video_path": "meta_baselines/datasets/SIV-Bench_10/origin/couple/video_108.mp4"
+}

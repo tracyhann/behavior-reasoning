@@ -1,0 +1,95 @@
+{
+  "annotation_metadata": {
+    "created_at": "2026-05-29T17:59:58.376078Z",
+    "label_scope": "Foreground or repeated visible people only; background crowds, unlabeled extras, and offscreen phone/audio recipients are excluded.",
+    "label_status": "candidate_character_description",
+    "notes": [
+      "C1 appears in a separate phone scene; her offscreen phone recipient is not a visible CARE character.",
+      "Timing is approximate from sampled review frames."
+    ],
+    "source_contact_sheet": "meta_baselines/datasets/Video-MME_1/review/contact_sheets/101_tiMaUSvlzIU_sheet.jpg"
+  },
+  "characters": [
+    {
+      "age_group": "adult",
+      "appearance": {
+        "facial_hair": "none_visible",
+        "hair_color": "blond",
+        "hair_style": "long blond hair",
+        "notable_visible_features": []
+      },
+      "character_id": "C1",
+      "clothing": {
+        "accessories_or_context": [],
+        "colors": [],
+        "lower_body": "not_visible_or_unclear",
+        "outerwear": null,
+        "upper_body": "magenta sleeveless top"
+      },
+      "gender_presentation": "female_presenting"
+    },
+    {
+      "age_group": "adult",
+      "appearance": {
+        "facial_hair": "none_visible",
+        "hair_color": "dark",
+        "hair_style": "short dark hair",
+        "notable_visible_features": []
+      },
+      "character_id": "C2",
+      "clothing": {
+        "accessories_or_context": [],
+        "colors": [],
+        "lower_body": "not_visible_or_unclear",
+        "outerwear": null,
+        "upper_body": "gray short-sleeve shirt"
+      },
+      "gender_presentation": "male_presenting"
+    },
+    {
+      "age_group": "adult",
+      "appearance": {
+        "facial_hair": "none_visible",
+        "hair_color": "brown",
+        "hair_style": "short brown hair",
+        "notable_visible_features": [
+          "wearing eyeglasses"
+        ]
+      },
+      "character_id": "C3",
+      "clothing": {
+        "accessories_or_context": [
+          "eyeglasses"
+        ],
+        "colors": [],
+        "lower_body": "not_visible_or_unclear",
+        "outerwear": null,
+        "upper_body": "brown jacket over purple hoodie"
+      },
+      "gender_presentation": "male_presenting"
+    },
+    {
+      "age_group": "adult",
+      "appearance": {
+        "facial_hair": "none_visible",
+        "hair_color": "dark",
+        "hair_style": "short dark hair",
+        "notable_visible_features": []
+      },
+      "character_id": "C4",
+      "clothing": {
+        "accessories_or_context": [],
+        "colors": [],
+        "lower_body": "not_visible_or_unclear",
+        "outerwear": null,
+        "upper_body": "purple jacket or hoodie"
+      },
+      "gender_presentation": "male_presenting"
+    }
+  ],
+  "clip_id": "videomme_101_tiMaUSvlzIU",
+  "clip_path": "meta_baselines/datasets/Video-MME_1/videos/101_tiMaUSvlzIU.mp4",
+  "episode_id": "101",
+  "schema_version": "care.character_annotation.v1",
+  "timebase": "video_relative_seconds"
+}

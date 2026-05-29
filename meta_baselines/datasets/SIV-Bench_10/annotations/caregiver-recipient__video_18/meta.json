@@ -1,0 +1,46 @@
+{
+  "clip_id": "sivbench_002_caregiver-recipient__video_18",
+  "duration_sec": 23.670031293381335,
+  "episode_id": "SIV002",
+  "schema_version": "care.sivbench_social_annotation_meta.v1",
+  "sivbench_qa_rows": [
+    {
+      "answer": "She is helping the person move and providing entertainment.",
+      "category": "Intent Inference",
+      "correct_answer_index": "C",
+      "index": "0151",
+      "options": "A. She is teaching the person about different cultures., B. She is preparing the person for a competition., C. She is helping the person move and providing entertainment., D. She is conducting a medical assessment for mobility issues., E. She is promoting a new therapy technique for rehabilitation.",
+      "question": "Why does the caregiver engage in this dance with the person in the wheelchair?",
+      "question_id": "0151-1",
+      "video": "caregiver-recipient/video_18",
+      "video_path": "caregiver-recipient/video_18.mp4"
+    },
+    {
+      "answer": "The dance would be more active and the caregiver would offer less assistance.",
+      "category": "Counterfactual Prediction",
+      "correct_answer_index": "E",
+      "index": "0151",
+      "options": "A. The conversation would become less engaging and the caregiver would take on a more dominant role., B. The atmosphere would feel more strained and the caregiver would need to focus on safety more often., C. The environment would be quieter and the caregiver would participate less in the activities., D. The activities would slow down significantly and the caregiver would express more concern over potential risks., E. The dance would be more active and the caregiver would offer less assistance.",
+      "question": "If the person in the wheelchair were more mobile, how would the interaction change?",
+      "question_id": "0151-2",
+      "video": "caregiver-recipient/video_18",
+      "video_path": "caregiver-recipient/video_18.mp4"
+    },
+    {
+      "answer": "She will continue care and monitoring.",
+      "category": "Factual Prediction",
+      "correct_answer_index": "C",
+      "index": "0174",
+      "options": "A. She will complete the paperwork., B. She will take a break for lunch., C. She will continue care and monitoring., D. She will attend a team meeting., E. She will sanitize the equipment.",
+      "question": "What will the healthcare worker do after transferring the patient?",
+      "question_id": "0174-1",
+      "video": "caregiver-recipient/video_18",
+      "video_path": "caregiver-recipient/video_18.mp4"
+    }
+  ],
+  "source_dataset": "Fancylalala/SIV-Bench",
+  "source_hf_url": "https://huggingface.co/datasets/Fancylalala/SIV-Bench",
+  "source_relation_category": "caregiver-recipient",
+  "summary": "A caregiver assists a reclining person through guided movement.",
+  "video_path": "meta_baselines/datasets/SIV-Bench_10/origin/caregiver-recipient/video_18.mp4"
+}

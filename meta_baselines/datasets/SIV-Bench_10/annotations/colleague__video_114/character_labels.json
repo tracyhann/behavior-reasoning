@@ -1,0 +1,111 @@
+{
+  "annotation_metadata": {
+    "created_at": "2026-05-29T09:45:12.143514Z",
+    "label_status": "candidate_character_description",
+    "notes": [
+      "Gender and age fields describe visual presentation only.",
+      "Character IDs are semantic foreground IDs for this video, not raw detector tracks.",
+      "The video is a montage; interactions are labeled only for repeated foreground colleagues."
+    ],
+    "source_contact_sheet": "meta_baselines/datasets/SIV-Bench_10/review/contact_sheets/origin__colleague__video_114_sheet.jpg",
+    "source_dataset": "Fancylalala/SIV-Bench",
+    "source_relation_category": "colleague"
+  },
+  "characters": [
+    {
+      "age_group": "adult",
+      "appearance": {
+        "facial_hair": "none_visible",
+        "hair_color": "not_visible_or_unclear",
+        "hair_style": "short dark hair",
+        "notable_visible_features": []
+      },
+      "character_id": "C1",
+      "clothing": {
+        "accessories_or_context": [],
+        "colors": [],
+        "lower_body": "not_visible_or_unclear",
+        "outerwear": null,
+        "upper_body": "brown jacket or sweatshirt"
+      },
+      "gender_presentation": "male_presenting"
+    },
+    {
+      "age_group": "adult",
+      "appearance": {
+        "facial_hair": "none_visible",
+        "hair_color": "not_visible_or_unclear",
+        "hair_style": "long light brown hair",
+        "notable_visible_features": []
+      },
+      "character_id": "C2",
+      "clothing": {
+        "accessories_or_context": [],
+        "colors": [],
+        "lower_body": "not_visible_or_unclear",
+        "outerwear": null,
+        "upper_body": "white sweater"
+      },
+      "gender_presentation": "female_presenting"
+    },
+    {
+      "age_group": "adult",
+      "appearance": {
+        "facial_hair": "none_visible",
+        "hair_color": "not_visible_or_unclear",
+        "hair_style": "long dark hair",
+        "notable_visible_features": []
+      },
+      "character_id": "C3",
+      "clothing": {
+        "accessories_or_context": [],
+        "colors": [],
+        "lower_body": "not_visible_or_unclear",
+        "outerwear": null,
+        "upper_body": "gray sweater"
+      },
+      "gender_presentation": "female_presenting"
+    },
+    {
+      "age_group": "adult",
+      "appearance": {
+        "facial_hair": "none_visible",
+        "hair_color": "not_visible_or_unclear",
+        "hair_style": "shaved or very short hair",
+        "notable_visible_features": []
+      },
+      "character_id": "C4",
+      "clothing": {
+        "accessories_or_context": [],
+        "colors": [],
+        "lower_body": "not_visible_or_unclear",
+        "outerwear": null,
+        "upper_body": "blue button-up shirt"
+      },
+      "gender_presentation": "male_presenting"
+    },
+    {
+      "age_group": "adult",
+      "appearance": {
+        "facial_hair": "none_visible",
+        "hair_color": "not_visible_or_unclear",
+        "hair_style": "long dark hair",
+        "notable_visible_features": []
+      },
+      "character_id": "C5",
+      "clothing": {
+        "accessories_or_context": [],
+        "colors": [],
+        "lower_body": "not_visible_or_unclear",
+        "outerwear": null,
+        "upper_body": "purple sweater"
+      },
+      "gender_presentation": "female_presenting"
+    }
+  ],
+  "clip_id": "sivbench_005_colleague__video_114",
+  "clip_path": "meta_baselines/datasets/SIV-Bench_10/origin/colleague/video_114.mp4",
+  "episode_id": "SIV005",
+  "schema_version": "care.character_annotation.v1",
+  "timebase": "video_relative_seconds"
+}

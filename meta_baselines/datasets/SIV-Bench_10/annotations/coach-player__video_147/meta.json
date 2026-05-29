@@ -1,0 +1,134 @@
+{
+  "clip_id": "sivbench_004_coach-player__video_147",
+  "duration_sec": 32.7,
+  "episode_id": "SIV004",
+  "schema_version": "care.sivbench_social_annotation_meta.v1",
+  "sivbench_qa_rows": [
+    {
+      "answer": "The player will gain confidence.",
+      "category": "Factual Prediction",
+      "correct_answer_index": "D",
+      "index": "0322",
+      "options": "A. The player will feel more anxious., B. The player will decide to quit., C. The player will remain upset., D. The player will gain confidence., E. The player will ignore the coach's advice.",
+      "question": "What is likely to happen after the coach is done consoling the player?",
+      "question_id": "0322-1",
+      "video": "coach-player/video_147",
+      "video_path": "coach-player/video_147.mp4"
+    },
+    {
+      "answer": "The player would feel discouraged.",
+      "category": "Counterfactual Prediction",
+      "correct_answer_index": "A",
+      "index": "0322",
+      "options": "A. The player would feel discouraged., B. The player would become more motivated., C. The player would seek external support., D. The player would express their frustration., E. The player would request feedback from others.",
+      "question": "How would the interaction change if the coach showed indifference?",
+      "question_id": "0322-2",
+      "video": "coach-player/video_147",
+      "video_path": "coach-player/video_147.mp4"
+    },
+    {
+      "answer": "Because he lost the game.",
+      "category": "Intent Inference",
+      "correct_answer_index": "C",
+      "index": "0322",
+      "options": "A. Because he fell down., B. Because he was hungry., C. Because he lost the game., D. Because it started to rain., E. Because he lost his toy.",
+      "question": "Why is the child in the white shirt crying?",
+      "question_id": "0322-3",
+      "video": "coach-player/video_147",
+      "video_path": "coach-player/video_147.mp4"
+    },
+    {
+      "answer": "Energetic.",
+      "category": "Environment Perception",
+      "correct_answer_index": "C",
+      "index": "0322",
+      "options": "A. Mysterious., B. Sentimental., C. Energetic., D. Playful., E. Dramatic.",
+      "question": "What is the tone of the music used in the background?",
+      "question_id": "0322-4",
+      "video": "coach-player/video_147",
+      "video_path": "coach-player/video_147.mp4"
+    },
+    {
+      "answer": "coach-player",
+      "category": "Relation Inference",
+      "correct_answer_index": "H",
+      "index": "0322",
+      "options": "A. parent-child, B. grandparent-child, C. service, D. sports teammates, E. caregiver-recipient, F. friends, G. transactional, H. coach-player, I. couple, J. colleagues, K. boss-employee, L. teacher-student, M. classmates, N. sibling",
+      "question": "Which kind of relationship plays a dominant role in this video?",
+      "question_id": "0322-5",
+      "video": "coach-player/video_147",
+      "video_path": "coach-player/video_147.mp4"
+    },
+    {
+      "answer": "To remain on the team.",
+      "category": "Intent Inference",
+      "correct_answer_index": "D",
+      "index": "0355",
+      "options": "A. To impress the fans., B. To gain more playing time., C. To avoid conflict with teammates., D. To remain on the team., E. To prove their skills to scouts.",
+      "question": "Why does the player show respect when the coach is talking, despite the title 'How to play when you hate your coach'?",
+      "question_id": "0355-1",
+      "video": "coach-player/video_147",
+      "video_path": "coach-player/video_147.mp4"
+    },
+    {
+      "answer": "The coach might remove the player from the team.",
+      "category": "Factual Prediction",
+      "correct_answer_index": "C",
+      "index": "0355",
+      "options": "A. The coach might invite the player to speak privately., B. The coach might increase the player's practice time., C. The coach might remove the player from the team., D. The coach might overlook the disrespectful behavior., E. The coach might promote the player to team captain.",
+      "question": "If the player openly disrespected the coach, how might the coach's behavior change?",
+      "question_id": "0355-2",
+      "video": "coach-player/video_147",
+      "video_path": "coach-player/video_147.mp4"
+    },
+    {
+      "answer": "The players will not make significant progress.",
+      "category": "Counterfactual Prediction",
+      "correct_answer_index": "E",
+      "index": "0355",
+      "options": "A. The players will improve quickly., B. The players will become complacent., C. The players may lose interest., D. The players will feel more motivated., E. The players will not make significant progress.",
+      "question": "What would happen if the coach is not strict with the players?",
+      "question_id": "0355-3",
+      "video": "coach-player/video_147",
+      "video_path": "coach-player/video_147.mp4"
+    },
+    {
+      "answer": "He walks around the field observing.",
+      "category": "Attitude Inference",
+      "correct_answer_index": "A",
+      "index": "0355",
+      "options": "A. He walks around the field observing., B. He sits on the bench relaxing., C. He stands with his arms crossed., D. He leans against a wall chatting., E. He is busy looking at his phone.",
+      "question": "What is the coach's posture when the player is practicing?",
+      "question_id": "0355-4",
+      "video": "coach-player/video_147",
+      "video_path": "coach-player/video_147.mp4"
+    },
+    {
+      "answer": "Continue playing.",
+      "category": "Factual Prediction",
+      "correct_answer_index": "E",
+      "index": "0452",
+      "options": "A. Take a break., B. Leave the venue., C. Talk to teammates., D. Check the score., E. Continue playing.",
+      "question": "What is the player likely to do next after getting up?",
+      "question_id": "0452-1",
+      "video": "coach-player/video_147",
+      "video_path": "coach-player/video_147.mp4"
+    },
+    {
+      "answer": "coach-player",
+      "category": "Relation Inference",
+      "correct_answer_index": "E",
+      "index": "0452",
+      "options": "A. transactional, B. sibling, C. teacher-student, D. classmates, E. coach-player, F. couple, G. caregiver-recipient, H. colleagues, I. friends, J. service, K. grandparent-child, L. parent-child, M. sports teammates, N. boss-employee",
+      "question": "Which kind of relationship plays a dominant role in this video?",
+      "question_id": "0452-2",
+      "video": "coach-player/video_147",
+      "video_path": "coach-player/video_147.mp4"
+    }
+  ],
+  "source_dataset": "Fancylalala/SIV-Bench",
+  "source_hf_url": "https://huggingface.co/datasets/Fancylalala/SIV-Bench",
+  "source_relation_category": "coach-player",
+  "summary": "An adult coach supports or consoles a young table-tennis player after play.",
+  "video_path": "meta_baselines/datasets/SIV-Bench_10/origin/coach-player/video_147.mp4"
+}

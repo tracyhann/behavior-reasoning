@@ -1,0 +1,11 @@
+{
+  "clip_id": "videomme_256_aFfMGy94sjE",
+  "duration_sec": 104.839,
+  "label_status": "candidate",
+  "schema_version": "care.videomme_social_annotation_meta.v1",
+  "source_category": "Life Record / Daily Life",
+  "summary": "A police/emergency-services workplace video with dispatcher and front-desk interactions.",
+  "videoID": "aFfMGy94sjE",
+  "video_id": "256",
+  "video_path": "meta_baselines/datasets/Video-MME_1/videos/256_aFfMGy94sjE.mp4"
+}

@@ -1,0 +1,11 @@
+{
+  "clip_id": "videomme_257_s-lM2uwiwyQ",
+  "duration_sec": 106.71,
+  "label_status": "candidate",
+  "schema_version": "care.videomme_social_annotation_meta.v1",
+  "source_category": "Life Record / Daily Life",
+  "summary": "A healthcare worker's day-in-the-life video with a patient-care segment and coworkers at lunch.",
+  "videoID": "s-lM2uwiwyQ",
+  "video_id": "257",
+  "video_path": "meta_baselines/datasets/Video-MME_1/videos/257_s-lM2uwiwyQ.mp4"
+}

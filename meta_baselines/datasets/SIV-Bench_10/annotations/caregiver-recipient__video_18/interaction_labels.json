@@ -1,0 +1,43 @@
+{
+  "annotation_metadata": {
+    "created_at": "2026-05-29T09:45:12.142629Z",
+    "label_status": "candidate_interaction_label",
+    "notes": [
+      "Interaction labels use semantic character IDs from character_labels.json.",
+      "Timing is approximate pending adjudication with audio and frame-level review."
+    ],
+    "source_dataset": "Fancylalala/SIV-Bench",
+    "source_relation_category": "caregiver-recipient"
+  },
+  "clip_id": "sivbench_002_caregiver-recipient__video_18",
+  "clip_path": "meta_baselines/datasets/SIV-Bench_10/origin/caregiver-recipient/video_18.mp4",
+  "episode_id": "SIV002",
+  "interactions": [
+    {
+      "actor_id": "C1",
+      "evidence": [
+        {
+          "end_sec": 23.6,
+          "evidence_description": "C1 holds or guides C2's arms/body during a caregiving movement activity.",
+          "modality": "audio_visual",
+          "start_sec": 0.0
+        }
+      ],
+      "interaction_id": "SIV002_INT001",
+      "recipient_ids": [
+        "C2"
+      ],
+      "relation": "assists_or_guides",
+      "status": "labeled_interaction",
+      "time_spans_sec": [
+        [
+          0.0,
+          23.6
+        ]
+      ],
+      "timebase": "video_relative_seconds"
+    }
+  ],
+  "schema_version": "care.interaction_annotation.v1",
+  "timebase": "video_relative_seconds"
+}

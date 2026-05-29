@@ -1,0 +1,75 @@
+{
+  "annotation_metadata": {
+    "created_at": "2026-05-29T09:45:12.145031Z",
+    "label_status": "candidate_character_description",
+    "notes": [
+      "Gender and age fields describe visual presentation only.",
+      "Character IDs are semantic foreground IDs for this video, not raw detector tracks.",
+      "The adult is visible only near the end but is included because he enters the social exchange."
+    ],
+    "source_contact_sheet": "meta_baselines/datasets/SIV-Bench_10/review/contact_sheets/origin__sibling__video_146_sheet.jpg",
+    "source_dataset": "Fancylalala/SIV-Bench",
+    "source_relation_category": "sibling"
+  },
+  "characters": [
+    {
+      "age_group": "child",
+      "appearance": {
+        "facial_hair": "none_visible",
+        "hair_color": "not_visible_or_unclear",
+        "hair_style": "very short dark hair",
+        "notable_visible_features": []
+      },
+      "character_id": "C1",
+      "clothing": {
+        "accessories_or_context": [],
+        "colors": [],
+        "lower_body": "not_visible_or_unclear",
+        "outerwear": null,
+        "upper_body": "blue and white school jacket"
+      },
+      "gender_presentation": "male_presenting"
+    },
+    {
+      "age_group": "child",
+      "appearance": {
+        "facial_hair": "none_visible",
+        "hair_color": "not_visible_or_unclear",
+        "hair_style": "long dark hair",
+        "notable_visible_features": []
+      },
+      "character_id": "C2",
+      "clothing": {
+        "accessories_or_context": [],
+        "colors": [],
+        "lower_body": "not_visible_or_unclear",
+        "outerwear": null,
+        "upper_body": "white school shirt with red tie"
+      },
+      "gender_presentation": "female_presenting"
+    },
+    {
+      "age_group": "adult",
+      "appearance": {
+        "facial_hair": "none_visible",
+        "hair_color": "not_visible_or_unclear",
+        "hair_style": "short dark hair",
+        "notable_visible_features": []
+      },
+      "character_id": "C3",
+      "clothing": {
+        "accessories_or_context": [],
+        "colors": [],
+        "lower_body": "not_visible_or_unclear",
+        "outerwear": null,
+        "upper_body": "dark shirt and dark pants"
+      },
+      "gender_presentation": "male_presenting"
+    }
+  ],
+  "clip_id": "sivbench_010_sibling__video_146",
+  "clip_path": "meta_baselines/datasets/SIV-Bench_10/origin/sibling/video_146.mp4",
+  "episode_id": "SIV010",
+  "schema_version": "care.character_annotation.v1",
+  "timebase": "video_relative_seconds"
+}

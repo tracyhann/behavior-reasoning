@@ -1,0 +1,652 @@
+{
+  "baseline_name": "egagent_style_sivbench_social_qwen_tool_packet",
+  "created_at": "2026-05-29T09:46:58.049288Z",
+  "question_correct": 57,
+  "question_details": [
+    {
+      "correct": true,
+      "gold": true,
+      "metric_key": "c1_and_c2_interacted",
+      "prediction": true,
+      "question_id": "SIV001_QWEN_ALL",
+      "status": "complete"
+    },
+    {
+      "correct": true,
+      "gold": true,
+      "metric_key": "c1_interacted_with_any_character",
+      "prediction": true,
+      "question_id": "SIV001_QWEN_ALL",
+      "status": "complete"
+    },
+    {
+      "correct": false,
+      "gold": "C1",
+      "metric_key": "c2_talked_to",
+      "prediction": true,
+      "question_id": "SIV001_QWEN_ALL",
+      "status": "complete"
+    },
+    {
+      "correct": true,
+      "gold": 2,
+      "metric_key": "character_count",
+      "prediction": 2,
+      "question_id": "SIV001_QWEN_ALL",
+      "status": "complete"
+    },
+    {
+      "correct": true,
+      "gold": "C1",
+      "metric_key": "first_interaction_initiator",
+      "prediction": "C1",
+      "question_id": "SIV001_QWEN_ALL",
+      "status": "complete"
+    },
+    {
+      "correct": true,
+      "gold": [
+        "C1",
+        "C2"
+      ],
+      "metric_key": "present_characters",
+      "prediction": [
+        "C1",
+        "C2"
+      ],
+      "question_id": "SIV001_QWEN_ALL",
+      "status": "complete"
+    },
+    {
+      "correct": false,
+      "gold": true,
+      "metric_key": "recipient_responded_to_first_initiator",
+      "prediction": false,
+      "question_id": "SIV001_QWEN_ALL",
+      "status": "complete"
+    },
+    {
+      "correct": true,
+      "gold": true,
+      "metric_key": "c1_and_c2_interacted",
+      "prediction": true,
+      "question_id": "SIV002_QWEN_ALL",
+      "status": "complete"
+    },
+    {
+      "correct": true,
+      "gold": true,
+      "metric_key": "c1_interacted_with_any_character",
+      "prediction": true,
+      "question_id": "SIV002_QWEN_ALL",
+      "status": "complete"
+    },
+    {
+      "correct": false,
+      "gold": null,
+      "metric_key": "c2_talked_to",
+      "prediction": false,
+      "question_id": "SIV002_QWEN_ALL",
+      "status": "complete"
+    },
+    {
+      "correct": true,
+      "gold": 2,
+      "metric_key": "character_count",
+      "prediction": 2,
+      "question_id": "SIV002_QWEN_ALL",
+      "status": "complete"
+    },
+    {
+      "correct": false,
+      "gold": "C1",
+      "metric_key": "first_interaction_initiator",
+      "prediction": null,
+      "question_id": "SIV002_QWEN_ALL",
+      "status": "complete"
+    },
+    {
+      "correct": true,
+      "gold": [
+        "C1",
+        "C2"
+      ],
+      "metric_key": "present_characters",
+      "prediction": [
+        "C1",
+        "C2"
+      ],
+      "question_id": "SIV002_QWEN_ALL",
+      "status": "complete"
+    },
+    {
+      "correct": false,
+      "gold": true,
+      "metric_key": "recipient_responded_to_first_initiator",
+      "prediction": false,
+      "question_id": "SIV002_QWEN_ALL",
+      "status": "complete"
+    },
+    {
+      "correct": false,
+      "gold": false,
+      "metric_key": "c1_and_c2_interacted",
+      "prediction": true,
+      "question_id": "SIV003_QWEN_ALL",
+      "status": "complete"
+    },
+    {
+      "correct": false,
+      "gold": false,
+      "metric_key": "c1_interacted_with_any_character",
+      "prediction": true,
+      "question_id": "SIV003_QWEN_ALL",
+      "status": "complete"
+    },
+    {
+      "correct": false,
+      "gold": null,
+      "metric_key": "c2_talked_to",
+      "prediction": "C1",
+      "question_id": "SIV003_QWEN_ALL",
+      "status": "complete"
+    },
+    {
+      "correct": true,
+      "gold": 5,
+      "metric_key": "character_count",
+      "prediction": 5,
+      "question_id": "SIV003_QWEN_ALL",
+      "status": "complete"
+    },
+    {
+      "correct": false,
+      "gold": "C4",
+      "metric_key": "first_interaction_initiator",
+      "prediction": "C1",
+      "question_id": "SIV003_QWEN_ALL",
+      "status": "complete"
+    },
+    {
+      "correct": true,
+      "gold": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5"
+      ],
+      "metric_key": "present_characters",
+      "prediction": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5"
+      ],
+      "question_id": "SIV003_QWEN_ALL",
+      "status": "complete"
+    },
+    {
+      "correct": true,
+      "gold": true,
+      "metric_key": "recipient_responded_to_first_initiator",
+      "prediction": true,
+      "question_id": "SIV003_QWEN_ALL",
+      "status": "complete"
+    },
+    {
+      "correct": true,
+      "gold": true,
+      "metric_key": "c1_and_c2_interacted",
+      "prediction": true,
+      "question_id": "SIV004_QWEN_ALL",
+      "status": "complete"
+    },
+    {
+      "correct": true,
+      "gold": true,
+      "metric_key": "c1_interacted_with_any_character",
+      "prediction": true,
+      "question_id": "SIV004_QWEN_ALL",
+      "status": "complete"
+    },
+    {
+      "correct": false,
+      "gold": null,
+      "metric_key": "c2_talked_to",
+      "prediction": true,
+      "question_id": "SIV004_QWEN_ALL",
+      "status": "complete"
+    },
+    {
+      "correct": true,
+      "gold": 3,
+      "metric_key": "character_count",
+      "prediction": 3,
+      "question_id": "SIV004_QWEN_ALL",
+      "status": "complete"
+    },
+    {
+      "correct": true,
+      "gold": "C1",
+      "metric_key": "first_interaction_initiator",
+      "prediction": "C1",
+      "question_id": "SIV004_QWEN_ALL",
+      "status": "complete"
+    },
+    {
+      "correct": true,
+      "gold": [
+        "C1",
+        "C2",
+        "C3"
+      ],
+      "metric_key": "present_characters",
+      "prediction": [
+        "C1",
+        "C2",
+        "C3"
+      ],
+      "question_id": "SIV004_QWEN_ALL",
+      "status": "complete"
+    },
+    {
+      "correct": true,
+      "gold": true,
+      "metric_key": "recipient_responded_to_first_initiator",
+      "prediction": true,
+      "question_id": "SIV004_QWEN_ALL",
+      "status": "complete"
+    },
+    {
+      "correct": true,
+      "gold": true,
+      "metric_key": "c1_and_c2_interacted",
+      "prediction": true,
+      "question_id": "SIV005_QWEN_ALL",
+      "status": "complete"
+    },
+    {
+      "correct": true,
+      "gold": true,
+      "metric_key": "c1_interacted_with_any_character",
+      "prediction": true,
+      "question_id": "SIV005_QWEN_ALL",
+      "status": "complete"
+    },
+    {
+      "correct": true,
+      "gold": "C1",
+      "metric_key": "c2_talked_to",
+      "prediction": "C1",
+      "question_id": "SIV005_QWEN_ALL",
+      "status": "complete"
+    },
+    {
+      "correct": true,
+      "gold": 5,
+      "metric_key": "character_count",
+      "prediction": 5,
+      "question_id": "SIV005_QWEN_ALL",
+      "status": "complete"
+    },
+    {
+      "correct": true,
+      "gold": "C1",
+      "metric_key": "first_interaction_initiator",
+      "prediction": "C1",
+      "question_id": "SIV005_QWEN_ALL",
+      "status": "complete"
+    },
+    {
+      "correct": true,
+      "gold": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5"
+      ],
+      "metric_key": "present_characters",
+      "prediction": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5"
+      ],
+      "question_id": "SIV005_QWEN_ALL",
+      "status": "complete"
+    },
+    {
+      "correct": true,
+      "gold": true,
+      "metric_key": "recipient_responded_to_first_initiator",
+      "prediction": true,
+      "question_id": "SIV005_QWEN_ALL",
+      "status": "complete"
+    },
+    {
+      "correct": true,
+      "gold": true,
+      "metric_key": "c1_and_c2_interacted",
+      "prediction": true,
+      "question_id": "SIV006_QWEN_ALL",
+      "status": "complete"
+    },
+    {
+      "correct": true,
+      "gold": true,
+      "metric_key": "c1_interacted_with_any_character",
+      "prediction": true,
+      "question_id": "SIV006_QWEN_ALL",
+      "status": "complete"
+    },
+    {
+      "correct": false,
+      "gold": null,
+      "metric_key": "c2_talked_to",
+      "prediction": "C1",
+      "question_id": "SIV006_QWEN_ALL",
+      "status": "complete"
+    },
+    {
+      "correct": true,
+      "gold": 2,
+      "metric_key": "character_count",
+      "prediction": 2,
+      "question_id": "SIV006_QWEN_ALL",
+      "status": "complete"
+    },
+    {
+      "correct": true,
+      "gold": "C2",
+      "metric_key": "first_interaction_initiator",
+      "prediction": "C2",
+      "question_id": "SIV006_QWEN_ALL",
+      "status": "complete"
+    },
+    {
+      "correct": true,
+      "gold": [
+        "C1",
+        "C2"
+      ],
+      "metric_key": "present_characters",
+      "prediction": [
+        "C1",
+        "C2"
+      ],
+      "question_id": "SIV006_QWEN_ALL",
+      "status": "complete"
+    },
+    {
+      "correct": true,
+      "gold": true,
+      "metric_key": "recipient_responded_to_first_initiator",
+      "prediction": true,
+      "question_id": "SIV006_QWEN_ALL",
+      "status": "complete"
+    },
+    {
+      "correct": true,
+      "gold": true,
+      "metric_key": "c1_and_c2_interacted",
+      "prediction": true,
+      "question_id": "SIV007_QWEN_ALL",
+      "status": "complete"
+    },
+    {
+      "correct": true,
+      "gold": true,
+      "metric_key": "c1_interacted_with_any_character",
+      "prediction": true,
+      "question_id": "SIV007_QWEN_ALL",
+      "status": "complete"
+    },
+    {
+      "correct": false,
+      "gold": "C1",
+      "metric_key": "c2_talked_to",
+      "prediction": true,
+      "question_id": "SIV007_QWEN_ALL",
+      "status": "complete"
+    },
+    {
+      "correct": true,
+      "gold": 3,
+      "metric_key": "character_count",
+      "prediction": 3,
+      "question_id": "SIV007_QWEN_ALL",
+      "status": "complete"
+    },
+    {
+      "correct": true,
+      "gold": "C1",
+      "metric_key": "first_interaction_initiator",
+      "prediction": "C1",
+      "question_id": "SIV007_QWEN_ALL",
+      "status": "complete"
+    },
+    {
+      "correct": true,
+      "gold": [
+        "C1",
+        "C2",
+        "C3"
+      ],
+      "metric_key": "present_characters",
+      "prediction": [
+        "C1",
+        "C2",
+        "C3"
+      ],
+      "question_id": "SIV007_QWEN_ALL",
+      "status": "complete"
+    },
+    {
+      "correct": true,
+      "gold": true,
+      "metric_key": "recipient_responded_to_first_initiator",
+      "prediction": true,
+      "question_id": "SIV007_QWEN_ALL",
+      "status": "complete"
+    },
+    {
+      "correct": true,
+      "gold": true,
+      "metric_key": "c1_and_c2_interacted",
+      "prediction": true,
+      "question_id": "SIV008_QWEN_ALL",
+      "status": "complete"
+    },
+    {
+      "correct": true,
+      "gold": true,
+      "metric_key": "c1_interacted_with_any_character",
+      "prediction": true,
+      "question_id": "SIV008_QWEN_ALL",
+      "status": "complete"
+    },
+    {
+      "correct": true,
+      "gold": "C1",
+      "metric_key": "c2_talked_to",
+      "prediction": "C1",
+      "question_id": "SIV008_QWEN_ALL",
+      "status": "complete"
+    },
+    {
+      "correct": true,
+      "gold": 3,
+      "metric_key": "character_count",
+      "prediction": 3,
+      "question_id": "SIV008_QWEN_ALL",
+      "status": "complete"
+    },
+    {
+      "correct": true,
+      "gold": "C1",
+      "metric_key": "first_interaction_initiator",
+      "prediction": "C1",
+      "question_id": "SIV008_QWEN_ALL",
+      "status": "complete"
+    },
+    {
+      "correct": true,
+      "gold": [
+        "C1",
+        "C2",
+        "C3"
+      ],
+      "metric_key": "present_characters",
+      "prediction": [
+        "C1",
+        "C2",
+        "C3"
+      ],
+      "question_id": "SIV008_QWEN_ALL",
+      "status": "complete"
+    },
+    {
+      "correct": true,
+      "gold": true,
+      "metric_key": "recipient_responded_to_first_initiator",
+      "prediction": true,
+      "question_id": "SIV008_QWEN_ALL",
+      "status": "complete"
+    },
+    {
+      "correct": true,
+      "gold": true,
+      "metric_key": "c1_and_c2_interacted",
+      "prediction": true,
+      "question_id": "SIV009_QWEN_ALL",
+      "status": "complete"
+    },
+    {
+      "correct": true,
+      "gold": true,
+      "metric_key": "c1_interacted_with_any_character",
+      "prediction": true,
+      "question_id": "SIV009_QWEN_ALL",
+      "status": "complete"
+    },
+    {
+      "correct": true,
+      "gold": "C1",
+      "metric_key": "c2_talked_to",
+      "prediction": "C1",
+      "question_id": "SIV009_QWEN_ALL",
+      "status": "complete"
+    },
+    {
+      "correct": true,
+      "gold": 2,
+      "metric_key": "character_count",
+      "prediction": 2,
+      "question_id": "SIV009_QWEN_ALL",
+      "status": "complete"
+    },
+    {
+      "correct": true,
+      "gold": "C1",
+      "metric_key": "first_interaction_initiator",
+      "prediction": "C1",
+      "question_id": "SIV009_QWEN_ALL",
+      "status": "complete"
+    },
+    {
+      "correct": true,
+      "gold": [
+        "C1",
+        "C2"
+      ],
+      "metric_key": "present_characters",
+      "prediction": [
+        "C1",
+        "C2"
+      ],
+      "question_id": "SIV009_QWEN_ALL",
+      "status": "complete"
+    },
+    {
+      "correct": true,
+      "gold": true,
+      "metric_key": "recipient_responded_to_first_initiator",
+      "prediction": true,
+      "question_id": "SIV009_QWEN_ALL",
+      "status": "complete"
+    },
+    {
+      "correct": true,
+      "gold": true,
+      "metric_key": "c1_and_c2_interacted",
+      "prediction": true,
+      "question_id": "SIV010_QWEN_ALL",
+      "status": "complete"
+    },
+    {
+      "correct": true,
+      "gold": true,
+      "metric_key": "c1_interacted_with_any_character",
+      "prediction": true,
+      "question_id": "SIV010_QWEN_ALL",
+      "status": "complete"
+    },
+    {
+      "correct": false,
+      "gold": "C1",
+      "metric_key": "c2_talked_to",
+      "prediction": true,
+      "question_id": "SIV010_QWEN_ALL",
+      "status": "complete"
+    },
+    {
+      "correct": true,
+      "gold": 3,
+      "metric_key": "character_count",
+      "prediction": 3,
+      "question_id": "SIV010_QWEN_ALL",
+      "status": "complete"
+    },
+    {
+      "correct": true,
+      "gold": "C1",
+      "metric_key": "first_interaction_initiator",
+      "prediction": "C1",
+      "question_id": "SIV010_QWEN_ALL",
+      "status": "complete"
+    },
+    {
+      "correct": true,
+      "gold": [
+        "C1",
+        "C2",
+        "C3"
+      ],
+      "metric_key": "present_characters",
+      "prediction": [
+        "C1",
+        "C2",
+        "C3"
+      ],
+      "question_id": "SIV010_QWEN_ALL",
+      "status": "complete"
+    },
+    {
+      "correct": true,
+      "gold": true,
+      "metric_key": "recipient_responded_to_first_initiator",
+      "prediction": true,
+      "question_id": "SIV010_QWEN_ALL",
+      "status": "complete"
+    }
+  ],
+  "question_exact_match": 0.814286,
+  "question_total": 70,
+  "qwen_model_invoked": true,
+  "schema_version": "care.meta_baseline.egagent_sivbench_social_qwen_tool_metrics.v1",
+  "upstream_egagent_unmodified": false
+}

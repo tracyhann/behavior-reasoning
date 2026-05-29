@@ -1,0 +1,11 @@
+{
+  "clip_id": "videomme_101_tiMaUSvlzIU",
+  "duration_sec": 46.18,
+  "label_status": "candidate",
+  "schema_version": "care.videomme_social_annotation_meta.v1",
+  "source_category": "Film & Television / Movie & TV Show",
+  "summary": "Sitcom-style scene with a woman on a phone and three men later conversing at a table.",
+  "videoID": "tiMaUSvlzIU",
+  "video_id": "101",
+  "video_path": "meta_baselines/datasets/Video-MME_1/videos/101_tiMaUSvlzIU.mp4"
+}

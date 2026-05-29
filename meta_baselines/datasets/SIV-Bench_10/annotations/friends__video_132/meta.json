@@ -1,0 +1,222 @@
+{
+  "clip_id": "sivbench_007_friends__video_132",
+  "duration_sec": 101.9,
+  "episode_id": "SIV007",
+  "schema_version": "care.sivbench_social_annotation_meta.v1",
+  "sivbench_qa_rows": [
+    {
+      "answer": "There would likely be less posing and smiling.",
+      "category": "Counterfactual Prediction",
+      "correct_answer_index": "E",
+      "index": "0871",
+      "options": "A. There would likely be more awkward silences., B. They might avoid eye contact altogether., C. The conversation could feel more formal and reserved., D. People may engage in less spontaneous laughter., E. There would likely be less posing and smiling.",
+      "question": "If the individuals were strangers, how would the interaction likely differ?",
+      "question_id": "0871-1",
+      "video": "friends/video_132",
+      "video_path": "friends/video_132.mp4"
+    },
+    {
+      "answer": "Five steps",
+      "category": "Human Attribute Identification",
+      "correct_answer_index": "A",
+      "index": "0871",
+      "options": "A. Five steps, B. Three steps, C. Seven steps, D. Four steps, E. Ten steps",
+      "question": "How many steps did the person at the front of the video descend in total?",
+      "question_id": "0871-2",
+      "video": "friends/video_132",
+      "video_path": "friends/video_132.mp4"
+    },
+    {
+      "answer": "Cheerful",
+      "category": "Emotion Inference",
+      "correct_answer_index": "C",
+      "index": "0871",
+      "options": "A. Melancholic, B. Mysterious, C. Cheerful, D. Aggressive, E. Romantic",
+      "question": "What is the tone of the background music?",
+      "question_id": "0871-3",
+      "video": "friends/video_132",
+      "video_path": "friends/video_132.mp4"
+    },
+    {
+      "answer": "An olive green dress and black heels.",
+      "category": "Emotion Inference",
+      "correct_answer_index": "B",
+      "index": "0871",
+      "options": "A. A white blouse with blue jeans., B. An olive green dress and black heels., C. A red sweater and brown boots., D. A navy blue skirt and sandals., E. A black jumpsuit and sneakers.",
+      "question": "What type of clothing is the woman at the front wearing?",
+      "question_id": "0871-4",
+      "video": "friends/video_132",
+      "video_path": "friends/video_132.mp4"
+    },
+    {
+      "answer": "Everyone will applaud enthusiastically.",
+      "category": "Factual Prediction",
+      "correct_answer_index": "C",
+      "index": "0871",
+      "options": "A. They will start editing the footage., B. The screen will go black., C. Everyone will applaud enthusiastically., D. They will stop recording., E. The next scene will begin playing.",
+      "question": "What is likely to happen immediately after the video cuts?",
+      "question_id": "0871-5",
+      "video": "friends/video_132",
+      "video_path": "friends/video_132.mp4"
+    },
+    {
+      "answer": "She lost the game.",
+      "category": "Counterfactual Prediction",
+      "correct_answer_index": "E",
+      "index": "0913",
+      "options": "A. She received unexpected news., B. She found a long-lost item., C. She won a surprising prize., D. She made a new friend., E. She lost the game.",
+      "question": "Why did the person at the end of the line react with a loud exclamation when she moved to NO?",
+      "question_id": "0913-1",
+      "video": "friends/video_132",
+      "video_path": "friends/video_132.mp4"
+    },
+    {
+      "answer": "There might be rewards.",
+      "category": "Intent Inference",
+      "correct_answer_index": "E",
+      "index": "0913",
+      "options": "A. They enjoy the competition., B. It's a social activity., C. They want to improve their skills., D. They're bored and looking for entertainment., E. There might be rewards.",
+      "question": "Why do they play such games?",
+      "question_id": "0913-2",
+      "video": "friends/video_132",
+      "video_path": "friends/video_132.mp4"
+    },
+    {
+      "answer": "It indicates reaction and motor activity.",
+      "category": "Environment Perception",
+      "correct_answer_index": "B",
+      "index": "0913",
+      "options": "A. It indicates balance and flexibility., B. It indicates reaction and motor activity., C. It indicates strength and endurance., D. It indicates coordination and rhythm., E. It indicates speed and agility.",
+      "question": "What does this movement indicate?",
+      "question_id": "0913-3",
+      "video": "friends/video_132",
+      "video_path": "friends/video_132.mp4"
+    },
+    {
+      "answer": "Enthusiastic and playful.",
+      "category": "Human Attribute Identification",
+      "correct_answer_index": "A",
+      "index": "0913",
+      "options": "A. Enthusiastic and playful., B. Serious and somber., C. Confused and uncertain., D. Angry and frustrated., E. Calm and indifferent.",
+      "question": "What is the tone of voice used by the person saying 'yes' and 'no'?",
+      "question_id": "0913-4",
+      "video": "friends/video_132",
+      "video_path": "friends/video_132.mp4"
+    },
+    {
+      "answer": "Alternating between stepping forward and backward.",
+      "category": "Emotion Inference",
+      "correct_answer_index": "E",
+      "index": "0913",
+      "options": "A. Spinning in circles while clapping hands., B. Sitting down and standing up repeatedly., C. Leaning to the left and right in unison., D. Raising their arms and lowering them rhythmically., E. Alternating between stepping forward and backward.",
+      "question": "What body movements are the people making?",
+      "question_id": "0913-5",
+      "video": "friends/video_132",
+      "video_path": "friends/video_132.mp4"
+    },
+    {
+      "answer": "There was a fire.",
+      "category": "Intent Inference",
+      "correct_answer_index": "A",
+      "index": "0989",
+      "options": "A. There was a fire., B. They are conducting a safety drill., C. A parade is happening nearby., D. They are delivering supplies to the area., E. Someone reported a gas leak.",
+      "question": "Why are the fire trucks present?",
+      "question_id": "0989-1",
+      "video": "friends/video_132",
+      "video_path": "friends/video_132.mp4"
+    },
+    {
+      "answer": "The interaction would be less confrontational.",
+      "category": "Counterfactual Prediction",
+      "correct_answer_index": "E",
+      "index": "0989",
+      "options": "A. The interaction would become more chaotic., B. The interaction would involve more interruptions., C. The interaction would lead to increased misunderstandings., D. The interaction would feel more rushed., E. The interaction would be less confrontational.",
+      "question": "If the speaker were more calm and collected, how would the interaction change?",
+      "question_id": "0989-2",
+      "video": "friends/video_132",
+      "video_path": "friends/video_132.mp4"
+    },
+    {
+      "answer": "No, they are joking with each other.",
+      "category": "Attitude Inference",
+      "correct_answer_index": "C",
+      "index": "0989",
+      "options": "A. Yes, they are having a serious disagreement., B. They are discussing a topic calmly., C. No, they are joking with each other., D. They are not speaking to each other at all., E. They are laughing and having fun together.",
+      "question": "Are these two people really arguing?",
+      "question_id": "0989-3",
+      "video": "friends/video_132",
+      "video_path": "friends/video_132.mp4"
+    },
+    {
+      "answer": "Because another person appeared in their video, affecting them.",
+      "category": "Intent Inference",
+      "correct_answer_index": "B",
+      "index": "0989",
+      "options": "A. Because they have different opinions on the video content., B. Because another person appeared in their video, affecting them., C. Because they were interrupted during their discussion., D. Because they are frustrated with the video's quality., E. Because they disagree on the editing style of the video.",
+      "question": "Why are they arguing?",
+      "question_id": "0989-4",
+      "video": "friends/video_132",
+      "video_path": "friends/video_132.mp4"
+    },
+    {
+      "answer": "Someone is interrupting his video.",
+      "category": "Intent Inference",
+      "correct_answer_index": "B",
+      "index": "0989",
+      "options": "A. The room is too hot and uncomfortable., B. Someone is interrupting his video., C. He forgot to mute his microphone., D. There is a loud noise outside distracting him., E. His internet connection is lagging.",
+      "question": "Why is the speaker in the foreground likely annoyed?",
+      "question_id": "0989-5",
+      "video": "friends/video_132",
+      "video_path": "friends/video_132.mp4"
+    },
+    {
+      "answer": "The large gathering of people.",
+      "category": "Attitude Inference",
+      "correct_answer_index": "C",
+      "index": "1120",
+      "options": "A. The loud music playing nearby., B. The sudden change in weather., C. The large gathering of people., D. The absence of her friends., E. The long wait for her turn.",
+      "question": "What makes the female individual express her frustration more fiercely at the end?",
+      "question_id": "1120-1",
+      "video": "friends/video_132",
+      "video_path": "friends/video_132.mp4"
+    },
+    {
+      "answer": "Everyday trivial matters",
+      "category": "Intent Inference",
+      "correct_answer_index": "E",
+      "index": "1120",
+      "options": "A. Political disagreements, B. Differences in values, C. Financial issues, D. Miscommunication, E. Everyday trivial matters",
+      "question": "Why are they arguing?",
+      "question_id": "1120-2",
+      "video": "friends/video_132",
+      "video_path": "friends/video_132.mp4"
+    },
+    {
+      "answer": "Start arguing with her about his reasons for staying.",
+      "category": "Emotion Inference",
+      "correct_answer_index": "B",
+      "index": "1120",
+      "options": "A. Walk out without saying a word or responding., B. Start arguing with her about his reasons for staying., C. Call a friend to discuss the situation and seek advice., D. Attempt to appease her or give her space., E. Promise to come back later and try to convince her otherwise.",
+      "question": "What might the man do after the woman tells him to leave?",
+      "question_id": "1120-3",
+      "video": "friends/video_132",
+      "video_path": "friends/video_132.mp4"
+    },
+    {
+      "answer": "They would not express their anger so openly.",
+      "category": "Factual Prediction",
+      "correct_answer_index": "C",
+      "index": "1120",
+      "options": "A. They might choose to communicate more frequently., B. They would likely show greater affection towards each other., C. They would not express their anger so openly., D. They could become more dependent on one another for support., E. They might avoid conflicts altogether.",
+      "question": "If their relationship was weaker, how might their interaction change?",
+      "question_id": "1120-4",
+      "video": "friends/video_132",
+      "video_path": "friends/video_132.mp4"
+    }
+  ],
+  "source_dataset": "Fancylalala/SIV-Bench",
+  "source_hf_url": "https://huggingface.co/datasets/Fancylalala/SIV-Bench",
+  "source_relation_category": "friends",
+  "summary": "A man in a hallway talks with or performs toward seated friends.",
+  "video_path": "meta_baselines/datasets/SIV-Bench_10/origin/friends/video_132.mp4"
+}

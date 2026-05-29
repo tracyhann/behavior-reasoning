@@ -1,0 +1,36 @@
+{
+  "annotation_metadata": {
+    "created_at": "2026-05-29T17:59:58.376528Z",
+    "label_scope": "Foreground or repeated visible people only; background crowds, unlabeled extras, and offscreen phone/audio recipients are excluded.",
+    "label_status": "candidate_character_description",
+    "notes": [
+      "Single-character sample; hands or partial background fragments are not assigned stable IDs."
+    ],
+    "source_contact_sheet": "meta_baselines/datasets/Video-MME_1/review/contact_sheets/103_G267g0DpCVg_sheet.jpg"
+  },
+  "characters": [
+    {
+      "age_group": "adult",
+      "appearance": {
+        "facial_hair": "none_visible",
+        "hair_color": "brown or dark blond",
+        "hair_style": "hair tied up",
+        "notable_visible_features": []
+      },
+      "character_id": "C1",
+      "clothing": {
+        "accessories_or_context": [],
+        "colors": [],
+        "lower_body": "not_visible_or_unclear",
+        "outerwear": null,
+        "upper_body": "blue hoodie"
+      },
+      "gender_presentation": "female_presenting"
+    }
+  ],
+  "clip_id": "videomme_103_G267g0DpCVg",
+  "clip_path": "meta_baselines/datasets/Video-MME_1/videos/103_G267g0DpCVg.mp4",
+  "episode_id": "103",
+  "schema_version": "care.character_annotation.v1",
+  "timebase": "video_relative_seconds"
+}

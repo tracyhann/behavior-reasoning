@@ -1,0 +1,11 @@
+{
+  "clip_id": "videomme_251_1sTQOxXFO44",
+  "duration_sec": 81.567,
+  "label_status": "candidate",
+  "schema_version": "care.videomme_social_annotation_meta.v1",
+  "source_category": "Life Record / Daily Life",
+  "summary": "A woman performs an after-work routine alone at home.",
+  "videoID": "1sTQOxXFO44",
+  "video_id": "251",
+  "video_path": "meta_baselines/datasets/Video-MME_1/videos/251_1sTQOxXFO44.mp4"
+}

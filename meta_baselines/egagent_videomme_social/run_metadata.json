@@ -1,0 +1,16 @@
+{
+  "annotation_root": "meta_baselines/datasets/Video-MME_1/annotations",
+  "baseline_name": "egagent_style_videomme_social_adapter",
+  "created_at": "2026-05-29T17:59:58.379395Z",
+  "dataset_root": "meta_baselines/datasets/Video-MME_1",
+  "held_out_scoring_inputs": [
+    "meta_baselines/datasets/Video-MME_1/annotations"
+  ],
+  "notes": [
+    "This run uses real-human Video-MME samples from Film & Television and Life Record/Daily Life.",
+    "Evaluation questions intentionally follow the CE003 deterministic schema."
+  ],
+  "schema_version": "care.meta_baseline.videomme_social_run_metadata.v2",
+  "upstream_egagent_unmodified": false,
+  "upstream_repo": "facebookresearch/egagent"
+}

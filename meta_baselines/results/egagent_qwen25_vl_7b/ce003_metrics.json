@@ -1,0 +1,125 @@
+{
+  "baseline_name": "egagent_style_ce003_adapter",
+  "created_at": "2026-05-29T08:04:52.156916Z",
+  "directed_edge_micro": {
+    "f1": 0.0,
+    "fn": 2,
+    "fn_items": [
+      [
+        "C2",
+        "C3",
+        "talks_to"
+      ],
+      [
+        "C3",
+        "C2",
+        "talks_to"
+      ]
+    ],
+    "fp": 0,
+    "fp_items": [],
+    "precision": 0.0,
+    "recall": 0.0,
+    "tp": 0,
+    "tp_items": []
+  },
+  "failure_tags": [
+    "missed_first_initiator",
+    "missed_c2_to_c3_talks_to",
+    "missed_c3_to_c2_response",
+    "speaker_attribution_incomplete_or_wrong"
+  ],
+  "non_interaction_false_positive_count": 0,
+  "question_correct": 4,
+  "question_details": [
+    {
+      "correct": true,
+      "gold": "B",
+      "parsed_answer": 3,
+      "prediction": "B",
+      "question_id": "CE003_Q001_character_count"
+    },
+    {
+      "correct": true,
+      "gold": "B",
+      "parsed_answer": [
+        "C1",
+        "C2",
+        "C3"
+      ],
+      "prediction": "B",
+      "question_id": "CE003_Q002_present_characters"
+    },
+    {
+      "correct": false,
+      "gold": "B",
+      "parsed_answer": "No one or unclear",
+      "prediction": "D",
+      "question_id": "CE003_Q003_first_initiator"
+    },
+    {
+      "correct": false,
+      "gold": "B",
+      "parsed_answer": "No visible character or unclear",
+      "prediction": "D",
+      "question_id": "CE003_Q004_c2_recipient"
+    },
+    {
+      "correct": false,
+      "gold": "A",
+      "parsed_answer": "Unclear",
+      "prediction": "C",
+      "question_id": "CE003_Q005_recipient_response"
+    },
+    {
+      "correct": true,
+      "gold": "B",
+      "parsed_answer": false,
+      "prediction": "B",
+      "question_id": "CE003_Q006_c1_interaction"
+    },
+    {
+      "correct": true,
+      "gold": "B",
+      "parsed_answer": false,
+      "prediction": "B",
+      "question_id": "CE003_Q007_c1_c2_interaction"
+    }
+  ],
+  "question_exact_match": 0.571429,
+  "question_total": 7,
+  "schema_version": "care.meta_baseline.egagent_metrics.v1",
+  "speaker_attribution_accuracy": 0.0,
+  "speaker_attribution_details": [
+    {
+      "correct": false,
+      "gold": "C2",
+      "prediction": "UNKNOWN_SPEAKER",
+      "turn_id": "ASR_0001"
+    },
+    {
+      "correct": false,
+      "gold": "C3",
+      "prediction": "C2",
+      "turn_id": "ASR_0002"
+    },
+    {
+      "correct": false,
+      "gold": "C2",
+      "prediction": "UNKNOWN_SPEAKER",
+      "turn_id": "ASR_0003"
+    },
+    {
+      "correct": false,
+      "gold": "C3",
+      "prediction": "UNKNOWN_SPEAKER",
+      "turn_id": "ASR_0004"
+    }
+  ],
+  "tool_trace_coverage": {
+    "audio_transcript_search_used": true,
+    "entity_graph_search_used": true,
+    "visual_search_used": true
+  },
+  "upstream_egagent_unmodified": false
+}

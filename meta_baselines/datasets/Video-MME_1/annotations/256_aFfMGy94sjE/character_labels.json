@@ -1,0 +1,76 @@
+{
+  "annotation_metadata": {
+    "created_at": "2026-05-29T17:59:58.378726Z",
+    "label_scope": "Foreground or repeated visible people only; background crowds, unlabeled extras, and offscreen phone/audio recipients are excluded.",
+    "label_status": "candidate_character_description",
+    "notes": [
+      "Interview-to-camera shots are excluded; only visible interpersonal workplace exchanges are labeled."
+    ],
+    "source_contact_sheet": "meta_baselines/datasets/Video-MME_1/review/contact_sheets/256_aFfMGy94sjE_sheet.jpg"
+  },
+  "characters": [
+    {
+      "age_group": "adult",
+      "appearance": {
+        "facial_hair": "none_visible",
+        "hair_color": "blond",
+        "hair_style": "long blond hair",
+        "notable_visible_features": []
+      },
+      "character_id": "C1",
+      "clothing": {
+        "accessories_or_context": [],
+        "colors": [],
+        "lower_body": "not_visible_or_unclear",
+        "outerwear": null,
+        "upper_body": "black polo or work shirt"
+      },
+      "gender_presentation": "female_presenting"
+    },
+    {
+      "age_group": "adult",
+      "appearance": {
+        "facial_hair": "none_visible",
+        "hair_color": "dark",
+        "hair_style": "long dark hair",
+        "notable_visible_features": [
+          "wearing eyeglasses"
+        ]
+      },
+      "character_id": "C2",
+      "clothing": {
+        "accessories_or_context": [],
+        "colors": [],
+        "lower_body": "not_visible_or_unclear",
+        "outerwear": null,
+        "upper_body": "black work shirt"
+      },
+      "gender_presentation": "female_presenting"
+    },
+    {
+      "age_group": "adult",
+      "appearance": {
+        "facial_hair": "none_visible",
+        "hair_color": "dark",
+        "hair_style": "short dark hair",
+        "notable_visible_features": [
+          "wearing eyeglasses"
+        ]
+      },
+      "character_id": "C3",
+      "clothing": {
+        "accessories_or_context": [],
+        "colors": [],
+        "lower_body": "not_visible_or_unclear",
+        "outerwear": null,
+        "upper_body": "dark jacket or shirt"
+      },
+      "gender_presentation": "male_presenting"
+    }
+  ],
+  "clip_id": "videomme_256_aFfMGy94sjE",
+  "clip_path": "meta_baselines/datasets/Video-MME_1/videos/256_aFfMGy94sjE.mp4",
+  "episode_id": "256",
+  "schema_version": "care.character_annotation.v1",
+  "timebase": "video_relative_seconds"
+}

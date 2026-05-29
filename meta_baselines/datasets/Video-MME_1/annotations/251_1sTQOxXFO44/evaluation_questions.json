@@ -1,0 +1,60 @@
+{
+  "clip_id": "videomme_251_1sTQOxXFO44",
+  "clip_path": "meta_baselines/datasets/Video-MME_1/videos/251_1sTQOxXFO44.mp4",
+  "episode_id": "251",
+  "questions": [
+    {
+      "answer": 1,
+      "answer_type": "integer",
+      "question": "How many characters are present in this clip?",
+      "question_id": "VMME251_Q001_character_count",
+      "scoring": "exact_match"
+    },
+    {
+      "answer": [
+        "C1"
+      ],
+      "answer_type": "character_id_list",
+      "question": "Which characters are present in this clip?",
+      "question_id": "VMME251_Q002_present_characters",
+      "scoring": "set_exact_match"
+    },
+    {
+      "answer": null,
+      "answer_type": "nullable_character_id",
+      "question": "Who initiated the interaction first?",
+      "question_id": "VMME251_Q003_first_initiator",
+      "scoring": "exact_match"
+    },
+    {
+      "answer": null,
+      "answer_type": "nullable_character_id_or_list",
+      "question": "Who did C2 talk to?",
+      "question_id": "VMME251_Q004_c2_recipient",
+      "scoring": "exact_match"
+    },
+    {
+      "answer": false,
+      "answer_type": "boolean",
+      "question": "Did the recipient respond to the social initiator?",
+      "question_id": "VMME251_Q005_recipient_response",
+      "scoring": "exact_match"
+    },
+    {
+      "answer": false,
+      "answer_type": "boolean",
+      "question": "Did C1 interact with any characters?",
+      "question_id": "VMME251_Q006_c1_interaction",
+      "scoring": "exact_match"
+    },
+    {
+      "answer": false,
+      "answer_type": "boolean",
+      "question": "Did C1 and C2 interact?",
+      "question_id": "VMME251_Q007_c1_c2_interaction",
+      "scoring": "exact_match"
+    }
+  ],
+  "schema_version": "care.clip_evaluation_questions.v1",
+  "timebase": "video_relative_seconds"
+}

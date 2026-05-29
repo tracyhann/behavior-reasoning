@@ -1,0 +1,11 @@
+{
+  "clip_id": "videomme_255_CQUphYL0vY8",
+  "duration_sec": 101.06,
+  "label_status": "candidate",
+  "schema_version": "care.videomme_social_annotation_meta.v1",
+  "source_category": "Life Record / Daily Life",
+  "summary": "A young woman moves through work and social activities, including a cafe meeting and greetings.",
+  "videoID": "CQUphYL0vY8",
+  "video_id": "255",
+  "video_path": "meta_baselines/datasets/Video-MME_1/videos/255_CQUphYL0vY8.mp4"
+}

@@ -1,0 +1,89 @@
+{
+  "annotation_metadata": {
+    "created_at": "2026-05-29T17:59:58.378444Z",
+    "label_status": "candidate_interaction_label",
+    "notes": [
+      "Candidate labels are based on sampled review frames and available audio/video context.",
+      "No interaction edge is labeled unless a directed co-present exchange is visible or strongly implied by the reviewed evidence."
+    ]
+  },
+  "clip_id": "videomme_255_CQUphYL0vY8",
+  "clip_path": "meta_baselines/datasets/Video-MME_1/videos/255_CQUphYL0vY8.mp4",
+  "episode_id": "255",
+  "interactions": [
+    {
+      "actor_id": "C1",
+      "evidence": [
+        {
+          "end_sec": 43.0,
+          "evidence_description": "C1 sits at a cafe table and speaks or gestures toward C2.",
+          "modality": "audio_visual",
+          "start_sec": 31.0
+        }
+      ],
+      "interaction_id": "VMME255_INT001",
+      "recipient_ids": [
+        "C2"
+      ],
+      "relation": "talks_to",
+      "status": "labeled_interaction",
+      "time_spans_sec": [
+        [
+          31.0,
+          43.0
+        ]
+      ],
+      "timebase": "video_relative_seconds"
+    },
+    {
+      "actor_id": "C2",
+      "evidence": [
+        {
+          "end_sec": 45.0,
+          "evidence_description": "C2 sits across from C1 and responds during the cafe meeting.",
+          "modality": "audio_visual",
+          "start_sec": 36.0
+        }
+      ],
+      "interaction_id": "VMME255_INT002",
+      "recipient_ids": [
+        "C1"
+      ],
+      "relation": "talks_to",
+      "status": "labeled_interaction",
+      "time_spans_sec": [
+        [
+          36.0,
+          45.0
+        ]
+      ],
+      "timebase": "video_relative_seconds"
+    },
+    {
+      "actor_id": "C5",
+      "evidence": [
+        {
+          "end_sec": 76.0,
+          "evidence_description": "C5 raises her arms and greets C1 on the street.",
+          "modality": "audio_visual",
+          "start_sec": 72.0
+        }
+      ],
+      "interaction_id": "VMME255_INT003",
+      "recipient_ids": [
+        "C1"
+      ],
+      "relation": "greets",
+      "status": "labeled_interaction",
+      "time_spans_sec": [
+        [
+          72.0,
+          76.0
+        ]
+      ],
+      "timebase": "video_relative_seconds"
+    }
+  ],
+  "schema_version": "care.interaction_annotation.v1",
+  "timebase": "video_relative_seconds"
+}

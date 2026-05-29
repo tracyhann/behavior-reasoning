@@ -1,0 +1,72 @@
+[
+  {
+    "video_path": "origin/boss-employee/video_141.mp4",
+    "fps": 25.0,
+    "frame_count": 326,
+    "duration_sec": 13.04,
+    "contact_sheet": "meta_baselines/datasets/SIV-Bench_10/review/contact_sheets/origin__boss-employee__video_141_sheet.jpg"
+  },
+  {
+    "video_path": "origin/caregiver-recipient/video_18.mp4",
+    "fps": 42.501,
+    "frame_count": 1006,
+    "duration_sec": 23.670031293381335,
+    "contact_sheet": "meta_baselines/datasets/SIV-Bench_10/review/contact_sheets/origin__caregiver-recipient__video_18_sheet.jpg"
+  },
+  {
+    "video_path": "origin/classmates/video_63.mp4",
+    "fps": 30.0,
+    "frame_count": 566,
+    "duration_sec": 18.866666666666667,
+    "contact_sheet": "meta_baselines/datasets/SIV-Bench_10/review/contact_sheets/origin__classmates__video_63_sheet.jpg"
+  },
+  {
+    "video_path": "origin/coach-player/video_147.mp4",
+    "fps": 30.0,
+    "frame_count": 981,
+    "duration_sec": 32.7,
+    "contact_sheet": "meta_baselines/datasets/SIV-Bench_10/review/contact_sheets/origin__coach-player__video_147_sheet.jpg"
+  },
+  {
+    "video_path": "origin/colleague/video_114.mp4",
+    "fps": 30.0,
+    "frame_count": 362,
+    "duration_sec": 12.066666666666666,
+    "contact_sheet": "meta_baselines/datasets/SIV-Bench_10/review/contact_sheets/origin__colleague__video_114_sheet.jpg"
+  },
+  {
+    "video_path": "origin/couple/video_108.mp4",
+    "fps": 30.0,
+    "frame_count": 1051,
+    "duration_sec": 35.03333333333333,
+    "contact_sheet": "meta_baselines/datasets/SIV-Bench_10/review/contact_sheets/origin__couple__video_108_sheet.jpg"
+  },
+  {
+    "video_path": "origin/friends/video_132.mp4",
+    "fps": 30.0,
+    "frame_count": 3057,
+    "duration_sec": 101.9,
+    "contact_sheet": "meta_baselines/datasets/SIV-Bench_10/review/contact_sheets/origin__friends__video_132_sheet.jpg"
+  },
+  {
+    "video_path": "origin/transactional/video_11.mp4",
+    "fps": 30.0,
+    "frame_count": 1892,
+    "duration_sec": 63.06666666666667,
+    "contact_sheet": "meta_baselines/datasets/SIV-Bench_10/review/contact_sheets/origin__transactional__video_11_sheet.jpg"
+  },
+  {
+    "video_path": "origin/service/video_73.mp4",
+    "fps": 30.0,
+    "frame_count": 1802,
+    "duration_sec": 60.06666666666667,
+    "contact_sheet": "meta_baselines/datasets/SIV-Bench_10/review/contact_sheets/origin__service__video_73_sheet.jpg"
+  },
+  {
+    "video_path": "origin/sibling/video_146.mp4",
+    "fps": 30.0,
+    "frame_count": 1368,
+    "duration_sec": 45.6,
+    "contact_sheet": "meta_baselines/datasets/SIV-Bench_10/review/contact_sheets/origin__sibling__video_146_sheet.jpg"
+  }
+]

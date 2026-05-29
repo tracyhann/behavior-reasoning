@@ -1,0 +1,72 @@
+{
+  "annotation_metadata": {
+    "created_at": "2026-05-29T17:59:58.378155Z",
+    "label_scope": "Foreground or repeated visible people only; background crowds, unlabeled extras, and offscreen phone/audio recipients are excluded.",
+    "label_status": "candidate_character_description",
+    "notes": [
+      "C2 is partially visible as the care recipient; the label is physical care rather than a spoken dyadic exchange."
+    ],
+    "source_contact_sheet": "meta_baselines/datasets/Video-MME_1/review/contact_sheets/257_s-lM2uwiwyQ_sheet.jpg"
+  },
+  "characters": [
+    {
+      "age_group": "adult",
+      "appearance": {
+        "facial_hair": "none_visible",
+        "hair_color": "dark",
+        "hair_style": "dark hair tied back",
+        "notable_visible_features": []
+      },
+      "character_id": "C1",
+      "clothing": {
+        "accessories_or_context": [],
+        "colors": [],
+        "lower_body": "not_visible_or_unclear",
+        "outerwear": null,
+        "upper_body": "dark scrub top or work shirt"
+      },
+      "gender_presentation": "female_presenting"
+    },
+    {
+      "age_group": "adult",
+      "appearance": {
+        "facial_hair": "none_visible",
+        "hair_color": "not_visible_or_unclear",
+        "hair_style": "not_visible_or_unclear",
+        "notable_visible_features": []
+      },
+      "character_id": "C2",
+      "clothing": {
+        "accessories_or_context": [],
+        "colors": [],
+        "lower_body": "not_visible_or_unclear",
+        "outerwear": null,
+        "upper_body": "blue jeans and light shoes"
+      },
+      "gender_presentation": "unknown_or_unclear"
+    },
+    {
+      "age_group": "adult",
+      "appearance": {
+        "facial_hair": "none_visible",
+        "hair_color": "not_visible_or_unclear",
+        "hair_style": "not_visible_or_unclear",
+        "notable_visible_features": []
+      },
+      "character_id": "C3",
+      "clothing": {
+        "accessories_or_context": [],
+        "colors": [],
+        "lower_body": "not_visible_or_unclear",
+        "outerwear": null,
+        "upper_body": "patterned scrub top"
+      },
+      "gender_presentation": "unknown_or_unclear"
+    }
+  ],
+  "clip_id": "videomme_257_s-lM2uwiwyQ",
+  "clip_path": "meta_baselines/datasets/Video-MME_1/videos/257_s-lM2uwiwyQ.mp4",
+  "episode_id": "257",
+  "schema_version": "care.character_annotation.v1",
+  "timebase": "video_relative_seconds"
+}

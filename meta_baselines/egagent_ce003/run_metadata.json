@@ -1,0 +1,28 @@
+{
+  "allowed_inference_inputs": [
+    "data/clip_sets/Sk9mR3zjrkk_CE003/annotations/character_labels.json",
+    "data/clip_sets/Sk9mR3zjrkk_CE003/manifests/candidate_episode_clip_manifest.jsonl",
+    "experiment/runs/true_agentic_0527/true_agentic_002_CE003/asr/speech_turns.jsonl",
+    "experiment/runs/true_agentic_0527/true_agentic_002_CE003/active_speaker/active_speaker_events.jsonl",
+    "experiment/runs/true_agentic_0527/true_agentic_002_CE003/character_cards.json",
+    "meta_baselines/egagent_ce003/db/ce003_visual_frames.db",
+    "meta_baselines/egagent_ce003/db/ce003_entity_graph.db"
+  ],
+  "baseline_name": "egagent_style_ce003_adapter",
+  "clip_path": "data/clip_sets/Sk9mR3zjrkk_CE003/clips/002_CE003.mp4",
+  "created_at": "2026-05-29T08:07:40.395709Z",
+  "held_out_scoring_inputs": [
+    "data/clip_sets/Sk9mR3zjrkk_CE003/annotations/interaction_labels.json",
+    "data/clip_sets/Sk9mR3zjrkk_CE003/annotations/evaluation_questions.json"
+  ],
+  "known_limitations": [
+    "This adapter uses CE003-local generated tool artifacts and does not run upstream LangGraph code.",
+    "The available active-speaker artifact is weak and leaves most speech turns unassigned.",
+    "Frame rows are timestamp references to the clip rather than extracted image files in this shell."
+  ],
+  "present_character_source": "experiment/runs/true_agentic_0527/true_agentic_002_CE003/character_cards.json",
+  "reason_unmodified_upstream_not_used": "The upstream runner is hardcoded for EgoLife/Video-MME path conventions; this adapter preserves EGAgent-style visual/transcript/entity-graph routing over the local CE003 clip package.",
+  "schema_version": "care.meta_baseline.egagent_run_metadata.v1",
+  "upstream_egagent_unmodified": false,
+  "upstream_repo": "facebookresearch/egagent"
+}

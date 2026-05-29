@@ -1,0 +1,57 @@
+{
+  "annotation_metadata": {
+    "created_at": "2026-05-29T09:45:12.143886Z",
+    "label_status": "candidate_character_description",
+    "notes": [
+      "Gender and age fields describe visual presentation only.",
+      "Character IDs are semantic foreground IDs for this video, not raw detector tracks.",
+      "Lighting makes gender and clothing details unclear; labels describe visible presentation only."
+    ],
+    "source_contact_sheet": "meta_baselines/datasets/SIV-Bench_10/review/contact_sheets/origin__couple__video_108_sheet.jpg",
+    "source_dataset": "Fancylalala/SIV-Bench",
+    "source_relation_category": "couple"
+  },
+  "characters": [
+    {
+      "age_group": "adult",
+      "appearance": {
+        "facial_hair": "none_visible",
+        "hair_color": "not_visible_or_unclear",
+        "hair_style": "dark hair",
+        "notable_visible_features": []
+      },
+      "character_id": "C1",
+      "clothing": {
+        "accessories_or_context": [],
+        "colors": [],
+        "lower_body": "not_visible_or_unclear",
+        "outerwear": null,
+        "upper_body": "under red or pink blanket"
+      },
+      "gender_presentation": "unknown_or_unclear"
+    },
+    {
+      "age_group": "adult",
+      "appearance": {
+        "facial_hair": "none_visible",
+        "hair_color": "not_visible_or_unclear",
+        "hair_style": "dark hair",
+        "notable_visible_features": []
+      },
+      "character_id": "C2",
+      "clothing": {
+        "accessories_or_context": [],
+        "colors": [],
+        "lower_body": "not_visible_or_unclear",
+        "outerwear": null,
+        "upper_body": "dark top"
+      },
+      "gender_presentation": "unknown_or_unclear"
+    }
+  ],
+  "clip_id": "sivbench_006_couple__video_108",
+  "clip_path": "meta_baselines/datasets/SIV-Bench_10/origin/couple/video_108.mp4",
+  "episode_id": "SIV006",
+  "schema_version": "care.character_annotation.v1",
+  "timebase": "video_relative_seconds"
+}

@@ -1,0 +1,57 @@
+{
+  "annotation_metadata": {
+    "created_at": "2026-05-29T09:45:12.144754Z",
+    "label_status": "candidate_character_description",
+    "notes": [
+      "Gender and age fields describe visual presentation only.",
+      "Character IDs are semantic foreground IDs for this video, not raw detector tracks.",
+      "The video has title overlays and cuts; labels focus on the waitress-customer exchange."
+    ],
+    "source_contact_sheet": "meta_baselines/datasets/SIV-Bench_10/review/contact_sheets/origin__service__video_73_sheet.jpg",
+    "source_dataset": "Fancylalala/SIV-Bench",
+    "source_relation_category": "service"
+  },
+  "characters": [
+    {
+      "age_group": "adult",
+      "appearance": {
+        "facial_hair": "none_visible",
+        "hair_color": "not_visible_or_unclear",
+        "hair_style": "long blond hair",
+        "notable_visible_features": []
+      },
+      "character_id": "C1",
+      "clothing": {
+        "accessories_or_context": [],
+        "colors": [],
+        "lower_body": "not_visible_or_unclear",
+        "outerwear": null,
+        "upper_body": "black service apron over light top"
+      },
+      "gender_presentation": "female_presenting"
+    },
+    {
+      "age_group": "adult",
+      "appearance": {
+        "facial_hair": "none_visible",
+        "hair_color": "not_visible_or_unclear",
+        "hair_style": "curly light hair",
+        "notable_visible_features": []
+      },
+      "character_id": "C2",
+      "clothing": {
+        "accessories_or_context": [],
+        "colors": [],
+        "lower_body": "not_visible_or_unclear",
+        "outerwear": null,
+        "upper_body": "green or teal top"
+      },
+      "gender_presentation": "female_presenting"
+    }
+  ],
+  "clip_id": "sivbench_009_service__video_73",
+  "clip_path": "meta_baselines/datasets/SIV-Bench_10/origin/service/video_73.mp4",
+  "episode_id": "SIV009",
+  "schema_version": "care.character_annotation.v1",
+  "timebase": "video_relative_seconds"
+}
